@@ -5,15 +5,22 @@
   
 
   
-  <title>Mister24</title>
+  <title>微服务 —— 负载均衡之Ribbon | Mister24</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Mister24">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="##负载均衡 负载均衡是指将负载分摊到多个执行单元上，常见的有2中方式：  独立进程单元，通过负载均衡策略，将请求转发到不同的执行单元，如Nginx； 将负载均衡逻辑以代码形式封装在服务消费者的客户端上，客户端维护一份服务提供者的信息                          ​    列表，通过负载均衡策略将请求分摊给多个服务提供者，从而达到负载均衡的目的，如 ​    Ribbon。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微服务 —— 负载均衡之Ribbon">
+<meta property="og:url" content="http://yoursite.com/2019/06/07/微服务 —— 负载均衡之Ribbon/index.html">
 <meta property="og:site_name" content="Mister24">
+<meta property="og:description" content="##负载均衡 负载均衡是指将负载分摊到多个执行单元上，常见的有2中方式：  独立进程单元，通过负载均衡策略，将请求转发到不同的执行单元，如Nginx； 将负载均衡逻辑以代码形式封装在服务消费者的客户端上，客户端维护一份服务提供者的信息                          ​    列表，通过负载均衡策略将请求分摊给多个服务提供者，从而达到负载均衡的目的，如 ​    Ribbon。">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://note.youdao.com/src/5037C6F839374F02AFE4D22E964CBB61">
+<meta property="og:image" content="https://note.youdao.com/src/5EA2FEB7AFB946C49ACCA8B09F26913C">
+<meta property="og:updated_time" content="2019-06-07T14:53:12.499Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mister24">
+<meta name="twitter:title" content="微服务 —— 负载均衡之Ribbon">
+<meta name="twitter:description" content="##负载均衡 负载均衡是指将负载分摊到多个执行单元上，常见的有2中方式：  独立进程单元，通过负载均衡策略，将请求转发到不同的执行单元，如Nginx； 将负载均衡逻辑以代码形式封装在服务消费者的客户端上，客户端维护一份服务提供者的信息                          ​    列表，通过负载均衡策略将请求分摊给多个服务提供者，从而达到负载均衡的目的，如 ​    Ribbon。">
+<meta name="twitter:image" content="https://note.youdao.com/src/5037C6F839374F02AFE4D22E964CBB61">
   
     <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
   
@@ -60,9 +67,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-微服务 —— 负载均衡之Ribbon" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-微服务 —— 负载均衡之Ribbon" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/06/07/微服务 —— 负载均衡之Ribbon/" class="article-date">
   <time datetime="2019-06-07T13:29:42.000Z" itemprop="datePublished">2019-06-07</time>
@@ -75,8 +80,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/06/07/微服务 —— 负载均衡之Ribbon/">微服务 —— 负载均衡之Ribbon</a>
+    <h1 class="article-title" itemprop="name">
+      微服务 —— 负载均衡之Ribbon
     </h1>
   
 
@@ -125,60 +130,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/06/07/hello-world/" class="article-date">
-  <time datetime="2019-06-07T13:10:55.226Z" itemprop="datePublished">2019-06-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/06/07/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2019/06/07/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/06/07/hello-world/" data-id="cjwn49zn10000lgc9jueqtot6" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
