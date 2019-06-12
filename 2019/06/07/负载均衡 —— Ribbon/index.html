@@ -16,7 +16,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://note.youdao.com/src/5037C6F839374F02AFE4D22E964CBB61">
 <meta property="og:image" content="https://note.youdao.com/src/5EA2FEB7AFB946C49ACCA8B09F26913C">
-<meta property="og:updated_time" content="2019-06-11T15:36:51.994Z">
+<meta property="og:updated_time" content="2019-06-12T15:48:08.847Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微服务 —— 负载均衡之Ribbon">
 <meta name="twitter:description" content="负载均衡负载均衡是指将负载分摊到多个执行单元上，常见的有2中方式：  独立进程单元，通过负载均衡策略，将请求转发到不同的执行单元，如Nginx； 将负载均衡逻辑以代码形式封装在服务消费者的客户端上，客户端维护一份服务提供者的信息                          ​    列表，通过负载均衡策略将请求分摊给多个服务提供者，从而达到负载均衡的目的，如 ​    Ribbon。 Rib">
@@ -109,15 +109,8 @@
 <h1 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h1><p>LoadBalancerClient接口继承自ServiceInstanceChooser，实现类为RibbonLoadBalancerClient。</p>
 <p><img src="https:////note.youdao.com/src/5037C6F839374F02AFE4D22E964CBB61" alt="img"></p>
 <p>重要的方法如下：</p>
-<ol>
-<li><t> T execute(String serviceId, LoadBalancerRequest<t> request) <strong>throws</strong> IOException;</t></t></li>
-</ol>
-<ol>
-<li><t> T execute(String serviceId, ServiceInstance serviceInstance, LoadBalancerRequest<t> request) <strong>throws</strong> IOException;</t></t></li>
-</ol>
-<ol>
-<li>ServiceInstance choose(String serviceId);</li>
-</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;T&gt; T execute(String serviceId, LoadBalancerRequest&lt;T&gt; request) **throws** IOException;</span><br><span class="line"></span><br><span class="line">&lt;T&gt; T execute(String serviceId, ServiceInstance serviceInstance, LoadBalancerRequest&lt;T&gt; request) **throws** IOException;</span><br><span class="line"></span><br><span class="line">ServiceInstance choose(String serviceId);</span><br></pre></td></tr></table></figure>
+
 <p>这个方法是用来选择具体的服务实例，最终委托给ILoadBalancer的chooseServer(Object key)方法去选择具体的服务实例。</p>
 <p><img src="https:////note.youdao.com/src/5EA2FEB7AFB946C49ACCA8B09F26913C" alt="img"></p>
 
