@@ -7,20 +7,20 @@
   
   <title>多线程编程（2） —— synchronized关键字.md | Mister24</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1. 线程安全和非常线程安全&amp;nbsp;&amp;nbsp;“非线程安全”指的是在多个线程对同一个对象中的实例变量进行并发访问时发生，产生的结果是“脏读”，即渠道的数据其实被更改过，“线程安全”指的是获得的实例变量的值是经过同步处理的，不会出现脏读问题。 1.1 方法内的变量为线程安全&amp;nbsp;&amp;nbsp;如果变量是在方法内的，那么不存在“非线程安全”问题。 12345678910111213publi">
+  <meta name="description" content="&amp;nbsp;&amp;nbsp;“非线程安全”指的是在多个线程对同一个对象中的实例变量进行并发访问时发生，产生的结果是“脏读”，即渠道的数据其实被更改过，“线程安全”指的是获得的实例变量的值是经过同步处理的，不会出现脏读问题。 1.1 方法内的变量为线程安全&amp;nbsp;&amp;nbsp;如果变量是在方法内的，那么不存在“非线程安全”问题。 12345678910111213public class HasSel">
 <meta name="keywords" content="多线程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="多线程编程（2） —— synchronized关键字.md">
 <meta property="og:url" content="http://yoursite.com/2019/06/18/多线程编程（2）-——-synchronized关键字-md/index.html">
 <meta property="og:site_name" content="Mister24">
-<meta property="og:description" content="1. 线程安全和非常线程安全&amp;nbsp;&amp;nbsp;“非线程安全”指的是在多个线程对同一个对象中的实例变量进行并发访问时发生，产生的结果是“脏读”，即渠道的数据其实被更改过，“线程安全”指的是获得的实例变量的值是经过同步处理的，不会出现脏读问题。 1.1 方法内的变量为线程安全&amp;nbsp;&amp;nbsp;如果变量是在方法内的，那么不存在“非线程安全”问题。 12345678910111213publi">
+<meta property="og:description" content="&amp;nbsp;&amp;nbsp;“非线程安全”指的是在多个线程对同一个对象中的实例变量进行并发访问时发生，产生的结果是“脏读”，即渠道的数据其实被更改过，“线程安全”指的是获得的实例变量的值是经过同步处理的，不会出现脏读问题。 1.1 方法内的变量为线程安全&amp;nbsp;&amp;nbsp;如果变量是在方法内的，那么不存在“非线程安全”问题。 12345678910111213public class HasSel">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2019/06/18/多线程编程（2）-——-synchronized关键字-md/photos/13.png">
 <meta property="og:image" content="http://yoursite.com/2019/06/18/多线程编程（2）-——-synchronized关键字-md/photos/14.png">
-<meta property="og:updated_time" content="2019-06-18T15:40:53.985Z">
+<meta property="og:updated_time" content="2019-06-18T15:41:53.231Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="多线程编程（2） —— synchronized关键字.md">
-<meta name="twitter:description" content="1. 线程安全和非常线程安全&amp;nbsp;&amp;nbsp;“非线程安全”指的是在多个线程对同一个对象中的实例变量进行并发访问时发生，产生的结果是“脏读”，即渠道的数据其实被更改过，“线程安全”指的是获得的实例变量的值是经过同步处理的，不会出现脏读问题。 1.1 方法内的变量为线程安全&amp;nbsp;&amp;nbsp;如果变量是在方法内的，那么不存在“非线程安全”问题。 12345678910111213publi">
+<meta name="twitter:description" content="&amp;nbsp;&amp;nbsp;“非线程安全”指的是在多个线程对同一个对象中的实例变量进行并发访问时发生，产生的结果是“脏读”，即渠道的数据其实被更改过，“线程安全”指的是获得的实例变量的值是经过同步处理的，不会出现脏读问题。 1.1 方法内的变量为线程安全&amp;nbsp;&amp;nbsp;如果变量是在方法内的，那么不存在“非线程安全”问题。 12345678910111213public class HasSel">
 <meta name="twitter:image" content="http://yoursite.com/2019/06/18/多线程编程（2）-——-synchronized关键字-md/photos/13.png">
   
     <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
@@ -98,7 +98,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="1-线程安全和非常线程安全"><a href="#1-线程安全和非常线程安全" class="headerlink" title="1. 线程安全和非常线程安全"></a>1. 线程安全和非常线程安全</h1><p>&nbsp;&nbsp;“非线程安全”指的是在多个线程对同一个对象中的实例变量进行并发访问时发生，产生的结果是“脏读”，即渠道的数据其实被更改过，“线程安全”指的是获得的实例变量的值是经过同步处理的，不会出现脏读问题。</p>
+        <p>&nbsp;&nbsp;“非线程安全”指的是在多个线程对同一个对象中的实例变量进行并发访问时发生，产生的结果是“脏读”，即渠道的数据其实被更改过，“线程安全”指的是获得的实例变量的值是经过同步处理的，不会出现脏读问题。</p>
 <h2 id="1-1-方法内的变量为线程安全"><a href="#1-1-方法内的变量为线程安全" class="headerlink" title="1.1 方法内的变量为线程安全"></a>1.1 方法内的变量为线程安全</h2><p>&nbsp;&nbsp;如果变量是在方法内的，那么不存在“非线程安全”问题。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">public class HasSelfPrivateNum &#123;</span><br><span class="line">    public void add(String username) &#123;</span><br><span class="line">        int num = 0;</span><br><span class="line">        if (username.equals(&quot;a&quot;)) &#123;</span><br><span class="line">            num = 100;</span><br><span class="line">            System.out.println(&quot;a set over!&quot;);</span><br><span class="line">        &#125; else &#123;</span><br><span class="line">            num = 200;</span><br><span class="line">            System.out.println(&quot;b set over!&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(username + &quot;num = &quot; + num);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
