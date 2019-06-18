@@ -72,6 +72,10 @@
   <time datetime="2019-06-18T15:34:04.000Z" itemprop="datePublished">2019-06-18</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/多线程编程/">多线程编程</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -103,10 +107,10 @@
 <h2 id="1-3-多个对象多个锁"><a href="#1-3-多个对象多个锁" class="headerlink" title="1.3 多个对象多个锁"></a>1.3 多个对象多个锁</h2><p>&nbsp;&nbsp;如果多个线程访问多个对象，JVM会创建多个锁，如图所示，创建了2个对象，会产生2个锁，不存在“非线程安全”问题。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">@RunWith(MockitoJUnitRunner.class)</span><br><span class="line">public class ThreadSafeTest &#123;</span><br><span class="line"></span><br><span class="line">    @Test</span><br><span class="line">    public void testSafe() &#123;</span><br><span class="line">        // 不同线程使用不同的实例化对象，不会有&quot;非线程安全&quot;问题</span><br><span class="line">        HasSelfPrivateNum num = new HasSelfPrivateNum();</span><br><span class="line">        HasSelfPrivateNum num1 = new HasSelfPrivateNum();</span><br><span class="line"></span><br><span class="line">        ThreadA threadA = new ThreadA(num);</span><br><span class="line">        threadA.start();</span><br><span class="line"></span><br><span class="line">        ThreadB threadB = new ThreadB(num1);</span><br><span class="line">        threadB.start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<hr>
-<h2 id="1-4-synchronized方法与锁对象"><a href="#1-4-synchronized方法与锁对象" class="headerlink" title="1.4 synchronized方法与锁对象"></a>1.4 synchronized方法与锁对象</h2><p>&nbsp;&nbsp;对于使用synchronized关键字修饰的方法，不同线程一定要“排队”，也就是A线程先执行，然后B线程再执行。</p>
+<h2 id><a href="#" class="headerlink" title></a><img src="photos/13.png" alt></h2><h2 id="1-4-synchronized方法与锁对象"><a href="#1-4-synchronized方法与锁对象" class="headerlink" title="1.4 synchronized方法与锁对象"></a>1.4 synchronized方法与锁对象</h2><p>&nbsp;&nbsp;对于使用synchronized关键字修饰的方法，不同线程一定要“排队”，也就是A线程先执行，然后B线程再执行。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">@RunWith(MockitoJUnitRunner.class)</span><br><span class="line">public class SyncTest &#123;</span><br><span class="line">    @Test</span><br><span class="line">    public void test() &#123;</span><br><span class="line">        MyObject object = new MyObject();</span><br><span class="line"></span><br><span class="line">        ThreadA threadA = new ThreadA(object);</span><br><span class="line">        threadA.setName(&quot;A&quot;);</span><br><span class="line"></span><br><span class="line">        ThreadB threadB = new ThreadB(object);</span><br><span class="line">        threadB.setName(&quot;B&quot;);</span><br><span class="line"></span><br><span class="line">        threadA.start();</span><br><span class="line">        threadB.start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p><img src="photos/14.png" alt></p>
 <h2 id="1-5-同步方法和非同步方法共存的情况"><a href="#1-5-同步方法和非同步方法共存的情况" class="headerlink" title="1.5 同步方法和非同步方法共存的情况"></a>1.5 同步方法和非同步方法共存的情况</h2>
       
     </div>
@@ -114,6 +118,8 @@
       <a data-url="http://yoursite.com/2019/06/18/多线程编程（2）-——-synchronized关键字-md/" data-id="cjx1z1d470000bwc984zye3uy" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/多线程/">多线程</a></li></ul>
+
     </footer>
   </div>
   
@@ -361,7 +367,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/springcloud/" style="font-size: 20px;">springcloud</a> <a href="/tags/多线程/" style="font-size: 10px;">多线程</a> <a href="/tags/微服务/" style="font-size: 20px;">微服务</a>
+      <a href="/tags/springcloud/" style="font-size: 10px;">springcloud</a> <a href="/tags/多线程/" style="font-size: 10px;">多线程</a> <a href="/tags/微服务/" style="font-size: 10px;">微服务</a>
     </div>
   </div>
 
