@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>路由网关 —— Zuul | Mister24</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="&amp;nbsp;&amp;nbsp;微服务网关涉及到负载均衡，缓存，路由，访问控制，服务代理，监控，日志等功能， 1. zuul的功能&amp;nbsp;&amp;nbsp;zuul的主要功能如下：  动态路由和负载均衡； 统一api的暴露，屏蔽内部服务敏感信息； 身份认证和权限认证，安全保护； 监控及日志输出，记录请求； 流量监控，服务降级； api接口从内部服务分离，方便测试。   2. zuul的工作原理&amp;nbsp;&amp;">
+<meta name="keywords" content="微服务,springcloud">
+<meta property="og:type" content="article">
+<meta property="og:title" content="路由网关 —— Zuul">
+<meta property="og:url" content="http://yoursite.com/2019/06/20/路由网关 —— zuul-md/index.html">
+<meta property="og:site_name" content="Mister24">
+<meta property="og:description" content="&amp;nbsp;&amp;nbsp;微服务网关涉及到负载均衡，缓存，路由，访问控制，服务代理，监控，日志等功能， 1. zuul的功能&amp;nbsp;&amp;nbsp;zuul的主要功能如下：  动态路由和负载均衡； 统一api的暴露，屏蔽内部服务敏感信息； 身份认证和权限认证，安全保护； 监控及日志输出，记录请求； 流量监控，服务降级； api接口从内部服务分离，方便测试。   2. zuul的工作原理&amp;nbsp;&amp;">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2019/06/20/路由网关%20——%20zuul-md/photos/zuul-1.png">
+<meta property="og:image" content="http://yoursite.com/2019/06/20/路由网关%20——%20zuul-md/photos/zuul-2.png">
+<meta property="og:image" content="http://yoursite.com/2019/06/20/路由网关%20——%20zuul-md/photos/zuul4.png">
+<meta property="og:image" content="http://yoursite.com/2019/06/20/路由网关%20——%20zuul-md/photos/zuul5.png">
+<meta property="og:updated_time" content="2019-06-22T15:40:55.092Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="路由网关 —— Zuul">
+<meta name="twitter:description" content="&amp;nbsp;&amp;nbsp;微服务网关涉及到负载均衡，缓存，路由，访问控制，服务代理，监控，日志等功能， 1. zuul的功能&amp;nbsp;&amp;nbsp;zuul的主要功能如下：  动态路由和负载均衡； 统一api的暴露，屏蔽内部服务敏感信息； 身份认证和权限认证，安全保护； 监控及日志输出，记录请求； 流量监控，服务降级； api接口从内部服务分离，方便测试。   2. zuul的工作原理&amp;nbsp;&amp;">
+<meta name="twitter:image" content="http://yoursite.com/2019/06/20/路由网关%20——%20zuul-md/photos/zuul-1.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Mister24</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">会者定离，一期一祈。</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-路由网关 —— zuul-md" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/06/20/路由网关 —— zuul-md/" class="article-date">
+  <time datetime="2019-06-20T13:28:45.000Z" itemprop="datePublished">2019-06-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      路由网关 —— Zuul
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&nbsp;&nbsp;微服务网关涉及到负载均衡，缓存，路由，访问控制，服务代理，监控，日志等功能，</p>
+<h1 id="1-zuul的功能"><a href="#1-zuul的功能" class="headerlink" title="1. zuul的功能"></a>1. zuul的功能</h1><p>&nbsp;&nbsp;zuul的主要功能如下：</p>
+<ul>
+<li>动态路由和负载均衡；</li>
+<li>统一api的暴露，屏蔽内部服务敏感信息；</li>
+<li>身份认证和权限认证，安全保护；</li>
+<li>监控及日志输出，记录请求；</li>
+<li>流量监控，服务降级；</li>
+<li>api接口从内部服务分离，方便测试。</li>
+</ul>
+<hr>
+<h1 id="2-zuul的工作原理"><a href="#2-zuul的工作原理" class="headerlink" title="2. zuul的工作原理"></a>2. zuul的工作原理</h1><p>&nbsp;&nbsp;zuul通过自定义的ZuulServlet对请求进行控制，通过一系列的过滤器，在http请求的发起和响应期间进行一系列的操作。zuul采用动态读取、编译和运行这些过滤器，这些过滤器之间不能互相直接通信，而是使用RequestContext对象来共享数据，每个请求都会创建一个RequestContext。<br>&nbsp;&nbsp;zuul在2.0版本对于现有框架进行了升级，使用了netty的nio机制提升性能，但是官方给出的性能提升数据大致在20%，所以如果不是异步场景较多，仍然考虑采用1.0版本，本文仍然以1.0版本为例。<br><img src="photos/zuul-1.png" alt><br>&nbsp;&nbsp;外部http请求到达api网关服务的时候，首先它会进入第一个阶段pre，在这里它会被pre类型的过滤器进行处理。该类型过滤器的主要目的是在进行请求路由之前做一些前置加工，比如请求的校验等。<br>&nbsp;&nbsp;在完成了pre类型的过滤器处理之后，请求进入第二个阶段routing，也就是之前说的路由请求转发阶段，请求将会被routing类型的处理器处理。这里的具体处理内容就是将外部请求转发到具体服务实例上去的过程,<br>&nbsp;&nbsp;当服务实例请求结果都返回之后，routing阶段完成，请求进入第三个阶段post。此时请求将会被post类型的过滤器处理，这些过滤器在处理的时候不仅可以获取到请求信息，还能获取到服务实例的返回信息，所以在post类型的过滤器中，我们可以对处理结果进行一些加工或转换等内容。<br>&nbsp;&nbsp;还有一个特殊的阶段error，该阶段只有在上述三个阶段中发生异常的时候才会触发，但是它的最后流向还是post类型的过滤器，因为它需要通过post过滤器将最终结果返回给请求客户端（对于error过滤器的处理，在spring cloud zuul的过滤链中实际上有一些不同）<br><img src="photos/zuul-2.png" alt><br>&nbsp;&nbsp;zuul2.0前端用Netty Server代替Servlet，目的是支持前端异步。后端用Netty Client代替Http Client，目的是支持后端异步，过滤器换了名字，用Inbound Filters代替Pre-routing Filters，用Endpoint Filter代替Routing Filter，用Outbound Filters代替Post-routing Filters。</p>
+<hr>
+<h1 id="3-实例分析"><a href="#3-实例分析" class="headerlink" title="3. 实例分析"></a>3. 实例分析</h1><h2 id="3-1-新增依赖"><a href="#3-1-新增依赖" class="headerlink" title="3.1 新增依赖"></a>3.1 新增依赖</h2><p>&nbsp;&nbsp;需要引入Eureka Client的依赖和zuul的依赖。</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-netflix-eureka-client<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-netflix-zuul<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="3-2-注解引入"><a href="#3-2-注解引入" class="headerlink" title="3.2 注解引入"></a>3.2 注解引入</h2><p>&nbsp;&nbsp;zuul的注解为@EnableZuulProxy，用来开启Zuul的功能。</p>
+<h2 id="3-3-配置数据"><a href="#3-3-配置数据" class="headerlink" title="3.3 配置数据"></a>3.3 配置数据</h2><ul>
+<li>eureka的配置</li>
+<li>zuul的路由配置<br>&nbsp;&nbsp;需要加入path和serviceId属性，满足path规则的请求都会被转发到对应serviceId的服务。</li>
+</ul>
+<h2 id="3-4-请求调用"><a href="#3-4-请求调用" class="headerlink" title="3.4 请求调用"></a>3.4 请求调用</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zuul.routes.hiapi.path=/hiapi/**</span><br><span class="line">zuul.routes.hiapi.service-id=eureka-client</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;使用上述规则，会将请求转发到eureka-client这个服务上，同时我们在自定义的filter中对token参数进行了校验。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyFilter</span> <span class="keyword">extends</span> <span class="title">ZuulFilter</span> </span>&#123;</span><br><span class="line">    <span class="comment">/** logger */</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Logger logger = LoggerFactory.getLogger(MyFilter.class);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 过滤器类型，这里是前置过滤</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">filterType</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> PRE_TYPE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 优先级，数值越低，优先级越高</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">filterOrder</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 只有这里为true，才会执行过滤规则</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">shouldFilter</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">run</span><span class="params">()</span> <span class="keyword">throws</span> ZuulException </span>&#123;</span><br><span class="line">        RequestContext context = RequestContext.getCurrentContext();</span><br><span class="line">        HttpServletRequest request = context.getRequest();</span><br><span class="line">        Object accessToken = request.getParameter(<span class="string">"token"</span>);</span><br><span class="line">        <span class="keyword">if</span> (accessToken == <span class="keyword">null</span>) &#123;</span><br><span class="line">            logger.warn(<span class="string">"token is empty."</span>);</span><br><span class="line">            context.setSendZuulResponse(<span class="keyword">false</span>);</span><br><span class="line">            context.setResponseStatusCode(<span class="number">401</span>);</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                context.getResponse().getWriter().write(<span class="string">"token is empty."</span>);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            logger.info(<span class="string">"ok"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>无token<br><img src="photos/zuul4.png" alt><br>有token但超时，需要增加timeout的配置。<br><img src="photos/zuul5.png" alt></p>
+<hr>
+<h1 id="4-原理剖析"><a href="#4-原理剖析" class="headerlink" title="4. 原理剖析"></a>4. 原理剖析</h1><h2 id="4-1-过滤器"><a href="#4-1-过滤器" class="headerlink" title="4.1 过滤器"></a>4.1 过滤器</h2><p>&nbsp;&nbsp;通过shouldFilter()指定是否开启过滤器，如果是run()方法中的过滤器逻辑才会生效；通过filterType()指定过滤器类型；通过filterOrder()指定过滤顺序，值越小，优先级越高；通过重写run()来实现真实的过滤逻辑。<br>filterType</p>
+<ul>
+<li>pre过滤器<br>&nbsp;&nbsp;可以进行一些权限认证，日志记录，或者额外给Request增加一些属性供后续的filter使用。pre会优先按照order从小到大执行，然后再去执行请求转发到业务服务；</li>
+<li>routing过滤器</li>
+<li>post过滤器<br>&nbsp;&nbsp;在post的filter里，一般做一些日志记录，或者额外增加response属性；</li>
+<li>error过滤器<br>&nbsp;&nbsp;对于同一种类型的过滤器，可以通过设置不同的优先级来定义生效的时机，比如说在pre过滤器中可以有两个自定义的过滤器，只需要设置filterOrder为0和1即可控制生效的先后顺序。</li>
+</ul>
+<p>参考<br><a href="https://blog.csdn.net/j3T9Z7H/article/details/81025180" target="_blank" rel="noopener">https://blog.csdn.net/j3T9Z7H/article/details/81025180</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/06/20/路由网关 —— zuul-md/" data-id="cjx7oy2l80006l6c9usvdql3j" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/springcloud/">springcloud</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/微服务/">微服务</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/06/22/spring源码解读 —— 容器的基本实现/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          spring源码解读 —— 容器的基本实现
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/06/18/多线程编程（2）—— synchronized关键字-md/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">多线程编程（2） —— synchronized关键字</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/springcloud/">springcloud</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/多线程编程/">多线程编程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/源码解读/">源码解读</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/springcloud/">springcloud</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/spring源码解读/">spring源码解读</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/多线程/">多线程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/微服务/">微服务</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/springcloud/" style="font-size: 20px;">springcloud</a> <a href="/tags/spring源码解读/" style="font-size: 10px;">spring源码解读</a> <a href="/tags/多线程/" style="font-size: 15px;">多线程</a> <a href="/tags/微服务/" style="font-size: 20px;">微服务</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">June 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/06/22/spring源码解读 —— 容器的基本实现/">spring源码解读 —— 容器的基本实现</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/20/路由网关 —— zuul-md/">路由网关 —— Zuul</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/18/多线程编程（2）—— synchronized关键字-md/">多线程编程（2） —— synchronized关键字</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/15/多线程编程（1） —— 多线程开启方式-md/">多线程编程（1） —— 多线程开启方式</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/11/服务注册与发现 —— eureka/">服务注册与发现 —— Eureka</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 mr.24<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
