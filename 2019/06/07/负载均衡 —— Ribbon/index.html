@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>负载均衡 —— Ribbon | Mister24</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="负载均衡&amp;nbsp;&amp;nbsp;负载均衡是指将负载分摊到多个执行单元上，常见的有2种方式：  独立进程单元，通过负载均衡策略，将请求转发到不同的执行单元，如Nginx； 将负载均衡逻辑以代码形式封装在服务消费者的客户端上，客户端维护一份服务提供者的信息列表，通过负载均衡策略将请求分摊给多个服务提供者，从而达到负载均衡的目的，如Ribbon。   Ribbon的策略&amp;nbsp;&amp;nbsp;Ribbo">
+<meta name="keywords" content="微服务,springcloud">
+<meta property="og:type" content="article">
+<meta property="og:title" content="负载均衡 —— Ribbon">
+<meta property="og:url" content="http://yoursite.com/2019/06/07/负载均衡 —— Ribbon/index.html">
+<meta property="og:site_name" content="Mister24">
+<meta property="og:description" content="负载均衡&amp;nbsp;&amp;nbsp;负载均衡是指将负载分摊到多个执行单元上，常见的有2种方式：  独立进程单元，通过负载均衡策略，将请求转发到不同的执行单元，如Nginx； 将负载均衡逻辑以代码形式封装在服务消费者的客户端上，客户端维护一份服务提供者的信息列表，通过负载均衡策略将请求分摊给多个服务提供者，从而达到负载均衡的目的，如Ribbon。   Ribbon的策略&amp;nbsp;&amp;nbsp;Ribbo">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2019/06/07/负载均衡%20——%20Ribbon/photos/image.png">
+<meta property="og:image" content="http://yoursite.com/2019/06/07/负载均衡%20——%20Ribbon/photos/image1.png">
+<meta property="og:image" content="http://yoursite.com/2019/06/07/负载均衡%20——%20Ribbon/photos/image2.png">
+<meta property="og:image" content="http://yoursite.com/2019/06/07/负载均衡%20——%20Ribbon/photos/image3.png">
+<meta property="og:updated_time" content="2019-06-20T13:44:42.696Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="负载均衡 —— Ribbon">
+<meta name="twitter:description" content="负载均衡&amp;nbsp;&amp;nbsp;负载均衡是指将负载分摊到多个执行单元上，常见的有2种方式：  独立进程单元，通过负载均衡策略，将请求转发到不同的执行单元，如Nginx； 将负载均衡逻辑以代码形式封装在服务消费者的客户端上，客户端维护一份服务提供者的信息列表，通过负载均衡策略将请求分摊给多个服务提供者，从而达到负载均衡的目的，如Ribbon。   Ribbon的策略&amp;nbsp;&amp;nbsp;Ribbo">
+<meta name="twitter:image" content="http://yoursite.com/2019/06/07/负载均衡%20——%20Ribbon/photos/image.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Mister24</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">会者定离，一期一祈。</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-负载均衡 —— Ribbon" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/06/07/负载均衡 —— Ribbon/" class="article-date">
+  <time datetime="2019-06-07T13:29:42.000Z" itemprop="datePublished">2019-06-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/springcloud/">springcloud</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      负载均衡 —— Ribbon
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h1><p>&nbsp;&nbsp;负载均衡是指将负载分摊到多个执行单元上，常见的有2种方式：</p>
+<ul>
+<li>独立进程单元，通过负载均衡策略，将请求转发到不同的执行单元，如Nginx；</li>
+<li>将负载均衡逻辑以代码形式封装在服务消费者的客户端上，客户端维护一份服务提供者的信息列表，通过负载均衡策略将请求分摊给多个服务提供者，从而达到负载均衡的目的，如Ribbon。</li>
+</ul>
+<hr>
+<h1 id="Ribbon的策略"><a href="#Ribbon的策略" class="headerlink" title="Ribbon的策略"></a>Ribbon的策略</h1><p>&nbsp;&nbsp;Ribbon使用的是客户端的负载均衡策略，两种方式：</p>
+<ul>
+<li>Ribbon + RestTemplate</li>
+<li>Ribbon + Feign</li>
+</ul>
+<hr>
+<h1 id="RestTemplate-Ribbon消费服务"><a href="#RestTemplate-Ribbon消费服务" class="headerlink" title="RestTemplate + Ribbon消费服务"></a>RestTemplate + Ribbon消费服务</h1><p>&nbsp;&nbsp;Ribbon中负载均衡的客户端为LoadBalancerClient，在Spring Cloud项目中，Ribbon默认从Eureka Client的服务注册列表中获取服务的信息并保存，然后通过LoadBalancerClient来选择不同的服务实例从而实现负载均衡。如果不希望使用Eureka的注册信息，可以自己维护一份注册列表，然后利用Ribbon实现负载均衡。</p>
+<hr>
+<h1 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h1><p>&nbsp;&nbsp;LoadBalancerClient接口继承自ServiceInstanceChooser，实现类为RibbonLoadBalancerClient。</p>
+<p><img src="photos/image.png" alt></p>
+<p>重要的方法如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;T&gt; <span class="function">T <span class="title">execute</span><span class="params">(String serviceId, LoadBalancerRequest&lt;T&gt; request)</span> **<span class="keyword">throws</span>** IOException</span>;</span><br><span class="line"></span><br><span class="line">&lt;T&gt; <span class="function">T <span class="title">execute</span><span class="params">(String serviceId, ServiceInstance serviceInstance, LoadBalancerRequest&lt;T&gt; request)</span> **<span class="keyword">throws</span>** IOException</span>;</span><br><span class="line"></span><br><span class="line"><span class="function">ServiceInstance <span class="title">choose</span><span class="params">(String serviceId)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;这个方法是用来选择具体的服务实例，最终委托给ILoadBalancer的chooseServer(Object key)方法去选择具体的服务实例。<br><img src="photos/image1.png" alt></p>
+<hr>
+<h1 id="负载均衡策略"><a href="#负载均衡策略" class="headerlink" title="负载均衡策略"></a>负载均衡策略</h1><p>&nbsp;&nbsp;IRule用于配置负载均衡策略，其中的choose()方法是根据key来获取server的实例。IRule中默认包含了7种负载均衡策略。<br><img src="photos/image2.png" alt></p>
+<ul>
+<li>RoundRobinRule 【轮询】<br>&nbsp;&nbsp;默认尝试10次</li>
+<li>RandomRule 【随机】</li>
+<li>AvailabilityFilteringRule  【可用过滤】<br>&nbsp;&nbsp;会先过滤掉由于多次访问故障而处于断路器跳闸状态的服务，还有并发的连接数超过阈值的服务，然后对剩余的服务列表进行轮询</li>
+<li>WeightedResponseTimeRule 【响应时间权重】<br>&nbsp;&nbsp;根据平均响应时间计算所有服务的权重，响应时间越快服务权重越大被选中的概率越高。刚启动时，如果统计信息不足，则使用轮询策略，等信息足够，切换到 WeightedResponseTimeRule</li>
+<li>RetryRule 【在选定负载均衡策略上使用轮询的方式重试】<br>&nbsp;&nbsp;先按照轮询策略获取服务，如果获取失败则在指定时间内重试，获取可用服务</li>
+<li>BestAvailableRule 【选择最小请求数的服务器】<br>&nbsp;&nbsp;选过滤掉多次访问故障而处于断路器跳闸状态的服务，然后选择一个并发量最小的服务，如果没找到，使用随机轮询策略选取；</li>
+<li>ZoneAvoidanceRule （默认） 【根据服务器所属服务区的整体运行状况来轮询选择】<br>&nbsp;&nbsp;符合判断server所在区域的性能和server的可用性选择服务，根据服务器所属服务区的运行状况和可用性来进行负载均衡。</li>
+</ul>
+<hr>
+<h1 id="IPing"><a href="#IPing" class="headerlink" title="IPing"></a>IPing</h1><p>&nbsp;&nbsp;IPing向server发送”ping”，根据是否有回应来判断server是否可用。<br><img src="photos/image3.png" alt><br>实现类共有5种：</p>
+<ul>
+<li>DummyPing<br>&nbsp;&nbsp;直接返回true</li>
+<li>NIWSDiscoveryPing<br>&nbsp;&nbsp;根据DiscoveryEnabledServer的InstanceInfo的status进行判断，如果为UP，表明可用；</li>
+<li>NoOpPing<br>&nbsp;&nbsp;不真实ping，直接返回true；</li>
+<li>PingConstant<br>&nbsp;&nbsp;固定返回某服务是否可用，是一个常量值；</li>
+<li>PingUrl<br>&nbsp;&nbsp;使用HttpClient进行ping操作，根据返回结果判定是否可用。<br>负载均衡器从Eureka Client获取服务列表信息，并根据IRule的策略进行路由，根据IPing判断服务的可用性。<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> List&lt;DiscoveryEnabledServer&gt; <span class="title">obtainServersViaDiscovery</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    List&lt;DiscoveryEnabledServer&gt; serverList = <span class="keyword">new</span> ArrayList&lt;DiscoveryEnabledServer&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (eurekaClientProvider == <span class="keyword">null</span> || eurekaClientProvider.get() == <span class="keyword">null</span>) &#123;</span><br><span class="line">        logger.warn(<span class="string">"EurekaClient has not been initialized yet, returning an empty list"</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> ArrayList&lt;DiscoveryEnabledServer&gt;();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    EurekaClient eurekaClient = eurekaClientProvider.get();</span><br><span class="line">    <span class="keyword">if</span> (vipAddresses!=<span class="keyword">null</span>)&#123;</span><br><span class="line">        <span class="keyword">for</span> (String vipAddress : vipAddresses.split(<span class="string">","</span>)) &#123;</span><br><span class="line">            <span class="comment">// if targetRegion is null, it will be interpreted as the same region of client</span></span><br><span class="line">            List&lt;InstanceInfo&gt; listOfInstanceInfo = eurekaClient.getInstancesByVipAddress(vipAddress, isSecure, targetRegion);</span><br><span class="line">            <span class="keyword">for</span> (InstanceInfo ii : listOfInstanceInfo) &#123;</span><br><span class="line">                <span class="keyword">if</span> (ii.getStatus().equals(InstanceStatus.UP)) &#123;</span><br><span class="line"></span><br><span class="line">                    <span class="keyword">if</span>(shouldUseOverridePort)&#123;</span><br><span class="line">                        <span class="keyword">if</span>(logger.isDebugEnabled())&#123;</span><br><span class="line">                            logger.debug(<span class="string">"Overriding port on client name: "</span> + clientName + <span class="string">" to "</span> + overridePort);</span><br><span class="line">                        &#125;</span><br><span class="line"></span><br><span class="line">                        <span class="comment">// copy is necessary since the InstanceInfo builder just uses the original reference,</span></span><br><span class="line">                        <span class="comment">// and we don't want to corrupt the global eureka copy of the object which may be</span></span><br><span class="line">                        <span class="comment">// used by other clients in our system</span></span><br><span class="line">                        InstanceInfo copy = <span class="keyword">new</span> InstanceInfo(ii);</span><br><span class="line"></span><br><span class="line">                        <span class="keyword">if</span>(isSecure)&#123;</span><br><span class="line">                            ii = <span class="keyword">new</span> InstanceInfo.Builder(copy).setSecurePort(overridePort).build();</span><br><span class="line">                        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                            ii = <span class="keyword">new</span> InstanceInfo.Builder(copy).setPort(overridePort).build();</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    DiscoveryEnabledServer des = createServer(ii, isSecure, shouldUseIpAddr);</span><br><span class="line">                    serverList.add(des);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (serverList.size()&gt;<span class="number">0</span> &amp;&amp; prioritizeVipAddressBasedServers)&#123;</span><br><span class="line">                <span class="keyword">break</span>; <span class="comment">// if the current vipAddress has servers, we dont use subsequent vipAddress based servers</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> serverList;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>&nbsp;&nbsp;对于ribbon从Eureka Client获取注册信息，由于服务可能存在更新，所以需要定时从Eureka Client获取最新的注册信息。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">setupPingTask</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (canSkipPing()) &#123;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (lbTimer != <span class="keyword">null</span>) &#123;</span><br><span class="line">        lbTimer.cancel();</span><br><span class="line">    &#125;</span><br><span class="line">    lbTimer = <span class="keyword">new</span> ShutdownEnabledTimer(<span class="string">"NFLoadBalancer-PingTimer-"</span> + name, <span class="keyword">true</span>);</span><br><span class="line">    lbTimer.schedule(<span class="keyword">new</span> PingTask(), <span class="number">0</span>, pingIntervalSeconds * <span class="number">1000</span>);</span><br><span class="line">    forceQuickPing();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;在setupPingTask()方法中，开启了shutdownEnableTimer的PingTask任务，默认情况下，变量pingIntervalSeconds的值为10，即每10秒向Eureka Client发送一次心跳“ping”。在PingTask中创建了一个Pinger对象，并执行了runPinger()方法。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">PingTask</span> <span class="keyword">extends</span> <span class="title">TimerTask</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">           <span class="keyword">new</span> Pinger(pingStrategy).runPinger();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            logger.error(<span class="string">"LoadBalancer [&#123;&#125;]: Error pinging"</span>, name, e);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;在LoadBalancerAutoConfiguration类中，首先维护了一个被LoadBalanced修饰的RestTemplate对象的list。初始化过程中，通过调用customer.customize(restTemplate)方法给RestTemplate增加拦截器LoadBalancerInterceptor，LoadBalancerInterceptor用于实时拦截，在LoadBalancerInterceptor中实现了负载均衡的方法。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> ClientHttpResponse <span class="title">intercept</span><span class="params">(<span class="keyword">final</span> HttpRequest request, <span class="keyword">final</span> <span class="keyword">byte</span>[] body,</span></span></span><br><span class="line"><span class="function"><span class="params">      <span class="keyword">final</span> ClientHttpRequestExecution execution)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">   <span class="keyword">final</span> URI originalUri = request.getURI();</span><br><span class="line">   String serviceName = originalUri.getHost();</span><br><span class="line">   Assert.state(serviceName != <span class="keyword">null</span>,</span><br><span class="line">         <span class="string">"Request URI does not contain a valid hostname: "</span> + originalUri);</span><br><span class="line">   <span class="keyword">return</span> <span class="keyword">this</span>.loadBalancer.execute(serviceName,</span><br><span class="line">         <span class="keyword">this</span>.requestFactory.createRequest(request, body, execution));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>&nbsp;&nbsp;Ribbon的负载均衡主要通过LoadBalancerClient来实现，而具体实现交给ILoadBalancer处理，ILoadBalancer通过配置IRule、IPing等，向Eureka Client获取注册列表信息，默认每10s向Eureka Client发送一次“ping”来检查是否需要更新服务的注册列表信息，最后在得到的服务列表的就出上，ILoadBalancer根据IRule的规则进行负载均衡。<br>&nbsp;&nbsp;RestTemplate加上@LoadBalance注解之后，在远程调度的时候可以实现负载均衡，主要是维护了一个被@LoadBalance注解的RestTemplate列表，为该列表加上拦截器，在拦截器的方法中，将远程调度方法交给Ribbon的负载均衡器ILoadBalancerClient去处理，从而达到负载均衡的目的。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/06/07/负载均衡 —— Ribbon/" data-id="ck6nng8l1000px4c9np0d8b4b" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/springcloud/">springcloud</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/微服务/">微服务</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/06/11/服务注册与发现 —— eureka/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          服务注册与发现 —— Eureka
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/springcloud/">springcloud</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/多线程编程/">多线程编程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据结构/">数据结构</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/源码解读/">源码解读</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/springcloud/">springcloud</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/spring源码解读/">spring源码解读</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/多线程/">多线程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/微服务/">微服务</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/链表/">链表</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/springcloud/" style="font-size: 20px;">springcloud</a> <a href="/tags/spring源码解读/" style="font-size: 10px;">spring源码解读</a> <a href="/tags/多线程/" style="font-size: 15px;">多线程</a> <a href="/tags/微服务/" style="font-size: 20px;">微服务</a> <a href="/tags/链表/" style="font-size: 10px;">链表</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">June 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/02/15/数据结构-——-链表/">数据结构 —— 链表.md</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/22/spring源码解读 —— 容器的基本实现/">spring源码解读 —— 容器的基本实现</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/20/路由网关 —— zuul/">路由网关 —— Zuul</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/18/多线程编程（2）—— synchronized关键字/">多线程编程（2） —— synchronized关键字</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/15/多线程编程（1） —— 多线程开启方式/">多线程编程（1） —— 多线程开启方式</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 mr.24<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
