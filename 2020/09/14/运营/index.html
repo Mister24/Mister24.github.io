@@ -5,20 +5,22 @@
   
 
   
-  <title>spring源码解读 —— 容器的基本实现 | Mister24</title>
+  <title>当我们在谈论运营我们在谈论什么.md | Mister24</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="获取Document&amp;ensp;首选创建DocumentBuilderFactory，然后通过DocumentBuilderFactory创建DocumentBuilder，然后解析inputSource来返回Document对象。关于对inputSource的解析。交给domParser去处理，涉及到dom解析的部分就不再展开。 1234567891011@Overridepublic Docu">
-<meta name="keywords" content="spring源码解读">
+  <meta name="description" content="1. 当我们在谈论运营我们在谈论什么？ 1. 有的放矢https://campus.alibaba.com/position.htm?spm=a1z3e1.11770907.0.0&amp;amp;refno=12488http://campus.jd.com/web/job/job_detail?jobId=131&amp;amp;planId=1https://join.qq.com/post.php?fid">
+<meta name="keywords" content="运营">
 <meta property="og:type" content="article">
-<meta property="og:title" content="spring源码解读 —— 容器的基本实现">
-<meta property="og:url" content="http://yoursite.com/2019/06/22/spring源码解读 —— 容器的基本实现/index.html">
+<meta property="og:title" content="当我们在谈论运营我们在谈论什么.md">
+<meta property="og:url" content="http://yoursite.com/2020/09/14/运营/index.html">
 <meta property="og:site_name" content="Mister24">
-<meta property="og:description" content="获取Document&amp;ensp;首选创建DocumentBuilderFactory，然后通过DocumentBuilderFactory创建DocumentBuilder，然后解析inputSource来返回Document对象。关于对inputSource的解析。交给domParser去处理，涉及到dom解析的部分就不再展开。 1234567891011@Overridepublic Docu">
+<meta property="og:description" content="1. 当我们在谈论运营我们在谈论什么？ 1. 有的放矢https://campus.alibaba.com/position.htm?spm=a1z3e1.11770907.0.0&amp;amp;refno=12488http://campus.jd.com/web/job/job_detail?jobId=131&amp;amp;planId=1https://join.qq.com/post.php?fid">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-25T15:35:53.725Z">
+<meta property="og:image" content="http://yoursite.com/2020/09/14/运营/photos/pgy.png">
+<meta property="og:updated_time" content="2020-09-14T08:31:45.932Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="spring源码解读 —— 容器的基本实现">
-<meta name="twitter:description" content="获取Document&amp;ensp;首选创建DocumentBuilderFactory，然后通过DocumentBuilderFactory创建DocumentBuilder，然后解析inputSource来返回Document对象。关于对inputSource的解析。交给domParser去处理，涉及到dom解析的部分就不再展开。 1234567891011@Overridepublic Docu">
+<meta name="twitter:title" content="当我们在谈论运营我们在谈论什么.md">
+<meta name="twitter:description" content="1. 当我们在谈论运营我们在谈论什么？ 1. 有的放矢https://campus.alibaba.com/position.htm?spm=a1z3e1.11770907.0.0&amp;amp;refno=12488http://campus.jd.com/web/job/job_detail?jobId=131&amp;amp;planId=1https://join.qq.com/post.php?fid">
+<meta name="twitter:image" content="http://yoursite.com/2020/09/14/运营/photos/pgy.png">
   
     <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
   
@@ -69,14 +71,14 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-spring源码解读 —— 容器的基本实现" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-运营" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/06/22/spring源码解读 —— 容器的基本实现/" class="article-date">
-  <time datetime="2019-06-22T15:39:52.000Z" itemprop="datePublished">2019-06-22</time>
+    <a href="/2020/09/14/运营/" class="article-date">
+  <time datetime="2020-09-14T08:33:13.000Z" itemprop="datePublished">2020-09-14</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/源码解读/">源码解读</a>
+    <a class="article-category-link" href="/categories/运营/">运营</a>
   </div>
 
   </div>
@@ -87,7 +89,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      spring源码解读 —— 容器的基本实现
+      当我们在谈论运营我们在谈论什么.md
     </h1>
   
 
@@ -95,17 +97,26 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="获取Document"><a href="#获取Document" class="headerlink" title="获取Document"></a>获取Document</h1><p>&ensp;首选创建DocumentBuilderFactory，然后通过DocumentBuilderFactory创建DocumentBuilder，然后解析inputSource来返回Document对象。关于对inputSource的解析。交给domParser去处理，涉及到dom解析的部分就不再展开。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> Document <span class="title">loadDocument</span><span class="params">(InputSource inputSource, EntityResolver entityResolver,</span></span></span><br><span class="line"><span class="function"><span class="params">      ErrorHandler errorHandler, <span class="keyword">int</span> validationMode, <span class="keyword">boolean</span> namespaceAware)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line"></span><br><span class="line">   DocumentBuilderFactory factory = createDocumentBuilderFactory(validationMode, namespaceAware);</span><br><span class="line">   <span class="keyword">if</span> (logger.isTraceEnabled()) &#123;</span><br><span class="line">      logger.trace(<span class="string">"Using JAXP provider ["</span> + factory.getClass().getName() + <span class="string">"]"</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   DocumentBuilder builder = createDocumentBuilder(factory, entityResolver, errorHandler);</span><br><span class="line">   <span class="keyword">return</span> builder.parse(inputSource);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h1 id="1-当我们在谈论运营我们在谈论什么？"><a href="#1-当我们在谈论运营我们在谈论什么？" class="headerlink" title="1. 当我们在谈论运营我们在谈论什么？"></a>1. 当我们在谈论运营我们在谈论什么？</h1><p><img src="photos/pgy.png" alt></p>
+<h2 id="1-有的放矢"><a href="#1-有的放矢" class="headerlink" title="1. 有的放矢"></a>1. 有的放矢</h2><p><a href="https://campus.alibaba.com/position.htm?spm=a1z3e1.11770907.0.0&amp;refno=12488" target="_blank" rel="noopener">https://campus.alibaba.com/position.htm?spm=a1z3e1.11770907.0.0&amp;refno=12488</a><br><a href="http://campus.jd.com/web/job/job_detail?jobId=131&amp;planId=1" target="_blank" rel="noopener">http://campus.jd.com/web/job/job_detail?jobId=131&amp;planId=1</a><br><a href="https://join.qq.com/post.php?fid=94&amp;pid=1" target="_blank" rel="noopener">https://join.qq.com/post.php?fid=94&amp;pid=1</a><br><a href="https://job.bytedance.com/campus/m/position/detail/6863371616701729031" target="_blank" rel="noopener">https://job.bytedance.com/campus/m/position/detail/6863371616701729031</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">关键词：转化、留存、活跃</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-基本概念"><a href="#2-基本概念" class="headerlink" title="2. 基本概念"></a>2. 基本概念</h2><p><a href="https://www.jianshu.com/p/6f00f2eca59a" target="_blank" rel="noopener">https://www.jianshu.com/p/6f00f2eca59a</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">关键词：活动运营、内容运营、用户运营</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-工作内容"><a href="#3-工作内容" class="headerlink" title="3. 工作内容"></a>3. 工作内容</h2><h3 id="3-1-实际例子"><a href="#3-1-实际例子" class="headerlink" title="3.1 实际例子"></a>3.1 实际例子</h3><p><a href="https://www.zhihu.com/question/30178219/answer/64460193" target="_blank" rel="noopener">https://www.zhihu.com/question/30178219/answer/64460193</a></p>
+<h3 id="3-1-岗位关注点"><a href="#3-1-岗位关注点" class="headerlink" title="3.1 岗位关注点"></a>3.1 岗位关注点</h3><p><a href="https://mp.weixin.qq.com/s/kaCVtc1HlrW2OdB9uv3k_Q" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/kaCVtc1HlrW2OdB9uv3k_Q</a></p>
+<h3 id="3-2-内容运营"><a href="#3-2-内容运营" class="headerlink" title="3.2 内容运营"></a>3.2 内容运营</h3><p><a href="https://mp.weixin.qq.com/s/nNdQ9t7afxuI86LOR4CXBA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/nNdQ9t7afxuI86LOR4CXBA</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">关键词：生产、推荐、分发</span><br></pre></td></tr></table></figure>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/06/22/spring源码解读 —— 容器的基本实现/" data-id="ck6nng8l2000qx4c9ya77z1if" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/09/14/运营/" data-id="ckf29su6c0000l4c9t8yjufnp" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/spring源码解读/">spring源码解读</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/运营/">运营</a></li></ul>
 
     </footer>
   </div>
@@ -113,19 +124,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/02/15/数据结构-——-链表/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          数据结构 —— 链表.md
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/06/20/路由网关 —— zuul/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/02/15/数据结构-——-链表/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">路由网关 —— Zuul</div>
+      <div class="article-nav-title">数据结构 —— 链表.md</div>
     </a>
   
 </nav>
