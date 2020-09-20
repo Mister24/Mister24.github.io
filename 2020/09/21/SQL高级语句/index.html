@@ -7,17 +7,17 @@
   
   <title>SQL高级语句 | Mister24</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;">
+  <meta name="description" content="通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;SE">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SQL高级语句">
 <meta property="og:url" content="http://yoursite.com/2020/09/21/SQL高级语句/index.html">
 <meta property="og:site_name" content="Mister24">
-<meta property="og:description" content="##通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;">
+<meta property="og:description" content="通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;SE">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-09-20T16:50:41.284Z">
+<meta property="og:updated_time" content="2020-09-20T16:58:12.040Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SQL高级语句">
-<meta name="twitter:description" content="##通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;">
+<meta name="twitter:description" content="通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;SE">
   
     <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
   
@@ -90,8 +90,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##通配符<br>_           代替一个字符<br>[abc]       字符列中的任何单一字符<br>[^charlist] 不在字符列中的任何单一字符<br>[!charlist] 不在字符列中的任何单一字符</p>
+        <h2 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h2><p>_           代替一个字符<br>[abc]       字符列中的任何单一字符<br>[^charlist] 不在字符列中的任何单一字符<br>[!charlist] 不在字符列中的任何单一字符</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Websites <span class="keyword">WHERE</span> <span class="keyword">name</span> <span class="keyword">LIKE</span> <span class="string">'_oogle'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Websites <span class="keyword">WHERE</span> <span class="keyword">name</span> <span class="keyword">LIKE</span> <span class="string">'G_o_le'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Websites <span class="keyword">WHERE</span> <span class="keyword">name</span> REGEXP <span class="string">'^[GFs]'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Websites <span class="keyword">WHERE</span> <span class="keyword">name</span> REGEXP <span class="string">'^[^A-H]'</span>;</span><br></pre></td></tr></table></figure>
+
+<h2 id="between"><a href="#between" class="headerlink" title="between"></a>between</h2><p>  BETWEEN 操作符可以用于选取介于两个值之间的数据范围内的值。这些值可以是数值、文本或者日期。</p>
+
       
     </div>
     <footer class="article-footer">
