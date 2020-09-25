@@ -18,7 +18,7 @@
 <meta property="og:image" content="http://yoursite.com/2019/06/15/多线程编程（1）%20——%20多线程开启方式/photos/Thread.png">
 <meta property="og:image" content="http://yoursite.com/2019/06/15/多线程编程（1）%20——%20多线程开启方式/photos/Thread1.png">
 <meta property="og:image" content="http://yoursite.com/2019/06/15/多线程编程（1）%20——%20多线程开启方式/photos/Thread2.png">
-<meta property="og:updated_time" content="2020-02-15T13:33:52.059Z">
+<meta property="og:updated_time" content="2020-09-25T18:02:56.500Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="多线程编程（1） —— 多线程开启方式">
 <meta name="twitter:description" content="&amp;nbsp;&amp;nbsp;1个进程至少包含1个线程，多线程的使用方式有两种：继承Thread类，实现Runnable接口。  1. 继承Thread类1public class Thread implements Runnable  &amp;nbsp;&amp;nbsp;Thread类本身也实现了Runnable接口，但是如果需要创建线程的类已经有了父类，就无法使用这种方式，因为java不支持多继承。 1.1 线">
@@ -118,8 +118,8 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyRunnable</span> <span class="keyword">implements</span> <span class="title">Runnable</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"运行中！"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Thread thread = <span class="keyword">new</span> Thread(<span class="keyword">new</span> MyRunnable());</span><br><span class="line">        thread.start();</span><br><span class="line">        System.out.println(<span class="string">"运行结束！"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>&nbsp;&nbsp;将Runnable接口的对象传入到Thread的构造函数的参数中，调用thread的start()方法，该线程的处理逻辑在run()方法中描述。</p>
-<hr>
-
+<p><a href="https://github.com.ipaddress.com/" target="_blank" rel="noopener">https://github.com.ipaddress.com/</a></p>
+<h2 id="https-fastly-net-ipaddress-com-github-global-ssl-fastly-net-ipinfo"><a href="#https-fastly-net-ipaddress-com-github-global-ssl-fastly-net-ipinfo" class="headerlink" title="https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo"></a><a href="https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo" target="_blank" rel="noopener">https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo</a></h2>
       
     </div>
     <footer class="article-footer">
