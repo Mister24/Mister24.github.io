@@ -5,20 +5,19 @@
   
 
   
-  <title>并发编程 —— Lock接口 | Mister24</title>
+  <title>算法 —— 动态规划 | Mister24</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="多个线程访问共同资源的时候，需要通过加锁来保证资源访问。java有两种通用的解决思路：  synchronized java保留关键字   juc包下的lock接口 jdk提供    lock">
-<meta name="keywords" content="Lock">
+  <meta name="description" content="问题说明动态规划问题，一般求解思路：  【最优子结构】找到最优子结构(子问题)，如F(10)可以分成F(9),F(8)两部分。 【状态转移方程】描述状态转移方程(用子问题的解来表示原问题），如F(N) = F(N-1)+F(N-2)问题的边界,如，F(1)=1,F(2)=2. 最终实现一般有：传统递归方法、备忘录法、动态规划法。  明确 base case -&amp;gt; 明确「状态」-&amp;gt; 明确">
 <meta property="og:type" content="article">
-<meta property="og:title" content="并发编程 —— Lock接口">
-<meta property="og:url" content="http://yoursite.com/2020/09/14/并发编程（1） —— Lock接口/index.html">
+<meta property="og:title" content="算法 —— 动态规划">
+<meta property="og:url" content="http://yoursite.com/2020/10/24/算法-——-动态规划/index.html">
 <meta property="og:site_name" content="Mister24">
-<meta property="og:description" content="多个线程访问共同资源的时候，需要通过加锁来保证资源访问。java有两种通用的解决思路：  synchronized java保留关键字   juc包下的lock接口 jdk提供    lock">
+<meta property="og:description" content="问题说明动态规划问题，一般求解思路：  【最优子结构】找到最优子结构(子问题)，如F(10)可以分成F(9),F(8)两部分。 【状态转移方程】描述状态转移方程(用子问题的解来表示原问题），如F(N) = F(N-1)+F(N-2)问题的边界,如，F(1)=1,F(2)=2. 最终实现一般有：传统递归方法、备忘录法、动态规划法。  明确 base case -&amp;gt; 明确「状态」-&amp;gt; 明确">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-10-10T13:38:57.560Z">
+<meta property="og:updated_time" content="2020-10-24T12:48:28.737Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="并发编程 —— Lock接口">
-<meta name="twitter:description" content="多个线程访问共同资源的时候，需要通过加锁来保证资源访问。java有两种通用的解决思路：  synchronized java保留关键字   juc包下的lock接口 jdk提供    lock">
+<meta name="twitter:title" content="算法 —— 动态规划">
+<meta name="twitter:description" content="问题说明动态规划问题，一般求解思路：  【最优子结构】找到最优子结构(子问题)，如F(10)可以分成F(9),F(8)两部分。 【状态转移方程】描述状态转移方程(用子问题的解来表示原问题），如F(N) = F(N-1)+F(N-2)问题的边界,如，F(1)=1,F(2)=2. 最终实现一般有：传统递归方法、备忘录法、动态规划法。  明确 base case -&amp;gt; 明确「状态」-&amp;gt; 明确">
   
     <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
   
@@ -69,16 +68,12 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-并发编程（1） —— Lock接口" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-算法-——-动态规划" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/09/14/并发编程（1） —— Lock接口/" class="article-date">
-  <time datetime="2020-09-14T15:46:11.000Z" itemprop="datePublished">2020-09-14</time>
+    <a href="/2020/10/24/算法-——-动态规划/" class="article-date">
+  <time datetime="2020-10-24T08:11:54.000Z" itemprop="datePublished">2020-10-24</time>
 </a>
     
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/并发编程/">并发编程</a>
-  </div>
-
   </div>
   <div class="article-inner">
     
@@ -87,7 +82,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      并发编程 —— Lock接口
+      算法 —— 动态规划
     </h1>
   
 
@@ -95,45 +90,52 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>  多个线程访问共同资源的时候，需要通过加锁来保证资源访问。java有两种通用的解决思路：</p>
-<ul>
-<li>synchronized<ul>
-<li>java保留关键字</li>
+        <h1 id="问题说明"><a href="#问题说明" class="headerlink" title="问题说明"></a>问题说明</h1><p>动态规划问题，<br>一般求解思路：</p>
+<ol>
+<li>【最优子结构】找到最优子结构(子问题)，如F(10)可以分成F(9),F(8)两部分。</li>
+<li>【状态转移方程】描述状态转移方程(用子问题的解来表示原问题），如F(N) = F(N-1)+F(N-2)<br>问题的边界,如，F(1)=1,F(2)=2.</li>
+<li>最终实现一般有：传统递归方法、备忘录法、动态规划法。</li>
+</ol>
+<p>明确 base case -&gt; 明确「状态」-&gt; 明确「选择」 -&gt; 定义 dp 数组/函数的含义。</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> 初始化 base case</span><br><span class="line">dp[0][0][...] = base</span><br><span class="line"><span class="meta">#</span> 进行状态转移</span><br><span class="line">for 状态1 in 状态1的所有取值：</span><br><span class="line">    for 状态2 in 状态2的所有取值：</span><br><span class="line">        for ...</span><br><span class="line">            dp[状态1][状态2][...] = 求最值(选择1，选择2...)</span><br></pre></td></tr></table></figure>
+
+<h1 id="常见问题目录"><a href="#常见问题目录" class="headerlink" title="常见问题目录"></a>常见问题目录</h1><ul>
+<li>最长公共子序列</li>
+<li>最优排序二叉树</li>
+<li>最长上升子序列</li>
+<li>最优三角剖分</li>
+<li>最大m子段和</li>
+<li>0-1背包问题</li>
+<li>最优排序二叉树</li>
+<li>最优合并问题</li>
+<li>最长公共子序列</li>
+<li>最大连续子串之和</li>
+<li>回文子串</li>
+<li>爬楼梯</li>
+<li>凑零钱</li>
+<li>通配符匹配</li>
+<li>最长有效括号</li>
+<li>不同路径</li>
+<li>正则表达式匹配</li>
+<li>编辑距离</li>
 </ul>
-</li>
-<li>juc包下的lock接口<ul>
-<li>jdk提供</li>
-</ul>
-</li>
-</ul>
-<h1 id="lock"><a href="#lock" class="headerlink" title="lock"></a>lock</h1>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/09/14/并发编程（1） —— Lock接口/" data-id="ckgnorhch0004z1c9oxkzylo8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/10/24/算法-——-动态规划/" data-id="ckgnorhcl000az1c9paxqec00" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Lock/">Lock</a></li></ul>
-
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2020/09/21/SQL高级语句/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          SQL高级语句
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/09/14/运营/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/09/21/SQL高级语句/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">当我们在谈论运营我们在谈论什么</div>
+      <div class="article-nav-title">SQL高级语句</div>
     </a>
   
 </nav>
