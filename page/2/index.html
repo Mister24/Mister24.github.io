@@ -66,6 +66,68 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-多线程编程（1） —— 多线程开启方式" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/06/15/多线程编程（1） —— 多线程开启方式/" class="article-date">
+  <time datetime="2019-06-15T08:55:32.000Z" itemprop="datePublished">2019-06-15</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/多线程编程/">多线程编程</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/06/15/多线程编程（1） —— 多线程开启方式/">多线程编程（1） —— 多线程开启方式</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&nbsp;&nbsp;1个进程至少包含1个线程，多线程的使用方式有两种：继承Thread类，实现Runnable接口。</p>
+<hr>
+<h1 id="1-继承Thread类"><a href="#1-继承Thread类" class="headerlink" title="1. 继承Thread类"></a>1. 继承Thread类</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Thread</span> <span class="keyword">implements</span> <span class="title">Runnable</span></span></span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;Thread类本身也实现了Runnable接口，但是如果需要创建线程的类已经有了父类，就无法使用这种方式，因为java不支持多继承。<br><img src="photos/Thread.png" alt></p>
+<h2 id="1-1-线程调用的随机性"><a href="#1-1-线程调用的随机性" class="headerlink" title="1.1 线程调用的随机性"></a>1.1 线程调用的随机性</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyThread</span> <span class="keyword">extends</span> <span class="title">Thread</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.run();</span><br><span class="line">        System.out.println(<span class="string">"MyThread"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyThreadRun</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        MyThread myThread = <span class="keyword">new</span> MyThread();</span><br><span class="line">        myThread.start();</span><br><span class="line">        System.out.println(<span class="string">"运行结束！"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;从运行结果来看，MyThread.java类中的run方法执行的时间比较晚，这也说明在使用多线程技术时，代码的运行结果与代码执行顺序或者调用顺序是无关的。线程是一个子任务，CPU以不确定的方式，或者说以随机的时间来调用线程中的run方法，所以可能出现先打印“运行结束！”后输出“MyThread”这样的结果。</p>
+<h2 id="1-2-线程启动的随机性"><a href="#1-2-线程启动的随机性" class="headerlink" title="1.2 线程启动的随机性"></a>1.2 线程启动的随机性</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyThread</span> <span class="keyword">extends</span> <span class="title">Thread</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="comment">//super.run();</span></span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">                <span class="keyword">int</span> time = (<span class="keyword">int</span>)(Math.random() * <span class="number">1000</span>);</span><br><span class="line">                Thread.sleep(time);</span><br><span class="line">                System.out.println(<span class="string">"run = "</span> + Thread.currentThread().getName());</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">            <span class="comment">//TODO</span></span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            MyThread thread = <span class="keyword">new</span> MyThread();</span><br><span class="line">            thread.setName(<span class="string">"myThread"</span>);</span><br><span class="line">            thread.start();</span><br><span class="line"></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">                <span class="keyword">int</span> time = (<span class="keyword">int</span>)(Math.random() * <span class="number">1000</span>);</span><br><span class="line">                Thread.sleep(time);</span><br><span class="line">                System.out.println(<span class="string">"run = "</span> + Thread.currentThread().getName());</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;使用随机时间的sleep，使得线程挂起，此时CPU会执行不同的线程。<br>&nbsp;&nbsp;Thread的start()方法通知“线程规划器”，此线程已经准备就绪，等待调用线程对象的run()方法，即就绪之后，等待一段时间，使得系统能够安排调用Thread的run()方法，使得线程真正开始运行，启动线程，相对于“异步执行”。如果直接调用thread.run()则为“同步执行”，整个执行动作直接由线程发起，而不是等待系统发起调用。<br><strong>要点：执行start()只代表准备就绪。</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyThread</span> <span class="keyword">extends</span> <span class="title">Thread</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> i;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">MyThread</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>();</span><br><span class="line">        <span class="keyword">this</span>.i = i;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            Thread.sleep(<span class="number">2</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(i);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        MyThread myThread1 = <span class="keyword">new</span> MyThread(<span class="number">1</span>);</span><br><span class="line">        MyThread myThread2 = <span class="keyword">new</span> MyThread(<span class="number">2</span>);</span><br><span class="line">        MyThread myThread3 = <span class="keyword">new</span> MyThread(<span class="number">3</span>);</span><br><span class="line">        MyThread myThread4 = <span class="keyword">new</span> MyThread(<span class="number">4</span>);</span><br><span class="line">        MyThread myThread5 = <span class="keyword">new</span> MyThread(<span class="number">5</span>);</span><br><span class="line">        MyThread myThread6 = <span class="keyword">new</span> MyThread(<span class="number">6</span>);</span><br><span class="line">        MyThread myThread7 = <span class="keyword">new</span> MyThread(<span class="number">7</span>);</span><br><span class="line">        MyThread myThread8 = <span class="keyword">new</span> MyThread(<span class="number">8</span>);</span><br><span class="line">        MyThread myThread9 = <span class="keyword">new</span> MyThread(<span class="number">9</span>);</span><br><span class="line">        MyThread myThread10 = <span class="keyword">new</span> MyThread(<span class="number">10</span>);</span><br><span class="line">        MyThread myThread11 = <span class="keyword">new</span> MyThread(<span class="number">11</span>);</span><br><span class="line">        MyThread myThread12 = <span class="keyword">new</span> MyThread(<span class="number">12</span>);</span><br><span class="line">        MyThread myThread13 = <span class="keyword">new</span> MyThread(<span class="number">13</span>);</span><br><span class="line"></span><br><span class="line">        myThread1.start();</span><br><span class="line">        myThread2.start();</span><br><span class="line">        myThread3.start();</span><br><span class="line">        myThread4.start();</span><br><span class="line">        myThread5.start();</span><br><span class="line">        myThread6.start();</span><br><span class="line">        myThread7.start();</span><br><span class="line">        myThread8.start();</span><br><span class="line">        myThread9.start();</span><br><span class="line">        myThread10.start();</span><br><span class="line">        myThread11.start();</span><br><span class="line">        myThread12.start();</span><br><span class="line">        myThread13.start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;这里如果不添加Thread.sleep(2），如果cpu切换的足够快，就无法观察到。<br><img src="photos/Thread1.png" alt><br>&nbsp;&nbsp;显式的使得线程sleep时间为2ms，则可以看到执行start()方法的顺序不代表线程启动的顺序。<br><img src="photos/Thread2.png" alt></p>
+<hr>
+<h1 id="2-实现Runnable接口"><a href="#2-实现Runnable接口" class="headerlink" title="2. 实现Runnable接口"></a>2. 实现Runnable接口</h1><p>&nbsp;&nbsp;使用继承Thread类的方式来开发多线程的设计有局限性，由于java对于多继承不支持，所以使用实现Runnable接口的方式来完成，</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyRunnable</span> <span class="keyword">implements</span> <span class="title">Runnable</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"运行中！"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Thread thread = <span class="keyword">new</span> Thread(<span class="keyword">new</span> MyRunnable());</span><br><span class="line">        thread.start();</span><br><span class="line">        System.out.println(<span class="string">"运行结束！"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;&nbsp;将Runnable接口的对象传入到Thread的构造函数的参数中，调用thread的start()方法，该线程的处理逻辑在run()方法中描述。</p>
+<p><a href="https://github.com.ipaddress.com/" target="_blank" rel="noopener">https://github.com.ipaddress.com/</a></p>
+<h2 id="https-fastly-net-ipaddress-com-github-global-ssl-fastly-net-ipinfo"><a href="#https-fastly-net-ipaddress-com-github-global-ssl-fastly-net-ipinfo" class="headerlink" title="https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo"></a><a href="https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo" target="_blank" rel="noopener">https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo</a></h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/06/15/多线程编程（1） —— 多线程开启方式/" data-id="cklpb7n8q000agac9zs5l8a1c" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/多线程/">多线程</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-服务注册与发现 —— eureka" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/06/11/服务注册与发现 —— eureka/" class="article-date">
@@ -109,7 +171,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/06/11/服务注册与发现 —— eureka/" data-id="ckgp631yk000m3qc9h7pqkm1x" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/06/11/服务注册与发现 —— eureka/" data-id="cklpb7n8u000hgac9qfdnn2xd" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/springcloud/">springcloud</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/微服务/">微服务</a></li></ul>
@@ -204,7 +266,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/06/07/负载均衡 —— Ribbon/" data-id="ckgp631yw001b3qc9jn0m0ynr" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/06/07/负载均衡 —— Ribbon/" data-id="cklpb7n9q001ggac9ueuarrji" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/springcloud/">springcloud</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/微服务/">微服务</a></li></ul>
@@ -231,7 +293,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/springcloud/">springcloud</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/多线程编程/">多线程编程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/并发编程/">并发编程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据结构/">数据结构</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/源码解读/">源码解读</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/运营/">运营</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/springcloud/">springcloud</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/多线程/">多线程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/多线程编程/">多线程编程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/并发编程/">并发编程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据结构/">数据结构</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/源码解读/">源码解读</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/运营/">运营</a></li></ul>
     </div>
   </div>
 
@@ -251,7 +313,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Lock/" style="font-size: 10px;">Lock</a> <a href="/tags/springcloud/" style="font-size: 20px;">springcloud</a> <a href="/tags/spring源码解读/" style="font-size: 10px;">spring源码解读</a> <a href="/tags/多线程/" style="font-size: 15px;">多线程</a> <a href="/tags/学习资料/" style="font-size: 10px;">学习资料</a> <a href="/tags/微服务/" style="font-size: 20px;">微服务</a> <a href="/tags/运营/" style="font-size: 10px;">运营</a> <a href="/tags/链表/" style="font-size: 10px;">链表</a>
+      <a href="/tags/Lock/" style="font-size: 10px;">Lock</a> <a href="/tags/springcloud/" style="font-size: 20px;">springcloud</a> <a href="/tags/spring源码解读/" style="font-size: 10px;">spring源码解读</a> <a href="/tags/多线程/" style="font-size: 20px;">多线程</a> <a href="/tags/学习资料/" style="font-size: 10px;">学习资料</a> <a href="/tags/微服务/" style="font-size: 20px;">微服务</a> <a href="/tags/运营/" style="font-size: 10px;">运营</a> <a href="/tags/链表/" style="font-size: 10px;">链表</a>
     </div>
   </div>
 
@@ -260,7 +322,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">June 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">June 2019</a></li></ul>
     </div>
   </div>
 
@@ -271,6 +333,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2021/02/28/线程通知与等待/">线程通知与等待</a>
+          </li>
         
           <li>
             <a href="/2020/10/24/算法-——-动态规划/">算法 —— 动态规划</a>
@@ -288,10 +354,6 @@
             <a href="/2020/09/14/运营/">当我们在谈论运营我们在谈论什么</a>
           </li>
         
-          <li>
-            <a href="/2020/02/15/数据结构-——-链表/">数据结构 —— 链表.md</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -304,7 +366,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2020 mr.24<br>
+      &copy; 2021 mr.24<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>

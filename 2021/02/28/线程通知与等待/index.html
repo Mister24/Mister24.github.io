@@ -5,15 +5,20 @@
   
 
   
-  <title>Tag: spring源码解读 | Mister24</title>
+  <title>线程通知与等待 | Mister24</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Mister24">
-<meta property="og:url" content="http://yoursite.com/tags/spring源码解读/index.html">
+  <meta name="description" content="线程通知与等待1. wait()函数当一个线程调用一个共享变量的wait()方法时，该调用线程会被阻塞挂起，直到发生以下之一才会返回：  其他线程调用了该共享对象的notify()或notifyAll()方法； 其他线程调用了该线程的interrupt()方法，该线程抛出InterruptedException异常返回；   如果调用wait()方法的线程没有事先获取该对象的监视器锁，则调用wai">
+<meta name="keywords" content="多线程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="线程通知与等待">
+<meta property="og:url" content="http://yoursite.com/2021/02/28/线程通知与等待/index.html">
 <meta property="og:site_name" content="Mister24">
+<meta property="og:description" content="线程通知与等待1. wait()函数当一个线程调用一个共享变量的wait()方法时，该调用线程会被阻塞挂起，直到发生以下之一才会返回：  其他线程调用了该共享对象的notify()或notifyAll()方法； 其他线程调用了该线程的interrupt()方法，该线程抛出InterruptedException异常返回；   如果调用wait()方法的线程没有事先获取该对象的监视器锁，则调用wai">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2021-02-28T15:29:43.201Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mister24">
+<meta name="twitter:title" content="线程通知与等待">
+<meta name="twitter:description" content="线程通知与等待1. wait()函数当一个线程调用一个共享变量的wait()方法时，该调用线程会被阻塞挂起，直到发生以下之一才会返回：  其他线程调用了该共享对象的notify()或notifyAll()方法； 其他线程调用了该线程的interrupt()方法，该线程抛出InterruptedException异常返回；   如果调用wait()方法的线程没有事先获取该对象的监视器锁，则调用wai">
   
     <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
   
@@ -64,39 +69,77 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/06/22/spring源码解读 —— 容器的基本实现/" class="archive-article-date">
-  <time datetime="2019-06-22T15:39:52.000Z" itemprop="datePublished">Jun 22</time>
+        <section id="main"><article id="post-线程通知与等待" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/02/28/线程通知与等待/" class="article-date">
+  <time datetime="2021-02-28T15:27:04.000Z" itemprop="datePublished">2021-02-28</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/多线程/">多线程</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/06/22/spring源码解读 —— 容器的基本实现/">spring源码解读 —— 容器的基本实现</a>
+    <h1 class="article-title" itemprop="name">
+      线程通知与等待
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="线程通知与等待"><a href="#线程通知与等待" class="headerlink" title="线程通知与等待"></a>线程通知与等待</h1><h1 id="1-wait-函数"><a href="#1-wait-函数" class="headerlink" title="1. wait()函数"></a>1. wait()函数</h1><p>当一个线程调用一个共享变量的wait()方法时，该调用线程会被阻塞挂起，直到发生以下之一才会返回：</p>
+<ul>
+<li>其他线程调用了该共享对象的notify()或notifyAll()方法；</li>
+<li>其他线程调用了该线程的interrupt()方法，该线程抛出InterruptedException异常返回； </li>
+</ul>
+<p>如果调用wait()方法的线程没有事先获取该对象的监视器锁，则调用wait()方法时调用线程会抛出IlegealMonitorStatException异常。<br><br><br>线程如何获取到共享变量的监视器锁？</p>
+<ul>
+<li><p>执行synchronized同步代码块时，使用该共享变量作为参数。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">synchronized</span>(共享变量) &#123;</span><br><span class="line">	<span class="comment">// do something</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>调用该共享变量的方法，并且该方法使用了synchronized修饰。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;</span><br><span class="line">	<span class="comment">// do something</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><br>一个线程可以从挂起状态变为可运行状态（也就是被唤醒），即便该线程没有被其他线程调用notify()、notifyAll()方法进行通知，或者被中断，或者等待超时，这就是 <strong>虚假唤醒</strong>。<br><br><br>由于虚假幻想存在的可能性，需要不停的测试该线程被唤醒的条件是否满足，不满足则继续等待。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">synchronized</span> (obj) &#123;</span><br><span class="line">	<span class="keyword">while</span> (条件不满足) &#123;</span><br><span class="line">    	obj.wait();</span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>通过同步块获取obj的监视器锁，然后再while循环中调用obj的wait()方法。<br><br><br><br><br></p>
+<h1 id="参考学习"><a href="#参考学习" class="headerlink" title="参考学习"></a>参考学习</h1><h4 id="虚假唤醒"><a href="#虚假唤醒" class="headerlink" title="虚假唤醒"></a>虚假唤醒</h4><p><a href="https://www.cnblogs.com/dk1024/p/14163377.html" target="_blank" rel="noopener">https://www.cnblogs.com/dk1024/p/14163377.html</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2021/02/28/线程通知与等待/" data-id="cklpb7n8t000egac9dr8x0lf3" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/多线程/">多线程</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/10/24/算法-——-动态规划/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">算法 —— 动态规划</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>
