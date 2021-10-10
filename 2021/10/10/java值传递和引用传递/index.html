@@ -5,19 +5,20 @@
   
 
   
-  <title>SQL高级语句 | Mister24</title>
+  <title>java值传递和引用传递 | Mister24</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;SE">
+  <meta name="description" content="在Java方法中参数列表有两种类型的参数，基本类型和引用类型。 基本类型：byte,short,int,long,char,float,double,Boolean,returnAddress，值存放在局部变量表中，无论如何修改只会修改当前栈帧的值，方法执行结束对方法外不会做任何改变；此时需要改变外层的变量，必须返回主动赋值。方法调用时，实际参数把它的值传递给对应的形式参数，函数接收的是原始值的一">
+<meta name="keywords" content="java基础语法 java进阶">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SQL高级语句">
-<meta property="og:url" content="http://yoursite.com/2020/09/21/SQL高级语句/index.html">
+<meta property="og:title" content="java值传递和引用传递">
+<meta property="og:url" content="http://yoursite.com/2021/10/10/java值传递和引用传递/index.html">
 <meta property="og:site_name" content="Mister24">
-<meta property="og:description" content="通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;SE">
+<meta property="og:description" content="在Java方法中参数列表有两种类型的参数，基本类型和引用类型。 基本类型：byte,short,int,long,char,float,double,Boolean,returnAddress，值存放在局部变量表中，无论如何修改只会修改当前栈帧的值，方法执行结束对方法外不会做任何改变；此时需要改变外层的变量，必须返回主动赋值。方法调用时，实际参数把它的值传递给对应的形式参数，函数接收的是原始值的一">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-09-20T16:58:12.040Z">
+<meta property="og:updated_time" content="2021-10-10T16:05:18.470Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SQL高级语句">
-<meta name="twitter:description" content="通配符_           代替一个字符[abc]       字符列中的任何单一字符[^charlist] 不在字符列中的任何单一字符[!charlist] 不在字符列中的任何单一字符 1234567SELECT * FROM Websites WHERE name LIKE &apos;_oogle&apos;;SELECT * FROM Websites WHERE name LIKE &apos;G_o_le&apos;;SE">
+<meta name="twitter:title" content="java值传递和引用传递">
+<meta name="twitter:description" content="在Java方法中参数列表有两种类型的参数，基本类型和引用类型。 基本类型：byte,short,int,long,char,float,double,Boolean,returnAddress，值存放在局部变量表中，无论如何修改只会修改当前栈帧的值，方法执行结束对方法外不会做任何改变；此时需要改变外层的变量，必须返回主动赋值。方法调用时，实际参数把它的值传递给对应的形式参数，函数接收的是原始值的一">
   
     <link rel="alternate" href="/atom.xml" title="Mister24" type="application/atom+xml">
   
@@ -68,10 +69,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-SQL高级语句" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-java值传递和引用传递" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/09/21/SQL高级语句/" class="article-date">
-  <time datetime="2020-09-20T16:47:53.000Z" itemprop="datePublished">2020-09-21</time>
+    <a href="/2021/10/10/java值传递和引用传递/" class="article-date">
+  <time datetime="2021-10-10T15:58:36.000Z" itemprop="datePublished">2021-10-10</time>
 </a>
     
   </div>
@@ -82,7 +83,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      SQL高级语句
+      java值传递和引用传递
     </h1>
   
 
@@ -90,36 +91,29 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h2><p>_           代替一个字符<br>[abc]       字符列中的任何单一字符<br>[^charlist] 不在字符列中的任何单一字符<br>[!charlist] 不在字符列中的任何单一字符</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Websites <span class="keyword">WHERE</span> <span class="keyword">name</span> <span class="keyword">LIKE</span> <span class="string">'_oogle'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Websites <span class="keyword">WHERE</span> <span class="keyword">name</span> <span class="keyword">LIKE</span> <span class="string">'G_o_le'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Websites <span class="keyword">WHERE</span> <span class="keyword">name</span> REGEXP <span class="string">'^[GFs]'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> Websites <span class="keyword">WHERE</span> <span class="keyword">name</span> REGEXP <span class="string">'^[^A-H]'</span>;</span><br></pre></td></tr></table></figure>
-
-<h2 id="between"><a href="#between" class="headerlink" title="between"></a>between</h2><p>  BETWEEN 操作符可以用于选取介于两个值之间的数据范围内的值。这些值可以是数值、文本或者日期。</p>
+        <p>在Java方法中参数列表有两种类型的参数，基本类型和引用类型。</p>
+<p>基本类型：byte,short,int,long,char,float,double,Boolean,returnAddress，<br>值存放在局部变量表中，无论如何修改只会修改当前栈帧的值，方法执行结束对方法外不会做任何改变；此时需要改变外层的变量，必须返回主动赋值。<br>方法调用时，实际参数把它的值传递给对应的形式参数，函数接收的是原始值的一个copy，此时内存中存在两个相等的基本类型，即实际参数和形式参数，后面方法中的操作都是对形参这个值的修改，不影响实际参数的值。</p>
+<p>引用数据类型：类类型，接口类型和数组<br>指针存放在局部变量表中，调用方法的时候，副本引用压栈，赋值仅改变副本的引用。但是如果通过操作副本引用的值，修改了引用地址的对象，此时方法以外的引用此地址对象当然被修改。（两个引用，同一个地址，任何修改行为2个引用同时生效）。<br>方法调用时，实际参数的引用(地址，而不是参数的值)被传递给方法中相对应的形式参数，函数接收的是原始值的内存地址；<br>在方法执行中，形参和实参内容相同，指向同一块内存地址，方法执行中对引用的操作将会影响到实际对象。</p>
+<p>这两种类型都是将外面的参数变量拷贝一份到局部变量中，基本类型为值拷贝，引用类型就是将引用地址拷贝一份。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/09/21/SQL高级语句/" data-id="ckulfb0290000rkc96f4a1mep" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2021/10/10/java值传递和引用传递/" data-id="ckulfb02e0001rkc9c21yo227" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java基础语法-java进阶/">java基础语法 java进阶</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2020/10/24/算法-——-动态规划/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          算法 —— 动态规划
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/09/14/并发编程（1） —— Lock接口/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2021/02/28/线程通知与等待/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">并发编程 —— Lock接口</div>
+      <div class="article-nav-title">线程通知与等待</div>
     </a>
   
 </nav>
