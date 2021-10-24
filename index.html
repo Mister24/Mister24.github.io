@@ -535,8 +535,27 @@
 <li>ReflectionUtil：对配置文件中的配置进行反射实例化</li>
 <li>App：完成完整逻辑的串联</li>
 </ul>
-<p>@startuml<br>class ConfigReader<br>class ReflectionUtil<br>class App<br>App o– ConfigReader<br>App o– ReflectionUtil<br>@enduml</p>
-<h2 id="2-4-spring的结构组成"><a href="#2-4-spring的结构组成" class="headerlink" title="2.4 spring的结构组成"></a>2.4 spring的结构组成</h2><h3 id="2-4-1-beans包的层级机构"><a href="#2-4-1-beans包的层级机构" class="headerlink" title="2.4.1 beans包的层级机构"></a>2.4.1 beans包的层级机构</h3><h3 id="2-4-2-核心类介绍"><a href="#2-4-2-核心类介绍" class="headerlink" title="2.4.2 核心类介绍"></a>2.4.2 核心类介绍</h3><h4 id="2-4-2-1-DefaultListableBeanFactory"><a href="#2-4-2-1-DefaultListableBeanFactory" class="headerlink" title="2.4.2.1 DefaultListableBeanFactory"></a>2.4.2.1 DefaultListableBeanFactory</h4><p>XmlBeanFactory继承自DefaultListableBeanFactory，而DefaultListableBeanFactory是整个bean加载的核心部分，是spring注册及加载bean的默认实现，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@startuml</span><br><span class="line">class ConfigReader</span><br><span class="line">class ReflectionUtil</span><br><span class="line">class App</span><br><span class="line">App o-- ConfigReader</span><br><span class="line">App o-- ReflectionUtil</span><br><span class="line">@enduml</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-4-spring的结构组成"><a href="#2-4-spring的结构组成" class="headerlink" title="2.4 spring的结构组成"></a>2.4 spring的结构组成</h2><h3 id="2-4-1-beans包的层级机构"><a href="#2-4-1-beans包的层级机构" class="headerlink" title="2.4.1 beans包的层级机构"></a>2.4.1 beans包的层级机构</h3><h3 id="2-4-2-核心类介绍"><a href="#2-4-2-核心类介绍" class="headerlink" title="2.4.2 核心类介绍"></a>2.4.2 核心类介绍</h3><h4 id="2-4-2-1-DefaultListableBeanFactory"><a href="#2-4-2-1-DefaultListableBeanFactory" class="headerlink" title="2.4.2.1 DefaultListableBeanFactory"></a>2.4.2.1 DefaultListableBeanFactory</h4><p>XmlBeanFactory继承自DefaultListableBeanFactory，而DefaultListableBeanFactory是整个bean加载的核心部分，是spring注册及加载bean的默认实现</p>
+<h4 id="2-4-2-2-XmlBeanDefinition"><a href="#2-4-2-2-XmlBeanDefinition" class="headerlink" title="2.4.2.2 XmlBeanDefinition"></a>2.4.2.2 XmlBeanDefinition</h4><p>Xml配置文件的读取是Spring非常重要的功能，因为Spring大部分功能都是以配置作为切入点的。这部分涉及到的重点是：</p>
+<ul>
+<li>ResourceLoad：定义资源加载器，主要应用于根据给定的资源文件地址返回对应的Resource。</li>
+<li>BeanDefinitionReader：主要定义资源文件读取并转换为BeanDefinition的各个功能。</li>
+<li>EnvironmentCapable：定义获取Environment方法。</li>
+<li>DocumentLoader：定义从资源文件加载到转换为Document的功能。</li>
+<li>AbstractBeanDefinitionReader：对EnvironmentCapable、BeanDefinitionReader类定义的功能进行实现。</li>
+<li>BeanDefinitionDocumentReader：定义读取Document并注册BeanDefinition功能。</li>
+<li>BeanDefinitionParserDelegate：定义解析Element的各种方法。</li>
+</ul>
+<ol>
+<li>通过继承自AbstractBeanDefinitionReader中的方法，来使用ResourceLoader将资源文件路径转换为对应的Resource文件；</li>
+<li>通过DocumentLoader对Resource文件进行转换，将Resource文件转换为Document文件；</li>
+<li>通过实现接口BeanDefinitionDocumentReader的DefaultBeanDefinitionDocumentReader类对Document进行解析，并使用BeanDefinitionParserDelegate对Element进行解析。<h2 id="2-5-容器的基础XmlBeanFactory"><a href="#2-5-容器的基础XmlBeanFactory" class="headerlink" title="2.5 容器的基础XmlBeanFactory"></a>2.5 容器的基础XmlBeanFactory</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">BeanFactory beanFactory = <span class="keyword">new</span> XmlBeanFactory(<span class="keyword">new</span> ClassPathResource(<span class="string">"beanFactory.xml"</span>));</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>首先调用ClassPathResource的构造函数来构造Resource资源文件的实例对象，这样后续的资源服务就可以使用Resource提供的服务来操作了，当有了Resource后就可以进行XmlBeanFactory的初始化了。</p>
 <h1 id="获取Document"><a href="#获取Document" class="headerlink" title="获取Document"></a>获取Document</h1><p>&ensp;首选创建DocumentBuilderFactory，然后通过DocumentBuilderFactory创建DocumentBuilder，然后解析inputSource来返回Document对象。关于对inputSource的解析。交给domParser去处理，涉及到dom解析的部分就不再展开。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> Document <span class="title">loadDocument</span><span class="params">(InputSource inputSource, EntityResolver entityResolver,</span></span></span><br><span class="line"><span class="function"><span class="params">      ErrorHandler errorHandler, <span class="keyword">int</span> validationMode, <span class="keyword">boolean</span> namespaceAware)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line"></span><br><span class="line">   DocumentBuilderFactory factory = createDocumentBuilderFactory(validationMode, namespaceAware);</span><br><span class="line">   <span class="keyword">if</span> (logger.isTraceEnabled()) &#123;</span><br><span class="line">      logger.trace(<span class="string">"Using JAXP provider ["</span> + factory.getClass().getName() + <span class="string">"]"</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   DocumentBuilder builder = createDocumentBuilder(factory, entityResolver, errorHandler);</span><br><span class="line">   <span class="keyword">return</span> builder.parse(inputSource);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
