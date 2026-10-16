@@ -19,8 +19,15 @@ fi
 git commit -q -m "chore(site): ${DATE} AI 趋势日报更新"
 
 echo "🚀 3/3 推送到 GitHub Pages..."
-if ! git push origin "$BRANCH"; then
-  echo "⚠️  普通推送失败（远程为旧的 Hexo 站点，历史不相关），改为强制推送以替换站点"
-  git push -f origin "$BRANCH"
+export GIT_HTTP_LOW_SPEED_LIMIT=0
+push() {
+  git -c http.postBuffer=524288000 -c http.proxy="${GIT_PROXY:-}" push "$@"
+}
+if ! push origin "$BRANCH"; then
+  echo "⚠️  普通推送失败，关闭代理后重试..."
+  GIT_PROXY="" push origin "$BRANCH" || {
+    echo "⚠️  仍失败，改为强制推送以替换站点"
+    GIT_PROXY="" push -f origin "$BRANCH"
+  }
 fi
 echo "✅ 已发布：https://mister24.github.io/"
