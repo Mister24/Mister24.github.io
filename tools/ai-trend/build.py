@@ -31,8 +31,9 @@ DEFAULT_STYLE = ("#4b5563", "rgba(75,85,99,.09)")
 
 # 栏目路径：AI 日报 /ai-trend/ ，博客 /posts/
 NAV = [("home", "首页", "/"), ("trend", "AI 日报", "/ai-trend/"),
-       ("posts", "博客", "/posts/")]
+       ("gh", "GitHub 热点", "/github/"), ("posts", "博客", "/posts/")]
 TREND = "ai-trend"
+GH = "github"
 
 
 def esc(s):
@@ -505,7 +506,67 @@ def build_posts():
     return posts
 
 
-def home_html(tr, archive, dates, posts):
+def fmt_num(n):
+    return f"{n / 1000:.1f}k".replace(".0k", "k") if n >= 1000 else str(n)
+
+
+def gh_rows(items, period):
+    """榜单行：排名 / 仓库 / 描述 / 语言·star·fork·增速"""
+    label = "今日" if period == "daily" else "本周"
+    out = []
+    for i, r in enumerate(items, 1):
+        lang = f'<span class="lg">{esc(r["lang"])}</span>' if r.get("lang") else ""
+        out.append(
+            f'<a class="gh" href="{esc(r["url"])}" target="_blank" rel="noopener"'
+            f' data-t="{period}"><i>{i:02d}</i>'
+            f'<div class="gh-b"><div class="gh-n">{esc(r["name"])}</div>'
+            f'<p>{esc(r.get("desc", ""))}</p>'
+            f'<div class="gh-m">{lang}<span>★ {fmt_num(r["stars"])}</span>'
+            f'<span>⑂ {fmt_num(r["forks"])}</span>'
+            f'<span class="up">↑ {fmt_num(r["delta"])} {label}</span>'
+            f'</div></div></a>')
+    return "".join(out)
+
+
+def gh_side(gh):
+    langs = {}
+    for r in gh.get("daily", []):
+        if r.get("lang"):
+            langs[r["lang"]] = langs.get(r["lang"], 0) + 1
+    top = sorted(langs.items(), key=lambda x: -x[1])[:6]
+    mx = max([c for _, c in top], default=1)
+    bars = "".join(
+        f'<li><span>{esc(k)}</span><i style="width:{int(c / mx * 100)}%"></i>'
+        f'<em>{c}</em></li>' for k, c in top)
+    return (f'<aside class="side"><div class="side-t">今日概览</div>'
+            f'<div class="side-kv"><b>{len(gh.get("daily", []))}</b>日榜项目</div>'
+            f'<div class="side-kv"><b>{len(gh.get("weekly", []))}</b>周榜项目</div>'
+            f'<div class="side-t">日榜语言分布</div><ul class="bars">{bars}</ul>'
+            f'<div class="side-t">数据来源</div>'
+            f'<p class="side-p">github.com/trending<br/>每日 09:00 自动抓取 · 更新于 '
+            f'{esc(gh.get("date", ""))}</p></aside>')
+
+
+def github_html(gh):
+    daily, weekly = gh.get("daily", []), gh.get("weekly", [])
+    tabs = (f'<div class="cats">'
+            f'<button class="cat on" data-f="daily">日榜<em>{len(daily)}</em></button>'
+            f'<button class="cat" data-f="weekly">周榜<em>{len(weekly)}</em></button>'
+            f'</div>')
+    body = (f'<div class="top"><div><h1>GitHub 热点</h1>'
+            f'<p>每日 / 每周 Trending 仓库 · 更新于 {esc(gh.get("date", ""))} 09:00</p></div>'
+            f'<div class="kv"><div><b>{len(daily)}</b>daily</div>'
+            f'<div><b>{len(weekly)}</b>weekly</div>'
+            f'<div><b>09:00</b>daily</div></div></div>'
+            f'{tabs}'
+            f'<div class="ghWrap"><div class="ghMain">'
+            f'<div class="ghList">{gh_rows(daily, "daily")}{gh_rows(weekly, "weekly")}</div>'
+            f'<div class="empty">该榜单暂无内容。</div>'
+            f'</div>{gh_side(gh)}</div>')
+    return shell("GitHub 热点 · Trending 仓库榜", body, "gh")
+
+
+def home_html(tr, archive, dates, posts, gh=None):
     """站点首页：两个栏目入口 + 最近更新"""
     cards = (
         '<div class="homeGrid">'
@@ -513,7 +574,11 @@ def home_html(tr, archive, dates, posts):
         '<h2>AI 趋势日报</h2>'
         f'<p>每天 09:00 自动更新 · 聚焦 AI Coding 与具身智能</p>'
         f'<div class="kc-f">最新 {tr["date"]} · {len(dates)} 期归档 →</div></a>'
-        '<a class="homeCard" href="/posts/"><span class="kc">02</span>'
+        '<a class="homeCard" href="/github/"><span class="kc">02</span>'
+        '<h2>GitHub 热点</h2>'
+        '<p>每日 / 每周 Trending 仓库与增速排名</p>'
+        f'<div class="kc-f">{len(gh.get("daily", [])) if gh else 0} 个日榜项目 →</div></a>'
+        '<a class="homeCard" href="/posts/"><span class="kc">03</span>'
         '<h2>技术博客</h2>'
         '<p>Java 并发 / Spring 源码 / 数据结构与算法</p>'
         f'<div class="kc-f">{len(posts)} 篇笔记 →</div></a>'
@@ -526,9 +591,21 @@ def home_html(tr, archive, dates, posts):
         f'<li><time>{p["date"]}</time>'
         f'<a href="/posts/{p["url"]}.html">{esc(p["title"])}</a></li>'
         for p in posts[:5])
+    hot = ""
+    if gh and gh.get("daily"):
+        hot_li = "".join(
+            f'<li><span class="gh-h">{esc(r["name"])}</span>'
+            f'<a href="{esc(r["url"])}" target="_blank" rel="noopener">'
+            f'{esc(r.get("desc", "")[:34])}</a>'
+            f'<small>★{fmt_num(r["stars"])} ↑{fmt_num(r["delta"])}</small></li>'
+            for r in gh["daily"][:5])
+        hot = (f'<div class="sec"><h2>GitHub 今日热点</h2>'
+               f'<span class="n">更新于 {esc(gh.get("date", ""))}</span></div>'
+               f'<ul class="digest">{hot_li}</ul>')
     body = (f'<div class="top"><div><h1>Mister24</h1>'
-            f'<p>写点代码，看点趋势 ｜ AI 日报 + 技术笔记</p></div></div>'
+            f'<p>写点代码，看点趋势 ｜ AI 日报 + GitHub 热点 + 技术笔记</p></div></div>'
             f'{cards}'
+            f'{hot}'
             f'<div class="sec"><h2>最近日报</h2><span class="n">最近 {len(eds)} 期</span></div>'
             f'<ul class="arch">{latest_trend}</ul>'
             f'<div class="sec"><h2>最近文章</h2><span class="n">共 {len(posts)} 篇</span></div>'
@@ -558,7 +635,12 @@ def main():
         save(os.path.join(ROOT, TREND, f'{one["date"]}.html'),
              archive_html(one, dates))
     posts = build_posts()
-    save(os.path.join(ROOT, "index.html"), home_html(tr, archive, dates, posts))
+    gh = load(os.path.join(DATA, "github.json")) if os.path.exists(
+        os.path.join(DATA, "github.json")) else None
+    if gh:
+        save(os.path.join(ROOT, GH, "index.html"), github_html(gh))
+    save(os.path.join(ROOT, "index.html"),
+         home_html(tr, archive, dates, posts, gh))
     print(f'built {tr["date"]}: {len(tr["items"])} items, '
           f'archive={len(archive)}, posts={len(posts)}')
 

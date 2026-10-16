@@ -209,6 +209,35 @@ a{color:inherit}
 .pn.off{opacity:.45}
 @media (max-width:640px){.postnav{grid-template-columns:1fr}.pn.r{text-align:left}}
 
+/* ===== GitHub 热点 ===== */
+.ghWrap{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:26px;align-items:start}
+@media (max-width:900px){.ghWrap{grid-template-columns:1fr}.side{display:none}}
+.ghList{border:1px solid var(--bd);border-radius:5px;background:var(--panel);overflow:hidden}
+.gh{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--bd);text-decoration:none}
+.gh:last-child{border-bottom:0}
+.gh:hover{background:var(--sel)}
+.gh i{font-style:normal;color:var(--dim);font-size:11.5px;flex:none;padding-top:2px}
+.gh i:before{content:"["}.gh i:after{content:"]"}
+.gh-b{flex:1;min-width:0}
+.gh-n{font-size:14px;font-weight:700;line-height:1.5;word-break:break-all}
+.gh p{margin:5px 0 0;font-size:12.5px;opacity:.82;line-height:1.8}
+.gh-m{margin-top:8px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:11.5px;color:var(--dim)}
+.lg{color:var(--acc2);border:1px solid var(--bd);border-radius:2px;padding:1px 7px}
+.gh-m .up{color:var(--warn)}
+.side{border:1px solid var(--bd);border-radius:5px;background:var(--panel);padding:14px 16px;
+  position:sticky;top:74px}
+.side-t{font-size:11px;color:var(--dim);letter-spacing:.6px;margin:0 0 8px}
+.side-t + .side-t,.side-kv + .side-t,.bars + .side-t{margin-top:16px}
+.side-kv{font-size:11.8px;color:var(--dim);margin-bottom:5px}
+.side-kv b{color:var(--acc);font-size:14px;margin-right:6px;font-weight:700}
+.bars{list-style:none;margin:0;padding:0}
+.bars li{display:flex;align-items:center;gap:8px;font-size:11.3px;color:var(--dim);margin:5px 0}
+.bars li span{width:76px;flex:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars li i{display:block;height:6px;background:var(--acc);border-radius:3px;opacity:.75}
+.bars li em{font-style:normal;margin-left:auto}
+.side-p{margin:0;font-size:11.3px;color:var(--dim);line-height:1.8}
+.digest .gh-h{flex:none;color:var(--acc2);font-weight:700;font-size:12px}
+
 /* 首页栏目入口 */
 .homeGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:18px 0 4px}
 .homeCard{position:relative;display:block;border:1px solid var(--bd);border-radius:5px;

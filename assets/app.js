@@ -17,6 +17,9 @@
       if (empty) empty.style.display = n ? 'none' : 'block';
     });
   });
+  // 初始化：与默认选中的标签保持一致（如 GitHub 页默认只显示日榜）
+  var active = document.querySelector('.cat.on');
+  if (active) active.click();
 })();
 
 /* 代码块一键复制 */
