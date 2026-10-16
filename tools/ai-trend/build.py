@@ -58,10 +58,14 @@ def chip(track):
 
 def tags_html(tags):
     return "".join(f'<span class="tag">{esc(t)}</span>' for t in tags or [])
+SUBS = {"home": "首页", "trend": "AI 趋势日报", "gh": "GitHub 热点", "posts": "技术博客"}
+
+
 def shell(title, body, active="trend"):
     links = "".join(
         f'<a href="{u}" class="{"on" if k == active else ""}">{t}</a>'
         for k, t, u in NAV)
+    sub = SUBS.get(active, "AI 趋势日报")
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -74,7 +78,7 @@ def shell(title, body, active="trend"):
 </head>
 <body>
 <header class="site-head"><div class="wrap">
-  <a class="brand" href="/">Mister24<span>AI 趋势日报</span></a>
+  <a class="brand" href="/">Mister24<span>{sub}</span></a>
   <nav class="nav">{links}</nav>
 </div></header>
 <main class="wrap">
