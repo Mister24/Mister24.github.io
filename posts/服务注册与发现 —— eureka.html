@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>服务注册与发现 —— Eureka</title>
+<meta name="description" content="AI 趋势日报 · 聚焦 AI Coding 与具身智能，每日 09:00 更新"/>
+<meta name="color-scheme" content="dark light"/>
+<link rel="stylesheet" href="/assets/style.css"/>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/">Mister24<span>AI 趋势日报</span></a>
+  <nav class="nav"><a href="/" class="">首页</a><a href="/ai-trend/" class="">AI 日报</a><a href="/posts/" class="on">博客</a></nav>
+</div></header>
+<main class="wrap">
+<div class="doc"><article class="prose"><a class="back" href="/posts/">← 博客归档</a><header class="phead"><h1>服务注册与发现 —— Eureka</h1><div class="pmeta"><time>2019-06-11</time><span class="cat"></span><span>1 min read</span><span>425 字</span></div><div class="tags"></div></header><h2 id="服务注册"><a class="anchor" href="#服务注册">#</a>服务注册</h2>
+<p>  服务注册，即Eureka Client向Eureka Server提交自己的服务信息，包括IP地址、端口、service ID等信息。如果Eureka Client没有写service ID，则默认为 ${spring.application.name}。</p>
+<figure class="code"><figcaption><span class="lang">java</span><button class="copy" type="button">copy</button></figcaption><pre><code class="language-java">boolean register() throws Throwable {
+    logger.info(PREFIX + &quot;{}: registering service...&quot;, appPathIdentifier);
+    EurekaHttpResponse&lt;Void&gt; httpResponse;
+    try {
+        httpResponse = eurekaTransport.registrationClient.register(instanceInfo);
+    } catch (Exception e) {
+        logger.warn(PREFIX + &quot;{} - registration failed {}&quot;, appPathIdentifier, e.getMessage(), e);
+        throw e;
+    }
+    if (logger.isInfoEnabled()) {
+        logger.info(PREFIX + &quot;{} - registration status: {}&quot;, appPathIdentifier, httpResponse.getStatusCode());
+    }
+    return httpResponse.getStatusCode() == Status.NO_CONTENT.getStatusCode();
+}</code></pre></figure>
+<p>  这个方法被InstanceInfoReplication类的run()方法调用，整个类实现了Runable接口，run()方法如下：</p>
+<figure class="code"><figcaption><span class="lang">java</span><button class="copy" type="button">copy</button></figcaption><pre><code class="language-java">public void run() {
+    try {
+        discoveryClient.refreshInstanceInfo();
+
+        Long dirtyTimestamp = instanceInfo.isDirtyWithTime();
+        if (dirtyTimestamp != null) {
+            discoveryClient.register();
+            instanceInfo.unsetIsDirty(dirtyTimestamp);
+        }
+    } catch (Throwable t) {
+        logger.warn(&quot;There was a problem with the instance info replicator&quot;, t);
+    } finally {
+        Future next = scheduler.schedule(this, replicationIntervalSeconds, TimeUnit.SECONDS);
+        scheduledPeriodicRef.set(next);
+    }
+}</code></pre></figure>
+<p>  InstanceInfoReplication类是在DiscoveryClient初始化过程中使用，其中有一个initScheduledTasks()方法，这个方法开启了获取服务注册列表的信息，如果需要向Eureka Server注册，则开启注册，同时开启了定时任务向Eureka服务续约。</p>
+<figure class="code"><figcaption><span class="lang">java</span><button class="copy" type="button">copy</button></figcaption><pre><code class="language-java">private void initScheduledTasks() {
+    if (clientConfig.shouldFetchRegistry()) {
+        // registry cache refresh timer
+        int registryFetchIntervalSeconds = clientConfig.getRegistryFetchIntervalSeconds();
+        int expBackOffBound = clientConfig.getCacheRefreshExecutorExponentialBackOffBound();
+        scheduler.schedule(
+                new TimedSupervisorTask(
+                        &quot;cacheRefresh&quot;,
+                        scheduler,
+                        cacheRefreshExecutor,
+                        registryFetchIntervalSeconds,
+                        TimeUnit.SECONDS,
+                        expBackOffBound,
+                        new CacheRefreshThread()
+                ),
+                registryFetchIntervalSeconds, TimeUnit.SECONDS);
+    }
+
+    if (clientConfig.shouldRegisterWithEureka()) {
+        int renewalIntervalInSecs = instanceInfo.getLeaseInfo().getRenewalIntervalInSecs();
+        int expBackOffBound = clientConfig.getHeartbeatExecutorExponentialBackOffBound();
+        logger.info(&quot;Starting heartbeat executor: &quot; + &quot;renew interval is: {}&quot;, renewalIntervalInSecs);
+
+        // Heartbeat timer
+        scheduler.schedule(
+                new TimedSupervisorTask(
+                        &quot;heartbeat&quot;,
+                        scheduler,
+                        heartbeatExecutor,
+                        renewalIntervalInSecs,
+                        TimeUnit.SECONDS,
+                        expBackOffBound,
+                        new HeartbeatThread()
+                ),
+                renewalIntervalInSecs, TimeUnit.SECONDS);
+    .
+    .
+    .
+}</code></pre></figure>
+<hr/>
+<h2 id="服务续约"><a class="anchor" href="#服务续约">#</a>服务续约</h2>
+<p>  Eureka Client在默认情况下每隔30s发送一次心跳来进行服务续约，告知Eureka Server该Client仍然可用。如果Eureka Server在90s每没有收到Client的心跳，会将其从注册列表中删除。【不建议修改整个90s的默认时间】</p>
+<hr/>
+<p>获取服务注册列表信息
+服务下线
+服务剔除
+自我保护</p><nav class="postnav"><a class="pn" href="/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%EF%BC%881%EF%BC%89%20%E2%80%94%E2%80%94%20%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%BC%80%E5%90%AF%E6%96%B9%E5%BC%8F.html"><span>上一篇</span>多线程编程（1） —— 多线程开启方式</a><a class="pn r" href="/posts/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%20%E2%80%94%E2%80%94%20Ribbon.html"><span>下一篇</span>负载均衡 —— Ribbon</a></nav></article><aside class="toc"><div class="toc-t">目录</div><a class="t2" href="#服务注册">服务注册</a><a class="t2" href="#服务续约">服务续约</a></aside></div>
+</main>
+<footer class="wrap foot">
+  数据源：AITNT 全球 AI 新闻日报 · 多路交叉验证 ｜ 每日 09:00 自动渲染并推送 ｜ © 2026 Mister24
+</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>

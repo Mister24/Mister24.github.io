@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>算法 —— 动态规划</title>
+<meta name="description" content="AI 趋势日报 · 聚焦 AI Coding 与具身智能，每日 09:00 更新"/>
+<meta name="color-scheme" content="dark light"/>
+<link rel="stylesheet" href="/assets/style.css"/>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/">Mister24<span>AI 趋势日报</span></a>
+  <nav class="nav"><a href="/" class="">首页</a><a href="/ai-trend/" class="">AI 日报</a><a href="/posts/" class="on">博客</a></nav>
+</div></header>
+<main class="wrap">
+<div class="doc"><article class="prose"><a class="back" href="/posts/">← 博客归档</a><header class="phead"><h1>算法 —— 动态规划</h1><div class="pmeta"><time>2020-10-24</time><span class="cat"></span><span>2 min read</span><span>708 字</span></div><div class="tags"></div></header><h2 id="问题说明"><a class="anchor" href="#问题说明">#</a>问题说明</h2>
+<p>  动态规划在寻找有很多重叠子问题的情况下的最优解时有效，将大问题分解为子问题，最核心的部分是利用历史记录来保存中间子问题的答案，避免重复计算，这些历史记录需要进行存储，需要借助于一定的数据结构，如一维数字或者二维数组等。</p>
+<p>  如果一个问题满足以下2点，那么它就能用动态规划解决。</p>
+<ol><li>问题的所有答案构成一个潜在的数列</li><li>大问题最终可以由小问题来递推得到，f(n) 可以从f(n-1)获取到。</li></ol>
+<p>  当然，上面的提炼，除了把新手直接吓懵，没有任何作用，所以我们从基础入手，逐步揭开 "动态规划"的神秘面纱。</p>
+<h2 id="举个例子"><a class="anchor" href="#举个例子">#</a>举个例子</h2>
+<h2 id="跳台阶问题"><a class="anchor" href="#跳台阶问题">#</a>跳台阶问题</h2>
+<figure class="code"><figcaption><span class="lang">java</span><button class="copy" type="button">copy</button></figcaption><pre><code class="language-java">/**
+ * 一只青蛙一次可以跳上1级台阶，也可以跳上2级。求该青蛙跳上一个n级的台阶总共有多少种跳法（先后次序不同算不同的结果）。
+ *
+ * DP问题：
+ * （1）确定数组含义：dp[i]表示跳到第i阶的方法数；
+ * （2）找出数组元素间的关系：跳到第i阶，可以一步跳上来，也可以两步跳上来，所以dp[i]=dp[i-1]+dp[i-2]；
+ * （3）找出初始值：dp[0]=1,dp[1]=1；
+ *
+ * @author mr.24
+ * @version Id: Solution, v 1.0 2020/10/25 下午9:54 Exp $$
+ */
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(jump(-1));
+        System.out.println(jump(0));
+        System.out.println(jump(1));
+        System.out.println(jump(2));
+        System.out.println(jump(3));
+        System.out.println(jump(4));
+        System.out.println(jump(10));
+    }
+
+    public static int jump(int number) {
+        if (number &lt; 0) {
+            return 0;
+        }
+        if (number &gt;= 0 &amp;&amp; number &lt;= 2) {
+            return number;
+        }
+
+        int dp[] = new int[number];
+        int temp = 0;
+        int dp1 = 1;
+        int dp2 = 2;
+        for (int i = 3; i &lt;= number; i++) {
+            temp = dp1 + dp2;
+            dp1 = dp2;
+            dp2 = temp;
+        }
+
+        return dp2;
+    }
+}</code></pre></figure>
+<h2 id="求解思路"><a class="anchor" href="#求解思路">#</a>求解思路</h2>
+<ol><li>【最优子结构】找到最优子结构(子问题)，如F(10)可以分成F(9),F(8)两部分。</li><li>【状态转移方程】描述状态转移方程(用子问题的解来表示原问题），如F(N) = F(N-1)+F(N-2)</li></ol>
+<p>问题的边界,如，F(1)=1,F(2)=2.</p>
+<ol><li>最终实现一般有：传统递归方法、备忘录法、动态规划法。</li></ol>
+<p>明确 base case -&gt; 明确「状态」-&gt; 明确「选择」 -&gt; 定义 dp 数组/函数的含义。
+```shell script</p>
+<h2 id="初始化-base-case"><a class="anchor" href="#初始化-base-case">#</a>初始化 base case</h2>
+<p>dp[0][0][...] = base</p>
+<h2 id="进行状态转移"><a class="anchor" href="#进行状态转移">#</a>进行状态转移</h2>
+<p>for 状态1 in 状态1的所有取值：
+    for 状态2 in 状态2的所有取值：
+        for ...
+            dp[状态1][状态2][...] = 求最值(选择1，选择2...)</p>
+<figure class="code"><figcaption><span class="lang">text</span><button class="copy" type="button">copy</button></figcaption><pre><code class="language-text">
+
+# 常见问题目录
+- 最长公共子序列
+- 最优排序二叉树
+- 最长上升子序列
+- 最优三角剖分
+- 最大m子段和
+- 0-1背包问题
+- 最优排序二叉树
+- 最优合并问题
+- 最长公共子序列
+- 最大连续子串之和
+- 回文子串
+- 爬楼梯
+- 凑零钱
+- 通配符匹配
+- 最长有效括号
+- 不同路径
+- 正则表达式匹配
+- 编辑距离</code></pre></figure><nav class="postnav"><a class="pn" href="/posts/%E7%BA%BF%E7%A8%8B%E9%80%9A%E7%9F%A5%E4%B8%8E%E7%AD%89%E5%BE%85.html"><span>上一篇</span>线程通知与等待</a><a class="pn r" href="/posts/SQL%E9%AB%98%E7%BA%A7%E8%AF%AD%E5%8F%A5.html"><span>下一篇</span>SQL高级语句</a></nav></article><aside class="toc"><div class="toc-t">目录</div><a class="t2" href="#问题说明">问题说明</a><a class="t2" href="#举个例子">举个例子</a><a class="t2" href="#跳台阶问题">跳台阶问题</a><a class="t2" href="#求解思路">求解思路</a><a class="t2" href="#初始化-base-case">初始化 base case</a><a class="t2" href="#进行状态转移">进行状态转移</a></aside></div>
+</main>
+<footer class="wrap foot">
+  数据源：AITNT 全球 AI 新闻日报 · 多路交叉验证 ｜ 每日 09:00 自动渲染并推送 ｜ © 2026 Mister24
+</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>

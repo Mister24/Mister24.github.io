@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>java值传递和引用传递</title>
+<meta name="description" content="AI 趋势日报 · 聚焦 AI Coding 与具身智能，每日 09:00 更新"/>
+<meta name="color-scheme" content="dark light"/>
+<link rel="stylesheet" href="/assets/style.css"/>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/">Mister24<span>AI 趋势日报</span></a>
+  <nav class="nav"><a href="/" class="">首页</a><a href="/ai-trend/" class="">AI 日报</a><a href="/posts/" class="on">博客</a></nav>
+</div></header>
+<main class="wrap">
+<div class="doc"><article class="prose"><a class="back" href="/posts/">← 博客归档</a><header class="phead"><h1>java值传递和引用传递</h1><div class="pmeta"><time>2021-10-10</time><span class="cat"></span><span>1 min read</span><span>448 字</span></div><div class="tags"><span class="tag">java基础语法</span><span class="tag">java进阶</span></div></header><p>在Java方法中参数列表有两种类型的参数，基本类型和引用类型。</p>
+<p>基本类型：byte,short,int,long,char,float,double,Boolean,returnAddress，
+值存放在局部变量表中，无论如何修改只会修改当前栈帧的值，方法执行结束对方法外不会做任何改变；此时需要改变外层的变量，必须返回主动赋值。
+方法调用时，实际参数把它的值传递给对应的形式参数，函数接收的是原始值的一个copy，此时内存中存在两个相等的基本类型，即实际参数和形式参数，后面方法中的操作都是对形参这个值的修改，不影响实际参数的值。</p>
+<p>引用数据类型：类类型，接口类型和数组
+指针存放在局部变量表中，调用方法的时候，副本引用压栈，赋值仅改变副本的引用。但是如果通过操作副本引用的值，修改了引用地址的对象，此时方法以外的引用此地址对象当然被修改。（两个引用，同一个地址，任何修改行为2个引用同时生效）。
+方法调用时，实际参数的引用(地址，而不是参数的值)被传递给方法中相对应的形式参数，函数接收的是原始值的内存地址；
+在方法执行中，形参和实参内容相同，指向同一块内存地址，方法执行中对引用的操作将会影响到实际对象。</p>
+<p>这两种类型都是将外面的参数变量拷贝一份到局部变量中，基本类型为值拷贝，引用类型就是将引用地址拷贝一份。</p><nav class="postnav"><span class="pn off"><span>上一篇</span>没有了</span><a class="pn r" href="/posts/%E7%BA%BF%E7%A8%8B%E9%80%9A%E7%9F%A5%E4%B8%8E%E7%AD%89%E5%BE%85.html"><span>下一篇</span>线程通知与等待</a></nav></article></div>
+</main>
+<footer class="wrap foot">
+  数据源：AITNT 全球 AI 新闻日报 · 多路交叉验证 ｜ 每日 09:00 自动渲染并推送 ｜ © 2026 Mister24
+</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>
