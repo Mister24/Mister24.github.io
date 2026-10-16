@@ -20,6 +20,12 @@
   // 初始化：与默认选中的标签保持一致（如 GitHub 页默认只显示日榜）
   var active = document.querySelector('.cat.on');
   if (active) active.click();
+  // 支持 /github/#monthly 这类锚点直达指定榜单
+  var hash = (location.hash || '').replace('#', '');
+  if (hash) {
+    var target = document.querySelector('.cat[data-f="' + hash + '"]');
+    if (target) target.click();
+  }
 })();
 
 /* 代码块一键复制 */

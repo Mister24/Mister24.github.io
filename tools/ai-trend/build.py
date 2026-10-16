@@ -514,9 +514,12 @@ def fmt_num(n):
     return f"{n / 1000:.1f}k".replace(".0k", "k") if n >= 1000 else str(n)
 
 
+GH_LABEL = {"daily": "今日", "weekly": "本周", "monthly": "本月"}
+
+
 def gh_rows(items, period):
     """榜单行：排名 / 仓库 / 描述 / 语言·star·fork·增速"""
-    label = "今日" if period == "daily" else "本周"
+    label = GH_LABEL.get(period, "今日")
     out = []
     for i, r in enumerate(items, 1):
         lang = f'<span class="lg">{esc(r["lang"])}</span>' if r.get("lang") else ""
@@ -545,6 +548,7 @@ def gh_side(gh):
     return (f'<aside class="side"><div class="side-t">今日概览</div>'
             f'<div class="side-kv"><b>{len(gh.get("daily", []))}</b>日榜项目</div>'
             f'<div class="side-kv"><b>{len(gh.get("weekly", []))}</b>周榜项目</div>'
+            f'<div class="side-kv"><b>{len(gh.get("monthly", []))}</b>月榜项目</div>'
             f'<div class="side-t">日榜语言分布</div><ul class="bars">{bars}</ul>'
             f'<div class="side-t">数据来源</div>'
             f'<p class="side-p">github.com/trending<br/>每日 09:00 自动抓取 · 更新于 '
@@ -553,18 +557,21 @@ def gh_side(gh):
 
 def github_html(gh):
     daily, weekly = gh.get("daily", []), gh.get("weekly", [])
+    monthly = gh.get("monthly", [])
     tabs = (f'<div class="cats">'
             f'<button class="cat on" data-f="daily">日榜<em>{len(daily)}</em></button>'
             f'<button class="cat" data-f="weekly">周榜<em>{len(weekly)}</em></button>'
+            f'<button class="cat" data-f="monthly">月榜<em>{len(monthly)}</em></button>'
             f'</div>')
     body = (f'<div class="top"><div><h1>GitHub 热点</h1>'
-            f'<p>每日 / 每周 Trending 仓库 · 更新于 {esc(gh.get("date", ""))} 09:00</p></div>'
+            f'<p>每日 / 每周 / 每月 Trending 仓库 · 更新于 {esc(gh.get("date", ""))} 09:00</p></div>'
             f'<div class="kv"><div><b>{len(daily)}</b>daily</div>'
             f'<div><b>{len(weekly)}</b>weekly</div>'
-            f'<div><b>09:00</b>daily</div></div></div>'
+            f'<div><b>{len(monthly)}</b>monthly</div></div></div>'
             f'{tabs}'
             f'<div class="ghWrap"><div class="ghMain">'
-            f'<div class="ghList">{gh_rows(daily, "daily")}{gh_rows(weekly, "weekly")}</div>'
+            f'<div class="ghList">{gh_rows(daily, "daily")}{gh_rows(weekly, "weekly")}'
+            f'{gh_rows(monthly, "monthly")}</div>'
             f'<div class="empty">该榜单暂无内容。</div>'
             f'</div>{gh_side(gh)}</div>')
     return shell("GitHub 热点 · Trending 仓库榜", body, "gh")

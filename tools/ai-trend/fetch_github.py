@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""抓取 GitHub Trending（日榜 / 周榜），输出 tools/ai-trend/data/github.json
+"""抓取 GitHub Trending（日榜 / 周榜 / 月榜），输出 tools/ai-trend/data/github.json
 
 用法：python3 tools/ai-trend/fetch_github.py
 抓取失败时保留上一次的数据，不影响站点构建。
@@ -65,14 +65,19 @@ def parse_trending(html, limit=15):
 def main():
     os.makedirs(DAYS, exist_ok=True)
     today = datetime.date.today().isoformat()
-    result = {"date": today, "daily": [], "weekly": []}
+    result = {"date": today, "daily": [], "weekly": [], "monthly": []}
     try:
         result["daily"] = parse_trending(get("https://github.com/trending?since=daily"))
         result["weekly"] = parse_trending(get("https://github.com/trending?since=weekly"))
+        result["monthly"] = parse_trending(get("https://github.com/trending?since=monthly"))
     except Exception as exc:                      # 抓取失败：沿用上一次结果
         print(f"warn: fetch failed ({exc})")
         if os.path.exists(OUT):
             prev = json.load(open(OUT, encoding="utf-8"))
+            # 单个榜单失败时，其他榜单沿用上一次结果
+            for k in ("daily", "weekly", "monthly"):
+                if not result.get(k) and prev.get(k):
+                    result[k] = prev[k]
             if not result["daily"]:
                 result = prev
         else:
@@ -86,7 +91,8 @@ def main():
     with open(os.path.join(DAYS, f"{today}.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False)
     print(f"github trending: {len(result['daily'])} daily / "
-          f"{len(result['weekly'])} weekly @ {today}")
+          f"{len(result['weekly'])} weekly / {len(result.get('monthly', []))} monthly"
+          f" @ {today}")
 
 
 if __name__ == "__main__":
