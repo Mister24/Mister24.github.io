@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>路由网关 —— Zuul</title>
+<meta name="description" content="AI 趋势日报 · 聚焦 AI Coding 与具身智能，每日 09:00 更新"/>
+<meta name="color-scheme" content="dark light"/>
+<link rel="stylesheet" href="/assets/style.css"/>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/">Mister24<span>AI 趋势日报</span></a>
+  <nav class="nav"><a href="/" class="">AI 日报</a><a href="/posts/" class="on">博客</a></nav>
+</div></header>
+<main class="wrap">
+<article class="post"><a class="back" href="/posts/">← 博客归档</a><h1>路由网关 —— Zuul</h1><div class="date">2019-06-20</div><p>&amp;nbsp;&amp;nbsp;微服务网关涉及到负载均衡，缓存，路由，访问控制，服务代理，监控，日志等功能，</p>
+<h2>1. zuul的功能</h2>
+<p>&amp;nbsp;&amp;nbsp;zuul的主要功能如下：</p>
+<ul><li>动态路由和负载均衡；</li><li>统一api的暴露，屏蔽内部服务敏感信息；</li><li>身份认证和权限认证，安全保护；</li><li>监控及日志输出，记录请求；</li><li>流量监控，服务降级；</li><li>api接口从内部服务分离，方便测试。</li></ul>
+<p>---</p>
+<h2>2. zuul的工作原理</h2>
+<p>&amp;nbsp;&amp;nbsp;zuul通过自定义的ZuulServlet对请求进行控制，通过一系列的过滤器，在http请求的发起和响应期间进行一系列的操作。zuul采用动态读取、编译和运行这些过滤器，这些过滤器之间不能互相直接通信，而是使用RequestContext对象来共享数据，每个请求都会创建一个RequestContext。</p>
+<p>&amp;nbsp;&amp;nbsp;zuul在2.0版本对于现有框架进行了升级，使用了netty的nio机制提升性能，但是官方给出的性能提升数据大致在20%，所以如果不是异步场景较多，仍然考虑采用1.0版本，本文仍然以1.0版本为例。</p>
+<p><img alt="" src="photos/zuul-1.png"/></p>
+<p>&amp;nbsp;&amp;nbsp;外部http请求到达api网关服务的时候，首先它会进入第一个阶段pre，在这里它会被pre类型的过滤器进行处理。该类型过滤器的主要目的是在进行请求路由之前做一些前置加工，比如请求的校验等。</p>
+<p>&amp;nbsp;&amp;nbsp;在完成了pre类型的过滤器处理之后，请求进入第二个阶段routing，也就是之前说的路由请求转发阶段，请求将会被routing类型的处理器处理。这里的具体处理内容就是将外部请求转发到具体服务实例上去的过程,</p>
+<p>&amp;nbsp;&amp;nbsp;当服务实例请求结果都返回之后，routing阶段完成，请求进入第三个阶段post。此时请求将会被post类型的过滤器处理，这些过滤器在处理的时候不仅可以获取到请求信息，还能获取到服务实例的返回信息，所以在post类型的过滤器中，我们可以对处理结果进行一些加工或转换等内容。</p>
+<p>&amp;nbsp;&amp;nbsp;还有一个特殊的阶段error，该阶段只有在上述三个阶段中发生异常的时候才会触发，但是它的最后流向还是post类型的过滤器，因为它需要通过post过滤器将最终结果返回给请求客户端（对于error过滤器的处理，在spring cloud zuul的过滤链中实际上有一些不同）</p>
+<p><img alt="" src="photos/zuul-2.png"/></p>
+<p>&amp;nbsp;&amp;nbsp;zuul2.0前端用Netty Server代替Servlet，目的是支持前端异步。后端用Netty Client代替Http Client，目的是支持后端异步，过滤器换了名字，用Inbound Filters代替Pre-routing Filters，用Endpoint Filter代替Routing Filter，用Outbound Filters代替Post-routing Filters。</p>
+<p>---</p>
+<h2>3. 实例分析</h2>
+<p> ## 3.1 新增依赖</p>
+<p>&amp;nbsp;&amp;nbsp;需要引入Eureka Client的依赖和zuul的依赖。</p>
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-client&lt;/artifactId&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-cloud-starter-netflix-zuul&lt;/artifactId&gt;
+&lt;/dependency&gt;</code></pre>
+<p> ## 3.2 注解引入</p>
+<p>&amp;nbsp;&amp;nbsp;zuul的注解为@EnableZuulProxy，用来开启Zuul的功能。</p>
+<p> ## 3.3 配置数据</p>
+<ul><li>eureka的配置</li><li>zuul的路由配置</li></ul>
+<p>&amp;nbsp;&amp;nbsp;需要加入path和serviceId属性，满足path规则的请求都会被转发到对应serviceId的服务。</p>
+<h3>3.4 请求调用</h3>
+<pre><code>zuul.routes.hiapi.path=/hiapi/**
+zuul.routes.hiapi.service-id=eureka-client</code></pre>
+<p>&amp;nbsp;&amp;nbsp;使用上述规则，会将请求转发到eureka-client这个服务上，同时我们在自定义的filter中对token参数进行了校验。</p>
+<pre><code>@Component
+public class MyFilter extends ZuulFilter {
+    /** logger */
+    private static final Logger logger = LoggerFactory.getLogger(MyFilter.class);
+
+    // 过滤器类型，这里是前置过滤
+    @Override
+    public String filterType() {
+        return PRE_TYPE;
+    }
+
+    // 优先级，数值越低，优先级越高
+    @Override
+    public int filterOrder() {
+        return 0;
+    }
+
+    // 只有这里为true，才会执行过滤规则
+    @Override
+    public boolean shouldFilter() {
+        return true;
+    }
+
+    @Override
+    public Object run() throws ZuulException {
+        RequestContext context = RequestContext.getCurrentContext();
+        HttpServletRequest request = context.getRequest();
+        Object accessToken = request.getParameter(&quot;token&quot;);
+        if (accessToken == null) {
+            logger.warn(&quot;token is empty.&quot;);
+            context.setSendZuulResponse(false);
+            context.setResponseStatusCode(401);
+            try {
+                context.getResponse().getWriter().write(&quot;token is empty.&quot;);
+            } catch (Exception e) {
+                return null;
+            }
+            logger.info(&quot;ok&quot;);
+        }
+        return null;
+    }
+}
+</code></pre>
+<p>无token</p>
+<p><img alt="" src="photos/zuul4.png"/></p>
+<p>有token但超时，需要增加timeout的配置。</p>
+<p><img alt="" src="photos/zuul5.png"/></p>
+<p>---</p>
+<h2>4. 原理剖析</h2>
+<p> ## 4.1 过滤器</p>
+<p>&amp;nbsp;&amp;nbsp;通过shouldFilter()指定是否开启过滤器，如果是run()方法中的过滤器逻辑才会生效；通过filterType()指定过滤器类型；通过filterOrder()指定过滤顺序，值越小，优先级越高；通过重写run()来实现真实的过滤逻辑。</p>
+<p>filterType</p>
+<ul><li>pre过滤器</li></ul>
+<p>&amp;nbsp;&amp;nbsp;可以进行一些权限认证，日志记录，或者额外给Request增加一些属性供后续的filter使用。pre会优先按照order从小到大执行，然后再去执行请求转发到业务服务；</p>
+<ul><li>routing过滤器</li><li>post过滤器</li></ul>
+<p>&amp;nbsp;&amp;nbsp;在post的filter里，一般做一些日志记录，或者额外增加response属性；</p>
+<ul><li>error过滤器</li></ul>
+<p>&amp;nbsp;&amp;nbsp;对于同一种类型的过滤器，可以通过设置不同的优先级来定义生效的时机，比如说在pre过滤器中可以有两个自定义的过滤器，只需要设置filterOrder为0和1即可控制生效的先后顺序。</p>
+<p>参考</p>
+<p>https://blog.csdn.net/j3T9Z7H/article/details/81025180</p></article>
+</main>
+<footer class="wrap foot">
+  数据源：AITNT 全球 AI 新闻日报 · 多路交叉验证 ｜ 每日 09:00 自动渲染并推送 ｜ © 2026 Mister24
+</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>

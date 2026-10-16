@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SQL高级语句</title>
+<meta name="description" content="AI 趋势日报 · 聚焦 AI Coding 与具身智能，每日 09:00 更新"/>
+<meta name="color-scheme" content="dark light"/>
+<link rel="stylesheet" href="/assets/style.css"/>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/">Mister24<span>AI 趋势日报</span></a>
+  <nav class="nav"><a href="/" class="">AI 日报</a><a href="/posts/" class="on">博客</a></nav>
+</div></header>
+<main class="wrap">
+<article class="post"><a class="back" href="/posts/">← 博客归档</a><h1>SQL高级语句</h1><div class="date">2020-09-21</div><h3>通配符</h3>
+<p>_           代替一个字符</p>
+<p>[abc]       字符列中的任何单一字符</p>
+<p>[^charlist] 不在字符列中的任何单一字符</p>
+<p>[!charlist] 不在字符列中的任何单一字符</p>
+<pre><code>SELECT * FROM Websites WHERE name LIKE &#x27;_oogle&#x27;;
+
+SELECT * FROM Websites WHERE name LIKE &#x27;G_o_le&#x27;;
+
+SELECT * FROM Websites WHERE name REGEXP &#x27;^[GFs]&#x27;;
+
+SELECT * FROM Websites WHERE name REGEXP &#x27;^[^A-H]&#x27;;</code></pre>
+<h3>between</h3>
+<p>  BETWEEN 操作符可以用于选取介于两个值之间的数据范围内的值。这些值可以是数值、文本或者日期。</p></article>
+</main>
+<footer class="wrap foot">
+  数据源：AITNT 全球 AI 新闻日报 · 多路交叉验证 ｜ 每日 09:00 自动渲染并推送 ｜ © 2026 Mister24
+</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>算法 —— 动态规划</title>
+<meta name="description" content="AI 趋势日报 · 聚焦 AI Coding 与具身智能，每日 09:00 更新"/>
+<meta name="color-scheme" content="dark light"/>
+<link rel="stylesheet" href="/assets/style.css"/>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/">Mister24<span>AI 趋势日报</span></a>
+  <nav class="nav"><a href="/" class="">AI 日报</a><a href="/posts/" class="on">博客</a></nav>
+</div></header>
+<main class="wrap">
+<article class="post"><a class="back" href="/posts/">← 博客归档</a><h1>算法 —— 动态规划</h1><div class="date">2020-10-24</div><h2>问题说明</h2>
+<p>&amp;nbsp;&amp;nbsp;动态规划在寻找有很多重叠子问题的情况下的最优解时有效，将大问题分解为子问题，最核心的部分是利用历史记录来保存中间子问题的答案，避免重复计算，这些历史记录需要进行存储，需要借助于一定的数据结构，如一维数字或者二维数组等。</p>
+<p>&amp;nbsp;&amp;nbsp;如果一个问题满足以下2点，那么它就能用动态规划解决。</p>
+<p>1. 问题的所有答案构成一个潜在的数列</p>
+<p>2. 大问题最终可以由小问题来递推得到，f(n) 可以从f(n-1)获取到。</p>
+<p>&amp;nbsp;&amp;nbsp;当然，上面的提炼，除了把新手直接吓懵，没有任何作用，所以我们从基础入手，逐步揭开 &quot;动态规划&quot;的神秘面纱。</p>
+<h2>举个例子</h2>
+<h3>跳台阶问题</h3>
+<pre><code>/**
+ * 一只青蛙一次可以跳上1级台阶，也可以跳上2级。求该青蛙跳上一个n级的台阶总共有多少种跳法（先后次序不同算不同的结果）。
+ *
+ * DP问题：
+ * （1）确定数组含义：dp[i]表示跳到第i阶的方法数；
+ * （2）找出数组元素间的关系：跳到第i阶，可以一步跳上来，也可以两步跳上来，所以dp[i]=dp[i-1]+dp[i-2]；
+ * （3）找出初始值：dp[0]=1,dp[1]=1；
+ *
+ * @author mr.24
+ * @version Id: Solution, v 1.0 2020/10/25 下午9:54 Exp $$
+ */
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(jump(-1));
+        System.out.println(jump(0));
+        System.out.println(jump(1));
+        System.out.println(jump(2));
+        System.out.println(jump(3));
+        System.out.println(jump(4));
+        System.out.println(jump(10));
+    }
+
+    public static int jump(int number) {
+        if (number &lt; 0) {
+            return 0;
+        }
+        if (number &gt;= 0 &amp;&amp; number &lt;= 2) {
+            return number;
+        }
+
+        int dp[] = new int[number];
+        int temp = 0;
+        int dp1 = 1;
+        int dp2 = 2;
+        for (int i = 3; i &lt;= number; i++) {
+            temp = dp1 + dp2;
+            dp1 = dp2;
+            dp2 = temp;
+        }
+
+        return dp2;
+    }
+}
+</code></pre>
+<h2>求解思路</h2>
+<p>1. 【最优子结构】找到最优子结构(子问题)，如F(10)可以分成F(9),F(8)两部分。</p>
+<p>2. 【状态转移方程】描述状态转移方程(用子问题的解来表示原问题），如F(N) = F(N-1)+F(N-2)</p>
+<p>问题的边界,如，F(1)=1,F(2)=2.</p>
+<p>3. 最终实现一般有：传统递归方法、备忘录法、动态规划法。</p>
+<p>明确 base case -&gt; 明确「状态」-&gt; 明确「选择」 -&gt; 定义 dp 数组/函数的含义。</p>
+<pre><code># 初始化 base case
+dp[0][0][...] = base
+# 进行状态转移
+for 状态1 in 状态1的所有取值：
+    for 状态2 in 状态2的所有取值：
+        for ...
+            dp[状态1][状态2][...] = 求最值(选择1，选择2...)</code></pre>
+<h2>常见问题目录</h2>
+<ul><li>最长公共子序列</li><li>最优排序二叉树</li><li>最长上升子序列</li><li>最优三角剖分</li><li>最大m子段和</li><li>0-1背包问题</li><li>最优排序二叉树</li><li>最优合并问题</li><li>最长公共子序列</li><li>最大连续子串之和</li><li>回文子串</li><li>爬楼梯</li><li>凑零钱</li><li>通配符匹配</li><li>最长有效括号</li><li>不同路径</li><li>正则表达式匹配</li><li>编辑距离</li></ul></article>
+</main>
+<footer class="wrap foot">
+  数据源：AITNT 全球 AI 新闻日报 · 多路交叉验证 ｜ 每日 09:00 自动渲染并推送 ｜ © 2026 Mister24
+</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>

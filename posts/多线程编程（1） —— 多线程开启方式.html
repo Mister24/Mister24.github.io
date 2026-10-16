@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>多线程编程（1） —— 多线程开启方式</title>
+<meta name="description" content="AI 趋势日报 · 聚焦 AI Coding 与具身智能，每日 09:00 更新"/>
+<meta name="color-scheme" content="dark light"/>
+<link rel="stylesheet" href="/assets/style.css"/>
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="/">Mister24<span>AI 趋势日报</span></a>
+  <nav class="nav"><a href="/" class="">AI 日报</a><a href="/posts/" class="on">博客</a></nav>
+</div></header>
+<main class="wrap">
+<article class="post"><a class="back" href="/posts/">← 博客归档</a><h1>多线程编程（1） —— 多线程开启方式</h1><div class="date">2019-06-15</div><p>&amp;nbsp;&amp;nbsp;1个进程至少包含1个线程，多线程的使用方式有两种：继承Thread类，实现Runnable接口。</p>
+<p>---</p>
+<h2>1. 继承Thread类</h2>
+<pre><code>public class Thread implements Runnable</code></pre>
+<p>&amp;nbsp;&amp;nbsp;Thread类本身也实现了Runnable接口，但是如果需要创建线程的类已经有了父类，就无法使用这种方式，因为java不支持多继承。</p>
+<p><img alt="" src="photos/Thread.png"/></p>
+<h3>1.1 线程调用的随机性</h3>
+<pre><code>public class MyThread extends Thread {
+    @Override
+    public void run() {
+        super.run();
+        System.out.println(&quot;MyThread&quot;);
+    }
+}
+
+public class MyThreadRun {
+    public static void main(String[] args) {
+        MyThread myThread = new MyThread();
+        myThread.start();
+        System.out.println(&quot;运行结束！&quot;);
+    }
+}</code></pre>
+<p>&amp;nbsp;&amp;nbsp;从运行结果来看，MyThread.java类中的run方法执行的时间比较晚，这也说明在使用多线程技术时，代码的运行结果与代码执行顺序或者调用顺序是无关的。线程是一个子任务，CPU以不确定的方式，或者说以随机的时间来调用线程中的run方法，所以可能出现先打印“运行结束！”后输出“MyThread”这样的结果。</p>
+<h3>1.2 线程启动的随机性</h3>
+<pre><code>public class MyThread extends Thread {
+    @Override
+    public void run() {
+        //super.run();
+        try {
+            for (int i = 0; i &lt; 10; i++) {
+                int time = (int)(Math.random() * 1000);
+                Thread.sleep(time);
+                System.out.println(&quot;run = &quot; + Thread.currentThread().getName());
+            }
+        } catch (InterruptedException e) {
+            //TODO
+            e.printStackTrace();
+        }
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        try {
+            MyThread thread = new MyThread();
+            thread.setName(&quot;myThread&quot;);
+            thread.start();
+
+            for (int i = 0; i &lt; 10; i++) {
+                int time = (int)(Math.random() * 1000);
+                Thread.sleep(time);
+                System.out.println(&quot;run = &quot; + Thread.currentThread().getName());
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}</code></pre>
+<p>&amp;nbsp;&amp;nbsp;使用随机时间的sleep，使得线程挂起，此时CPU会执行不同的线程。</p>
+<p>&amp;nbsp;&amp;nbsp;Thread的start()方法通知“线程规划器”，此线程已经准备就绪，等待调用线程对象的run()方法，即就绪之后，等待一段时间，使得系统能够安排调用Thread的run()方法，使得线程真正开始运行，启动线程，相对于“异步执行”。如果直接调用thread.run()则为“同步执行”，整个执行动作直接由线程发起，而不是等待系统发起调用。</p>
+<p><strong>要点：执行start()只代表准备就绪。</strong></p>
+<pre><code>public class MyThread extends Thread {
+    private int i;
+
+    public MyThread(int i) {
+        super();
+        this.i = i;
+    }
+
+    @Override
+    public void run() {
+        try {
+            Thread.sleep(2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(i);
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        MyThread myThread1 = new MyThread(1);
+        MyThread myThread2 = new MyThread(2);
+        MyThread myThread3 = new MyThread(3);
+        MyThread myThread4 = new MyThread(4);
+        MyThread myThread5 = new MyThread(5);
+        MyThread myThread6 = new MyThread(6);
+        MyThread myThread7 = new MyThread(7);
+        MyThread myThread8 = new MyThread(8);
+        MyThread myThread9 = new MyThread(9);
+        MyThread myThread10 = new MyThread(10);
+        MyThread myThread11 = new MyThread(11);
+        MyThread myThread12 = new MyThread(12);
+        MyThread myThread13 = new MyThread(13);
+
+        myThread1.start();
+        myThread2.start();
+        myThread3.start();
+        myThread4.start();
+        myThread5.start();
+        myThread6.start();
+        myThread7.start();
+        myThread8.start();
+        myThread9.start();
+        myThread10.start();
+        myThread11.start();
+        myThread12.start();
+        myThread13.start();
+    }
+}</code></pre>
+<p>&amp;nbsp;&amp;nbsp;这里如果不添加Thread.sleep(2），如果cpu切换的足够快，就无法观察到。</p>
+<p><img alt="" src="photos/Thread1.png"/></p>
+<p>&amp;nbsp;&amp;nbsp;显式的使得线程sleep时间为2ms，则可以看到执行start()方法的顺序不代表线程启动的顺序。</p>
+<p><img alt="" src="photos/Thread2.png"/></p>
+<p>---</p>
+<h2>2. 实现Runnable接口</h2>
+<p>&amp;nbsp;&amp;nbsp;使用继承Thread类的方式来开发多线程的设计有局限性，由于java对于多继承不支持，所以使用实现Runnable接口的方式来完成，</p>
+<pre><code>public class MyRunnable implements Runnable {
+    @Override
+    public void run() {
+        System.out.println(&quot;运行中！&quot;);
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Thread thread = new Thread(new MyRunnable());
+        thread.start();
+        System.out.println(&quot;运行结束！&quot;);
+    }
+}</code></pre>
+<p>&amp;nbsp;&amp;nbsp;将Runnable接口的对象传入到Thread的构造函数的参数中，调用thread的start()方法，该线程的处理逻辑在run()方法中描述。</p>
+<p>https://github.com.ipaddress.com/</p>
+<p>https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo</p>
+<p>---</p></article>
+</main>
+<footer class="wrap foot">
+  数据源：AITNT 全球 AI 新闻日报 · 多路交叉验证 ｜ 每日 09:00 自动渲染并推送 ｜ © 2026 Mister24
+</footer>
+<script src="/assets/app.js"></script>
+</body>
+</html>
