@@ -31,9 +31,11 @@ DEFAULT_STYLE = ("#4b5563", "rgba(75,85,99,.09)")
 
 # 栏目路径：AI 日报 /ai-trend/ ，博客 /posts/
 NAV = [("home", "首页", "/"), ("trend", "AI 日报", "/ai-trend/"),
-       ("gh", "GitHub 热点", "/github/"), ("posts", "博客", "/posts/")]
+       ("gh", "GitHub 热点", "/github/"), ("hot", "博文热点", "/hot/"),
+       ("posts", "博客", "/posts/")]
 TREND = "ai-trend"
 GH = "github"
+HOT = "hot"
 
 
 def esc(s):
@@ -58,7 +60,8 @@ def chip(track):
 
 def tags_html(tags):
     return "".join(f'<span class="tag">{esc(t)}</span>' for t in tags or [])
-SUBS = {"home": "首页", "trend": "AI 趋势日报", "gh": "GitHub 热点", "posts": "技术博客"}
+SUBS = {"home": "首页", "trend": "AI 趋势日报", "gh": "GitHub 热点",
+        "hot": "博文热点", "posts": "技术博客"}
 
 
 def shell(title, body, active="trend"):
@@ -577,8 +580,72 @@ def github_html(gh):
     return shell("GitHub 热点 · Trending 仓库榜", body, "gh")
 
 
-def home_html(tr, archive, dates, posts, gh=None):
-    """站点首页：两个栏目入口 + 最近更新"""
+def hot_rows(items, plat):
+    """博文热点行：排名 / 标题 / 平台 · 热度 · 互动量"""
+    label = "知乎" if plat == "zhihu" else "虎扑"
+    out = []
+    for i, r in enumerate(items, 1):
+        if plat == "zhihu":
+            meta = (f'<span class="lg">{label}</span>'
+                    f'<span>{esc(r.get("hot", ""))}</span>'
+                    f'<span>{r.get("answers", 0)} 回答</span>')
+        else:
+            meta = (f'<span class="lg">{label}</span>'
+                    f'<span>{r.get("replies", 0)} 回复</span>'
+                    f'<span>{fmt_num(r.get("views", 0))} 浏览</span>'
+                    f'<span>{esc(r.get("author", ""))}</span>'
+                    f'<span>{esc(r.get("time", ""))}</span>')
+        out.append(
+            f'<a class="gh" href="{esc(r.get("url", "#"))}" target="_blank"'
+            f' rel="noopener" data-t="{plat}"><i>{i:02d}</i>'
+            f'<div class="gh-b"><div class="gh-n">{esc(r.get("title", ""))}</div>'
+            f'<div class="gh-m">{meta}</div></div></a>')
+    return "".join(out)
+
+
+def hot_side(hot):
+    zh, hp = hot.get("zhihu", []), hot.get("hupu", [])
+    hot5 = ""
+    if hp:
+        top = sorted(hp, key=lambda x: -x.get("replies", 0))[:5]
+        mx = max([x.get("replies", 0) for x in top] + [1])
+        li = "".join(
+            f'<li><span>{esc(t["title"][:12])}</span>'
+            f'<i style="width:{int(t.get("replies", 0) / mx * 100)}%"></i>'
+            f'<em>{t.get("replies", 0)}</em></li>' for t in top)
+        hot5 = f'<div class="side-t">虎扑热议 TOP5</div><ul class="bars">{li}</ul>'
+    return (f'<aside class="side"><div class="side-t">今日概览</div>'
+            f'<div class="side-kv"><b>{len(zh)}</b>知乎热榜</div>'
+            f'<div class="side-kv"><b>{len(hp)}</b>虎扑步行街</div>'
+            f'{hot5}'
+            f'<div class="side-t">数据来源</div>'
+            f'<p class="side-p">zhihu.com/hot · bbs.hupu.com/bxj<br/>'
+            f'每日 09:00 自动抓取 · 更新于 {esc(hot.get("date", ""))}</p></aside>')
+
+
+def hot_html(hot):
+    zh, hp = hot.get("zhihu", []), hot.get("hupu", [])
+    tabs = (f'<div class="cats">'
+            f'<button class="cat on" data-f="zhihu">知乎<em>{len(zh)}</em></button>'
+            f'<button class="cat" data-f="hupu">虎扑<em>{len(hp)}</em></button>'
+            f'</div>')
+    body = (f'<div class="top"><div><h1>博文热点</h1>'
+            f'<p>知乎热榜 + 虎扑步行街 · 更新于 {esc(hot.get("date", ""))} 09:00</p>'
+            f'</div><div class="kv"><div><b>{len(zh)}</b>zhihu</div>'
+            f'<div><b>{len(hp)}</b>hupu</div>'
+            f'<div><b>09:00</b>daily</div></div></div>'
+            f'{tabs}'
+            f'<div class="ghWrap"><div class="ghMain">'
+            f'<div class="ghList">{hot_rows(zh, "zhihu")}{hot_rows(hp, "hupu")}</div>'
+            f'<div class="empty">该平台暂无内容。</div>'
+            f'</div>{hot_side(hot)}</div>')
+    return shell("博文热点 · 知乎热榜与虎扑步行街", body, "hot")
+
+
+def home_html(tr, archive, dates, posts, gh=None, hot_data=None):
+    """站点首页：各栏目入口 + 最近更新"""
+    n_hot = (len(hot_data.get("zhihu", [])) + len(hot_data.get("hupu", []))
+             if hot_data else 0)
     cards = (
         '<div class="homeGrid">'
         f'<a class="homeCard" href="/{TREND}/"><span class="kc">01</span>'
@@ -589,7 +656,11 @@ def home_html(tr, archive, dates, posts, gh=None):
         '<h2>GitHub 热点</h2>'
         '<p>每日 / 每周 Trending 仓库与增速排名</p>'
         f'<div class="kc-f">{len(gh.get("daily", [])) if gh else 0} 个日榜项目 →</div></a>'
-        '<a class="homeCard" href="/posts/"><span class="kc">03</span>'
+        '<a class="homeCard" href="/hot/"><span class="kc">03</span>'
+        '<h2>博文热点</h2>'
+        '<p>知乎热榜与虎扑步行街的每日热帖</p>'
+        f'<div class="kc-f">{n_hot} 条热点 →</div></a>'
+        '<a class="homeCard" href="/posts/"><span class="kc">04</span>'
         '<h2>技术博客</h2>'
         '<p>Java 并发 / Spring 源码 / 数据结构与算法</p>'
         f'<div class="kc-f">{len(posts)} 篇笔记 →</div></a>'
@@ -648,10 +719,14 @@ def main():
     posts = build_posts()
     gh = load(os.path.join(DATA, "github.json")) if os.path.exists(
         os.path.join(DATA, "github.json")) else None
+    hot = load(os.path.join(DATA, "hot.json")) if os.path.exists(
+        os.path.join(DATA, "hot.json")) else None
     if gh:
         save(os.path.join(ROOT, GH, "index.html"), github_html(gh))
+    if hot:
+        save(os.path.join(ROOT, HOT, "index.html"), hot_html(hot))
     save(os.path.join(ROOT, "index.html"),
-         home_html(tr, archive, dates, posts, gh))
+         home_html(tr, archive, dates, posts, gh, hot))
     print(f'built {tr["date"]}: {len(tr["items"])} items, '
           f'archive={len(archive)}, posts={len(posts)}')
 
