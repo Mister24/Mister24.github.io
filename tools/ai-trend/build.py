@@ -32,7 +32,8 @@ DEFAULT_STYLE = ("#4b5563", "rgba(75,85,99,.09)")
 # 栏目路径：AI 日报 /ai-trend/ ，博客 /posts/
 NAV = [("home", "首页", "/"), ("trend", "AI 日报", "/ai-trend/"),
        ("aiblog", "AI 技术博客", "/aiblog/"), ("gh", "GitHub 热点", "/github/"),
-       ("hot", "博文热点", "/hot/"), ("posts", "博客", "/posts/")]
+       ("hot", "博文热点", "/hot/")]
+# 注：/posts/ 博客归档暂不对外展示，页面仍生成但无入口
 TREND = "ai-trend"
 AIBLOG = "aiblog"
 GH = "github"
@@ -61,11 +62,13 @@ def chip(track):
 
 def tags_html(tags):
     return "".join(f'<span class="tag">{esc(t)}</span>' for t in tags or [])
+
+
 SUBS = {"home": "首页", "trend": "AI 趋势日报", "aiblog": "AI 技术博客",
         "gh": "GitHub 热点", "hot": "博文热点", "posts": "技术博客"}
 
 
-def shell(title, body, active="trend"):
+def shell(title, body, active="trend", noindex=False):
     links = "".join(
         f'<a href="{u}" class="{"on" if k == active else ""}">{t}</a>'
         for k, t, u in NAV)
@@ -79,6 +82,7 @@ def shell(title, body, active="trend"):
 <meta name="description" content="AI 趋势日报 · 聚焦 AI Coding 与具身智能，每日 09:00 更新"/>
 <meta name="color-scheme" content="dark light"/>
 <link rel="stylesheet" href="/assets/style.css"/>
+{'<meta name="robots" content="noindex,nofollow"/>' if noindex else ''}
 </head>
 <body>
 <header class="site-head"><div class="wrap">
@@ -494,7 +498,8 @@ def build_posts():
             f'<p>{len(posts)} 篇技术笔记 · Java 并发 / Spring / 数据结构与算法</p></div></div>'
             + "".join(blocks)
             + f'<p style="margin-top:26px"><a class="back" href="/{TREND}/">← 回到 AI 趋势日报</a></p>')
-    save(os.path.join(ROOT, "posts", "index.html"), shell("博客归档", body, "posts"))
+    save(os.path.join(ROOT, "posts", "index.html"),
+         shell("博客归档", body, "posts", True))
 
     # 文章页
     for idx, p in enumerate(posts):
@@ -510,7 +515,7 @@ def build_posts():
         pb = (f'<div class="doc"><article class="prose">{head}{p["body"]}'
               f'{postnav_html(prev_p, next_p)}</article>{toc_html(p["toc"])}</div>')
         save(os.path.join(ROOT, "posts", f'{p["slug"]}.html'),
-             shell(p["title"], pb, "posts"))
+             shell(p["title"], pb, "posts", True))
     return posts
 
 
@@ -726,19 +731,11 @@ def home_html(tr, archive, dates, posts, gh=None, hot_data=None, blog=None):
         '<h2>博文热点</h2>'
         '<p>知乎热榜与虎扑步行街的每日热帖</p>'
         f'<div class="kc-f">{n_hot} 条热点 →</div></a>'
-        '<a class="homeCard" href="/posts/"><span class="kc">05</span>'
-        '<h2>技术博客</h2>'
-        '<p>Java 并发 / Spring 源码 / 数据结构与算法</p>'
-        f'<div class="kc-f">{len(posts)} 篇笔记 →</div></a>'
         '</div>')
     eds = sorted(archive, key=lambda x: x["date"], reverse=True)[:5]
     latest_trend = "".join(
         f'<li><time>{a["date"]}</time>'
         f'<a href="/{TREND}/{a["date"]}.html">{esc(a["headline"])}</a></li>' for a in eds)
-    latest_post = "".join(
-        f'<li><time>{p["date"]}</time>'
-        f'<a href="/posts/{p["url"]}.html">{esc(p["title"])}</a></li>'
-        for p in posts[:5])
     hot = ""
     if gh and gh.get("daily"):
         hot_li = "".join(
@@ -751,13 +748,11 @@ def home_html(tr, archive, dates, posts, gh=None, hot_data=None, blog=None):
                f'<span class="n">更新于 {esc(gh.get("date", ""))}</span></div>'
                f'<ul class="digest">{hot_li}</ul>')
     body = (f'<div class="top"><div><h1>Mister24</h1>'
-            f'<p>写点代码，看点趋势 ｜ AI 日报 + GitHub 热点 + 技术笔记</p></div></div>'
+            f'<p>写点代码，看点趋势 ｜ AI 日报 + AI 技术博客 + GitHub 热点 + 博文热点</p></div></div>'
             f'{cards}'
             f'{hot}'
             f'<div class="sec"><h2>最近日报</h2><span class="n">最近 {len(eds)} 期</span></div>'
-            f'<ul class="arch">{latest_trend}</ul>'
-            f'<div class="sec"><h2>最近文章</h2><span class="n">共 {len(posts)} 篇</span></div>'
-            f'<ul class="arch">{latest_post}</ul>')
+            f'<ul class="arch">{latest_trend}</ul>')
     return shell("Mister24 · AI 趋势日报与技术笔记", body, "home")
 
 
