@@ -616,9 +616,11 @@ def hot_side(hot):
         top = sorted(hp, key=lambda x: -x.get("replies", 0))[:5]
         mx = max([x.get("replies", 0) for x in top] + [1])
         li = "".join(
-            f'<li><span>{esc(t["title"][:12])}</span>'
+            f'<li><a href="{esc(t.get("url", "#"))}" target="_blank" rel="noopener"'
+            f' title="{esc(t["title"])}">'
+            f'<span>{esc(t["title"][:12])}</span>'
             f'<i style="width:{int(t.get("replies", 0) / mx * 100)}%"></i>'
-            f'<em>{t.get("replies", 0)}</em></li>' for t in top)
+            f'<em>{t.get("replies", 0)}</em></a></li>' for t in top)
         hot5 = f'<div class="side-t">虎扑热议 TOP5</div><ul class="bars">{li}</ul>'
     return (f'<aside class="side"><div class="side-t">今日概览</div>'
             f'<div class="side-kv"><b>{len(zh)}</b>知乎热榜</div>'
