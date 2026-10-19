@@ -7,16 +7,19 @@ cd "$(dirname "$0")/../.."
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 DATE=$(date +%F)
 
-echo "🐙 1/5 抓取 GitHub Trending..."
+echo "🐙 1/6 抓取 GitHub Trending..."
 python3 tools/ai-trend/fetch_github.py || echo "⚠️  抓取失败，沿用上次数据"
 
-echo "🔥 2/5 抓取博文热点（知乎 / 虎扑）..."
+echo "📝 2/6 抓取 AI 技术博客..."
+python3 tools/ai-trend/fetch_aiblog.py || echo "⚠️  抓取失败，沿用上次数据"
+
+echo "🔥 3/6 抓取博文热点（知乎 / 虎扑）..."
 python3 tools/ai-trend/fetch_hot.py || echo "⚠️  抓取失败，沿用上次数据"
 
-echo "🏗  3/5 构建静态站点..."
+echo "🏗  4/6 构建静态站点..."
 python3 tools/ai-trend/build.py
 
-echo "📦 4/5 提交变更..."
+echo "📦 5/6 提交变更..."
 git add -A
 if git diff --cached --quiet; then
   echo "ℹ️  无内容变更，跳过提交"
@@ -24,7 +27,7 @@ if git diff --cached --quiet; then
 fi
 git commit -q -m "chore(site): ${DATE} AI 趋势日报 + GitHub 热点更新"
 
-echo "🚀 5/5 推送到 GitHub Pages..."
+echo "🚀 6/6 推送到 GitHub Pages..."
 export GIT_HTTP_LOW_SPEED_LIMIT=0
 push() {
   git -c http.postBuffer=524288000 -c http.proxy="${GIT_PROXY:-}" push "$@"

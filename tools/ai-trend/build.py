@@ -31,9 +31,10 @@ DEFAULT_STYLE = ("#4b5563", "rgba(75,85,99,.09)")
 
 # 栏目路径：AI 日报 /ai-trend/ ，博客 /posts/
 NAV = [("home", "首页", "/"), ("trend", "AI 日报", "/ai-trend/"),
-       ("gh", "GitHub 热点", "/github/"), ("hot", "博文热点", "/hot/"),
-       ("posts", "博客", "/posts/")]
+       ("aiblog", "AI 技术博客", "/aiblog/"), ("gh", "GitHub 热点", "/github/"),
+       ("hot", "博文热点", "/hot/"), ("posts", "博客", "/posts/")]
 TREND = "ai-trend"
+AIBLOG = "aiblog"
 GH = "github"
 HOT = "hot"
 
@@ -60,8 +61,8 @@ def chip(track):
 
 def tags_html(tags):
     return "".join(f'<span class="tag">{esc(t)}</span>' for t in tags or [])
-SUBS = {"home": "首页", "trend": "AI 趋势日报", "gh": "GitHub 热点",
-        "hot": "博文热点", "posts": "技术博客"}
+SUBS = {"home": "首页", "trend": "AI 趋势日报", "aiblog": "AI 技术博客",
+        "gh": "GitHub 热点", "hot": "博文热点", "posts": "技术博客"}
 
 
 def shell(title, body, active="trend"):
@@ -642,25 +643,89 @@ def hot_html(hot):
     return shell("博文热点 · 知乎热榜与虎扑步行街", body, "hot")
 
 
-def home_html(tr, archive, dates, posts, gh=None, hot_data=None):
+def aiblog_rows(items):
+    """博客条目：编号 / 标题 / 来源·日期 / 摘要"""
+    out = []
+    for i, r in enumerate(items, 1):
+        meta = (f'<span class="lg">{esc(r.get("source_name", ""))}</span>'
+                f'<span>{esc(r.get("date", ""))}</span>')
+        if r.get("points"):
+            meta += f'<span>{r["points"]} 分</span>'
+        s = esc(r.get("summary", ""))
+        sm = f'<div class="gh-s">{s}</div>' if s else ""
+        out.append(
+            f'<a class="gh" href="{esc(r.get("url", "#"))}" target="_blank"'
+            f' rel="noopener" data-t="{esc(r.get("kind", "official"))}"><i>{i:02d}</i>'
+            f'<div class="gh-b"><div class="gh-n">{esc(r.get("title", ""))}</div>'
+            f'<div class="gh-m">{meta}</div>{sm}</div></a>')
+    return "".join(out)
+
+
+def aiblog_side(items, date):
+    cnt = {}
+    for r in items:
+        cnt[r.get("source_name", "")] = cnt.get(r.get("source_name", ""), 0) + 1
+    mx = max(cnt.values() or [1])
+    bars = "".join(
+        f'<li><span>{esc(k)}</span>'
+        f'<i style="width:{int(v / mx * 100)}%"></i><em>{v}</em></li>'
+        for k, v in sorted(cnt.items(), key=lambda x: -x[1]))
+    return (f'<aside class="side"><div class="side-t">今日概览</div>'
+            f'<div class="side-kv"><b>{len(items)}</b>篇文章</div>'
+            f'<div class="side-kv"><b>{len(cnt)}</b>个来源</div>'
+            f'<div class="side-t">来源分布</div><ul class="bars">{bars}</ul>'
+            f'<div class="side-t">数据来源</div>'
+            f'<p class="side-p">OpenAI / DeepMind / PyTorch / AWS / Google<br/>'
+            f'美团技术团队 · InfoQ · Hacker News<br/>'
+            f'每日 09:00 抓取 · 更新于 {esc(date)}</p></aside>')
+
+
+def aiblog_html(data):
+    items = data.get("items", [])
+    kinds = [("official", "官方工程博客"), ("cn", "中文技术团队"),
+             ("community", "社区分享")]
+    tabs = '<div class="cats"><button class="cat on" data-f="official">官方工程博客'
+    tabs += f'<em>{sum(1 for x in items if x.get("kind") == "official")}</em></button>'
+    for key, name in kinds[1:]:
+        tabs += (f'<button class="cat" data-f="{key}">{name}'
+                 f'<em>{sum(1 for x in items if x.get("kind") == key)}</em></button>')
+    tabs += "</div>"
+    body = (f'<div class="top"><div><h1>AI 技术博客</h1>'
+            f'<p>官方工程博客与社区落地实践 · 更新于 {esc(data.get("date", ""))} 09:00</p>'
+            f'</div><div class="kv"><div><b>{len(items)}</b>posts</div>'
+            f'<div><b>09:00</b>daily</div></div></div>'
+            f'{tabs}'
+            f'<div class="ghWrap"><div class="ghMain">'
+            f'<div class="ghList">{aiblog_rows(items)}</div>'
+            f'<div class="empty">该分类暂无内容。</div>'
+            f'</div>{aiblog_side(items, data.get("date", ""))}</div>')
+    return shell("AI 技术博客 · 落地实践与技术分享", body, "aiblog")
+
+
+def home_html(tr, archive, dates, posts, gh=None, hot_data=None, blog=None):
     """站点首页：各栏目入口 + 最近更新"""
     n_hot = (len(hot_data.get("zhihu", [])) + len(hot_data.get("hupu", []))
              if hot_data else 0)
+    n_blog = len(blog.get("items", [])) if blog else 0
     cards = (
         '<div class="homeGrid">'
         f'<a class="homeCard" href="/{TREND}/"><span class="kc">01</span>'
         '<h2>AI 趋势日报</h2>'
         f'<p>每天 09:00 自动更新 · 聚焦 AI Coding 与具身智能</p>'
         f'<div class="kc-f">最新 {tr["date"]} · {len(dates)} 期归档 →</div></a>'
-        '<a class="homeCard" href="/github/"><span class="kc">02</span>'
+        f'<a class="homeCard" href="/{AIBLOG}/"><span class="kc">02</span>'
+        '<h2>AI 技术博客</h2>'
+        '<p>官方工程博客与社区落地实践</p>'
+        f'<div class="kc-f">{n_blog} 篇技术分享 →</div></a>'
+        '<a class="homeCard" href="/github/"><span class="kc">03</span>'
         '<h2>GitHub 热点</h2>'
         '<p>每日 / 每周 Trending 仓库与增速排名</p>'
         f'<div class="kc-f">{len(gh.get("daily", [])) if gh else 0} 个日榜项目 →</div></a>'
-        '<a class="homeCard" href="/hot/"><span class="kc">03</span>'
+        '<a class="homeCard" href="/hot/"><span class="kc">04</span>'
         '<h2>博文热点</h2>'
         '<p>知乎热榜与虎扑步行街的每日热帖</p>'
         f'<div class="kc-f">{n_hot} 条热点 →</div></a>'
-        '<a class="homeCard" href="/posts/"><span class="kc">04</span>'
+        '<a class="homeCard" href="/posts/"><span class="kc">05</span>'
         '<h2>技术博客</h2>'
         '<p>Java 并发 / Spring 源码 / 数据结构与算法</p>'
         f'<div class="kc-f">{len(posts)} 篇笔记 →</div></a>'
@@ -721,12 +786,16 @@ def main():
         os.path.join(DATA, "github.json")) else None
     hot = load(os.path.join(DATA, "hot.json")) if os.path.exists(
         os.path.join(DATA, "hot.json")) else None
+    blog = load(os.path.join(DATA, "aiblog.json")) if os.path.exists(
+        os.path.join(DATA, "aiblog.json")) else None
     if gh:
         save(os.path.join(ROOT, GH, "index.html"), github_html(gh))
     if hot:
         save(os.path.join(ROOT, HOT, "index.html"), hot_html(hot))
+    if blog:
+        save(os.path.join(ROOT, AIBLOG, "index.html"), aiblog_html(blog))
     save(os.path.join(ROOT, "index.html"),
-         home_html(tr, archive, dates, posts, gh, hot))
+         home_html(tr, archive, dates, posts, gh, hot, blog))
     print(f'built {tr["date"]}: {len(tr["items"])} items, '
           f'archive={len(archive)}, posts={len(posts)}')
 
