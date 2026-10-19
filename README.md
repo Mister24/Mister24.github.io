@@ -6,24 +6,24 @@
 > 个人主页与技术博客（GitHub Pages 静态站点）。
 
 ## 项目简介
-这是一个部署在 GitHub Pages 上的**静态个人站点**，用于沉淀技术文章、AI 趋势观察与个人随笔。站点为手写静态 HTML，无需构建步骤，推送到 `master` 即生效。
+这是一个部署在 GitHub Pages 上的**静态个人站点**，包含技术文章、AI 趋势日报、AI 技术博客聚合、GitHub 热点与博文热点等栏目。栏目页面由 `tools/ai-trend/build.py` 生成，每日 09:00 自动抓取数据并构建发布（也可手动运行），推送到 `master` 即生效。
 
 ## 技术栈
-- 纯静态 HTML / CSS / JavaScript
+- 静态 HTML / CSS / JavaScript（Python 3 生成，无第三方依赖）
 - 托管：GitHub Pages
-- 无后端、无构建工具
+- 无后端
 
 ## 目录结构
 ```
-├── index.html          # 站点首页
+├── index.html          # 站点首页（生成）
 ├── posts/              # 技术文章（如 SQL 高级语句、Java 值传递与引用传递…）
-├── tools/              # 小工具 / 专题
-│   └── ai-trend/       #   AI 趋势日报（按日期）
-├── ai-trend/           # AI 趋势专题页
+├── ai-trend/           # AI 趋势日报（每日精选 + 按日期归档）
+├── aiblog/             # AI 技术博客（官方工程博客 / 中文技术团队 / 社区分享）
+├── github/             # GitHub 热点（日榜 / 周榜 / 月榜 Trending）
+├── hot/                # 博文热点（知乎热榜 + 虎扑步行街）
 ├── photos/             # 图片资源
-├── github/             # GitHub 相关页面
-├── hot/                # 热点专题
 └── assets/             # 公共样式与脚本（app.js / style.css）
+└── tools/ai-trend/     # 生成器与抓取脚本（build.py / fetch_*.py / deploy.sh）
 ```
 
 ## 本地预览
