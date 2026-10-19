@@ -159,6 +159,33 @@ def load_wechat():
         return []
 
 
+def load_clips():
+    """手动剪藏的公众号文章：data/wechat_clips.json
+
+    微信里打开文章 -> 右上角 ··· -> 复制链接，把链接与标题填进 clips 即可
+    """
+    p = os.path.join(DATA, "wechat_clips.json")
+    if not os.path.exists(p):
+        return []
+    try:
+        raw = json.load(open(p, encoding="utf-8")).get("clips", [])
+    except Exception as exc:
+        print(f"warn: wechat_clips.json 解析失败 ({exc})")
+        return []
+    out = []
+    for c in raw:
+        if not c.get("title") or not c.get("url"):
+            continue
+        if "REPLACE_ME" in c["url"]:                  # 未替换链接的占位条目
+            print(f"skip: 剪藏「{c['title'][:24]}」尚未填写链接")
+            continue
+        out.append({"title": c["title"], "url": c["url"], "source": "clip",
+                    "source_name": c.get("account") or "公众号精选",
+                    "kind": "wechat", "date": to_date(c.get("date", "")),
+                    "summary": clean(c.get("note", "")), "points": 0})
+    return out
+
+
 def main():
     os.makedirs(DAYS, exist_ok=True)
     today = datetime.date.today().isoformat()
@@ -179,6 +206,8 @@ def main():
             items += hn
     except Exception as exc:
         print(f"warn: hn failed ({exc})")
+    clips = load_clips()                              # 手动剪藏优先保留
+    items += clips
     if not items:                                    # 全部失败：保留既有数据
         print("skip: 无新数据，保留既有 aiblog.json")
         return
@@ -195,7 +224,8 @@ def main():
         f.write("\n")
     with open(os.path.join(DAYS, f"{today}.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False)
-    print(f"aiblog: {len(items)} items from {ok} sources @ {today}")
+    print(f"aiblog: {len(items)} items from {ok} sources "
+          f"(+{len(clips)} clips) @ {today}")
 
 
 if __name__ == "__main__":

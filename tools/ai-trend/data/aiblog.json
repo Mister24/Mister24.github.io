@@ -2,6 +2,36 @@
   "date": "2026-10-19",
   "items": [
     {
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "url": "https://news.ycombinator.com/item?id=50148452",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-19",
+      "summary": "DeepSeek V4.1 Flash 1017 (Max)",
+      "points": 68
+    },
+    {
+      "title": "Cloudflare 推出面向 AI 代理的 CLI，并逐步停用 Wrangler",
+      "url": "https://www.infoq.cn/article/Ddda0DF68laqfoqa4Lju?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-19",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Argon：为您解决最棘手的问题",
+      "url": "https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-19",
+      "summary": "",
+      "points": 0
+    },
+    {
       "title": "打造生产级的 Agent｜QCon上海",
       "url": "https://www.infoq.cn/article/oZHrjYAsXvjOZXRwLt6T?utm_source=rss&utm_medium=article",
       "source": "infoq",
@@ -9,6 +39,66 @@
       "kind": "cn",
       "date": "2026-10-19",
       "summary": "",
+      "points": 0
+    },
+    {
+      "title": "一人公司的全栈选型指南：让 AI Agent 写得快，也让生意跑得稳",
+      "url": "https://juejin.cn/post/7698044277812772873",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "做 to C 产品的一人公司，选技术栈的标准已经变了。以前看的是自己熟不熟、社区大不大。现在多了一条：AI agent 能不能一次写对。下面按 AI 友好度、支付、安全、托管迭代四条线展开，最后给出一",
+      "points": 0
+    },
+    {
+      "title": "我把整本接口文档塞进 system prompt，前 3 轮答得准，第 8 轮开始胡说，账单还翻了 4 倍",
+      "url": "https://juejin.cn/post/7698044277812723721",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "我把整本接口文档塞进 system prompt，前 3 轮答得准，第 8 轮开始胡说，账单还翻了 4 倍.这一篇讲一个更贴近日常的场景：你的上下文到底为什么又贵又不准，以及怎么把它压下去。",
+      "points": 0
+    },
+    {
+      "title": "用 AI 定位生产环境偶发 Bug 的 5 个实战套路",
+      "url": "https://juejin.cn/post/7697865664233226294",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "偶发500、偶发超时，重试就好，日志翻不出东西。本文给5个AI辅助排障套路：时间窗日志回溯、成功与失败字段diff、并发造复现、单假设验证、日志与DB监控接入MCP，附4段可粘Prompt……",
+      "points": 0
+    },
+    {
+      "title": "OpenAI 披露 19 起 AI 失控记录，用 AI 提效的第一步为什么不是学提示词",
+      "url": "https://juejin.cn/post/7697881862899154944",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "TL;DR：10 月 15 日，OpenAI 把它家 AI agent 闯的祸挂上了一份公开披露页，累计 19 起，最新的 4 起发生在今年 6 月，两起被标成「严重」——一起绕过授权拖走 24 年的",
+      "points": 0
+    },
+    {
+      "title": "斯坦福《2026 年 AI 指数报告》与金融服务业的安全现实",
+      "url": "https://juejin.cn/post/7697829509391122441",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "作者：来自 Elastic Karen Mcdermott AI 正在重塑银行业。但如果缺乏安全保障和数据准备，它在加速创新的同时，也会加剧风险。 为什么 AI 的成功取决于数据、信任与网络韧性 斯坦",
+      "points": 0
+    },
+    {
+      "title": "AI 帮我写的小程序「厨菜记」上线满月了，挣了两百块！！！",
+      "url": "https://juejin.cn/post/7697873433355304970",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "AI 帮我写的小程序上线满月了，总收入 206 块，去掉成本净赚不到八十。但 7481 道菜被真人录进来、310 次点菜真的发生了——这篇不聊能不能赚钱，聊三十天里那些数据背后我没预料到的事。",
       "points": 0
     },
     {
@@ -39,7 +129,7 @@
       "kind": "community",
       "date": "2026-10-18",
       "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/Hyb",
-      "points": 241
+      "points": 304
     },
     {
       "title": "If you don't run your own LLM proxy, how do you know whats going on?",
@@ -49,7 +139,7 @@
       "kind": "community",
       "date": "2026-10-18",
       "summary": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "points": 49
+      "points": 96
     },
     {
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
@@ -59,7 +149,7 @@
       "kind": "community",
       "date": "2026-10-18",
       "summary": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I ",
-      "points": 48
+      "points": 77
     },
     {
       "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
@@ -99,6 +189,16 @@
       "kind": "community",
       "date": "2026-10-18",
       "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo…",
+      "points": 0
+    },
+    {
+      "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "url": "https://www.qbitai.com/2026/10/504136.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-18",
+      "summary": "让人人都能自由创造并体验可交互世界",
       "points": 0
     },
     {
@@ -144,16 +244,6 @@
     {
       "title": "Akka 在 65 个开源项目中测试基于规格的 AI 交付",
       "url": "https://www.infoq.cn/article/uGNQwpOt5GGAKm2XlEZC?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-17",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "The World Is Not a Dataset - Building AI Systems That Continuously Learn from Reality｜QCon上海",
-      "url": "https://www.infoq.cn/article/JMZ6WUx4a4cVqAwhwviU?utm_source=rss&utm_medium=article",
       "source": "infoq",
       "source_name": "InfoQ 中国",
       "kind": "cn",
@@ -212,6 +302,16 @@
       "points": 0
     },
     {
+      "title": "The World Is Not a Dataset - Building AI Systems That Continuously Learn from Reality｜QCon上海",
+      "url": "https://www.infoq.cn/article/JMZ6WUx4a4cVqAwhwviU?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-17",
+      "summary": "",
+      "points": 0
+    },
+    {
       "title": "How Itaú is building generative AI for its entire customer base",
       "url": "https://openai.com/index/itau-generative-ai",
       "source": "openai",
@@ -222,16 +322,6 @@
       "points": 0
     },
     {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-16",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive…",
-      "points": 0
-    },
-    {
       "title": "Benefit Street Partners answers questions faster with Codex",
       "url": "https://openai.com/index/benefit-street-partners",
       "source": "openai",
@@ -239,6 +329,16 @@
       "kind": "official",
       "date": "2026-10-16",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review…",
+      "points": 0
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-16",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive…",
       "points": 0
     },
     {
@@ -322,16 +422,6 @@
       "points": 0
     },
     {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-15",
-      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "points": 0
-    },
-    {
       "title": "Muse Spark Is Now an Open-Weights Model",
       "url": "https://pytorch.org/blog/muse-spark-open/",
       "source": "pytorch",
@@ -372,13 +462,13 @@
       "points": 0
     },
     {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
       "kind": "official",
-      "date": "2026-10-14",
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversat…",
+      "date": "2026-10-15",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
       "points": 0
     },
     {
@@ -422,33 +512,13 @@
       "points": 0
     },
     {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
       "kind": "official",
-      "date": "2026-10-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-13",
-      "summary": "",
+      "date": "2026-10-14",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversat…",
       "points": 0
     },
     {
@@ -489,6 +559,36 @@
       "kind": "community",
       "date": "2026-10-13",
       "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a …",
+      "points": 0
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-13",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-13",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-13",
+      "summary": "",
       "points": 0
     },
     {
