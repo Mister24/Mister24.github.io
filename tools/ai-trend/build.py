@@ -677,13 +677,14 @@ def aiblog_side(items, date):
             f'<div class="side-t">数据来源</div>'
             f'<p class="side-p">OpenAI / DeepMind / PyTorch / AWS / Google<br/>'
             f'美团技术团队 · InfoQ · Hacker News<br/>'
+            f'量子位 · 掘金 · 自定义公众号 RSS<br/>'
             f'每日 09:00 抓取 · 更新于 {esc(date)}</p></aside>')
 
 
 def aiblog_html(data):
     items = data.get("items", [])
     kinds = [("official", "官方工程博客"), ("cn", "中文技术团队"),
-             ("community", "社区分享")]
+             ("wechat", "公众号精选"), ("community", "社区分享")]
     tabs = '<div class="cats"><button class="cat on" data-f="official">官方工程博客'
     tabs += f'<em>{sum(1 for x in items if x.get("kind") == "official")}</em></button>'
     for key, name in kinds[1:]:

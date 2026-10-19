@@ -35,9 +35,12 @@ FEEDS = [
     ("meituan", "美团技术团队", "https://tech.meituan.com/rss.xml", "cn"),
     ("infoq", "InfoQ 中国", "https://www.infoq.cn/feed", "cn"),
     ("simon", "Simon Willison", "https://simonwillison.net/atom/everything/", "community"),
+    # 公众号内容：公众号本身无公开 RSS，抓取其官方站点 / 同步平台
+    ("qbitai", "量子位", "https://www.qbitai.com/feed", "wechat"),
+    ("juejin", "掘金", "https://juejin.cn/rss", "wechat"),
 ]
 # 这些源内容不限于 AI，需要按关键词过滤
-FILTER = {"meituan", "infoq", "simon", "hn"}
+FILTER = {"meituan", "infoq", "simon", "hn", "juejin"}
 CN_KEYS = ("大模型", "模型", "智能", "智能体", "机器学习", "深度学习", "推理", "训练",
            "向量", "算力", "多模态", "具身", "预训练", "微调")
 EN_KEYS = ("ai", "llm", "gpt", "agent", "rag", "nlp", "transformer", "diffusion",
@@ -143,11 +146,25 @@ def fetch_hn(limit=PER_FEED):
     return out
 
 
+def load_wechat():
+    """自定义公众号订阅：data/wechat_sources.json  ->  [{'name','url'}]"""
+    p = os.path.join(DATA, "wechat_sources.json")
+    if not os.path.exists(p):
+        return []
+    try:
+        return [x for x in json.load(open(p, encoding="utf-8")).get("sources", [])
+                if x.get("name") and x.get("url")]
+    except Exception as exc:
+        print(f"warn: wechat_sources.json 解析失败 ({exc})")
+        return []
+
+
 def main():
     os.makedirs(DAYS, exist_ok=True)
     today = datetime.date.today().isoformat()
     items, ok = [], 0
-    for key, name, url, kind in FEEDS:
+    for key, name, url, kind in FEEDS + [("wechat#" + w["name"], w["name"], w["url"], "wechat")
+                                          for w in load_wechat()]:
         try:
             rows = parse_feed(get(url), key, name, kind)
             if rows:

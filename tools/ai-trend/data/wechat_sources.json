@@ -1,0 +1,4 @@
+{
+  "_说明": "微信公众号无公开 RSS，需要先用第三方服务把公众号转成 RSS，再把地址填进 sources 里。常用转换服务：wechat2rss(https://wechat2rss.bestblogs.dev)、feeddd(https://feeddd.org)、自建 RSSHub 的 /wechat/feeddd/:id 路由。",
+  "sources": []
+}
