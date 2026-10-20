@@ -1,6 +1,46 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "items": [
+    {
+      "title": "AI 审查员把 PostgreSQL 19 拖延期了？committer 拆完 12 个撤回，故事没那么简单",
+      "url": "https://juejin.cn/post/7698271072119177267",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-20",
+      "summary": "PostgreSQL 19 打破多年秋季发布的惯例，推迟到 11 月 19 日，beta 期撤回约 8-10",
+      "points": 0
+    },
+    {
+      "title": "AI Agent 工作流引擎工程实践：从 Prompt 清单到状态机驱动的生产级流程控制",
+      "url": "https://juejin.cn/post/7698294342289473546",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-20",
+      "summary": "凌晨 2 点，客服 Agent 在处理退款争议时崩溃了。 不是因为模型出了问题，而是因为它在第 7 步——调用支付系统 API 确认退款金额——收到了一个网络超时。没有断点续跑机制，整个工作流从头开始。但\"从头开始\"意味…",
+      "points": 0
+    },
+    {
+      "title": "AI_Coding：智能代码创作助手",
+      "url": "https://juejin.cn/post/7698269589704982591",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-20",
+      "summary": "AI_Coding：智能代码创作助手 一、引言 AI 辅助编程正重塑软件开发流程。AI_Coding 作为智能代码创作助手，聚焦\"需求→代码→验证\"全链路，帮助开发者将精力从重复劳动中释放，专注架构与",
+      "points": 0
+    },
+    {
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-19",
+      "summary": "I saw this LinkedIn post from a Meta engineer and it resonated with me: https://www.linked",
+      "points": 245
+    },
     {
       "title": "DeepSeek V4.1 Flash 1017 (Max)",
       "url": "https://news.ycombinator.com/item?id=50148452",
@@ -10,6 +50,136 @@
       "date": "2026-10-19",
       "summary": "DeepSeek V4.1 Flash 1017 (Max)",
       "points": 68
+    },
+    {
+      "title": "Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces",
+      "url": "https://news.ycombinator.com/item?id=50154029",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-19",
+      "summary": "Hi HN, we’re Robert and Din from Laminar ( https://laminar.sh ). We’ve been building open-",
+      "points": 45
+    },
+    {
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for soft…",
+      "points": 0
+    },
+    {
+      "title": "One Search, Two Layers: Compiler Controls Inside PyTorch Helion using NVIDIA CompileIQ",
+      "url": "https://pytorch.org/blog/one-search-two-layers-compiler-controls-inside-pytorch-helion-using-nvidia-compileiq/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "With Helion’s release last year, it aimed at enabling developers to write GPU kernels in PyTorch-native Python…",
+      "points": 0
+    },
+    {
+      "title": "Introducing TorchNeuron: Native PyTorch backend for AWS Trainium",
+      "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "Frontier models span language, video and audio, on architectures from dense and mixture-of-experts transformer…",
+      "points": 0
+    },
+    {
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and…",
+      "points": 0
+    },
+    {
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a fe…",
+      "points": 0
+    },
+    {
+      "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026…",
+      "points": 0
+    },
+    {
+      "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "TwelveLabs Pegasus 1.5 is now available in Amazon Bedrock. The video language model turns long-form video into…",
+      "points": 0
+    },
+    {
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS …",
+      "points": 0
+    },
+    {
+      "title": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
+      "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-19",
+      "summary": "vLLM's prefill-decode disaggregation splits LLM inference across engine instances but must transfer the KV cac…",
+      "points": 0
+    },
+    {
+      "title": "Jev迎来中国挑战者：StartLux登顶决策模型榜单，还学会了“拿不准再想”",
+      "url": "https://www.infoq.cn/article/bROfcYFpijQQVBz4NqDi?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-19",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "DoorDash的Flux在云端智能体上运行130000个工程任务",
+      "url": "https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-19",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "阿里云 7 个样板间，探索 AI 原生研发组织的实践",
+      "url": "https://www.infoq.cn/article/2uG3W14THqtLhb5Vou51?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-19",
+      "summary": "",
+      "points": 0
     },
     {
       "title": "Cloudflare 推出面向 AI 代理的 CLI，并逐步停用 Wrangler",
@@ -39,6 +209,36 @@
       "kind": "cn",
       "date": "2026-10-19",
       "summary": "",
+      "points": 0
+    },
+    {
+      "title": "GitHub 日榜趋势速报 | 2026-10-20",
+      "url": "https://juejin.cn/post/7698271072119095347",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "GitHub 日榜 2026-10-20：ai-job-search、cleanyourtv、orca 等 20 个开源项目 24 小时 Star 增速领先，每日更新的开源趋势速报。",
+      "points": 0
+    },
+    {
+      "title": "语音识别的真瓶颈不是模型，是“已输出的字还能不能改”：网易有道R2T2登顶Hugging Face",
+      "url": "https://juejin.cn/post/7698227087581626368",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "主流流式ASR的默认假设是“允许回改”，字幕跳来跳去，下游Agent基于第一版字幕执行了动作，第二版到了，动作已经发出去了。网易有道Confucius4-R2T2走了一条相反的路：输出不可逆。",
+      "points": 0
+    },
+    {
+      "title": "Observability：当 YAML 遇上 IConfiguration：OpenTelemetry .NET SDK 的声明式配置",
+      "url": "https://juejin.cn/post/7698283872392134694",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-19",
+      "summary": "作者：来自 Elastic Steve Gordon 你可以调整采样配置，无须发布新的构建版本，因为首个声明式配置包会将 YAML 解析为强类型模型，再将其映射为 OpenTelemetry .NET",
       "points": 0
     },
     {
@@ -152,26 +352,6 @@
       "points": 77
     },
     {
-      "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
-      "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-18",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
-      "url": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-18",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "llm-tools-datasette 0.1.1",
       "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
       "source": "simon",
@@ -199,6 +379,26 @@
       "kind": "wechat",
       "date": "2026-10-18",
       "summary": "让人人都能自由创造并体验可交互世界",
+      "points": 0
+    },
+    {
+      "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+      "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-18",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+      "url": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-18",
+      "summary": "",
       "points": 0
     },
     {
@@ -239,16 +439,6 @@
       "kind": "wechat",
       "date": "2026-10-18",
       "summary": "最近我在尝试使用 Mastra 构建一个简单的 RAG（Retrieval-Augmented Generation，检索增强生成）应用",
-      "points": 0
-    },
-    {
-      "title": "Akka 在 65 个开源项目中测试基于规格的 AI 交付",
-      "url": "https://www.infoq.cn/article/uGNQwpOt5GGAKm2XlEZC?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-17",
-      "summary": "",
       "points": 0
     },
     {
@@ -302,6 +492,16 @@
       "points": 0
     },
     {
+      "title": "Akka 在 65 个开源项目中测试基于规格的 AI 交付",
+      "url": "https://www.infoq.cn/article/uGNQwpOt5GGAKm2XlEZC?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-17",
+      "summary": "",
+      "points": 0
+    },
+    {
       "title": "The World Is Not a Dataset - Building AI Systems That Continuously Learn from Reality｜QCon上海",
       "url": "https://www.infoq.cn/article/JMZ6WUx4a4cVqAwhwviU?utm_source=rss&utm_medium=article",
       "source": "infoq",
@@ -322,16 +522,6 @@
       "points": 0
     },
     {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-16",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review…",
-      "points": 0
-    },
-    {
       "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "source": "openai",
@@ -339,6 +529,16 @@
       "kind": "official",
       "date": "2026-10-16",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive…",
+      "points": 0
+    },
+    {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-16",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review…",
       "points": 0
     },
     {
@@ -412,16 +612,6 @@
       "points": 0
     },
     {
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-15",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying iss…",
-      "points": 0
-    },
-    {
       "title": "Muse Spark Is Now an Open-Weights Model",
       "url": "https://pytorch.org/blog/muse-spark-open/",
       "source": "pytorch",
@@ -439,6 +629,16 @@
       "kind": "official",
       "date": "2026-10-15",
       "summary": "TL;DR Deploying PyTorch models on microcontrollers has historically required converting to other framework for…",
+      "points": 0
+    },
+    {
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-15",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying iss…",
       "points": 0
     },
     {
@@ -472,26 +672,6 @@
       "points": 0
     },
     {
-      "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-14",
-      "summary": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that…",
-      "points": 0
-    },
-    {
-      "title": "Generate presentations with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-14",
-      "summary": "This post walks you through building an AI agent system with Amazon Bedrock AgentCore that automates PowerPoin…",
-      "points": 0
-    },
-    {
       "title": "Tree Appreciator",
       "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
       "source": "simon",
@@ -509,6 +689,26 @@
       "kind": "community",
       "date": "2026-10-14",
       "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recen…",
+      "points": 0
+    },
+    {
+      "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-14",
+      "summary": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that…",
+      "points": 0
+    },
+    {
+      "title": "Generate presentations with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-14",
+      "summary": "This post walks you through building an AI agent system with Amazon Bedrock AgentCore that automates PowerPoin…",
       "points": 0
     },
     {
