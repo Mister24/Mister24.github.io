@@ -1,65 +1,65 @@
 {
-  "date": "2026-10-20",
-  "headline": "Claude Code 九成代码自产自审 ｜ MiniMax M3.1 Flash 接棒 Flash 大战 ｜ 谷歌开源 Harness² ｜ 智元千台真机进高校",
+  "date": "2026-10-21",
+  "headline": "Fable 5.5 曝光「读心」修 Bug ｜ DeepSeek 开源推理框架 DeepInfer ｜ 全球首个机器人大脑 API 开放 ｜ GPT-6 具身真机大考碰壁",
   "items": [
     {
       "track": "AI Coding",
-      "title": "Claude Code「自产自审」：90% 代码 AI 写、AI 审，回滚率反降四成",
-      "event": "Anthropic 工程团队博客披露：Claude Code 代码库约 90% 的代码由 Claude 自己编写，大部分审查也由 AI 完成。每日变更量从 5 月约 2500 次涨到 9 月超 3 万次，合并 PR 数量翻倍的同时，回滚比例反而下降超 40%。做法是把「逐行阅读」拆成七层自动化检查（pre-PR Agent 检查、并行 AI 找 Bug 投票、独立安全评审），人工只在高风险节点终审；审查意见采纳率从 16% 升至 54%，平均审查轮数从 2.08 降至 1.32。",
-      "why": "Agent 量产代码后「谁来审」成为工程组织的真瓶颈，Anthropic 给出了目前最完整的公开答案：审查范式从『人有没有看过』转向『哪里会出事、该由谁拦』——这是 AI 时代研发流程重构的标杆样本。",
-      "source": "https://aitntnews.com/newDetail.html?newId=30365",
-      "source_name": "AITNT · Anthropic 工程博客（新浪/新智元交叉确认）",
-      "tags": ["Claude Code", "代码审查", "Anthropic"]
-    },
-    {
-      "track": "模型",
-      "title": "MiniMax M3.1 Flash 揭晓「太空兔」：Flash 段位两天两连发",
-      "event": "MiniMax 正式发布 M3.1 Flash——此前匿名刷屏的 Space Bunny 即其早期版本，已处理超 200 万亿 Token。推理速度提升近 3 倍、Agent 任务成本降低 70%、输入价 1 元/百万 Token；Agent 能力居 AutomationBench-AA 前列，跑完 Agent 终极考试 ALE 仅花 739 元。距 DeepSeek V4.1 Flash-1017 发布仅两天，国产 Flash 段位竞争白热化。",
-      "why": "DeepSeek 与 MiniMax 接连出招，说明竞争主轴已从旗舰参数转向 Agent 任务的真实性价比；对做 Agent 落地的团队，成本曲线两天一降，选型窗口和商业模式都要按『周』重估。",
-      "source": "https://aitntnews.com/newDetail.html?newId=30392",
-      "source_name": "AITNT · MiniMax（网易/上观交叉确认）",
-      "tags": ["MiniMax", "DeepSeek", "Flash", "Agent 成本"]
+      "title": "Fable 5.5 被曝突袭在即：会「读心」的 Claude，御三家决战十月",
+      "event": "多方报道确认 Anthropic 即将发布 Fable 5.5：内部测试者称其为「重大飞跃」，能看穿用户没说出口的需求——修一个 Bug 会先识别出导致该 Bug 的一整类问题，自动排查同类隐患后再让用户决定修复范围；面对投资类问题也不再复述常识，而是自建算法预测。同期谷歌 Gemini 4 Carbon 内部开跑、OpenAI Terra 系列预计数周内发布（定价低于 GPT-6.1 Sol），三家把「长任务编程」定为主战场。",
+      "why": "「修一类问题而不是打一个补丁」正是当前编码 Agent 与资深工程师的分水岭：模型开始主动澄清意图、扩大修复半径，意味着人类在编码回路中的角色将进一步退到需求定义与风险决策。三家同期冲刺，十月末的模型层格局可能一周内重排。",
+      "source": "https://aitntnews.com/newDetail.html?newId=30413",
+      "source_name": "AITNT · The Information 等多源交叉确认",
+      "tags": ["Fable 5.5", "Anthropic", "Gemini 4", "长任务编程"]
     },
     {
       "track": "AI Coding",
-      "title": "谷歌开源 Harness²：不改权重，让模型自动优化自己的脚手架",
-      "event": "谷歌开源双层递归架构 Harness²，让大模型自动优化外围脚手架（scaffolding）而无需改动模型权重；GLM-5 接入后在 WorkBuddy-Bench 上得分飙升 11.5 分，反超原生 Gemini 3.5 Flash。项目已全面开源，支持 OpenCode 与 Codex。",
-      "why": "与 Anthropic 的工程实践互为印证：模型之外那层 Harness 正成为性能变量。开源后中小团队可直接复用『自动调 Harness』能力，编码 Agent 的竞争从模型层蔓延到框架层。",
-      "source": "https://aitntnews.com/newDetail.html?newId=30376",
-      "source_name": "AITNT · Google",
-      "tags": ["开源", "RSI", "Harness", "谷歌"]
+      "title": "DeepSeek 开源推理框架 DeepInfer：CUDA 与昇腾双栈通吃",
+      "event": "DeepSeek 宣布将支撑 V4.1 Flash 高吞吐线上服务的内部推理框架 DeepInfer 全面开源：支持分布式推理、推测解码、SWA Bounded Replay、结构化输出，同时兼容英伟达 CUDA 与华为昇腾两大平台，同步开源与官方 API 完全对齐的 Token 编解码组件 deepseek-recipe。至此 DeepSeek 已把训练算子（TileLang/DeepGEMM-Ascend、FlashMLA）到推理服务的整条链路全部开放。",
+      "why": "这不是模型开源而是基础设施级开源：任何企业都能用与 DeepSeek 官方 API 相同的技术栈自建推理服务。在算力出口管制常态化背景下，「硬件中立」正成为国产生态对抗 CUDA 锁定的战略——想搭私有化推理服务，DeepInfer 是当前性价比最高的起点之一。",
+      "source": "https://juejin.cn/post/7698636164253810739",
+      "source_name": "稀土掘金 · 今日AI大事件（10-20 发布）",
+      "tags": ["DeepSeek", "开源", "推理框架", "昇腾"]
     },
     {
       "track": "具身智能",
-      "title": "智元豪掷 2 亿元：千台真机开进清华北大等 20+ 高校",
-      "event": "智元机器人投入 2 亿元、部署上千台真机进入清华、北大等 20 余所高校，共建具身智能产教融合平台，解决高校缺设备、缺课程的难题；同步发布五年超 20 亿元的「元苼」生态计划，目标连接千家科研院所。目前已建联 237 所科研院校、500 多家生态伙伴、1 万多名开发者。",
-      "why": "具身智能的人才与数据瓶颈正在用『真机换场景』的方式破解：设备进校园既是公益叙事，也是低成本获取长尾场景数据与开发者生态的打法，行业竞争正从本体转向生态位卡位。",
-      "source": "https://aitntnews.com/newDetail.html?newId=30357",
-      "source_name": "AITNT · 智元机器人",
-      "tags": ["智元", "产教融合", "生态"]
+      "title": "全球首个机器人大脑 API 开放：Dream-1 每小时 3 美元，零样本适配 27 种陌生机器人",
+      "event": "英伟达 DreamZero 原班团队创业成立的 Dream Labs 完成 9000 万美元种子轮，上线 Dream API——全球首个开放机器人大脑 API。核心模型 Dream-1 让用户以自然语言控制机器人，可适配从未见过的硬件实现零样本泛化，定价每小时 3 美元（Flash 档 2 美元），主打双臂 + 平行夹爪构型；已在 27 种陌生机器人上完成测试，第三方评测得分 59%、超过 GPT-6。",
+      "why": "机器人「大脑」第一次以按小时计费的 API 形态开放——硬件厂商无需自研模型即可获得通用操作能力，具身智能正在复制「大模型 API → 应用爆发」的路径；$3/小时的定价也让具身智能的商业测算第一次有了公开锚点。",
+      "source": "https://aitntnews.com/newDetail.html?newId=30409",
+      "source_name": "AITNT · Dream Labs（AI Impact Hub 交叉确认）",
+      "tags": ["机器人大脑", "API", "零样本泛化", "Dream Labs"]
     },
     {
       "track": "具身智能",
-      "title": "浙大 EMem-Bench：具身智能体「看见 ≠ 记住」，外部记忆成功率 35.3%→58.9%",
-      "event": "浙江大学提出具身长程记忆基准 EMem-Bench（四类任务、2554 条样本），并发布外部记忆系统 EMem 与 EMem-8B 模型：让智能体基于历史交互做出决策，解决「看见但记不住」的问题，任务成功率从 35.3% 提升至 58.9%。",
-      "why": "长时程任务的下一次跃迁可能不在感知而在记忆——当各家都在卷操作成功率时，「记住做过什么」正成为被忽视的短板，也是新的基准维度。",
-      "source": "https://aitntnews.com/newDetail.html?newId=30352",
-      "source_name": "AITNT · 浙江大学",
-      "tags": ["长程记忆", "基准", "长时程任务"]
+      "title": "梁文锋再出手：DeepSeek 拟领投具身「大脑」初创 Winverse AI",
+      "event": "据 AI 周报报道，DeepSeek 计划领投机器人初创 Winverse AI 数千万美元种子轮，投后估值约 4 亿美元。公司由腾讯原混元多模态大模型负责人胡瀚于 2026 年创立，主攻具身智能「大脑」与模型加速。此前 DeepSeek 已以约 1.41 亿元参与宇树科技 IPO 战略配售——「模型 → 推理基础设施 → 具身载体」的布局路径清晰成型。同期蓝芯算力完成近 20 亿元 B 轮、伊塔动力超亿元种子轮、法奥机器人近 10 亿元 C+/D 轮，资本沿「大脑-本体-芯片」全链铺开。",
+      "why": "机器人厂商缺的从来不是本体，而是便宜、可靠、能推理的「脑子」——由以模型效率著称的 DeepSeek 来补位，逻辑自洽。当资本主线从「卷模型榜单」转向「卷物理世界落地」，2026 Q4 的具身智能融资潮可能是 2021 年大模型元年的重演。",
+      "source": "https://juejin.cn/post/7698636164253810739",
+      "source_name": "稀土掘金 · AI 周报（网易/腾讯证券交叉印证）",
+      "tags": ["DeepSeek", "Winverse AI", "具身大脑", "融资"]
+    },
+    {
+      "track": "具身智能",
+      "title": "GPT-6-Astra 具身大考：仿真双满分，真机插了 11 次插头全失败",
+      "event": "商汤等机构对 GPT-6-Astra 开展具身智能系统评测：仿真环境中 LIBERO-Long++ 达 100%、LIBERO-Pro 达 99.3%；但在 8 个真实机器人平台上，刚性物体抓取 17/18 成功，插头插入任务 11 次全部失败，插笔筒耗时超 4 小时。报告指出模型能规划纠错、但物理执行验证能力不足，距离可靠部署仍有明显差距。",
+      "why": "「仿真满分 ≠ 真机能用」再次被量化坐实：Sim-to-Real 的鸿沟没有因模型能力跃升而消失。对押注具身智能的团队，这份数据提醒估值叙事之外，物理执行验证（力控、接触式操作）才是真正的护城河。",
+      "source": "https://aitntnews.com/newDetail.html?newId=30407",
+      "source_name": "AITNT · 商汤等联合评测",
+      "tags": ["GPT-6-Astra", "Sim-to-Real", "评测", "真机部署"]
     }
   ],
   "insights": [
     {
-      "title": "AI 写、AI 审成为工程新常态",
-      "desc": "Claude Code 九成代码自产自审且质量指标全面向好，谷歌 Harness² 又证明脚手架可自动进化——『让人只做风险判断』的分层机制，正从 Anthropic 的内部实践外溢为整个行业的基础设施。"
+      "title": "编码 Agent 竞争进入「意图层」",
+      "desc": "Fable 5.5 的「读心」（修一类问题而非一个补丁）与 DeepInfer 的全链开源是同一趋势的两面：模型层比拼主动理解意图，基础设施层比拼开放程度——工具人的时代结束了，Agent 开始自己定义问题边界。"
     },
     {
-      "title": "Flash 段位是 Agent 落地的真正战场",
-      "desc": "DeepSeek 与 MiniMax 两天内接连出招，Agent 任务成本以天为单位下降；当旗舰模型能力趋同，性价比与 Agent 稳定性（AutomationBench / ALE）才是客户掏钱的理由。"
+      "title": "具身智能「大脑」成了最热的卡位",
+      "desc": "Dream Labs 把机器人大脑做成 $3/小时的 API，DeepSeek 领投 Winverse 主攻具身大脑——硬件不再是稀缺品，「便宜可靠能推理的脑子」才是；但 GPT-6-Astra 真机 11 连败提醒：物理执行验证仍是没人啃动的硬骨头。"
     },
     {
-      "title": "具身智能补课：记忆与场景",
-      "desc": "浙大把「长程记忆」做成基准，智元用千台真机换高校场景——感知与操作之外，记忆与真实场景供给正在成为具身智能下一阶段的两块关键拼图。"
+      "title": "开源从模型走向基础设施",
+      "desc": "DeepSeek 开放推理全链路、谷歌开源 TorchTPU 原生后端、Tenstorrent 融 15 亿美元走开放 RISC-V 路线——「硬件中立 + 全栈开源」正在从理想主义变成正经生意，开发者自建推理服务的门槛降到历史最低。"
     }
   ]
 }
