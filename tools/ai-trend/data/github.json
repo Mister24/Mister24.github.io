@@ -1,144 +1,14 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "daily": [
-    {
-      "name": "MadsLorentzen/ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "lang": "Python",
-      "stars": 60602,
-      "forks": 18897,
-      "delta": 3861,
-      "since": "today"
-    },
     {
       "name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "lang": "JavaScript",
-      "stars": 34240,
-      "forks": 2138,
-      "delta": 1712,
-      "since": "today"
-    },
-    {
-      "name": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "lang": "TypeScript",
-      "stars": 99754,
-      "forks": 6319,
-      "delta": 1565,
-      "since": "today"
-    },
-    {
-      "name": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "lang": "JavaScript",
-      "stars": 169674,
-      "forks": 9229,
-      "delta": 1208,
-      "since": "today"
-    },
-    {
-      "name": "Comfy-Org/ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "lang": "Python",
-      "stars": 140771,
-      "forks": 16664,
-      "delta": 1206,
-      "since": "today"
-    },
-    {
-      "name": "ruvnet/ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "lang": "TypeScript",
-      "stars": 77849,
-      "forks": 9160,
-      "delta": 684,
-      "since": "today"
-    },
-    {
-      "name": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "lang": "Python",
-      "stars": 130246,
-      "forks": 12543,
-      "delta": 802,
-      "since": "today"
-    },
-    {
-      "name": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "desc": "The open source coding agent.",
-      "lang": "TypeScript",
-      "stars": 218932,
-      "forks": 29212,
-      "delta": 1240,
-      "since": "today"
-    },
-    {
-      "name": "msitarzewski/agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "lang": "Shell",
-      "stars": 162357,
-      "forks": 26230,
-      "delta": 562,
-      "since": "today"
-    },
-    {
-      "name": "headroomlabs-ai/headroom",
-      "url": "https://github.com/headroomlabs-ai/headroom",
-      "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "lang": "Python",
-      "stars": 76758,
-      "forks": 5958,
-      "delta": 549,
-      "since": "today"
-    },
-    {
-      "name": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "lang": "Python",
-      "stars": 30794,
-      "forks": 3464,
-      "delta": 267,
-      "since": "today"
-    },
-    {
-      "name": "wshobson/agents",
-      "url": "https://github.com/wshobson/agents",
-      "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-      "lang": "Python",
-      "stars": 41254,
-      "forks": 4393,
-      "delta": 93,
-      "since": "today"
-    },
-    {
-      "name": "sickn33/agentic-awesome-skills",
-      "url": "https://github.com/sickn33/agentic-awesome-skills",
-      "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-      "lang": "Python",
-      "stars": 48093,
-      "forks": 7021,
-      "delta": 83,
-      "since": "today"
-    },
-    {
-      "name": "shiyu-coder/Kronos",
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "lang": "Python",
-      "stars": 42356,
-      "forks": 7013,
-      "delta": 733,
+      "stars": 37519,
+      "forks": 2344,
+      "delta": 2012,
       "since": "today"
     },
     {
@@ -146,9 +16,109 @@
       "url": "https://github.com/vllm-project/vllm",
       "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "lang": "Python",
-      "stars": 94437,
-      "forks": 23673,
-      "delta": 128,
+      "stars": 95030,
+      "forks": 23779,
+      "delta": 441,
+      "since": "today"
+    },
+    {
+      "name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "lang": "TypeScript",
+      "stars": 101835,
+      "forks": 6440,
+      "delta": 1541,
+      "since": "today"
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "lang": "Python",
+      "stars": 77422,
+      "forks": 6011,
+      "delta": 474,
+      "since": "today"
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "lang": "JavaScript",
+      "stars": 172220,
+      "forks": 9376,
+      "delta": 2079,
+      "since": "today"
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "lang": "Python",
+      "stars": 141749,
+      "forks": 16746,
+      "delta": 939,
+      "since": "today"
+    },
+    {
+      "name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "desc": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "lang": "TypeScript",
+      "stars": 113184,
+      "forks": 16986,
+      "delta": 504,
+      "since": "today"
+    },
+    {
+      "name": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "desc": "The open alternative to Salesforce, designed for AI.",
+      "lang": "TypeScript",
+      "stars": 59407,
+      "forks": 9678,
+      "delta": 112,
+      "since": "today"
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "lang": "Python",
+      "stars": 43001,
+      "forks": 7091,
+      "delta": 575,
+      "since": "today"
+    },
+    {
+      "name": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "desc": "freehire — the open-source search engine for job seekers",
+      "lang": "Go",
+      "stars": 2580,
+      "forks": 258,
+      "delta": 360,
+      "since": "today"
+    },
+    {
+      "name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "lang": "Rust",
+      "stars": 12539,
+      "forks": 884,
+      "delta": 286,
+      "since": "today"
+    },
+    {
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "lang": "Python",
+      "stars": 132030,
+      "forks": 12666,
+      "delta": 1433,
       "since": "today"
     }
   ],

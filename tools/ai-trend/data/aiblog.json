@@ -1,9 +1,249 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "items": [
     {
-      "title": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个  Agent 国模第一",
-      "url": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article",
+      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "url": "https://news.ycombinator.com/item?id=50190357",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-22",
+      "summary": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "points": 21
+    },
+    {
+      "title": "GitHub 通过 AI 辅助重构，将 Copilot 运行时迁移至 Rust",
+      "url": "https://www.infoq.cn/article/zGqDWHF8tHDtlYcImAJS?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-22",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "DeepSeek开源生产级推理框架DeepInfer：单集群一天处理155万亿token，这意味着什么？",
+      "url": "https://juejin.cn/post/7699297736676556810",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-22",
+      "summary": "DeepSeek 把跑线上服务的推理框架开源了，叫 DeepInfer。 官方给的说法是：单集群每天 155 万亿 token，谷电价下每张卡每小时收入 38 美元。我看到这组数字的第一反应是去翻代码",
+      "points": 0
+    },
+    {
+      "title": "我从\"删掉核心代码\"的开源项目里，学到了一堂 713 行的 Agent 工程课",
+      "url": "https://juejin.cn/post/7699151233140310056",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-22",
+      "summary": "我从\"删掉核心代码\"的开源项目里，学到了一堂 713 行的 Agent 工程课 @[toc] 0. 先讲一个侦探故事 前几天我在 GitHub 上看到一个新项目：四个 3D 机器人形象的 AI Age",
+      "points": 0
+    },
+    {
+      "title": "非算法工程师也能看懂，推理框架的来龙去脉",
+      "url": "https://juejin.cn/post/7699300578950119464",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-22",
+      "summary": "虽然 Model、Harness 的概念已深入人心，但推理框架这个算法工程师才会使用的概念似乎还略显陌生。不过，它和我们使用模型的费用和体验息息相关，例如为什么的输出价格是输入的 4 倍，缓存命中的价",
+      "points": 0
+    },
+    {
+      "title": "SpaceX季度营收146亿，AI业务逆袭成第一大收入源",
+      "url": "https://juejin.cn/post/7699123334672678931",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-22",
+      "summary": "SpaceX 2026年Q3财报交出亮眼成绩单：营收146亿美元同比翻倍，净利润44亿美元实现扭亏。更关键的变化在于增长引擎切换——超级智能（SI）算力业务以75.6亿美元收入首次超越星链，成为公司第",
+      "points": 0
+    },
+    {
+      "title": "TRAE开发工具化自检，我用它吐槽两句轻松解决办公电脑内存崩溃问题",
+      "url": "https://juejin.cn/post/7699244622958739482",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-22",
+      "summary": "本文赛道：全新 TRAE 测评体验 全链路开发实战 一、问题背景：我的系统总是无缘无故崩溃 现在随着大模型这一波兴起，各种智能体应用显然已经起飞到漫天飞舞！AI时代果然已经来了，各种吃算力和内存资源的",
+      "points": 0
+    },
+    {
+      "title": "从 LOOP 到图探索 —— 算法模型的 AutoResearch 自进化系统架构演进之路",
+      "url": "https://juejin.cn/post/7699282495863078921",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-22",
+      "summary": "团队从 Karpathy 的 AutoResearch 出发，经过三次架构重构，搭建出一套可在企业云端训练平台使用的算法研究自进化系统。本文分享这套系统的设计理念、架构演进与可信度设计。",
+      "points": 0
+    },
+    {
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "url": "https://news.ycombinator.com/item?id=50183892",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-21",
+      "summary": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API",
+      "points": 69
+    },
+    {
+      "title": "Using LLM for confidence scoring is a bad idea",
+      "url": "https://news.ycombinator.com/item?id=50176082",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-21",
+      "summary": "Using LLM for confidence scoring is a bad idea",
+      "points": 65
+    },
+    {
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinki…",
+      "points": 0
+    },
+    {
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and c…",
+      "points": 0
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available t…",
+      "points": 0
+    },
+    {
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical …",
+      "points": 0
+    },
+    {
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and dec…",
+      "points": 0
+    },
+    {
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads…",
+      "points": 0
+    },
+    {
+      "title": "TorchTitan Update: New SOTA Models, Performance at Scale, TitanRL",
+      "url": "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "TorchTitan is a PyTorch-native platform for rapid experimentation and large-scale pre- and post-training of ge…",
+      "points": 0
+    },
+    {
+      "title": "Accelerating PyTorch on AMD GPUs with FlyDSL",
+      "url": "https://pytorch.org/blog/accelerating-pytorch-on-amd-gpus-with-flydsl/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "PyTorch users on AMD MI350-series GPUs can now use FlyDSL through existing operator APIs for dense and grouped…",
+      "points": 0
+    },
+    {
+      "title": "Securing Quick access from corporate networks with AWS PrivateLink",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "Learn how to connect on-premises data sources to Amazon Quick privately with AWS PrivateLink, keeping analytic…",
+      "points": 0
+    },
+    {
+      "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
+      "url": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five produ…",
+      "points": 0
+    },
+    {
+      "title": "Adaptive agentic intelligence framework using Strands Agents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally w…",
+      "points": 0
+    },
+    {
+      "title": "Train Qwen3 on AWS Trainium with torchtitan",
+      "url": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformer…",
+      "points": 0
+    },
+    {
+      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with lea…",
+      "points": 0
+    },
+    {
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and …",
+      "points": 0
+    },
+    {
+      "title": "对话亚马逊CTO：仍在招聘初级工程师，关注中国开放模型",
+      "url": "https://www.infoq.cn/article/XxOpQpEMZpdCCYhXxgaE?utm_source=rss&utm_medium=article",
       "source": "infoq",
       "source_name": "InfoQ 中国",
       "kind": "cn",
@@ -12,113 +252,103 @@
       "points": 0
     },
     {
-      "title": "AI Agent 评测：到底要测什么、新手怎么测？（附完整流程）",
-      "url": "https://juejin.cn/post/7698614955541020723",
-      "source": "juejin",
-      "source_name": "掘金",
+      "title": "从试点到规模化落地：制造业领导者如何推动 AI 应用并赢得高管层支持 ｜ 技术趋势",
+      "url": "https://www.infoq.cn/article/Ms3bMt5OcUyYMHwfaXgM?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-21",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "金融智能分析本体：四大核心要素与五条建设路线",
+      "url": "https://www.infoq.cn/article/Be94YQbRtbWj3pzZ9rSh?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-21",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "推动 AI 规模化落地的三大经验：来自公共部门领导者的实践洞察 ｜ 技术趋势",
+      "url": "https://www.infoq.cn/article/GVcxHscrQqv9HXGRowJh?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-21",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "代码迁移准确率从 5.4% 飙至 97.9%！OpenAI 挑战 COBOL，几十年的老系统真能交给 AI 了？",
+      "url": "https://www.infoq.cn/article/LZsVYHAH1jyOtLg6Yiwk?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-21",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
+      "url": "https://www.qbitai.com/2026/10/504734.html",
+      "source": "qbitai",
+      "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-10-21",
-      "summary": "现在做一个 Agent 有多容易？ Claude Code、Codex、WorkBuddy 这些产品，很多人要么用过，要么天天在用。加上 AI 辅助编程，我们甚至可以让 Codex 帮忙做出一个类似",
+      "summary": "医疗AI质变时刻",
       "points": 0
     },
     {
-      "title": "不训扩散模型也能生成文本？BERT 本来就是半个去噪生成器，加个外置解码器就够",
-      "url": "https://juejin.cn/post/7698676106136485938",
-      "source": "juejin",
-      "source_name": "掘金",
+      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+      "url": "https://www.qbitai.com/2026/10/504730.html",
+      "source": "qbitai",
+      "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-10-21",
-      "summary": "扩散语言模型火了一年，但一篇新论文反问：把扩散的时间步、噪声调度、",
+      "summary": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
       "points": 0
     },
     {
-      "title": "DeepSeek 突发上线 V4.1-1017：552B 稀疏架构仅激活 16B，白菜价背后的工程奇迹",
-      "url": "https://juejin.cn/post/7698552541928734735",
-      "source": "juejin",
-      "source_name": "掘金",
+      "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+      "url": "https://www.qbitai.com/2026/10/504653.html",
+      "source": "qbitai",
+      "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-10-21",
-      "summary": "针对 DeepSeek 10月17日突发发布的最新旗舰快照 V4.1-Flash-1017，深度实测其首创的“因果编解码（CED）+ 稀疏动态激活（MoE 552B 仅激活 16B）”架构；现场交付完",
+      "summary": "世界模型赛道新看点：千诀隐变量可辨识性方向的研究，比LeCun相近工作早一年，不堆画面预测，主打物理规律与跨本体复用。",
       "points": 0
     },
     {
-      "title": "单集群一天吐 155 万亿 token 的引擎开源了：DeepSeek 放出生产级推理框架 DeepInfer",
-      "url": "https://juejin.cn/post/7698669663472222246",
-      "source": "juejin",
-      "source_name": "掘金",
+      "title": "量智齐飞！4个月9款车落地，轻舟城市NOA击穿10-20万体验天花板",
+      "url": "https://www.qbitai.com/2026/10/504638.html",
+      "source": "qbitai",
+      "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-10-21",
-      "summary": "DeepSeek 于 10 月 20 日将驱动自家生产服务的推理引擎 DeepInfer 以 Apache 2.0 开源",
+      "summary": "百万台搭载打底，智驾普及与安全并重",
       "points": 0
     },
     {
-      "title": "证不动的引理别再死拆了：Maestro 给 Lean 证明装上「总指挥」，研究级定理多证 63%",
-      "url": "https://juejin.cn/post/7698709811563954227",
-      "source": "juejin",
-      "source_name": "掘金",
+      "title": "实探宁德时代总部：“去宁化”是喊太大声了",
+      "url": "https://www.qbitai.com/2026/10/504618.html",
+      "source": "qbitai",
+      "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-10-21",
-      "summary": "现有 Lean 证明 agent 都是「证不动就拆」的分治流水线：引理证不出就继续分",
+      "summary": "电池开发，分工远比想象复杂",
       "points": 0
     },
     {
-      "title": "GitHub 日榜趋势速报 | 2026-10-21",
-      "url": "https://juejin.cn/post/7698614955540922419",
-      "source": "juejin",
-      "source_name": "掘金",
+      "title": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
+      "url": "https://www.qbitai.com/2026/10/504608.html",
+      "source": "qbitai",
+      "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-10-21",
-      "summary": "GitHub 日榜 2026-10-21：DeepInfer、cleanyourtv、ai-job-search 等 20 个开源项目 24 小时 Star 增速领先，每日更新的开源趋势速报。",
-      "points": 0
-    },
-    {
-      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "url": "https://news.ycombinator.com/item?id=50163277",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-10-20",
-      "summary": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "points": 2118
-    },
-    {
-      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
-      "url": "https://news.ycombinator.com/item?id=50167583",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-10-20",
-      "summary": "Hey HN, this is Andy from Respan ( https://www.respan.ai ). We are building an open-source",
-      "points": 43
-    },
-    {
-      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
-      "url": "https://news.ycombinator.com/item?id=50169506",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-10-20",
-      "summary": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
-      "points": 21
-    },
-    {
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that c…",
-      "points": 0
-    },
-    {
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams…",
+      "summary": "先看真实问题解决力",
       "points": 0
     },
     {
@@ -162,16 +392,6 @@
       "points": 0
     },
     {
-      "title": "Nscale Joins the PyTorch Foundation as a Platinum Member",
-      "url": "https://pytorch.org/blog/nscale-joins-the-pytorch-foundation-as-a-platinum-member/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "London, U. K., 20 October 2026 – The PyTorch Foundation, the vendor-neutral home for the open source intellige…",
-      "points": 0
-    },
-    {
       "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
       "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
       "source": "aws",
@@ -179,186 +399,6 @@
       "kind": "official",
       "date": "2026-10-20",
       "summary": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. …",
-      "points": 0
-    },
-    {
-      "title": "Work management context for AI agents with Smartsheet MCP on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live work managemen…",
-      "points": 0
-    },
-    {
-      "title": "From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "Enterprise supply chains are data-rich but insight-poor, with the data to decide scattered across ERP, monitor…",
-      "points": 0
-    },
-    {
-      "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "Learn how we fine-tuned GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod, and how to decide…",
-      "points": 0
-    },
-    {
-      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and …",
-      "points": 0
-    },
-    {
-      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Can…",
-      "points": 0
-    },
-    {
-      "title": "突破长文本推理瓶颈 九章云极Alaya-DFlash2助GLM-5.3解码提速3.41倍",
-      "url": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-20",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "AI生成的代码看不懂就扔掉重来：一位首席架构师的 5 条 Agent 编程反常识原则",
-      "url": "https://www.infoq.cn/article/tgqMEJsqXfX6YzAcOiAR?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-20",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势",
-      "url": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-20",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "调查发现：AI 生成代码会提升调试难度与故障发生率，并造成代码理解鸿沟",
-      "url": "https://www.infoq.cn/article/ywvgVDVLsSU7r47Jk6lq?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-20",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "RISC-V 加速进入 AI 与高性能计算：玄铁车规 IP、服务器芯片等新进展亮相",
-      "url": "https://www.infoq.cn/article/J1Z3RYgH3Vyd9LFEfmlF?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-20",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
-      "url": "https://www.qbitai.com/2026/10/504314.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-20",
-      "summary": "OpenAI只掏出一个6.1 Terra…",
-      "points": 0
-    },
-    {
-      "title": "Advancing coding in low‑resource programming languages",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-19",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for soft…",
-      "points": 0
-    },
-    {
-      "title": "One Search, Two Layers: Compiler Controls Inside PyTorch Helion using NVIDIA CompileIQ",
-      "url": "https://pytorch.org/blog/one-search-two-layers-compiler-controls-inside-pytorch-helion-using-nvidia-compileiq/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-10-19",
-      "summary": "With Helion’s release last year, it aimed at enabling developers to write GPU kernels in PyTorch-native Python…",
-      "points": 0
-    },
-    {
-      "title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务",
-      "url": "https://www.qbitai.com/2026/10/504277.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-19",
-      "summary": "同步搭建千比特规模量子算力云平台",
-      "points": 0
-    },
-    {
-      "title": "通研院孵化的团队，也盯上了RSI",
-      "url": "https://www.qbitai.com/2026/10/504294.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-19",
-      "summary": "当AI越来越懂你，如何让智能真正属于你？",
-      "points": 0
-    },
-    {
-      "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
-      "url": "https://www.qbitai.com/2026/10/504266.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-19",
-      "summary": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行",
-      "points": 0
-    },
-    {
-      "title": "全栈自研！国产高端互连芯片，稳了!",
-      "url": "https://www.qbitai.com/2026/10/504225.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-19",
-      "summary": "六年蛰伏出货80万颗",
-      "points": 0
-    },
-    {
-      "title": "AI 开始挑战最复杂的系统：生命",
-      "url": "https://www.qbitai.com/2026/10/504242.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-19",
-      "summary": "10 月 17 日，哲源科技发布 WHIRLPO 计算医学平台。",
       "points": 0
     },
     {
@@ -379,36 +419,6 @@
       "kind": "community",
       "date": "2026-10-18",
       "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo…",
-      "points": 0
-    },
-    {
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-16",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strateg…",
-      "points": 0
-    },
-    {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-16",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review…",
-      "points": 0
-    },
-    {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-16",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive…",
       "points": 0
     },
     {
@@ -562,13 +572,13 @@
       "points": 0
     },
     {
-      "title": "New experts join Google’s AI & Economy team",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "source": "google",
-      "source_name": "Google Blog",
-      "kind": "official",
-      "date": "2026-09-18",
-      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal research…",
+      "title": "从 LOOP 到图探索 —— 算法模型的 AutoResearch 自进化系统架构演进之路",
+      "url": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html",
+      "source": "meituan",
+      "source_name": "美团技术团队",
+      "kind": "cn",
+      "date": "",
+      "summary": "本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。",
       "points": 0
     },
     {
@@ -619,16 +629,6 @@
       "kind": "cn",
       "date": "",
       "summary": "ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落…",
-      "points": 0
-    },
-    {
-      "title": "美团搜索3.0：LLM 语义表征在排序模型的探索与应用",
-      "url": "https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html",
-      "source": "meituan",
-      "source_name": "美团技术团队",
-      "kind": "cn",
-      "date": "",
-      "summary": "美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征…",
       "points": 0
     }
   ]
