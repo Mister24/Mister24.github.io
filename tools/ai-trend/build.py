@@ -467,7 +467,7 @@ def postnav_html(prev_p, next_p):
 
 def build_posts():
     if not os.path.isdir(LEGACY_POSTS):
-        return 0
+        return []
     posts = [parse_post(os.path.join(LEGACY_POSTS, f))
              for f in sorted(os.listdir(LEGACY_POSTS)) if f.endswith(".md")]
     posts.sort(key=lambda p: p["date"], reverse=True)
