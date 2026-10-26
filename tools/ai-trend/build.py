@@ -664,7 +664,7 @@ def hot_html(hot):
             f'<div><b>09:00</b>daily</div></div></div>'
             f'{tabs}'
             f'<div class="ghWrap"><div class="ghMain">'
-            f'<div class="ghList">{hot_rows(zh, "zhihu")}{hot_rows(hp, "hupu")}</div>'
+            f'<div class="ghList">{hot_rows(zh, "zhihu")}{hot_rows(hp, "hupu")}{hot_rows(bi, "bilibili")}</div>'
             f'<div class="empty">该平台暂无内容。</div>'
             f'</div>{hot_side(hot)}</div>')
     return shell("博文热点 · 知乎热榜与虎扑步行街", body, "hot")
