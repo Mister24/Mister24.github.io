@@ -2,6 +2,66 @@
   "date": "2026-10-26",
   "items": [
     {
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "url": "https://news.ycombinator.com/item?id=50238739",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-26",
+      "summary": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "points": 22
+    },
+    {
+      "title": "If AI displaces human workers, they will lose more than just pay",
+      "url": "https://news.ycombinator.com/item?id=50238351",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-26",
+      "summary": "If AI displaces human workers, they will lose more than just pay",
+      "points": 19
+    },
+    {
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "url": "https://news.ycombinator.com/item?id=50238620",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-26",
+      "summary": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "points": 4
+    },
+    {
+      "title": "从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
+      "url": "https://www.infoq.cn/article/0C1Wgt7N9NzM6KjHSFeA?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-26",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Android Bench 2 新增对长周期任务、智能评估和连续评分的支持",
+      "url": "https://www.infoq.cn/article/6XMtxZevN1488WVGXdR1?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-26",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://news.ycombinator.com/item?id=50236102",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-25",
+      "summary": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "points": 213
+    },
+    {
       "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
       "url": "https://news.ycombinator.com/item?id=50233304",
       "source": "hn",
@@ -12,14 +72,14 @@
       "points": 199
     },
     {
-      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "url": "https://news.ycombinator.com/item?id=50236102",
+      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+      "url": "https://news.ycombinator.com/item?id=50227041",
       "source": "hn",
       "source_name": "Hacker News",
       "kind": "community",
       "date": "2026-10-25",
-      "summary": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "points": 125
+      "summary": "Why is this worth your time? Essentially, this solves two problems of AI-assisted programm",
+      "points": 19
     },
     {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
@@ -132,26 +192,6 @@
       "points": 0
     },
     {
-      "title": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
-      "url": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-23",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-23",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Quick Study",
       "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
       "source": "simon",
@@ -169,6 +209,26 @@
       "kind": "wechat",
       "date": "2026-10-23",
       "summary": "10月21日，百度官方公众号发文披露了百度世界2026分论坛的更多议程信息。",
+      "points": 0
+    },
+    {
+      "title": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
+      "url": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-23",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
+      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-23",
+      "summary": "",
       "points": 0
     },
     {
