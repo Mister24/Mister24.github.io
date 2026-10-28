@@ -1,6 +1,196 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "items": [
+    {
+      "title": "一句话叫车：货拉拉小程序 AI 叫车实战",
+      "url": "https://juejin.cn/post/7701490621295607849",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-28",
+      "summary": "一句话叫一辆货拉拉，背后需要怎样的产品和技术架构？本文完整复盘货拉拉小程序 AI 下单的实战路径：微信AI提供的三种模式对比、货拉拉 7 个原子能力如何自由组合、Handoff 机制如何守住交易安全。",
+      "points": 0
+    },
+    {
+      "title": "Go 1.25 Green Tea GC 深度解析：以页为单位的垃圾回收新范式",
+      "url": "https://juejin.cn/post/7701269925755912207",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-28",
+      "summary": "目录 1. 引言：Go 1.25 带来的 GC 新变量 2. 核心思想：以页为单位工作，而非以对象为单位 3. 与传统 mark-sweep 的对比 4. 页级元数据：每个对象两个 bit 5. 向量",
+      "points": 0
+    },
+    {
+      "title": "Spring Security 6.x 实战：认证、授权与 JWT 集成",
+      "url": "https://juejin.cn/post/7701269925755928591",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-28",
+      "summary": "目录 1. 引言：为什么 Spring Security 6.x 值得重新学一遍 2. 配置模型变化：从 WebSecurityConfigurerAdapter 到 SecurityFilterCh",
+      "points": 0
+    },
+    {
+      "title": "AI证伪了数学家信了几十年的假设，但物理那道题只答了一半",
+      "url": "https://juejin.cn/post/7701528274958401555",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-28",
+      "summary": "OpenAI宣布其模型独立产出三项成果：全维度局部光滑猜想证明（连带解决挂谷猜想与Stein限制猜想）、指数时间假设（ETH）被证伪、杨–米尔斯与QCD存在性证明。前两项已通过Lean形式化验证并在G",
+      "points": 0
+    },
+    {
+      "title": "AI 时代岗位调研分析：调研了近3000份AI岗位描述，分享下调研结果",
+      "url": "https://juejin.cn/post/7701490621295460393",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-28",
+      "summary": "字节跳动 / 腾讯 / 阿里 AI 岗位调研报告。语言对比中，我主要关注了 Go。所以，报告中，会重点提示跟 Go 相关的部分。 另外，基于报告我也梳理出来 AI 时代的岗位选择、能力要求及学习路线。",
+      "points": 0
+    },
+    {
+      "title": "不用一行恶意代码，就能教坏你的 AI Agent：SkillPoison 只用了 15 条『成功经验』",
+      "url": "https://juejin.cn/post/7701289548995084314",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-28",
+      "summary": "自进化 Agent 会把成功经验蒸馏成可复用技能，现有投毒攻击靠注入恶意内容",
+      "points": 0
+    },
+    {
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "url": "https://news.ycombinator.com/item?id=50257326",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-27",
+      "summary": "Wikipedia's Cleanup of AI-Generated Content",
+      "points": 459
+    },
+    {
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://news.ycombinator.com/item?id=50264853",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-27",
+      "summary": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "points": 199
+    },
+    {
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://news.ycombinator.com/item?id=50265609",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-27",
+      "summary": "Early progress on accelerating drug development with Claude",
+      "points": 143
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://news.ycombinator.com/item?id=50266701",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-27",
+      "summary": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "points": 24
+    },
+    {
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-27",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate pe…",
+      "points": 0
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-27",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT an…",
+      "points": 0
+    },
+    {
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-27",
+      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analyst…",
+      "points": 0
+    },
+    {
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+      "url": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-27",
+      "summary": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS…",
+      "points": 0
+    },
+    {
+      "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-27",
+      "summary": "Seekable OCI (SOCI) indexing for Amazon SageMaker AI training and processing jobs takes full container image d…",
+      "points": 0
+    },
+    {
+      "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-27",
+      "summary": "Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model,…",
+      "points": 0
+    },
+    {
+      "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+      "url": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-27",
+      "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatabl…",
+      "points": 0
+    },
+    {
+      "title": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
+      "url": "https://www.infoq.cn/article/3o7gwgKJt2SbH8AhdpkU?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-27",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
+      "url": "https://www.qbitai.com/2026/10/505580.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-27",
+      "summary": "10 月 23 日，以 “ AI is Profitable ” 为主题的 2026 TGC 科技增长大会于广州召开。",
+      "points": 0
+    },
     {
       "title": "GPT-6.1 Terra",
       "url": "https://news.ycombinator.com/item?id=50248124",
@@ -82,36 +272,6 @@
       "points": 0
     },
     {
-      "title": "ChatGPT’s expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatG…",
-      "points": 0
-    },
-    {
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 3…",
-      "points": 0
-    },
-    {
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security anal…",
-      "points": 0
-    },
-    {
       "title": "Optimizing Streaming Speech Recognition on Arm® Edge Devices with ExecuTorch",
       "url": "https://pytorch.org/blog/optimizing-streaming-speech-recognition-on-arm-edge-devices-with-executorch/",
       "source": "pytorch",
@@ -139,16 +299,6 @@
       "kind": "official",
       "date": "2026-10-26",
       "summary": "Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for…",
-      "points": 0
-    },
-    {
-      "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that …",
       "points": 0
     },
     {
@@ -212,16 +362,6 @@
       "points": 0
     },
     {
-      "title": "Android Bench 2 新增对长周期任务、智能评估和连续评分的支持",
-      "url": "https://www.infoq.cn/article/6XMtxZevN1488WVGXdR1?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-26",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "GPT-6.1 Terra",
       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "source": "simon",
@@ -229,6 +369,106 @@
       "kind": "community",
       "date": "2026-10-26",
       "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release annou…",
+      "points": 0
+    },
+    {
+      "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
+      "url": "https://www.qbitai.com/2026/10/505551.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-26",
+      "summary": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权",
+      "points": 0
+    },
+    {
+      "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
+      "url": "https://www.qbitai.com/2026/10/505539.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-26",
+      "summary": "10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕。",
+      "points": 0
+    },
+    {
+      "title": "OpenAI开始断网训练最强模型：“安全起见”",
+      "url": "https://www.qbitai.com/2026/10/505529.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-26",
+      "summary": "模型开始利用GPU缓存聊天？",
+      "points": 0
+    },
+    {
+      "title": "A社联创演讲：AI奇点已来",
+      "url": "https://www.qbitai.com/2026/10/505521.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-26",
+      "summary": "所谓奇点，或许是AI跃过人类的那个点。",
+      "points": 0
+    },
+    {
+      "title": "NeoLab第一个商业模式：转售GPU",
+      "url": "https://www.qbitai.com/2026/10/505478.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-26",
+      "summary": "从冲刺AGI到转售GPU。",
+      "points": 0
+    },
+    {
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-26",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatG…",
+      "points": 0
+    },
+    {
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-26",
+      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 3…",
+      "points": 0
+    },
+    {
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-26",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security anal…",
+      "points": 0
+    },
+    {
+      "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-26",
+      "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that …",
+      "points": 0
+    },
+    {
+      "title": "Android Bench 2 新增对长周期任务、智能评估和连续评分的支持",
+      "url": "https://www.infoq.cn/article/6XMtxZevN1488WVGXdR1?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-26",
+      "summary": "",
       "points": 0
     },
     {
@@ -262,6 +502,16 @@
       "points": 19
     },
     {
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-10-23",
+      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in…",
+      "points": 0
+    },
+    {
       "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
       "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
       "source": "aws",
@@ -289,16 +539,6 @@
       "kind": "official",
       "date": "2026-10-23",
       "summary": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you…",
-      "points": 0
-    },
-    {
-      "title": "Quick Study",
-      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-10-23",
-      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in…",
       "points": 0
     },
     {
@@ -482,16 +722,6 @@
       "points": 21
     },
     {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-22",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "points": 0
-    },
-    {
       "title": "PyTorch Conference North America 2026: Accelerating Open Intelligence Together",
       "url": "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together/",
       "source": "pytorch",
@@ -529,6 +759,16 @@
       "kind": "community",
       "date": "2026-10-22",
       "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us fo…",
+      "points": 0
+    },
+    {
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-22",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "points": 0
     },
     {
@@ -1072,6 +1312,16 @@
       "points": 0
     },
     {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-10-13",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier …",
+      "points": 0
+    },
+    {
       "title": "Developing Gemini 4 Argon responsibly and safely",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
       "source": "deepmind",
@@ -1099,16 +1349,6 @@
       "kind": "official",
       "date": "2026-10-13",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "source": "google",
-      "source_name": "Google Blog",
-      "kind": "official",
-      "date": "2026-10-13",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier …",
       "points": 0
     },
     {
