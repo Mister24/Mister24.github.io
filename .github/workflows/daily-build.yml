@@ -1,10 +1,8 @@
 name: 每日站点构建与发布
 
 on:
-  schedule:
-    # 北京时间 08:00 = UTC 00:00（GitHub Actions 的 cron 一律按 UTC 计算）
-    # 注意：整点是 GitHub 调度负载最高的时刻，实际触发可能顺延数十分钟至数小时
-    - cron: "0 0 * * *"
+  # 定时触发改由外部调度（WorkBuddy 每日 08:00 定时任务调用 workflow_dispatch），
+  # 不再使用 GitHub 原生 schedule —— 其调度在免费/公开仓库会延迟到中午，且会与外部触发重复构建。
   workflow_dispatch:
 
 concurrency:
