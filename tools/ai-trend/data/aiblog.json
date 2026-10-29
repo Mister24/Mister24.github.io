@@ -2,6 +2,16 @@
   "date": "2026-10-29",
   "items": [
     {
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "url": "https://news.ycombinator.com/item?id=50284255",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "Claude Code regularly sends each background agent’s transcript to its model",
+      "points": 391
+    },
+    {
       "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
       "url": "https://news.ycombinator.com/item?id=50284255",
       "source": "hn",
@@ -10,6 +20,36 @@
       "date": "2026-10-29",
       "summary": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
       "points": 164
+    },
+    {
+      "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+      "url": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "天数智芯公布天垓300实测数据：部分推理场景达到H200水平，端侧对标Thor T5000",
+      "url": "https://www.infoq.cn/article/tFaOHgBe8ENwteobTsLV?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "生产级 AI：隐性故障、工程落地与智能体治理",
+      "url": "https://www.infoq.cn/article/tsyyFmCmzphHw4gWy7Fo?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
+      "points": 0
     },
     {
       "title": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
@@ -39,6 +79,116 @@
       "kind": "cn",
       "date": "2026-10-29",
       "summary": "",
+      "points": 0
+    },
+    {
+      "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+      "url": "https://www.qbitai.com/2026/10/506281.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展",
+      "points": 0
+    },
+    {
+      "title": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
+      "url": "https://www.qbitai.com/2026/10/506273.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。",
+      "points": 0
+    },
+    {
+      "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "url": "https://www.qbitai.com/2026/10/505934.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "用扩散模型怎么做做Agent？",
+      "points": 0
+    },
+    {
+      "title": "24万开卖！理想重造i6，李想：目标全球畅销",
+      "url": "https://www.qbitai.com/2026/10/506246.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "理想今年最后一场发布会，自研电池芯片全部上车",
+      "points": 0
+    },
+    {
+      "title": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
+      "url": "https://www.qbitai.com/2026/10/506227.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "能连肝数日修Bug，免疫提示词注入",
+      "points": 0
+    },
+    {
+      "title": "想让AI能力翻倍需要多少数据：874条专家轨迹的后训练杠杆效应",
+      "url": "https://juejin.cn/post/7701913450306584627",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "几百条专家轨迹，就能让 agent 能力翻倍？Mercor 用 874 条数据 + 单 epoch 长程 RL，让 GLM 4.6 专业任务 Pass@1 近翻倍。附可跑代码与对照表。",
+      "points": 0
+    },
+    {
+      "title": "AI 写的页面一眼假？有人把\"假指纹\"写成 62 条规则，不用大模型就能跑",
+      "url": "https://juejin.cn/post/7701909475934126106",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "装了爆火的 impeccable：62 条\"AI slop\"规则不开大模型就能跑。扫同赛道 hallmark：坏样本 7 条全中，官方好范例也中招，奶油底色成了两个项目打架的地方。",
+      "points": 0
+    },
+    {
+      "title": "Apache Doris + Vane：让多模态数据进入业务分析",
+      "url": "https://juejin.cn/post/7701912747433738291",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "订单、工单和生产批次已经进入数据库，但客户对产品的很多具体反馈，仍然存在客服录音、文字记录和附件中。 当团队想知道“还有哪些客户遇到了类似问题？这些反馈分别对应哪些生产批次？”时，通常需要先听录音、整",
+      "points": 0
+    },
+    {
+      "title": "热点解读：Jev 使用完整指南：从申请 API Key 到置信度路由，把 TypeSafe 决...",
+      "url": "https://juejin.cn/post/7701926327251058703",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "热点解读：Jev 使用完整指南——从申请 API Key 到置信度路由，把 TypeSafe 决策模型接进自己的代码 引言 将决策模型接入业务，难点不只是调用接口，还包括结构化输入、结果校验、低",
+      "points": 0
+    },
+    {
+      "title": "本地模型已经跑起来了，Copilot Fusion 为什么还要联网？",
+      "url": "https://juejin.cn/post/7701918431545868324",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "本地模型接入 Copilot Fusion 并不代表 GitHub Copilot 已经变成纯离线的 AI 编码 Agent。",
+      "points": 0
+    },
+    {
+      "title": "H3-World 的动作没按时发生，先检查时间线变成了什么",
+      "url": "https://juejin.cn/post/7701918431545573412",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "H3-World 的动作没按时发生，先检查时间线变成了什么 给视频模型安排“先前进，再后退”，如果生成的人物没有照着动，第一反应通常是控制能力不够。但在 H3-World 的公开代码里，有一个更早发生",
       "points": 0
     },
     {
@@ -119,7 +269,7 @@
       "kind": "community",
       "date": "2026-10-28",
       "summary": "Gemini 4 Carbon",
-      "points": 862
+      "points": 940
     },
     {
       "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
@@ -129,7 +279,7 @@
       "kind": "community",
       "date": "2026-10-28",
       "summary": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "points": 219
+      "points": 238
     },
     {
       "title": "The Agent SDK",
@@ -139,7 +289,7 @@
       "kind": "community",
       "date": "2026-10-28",
       "summary": "The Agent SDK",
-      "points": 110
+      "points": 131
     },
     {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
@@ -169,16 +319,6 @@
       "kind": "official",
       "date": "2026-10-28",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis,…",
-      "points": 0
-    },
-    {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-28",
-      "summary": "",
       "points": 0
     },
     {
@@ -222,26 +362,6 @@
       "points": 0
     },
     {
-      "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
-      "url": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-28",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
-      "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-28",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Quoting Ted Sanders",
       "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
       "source": "simon",
@@ -259,6 +379,46 @@
       "kind": "community",
       "date": "2026-10-28",
       "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share i…",
+      "points": 0
+    },
+    {
+      "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+      "url": "https://www.qbitai.com/2026/10/506194.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-28",
+      "summary": "让基建作为常驻buff",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
+      "url": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-28",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-28",
+      "summary": "",
       "points": 0
     },
     {
@@ -302,16 +462,6 @@
       "points": 0
     },
     {
-      "title": "Genie 4: A new generation of world simulation",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-27",
-      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-      "points": 0
-    },
-    {
       "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
       "url": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
       "source": "aws",
@@ -339,6 +489,16 @@
       "kind": "official",
       "date": "2026-10-27",
       "summary": "Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model,…",
+      "points": 0
+    },
+    {
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-27",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
       "points": 0
     },
     {
@@ -432,16 +592,6 @@
       "points": 0
     },
     {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-22",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "points": 0
-    },
-    {
       "title": "PyTorch Conference North America 2026: Accelerating Open Intelligence Together",
       "url": "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together/",
       "source": "pytorch",
@@ -479,6 +629,16 @@
       "kind": "community",
       "date": "2026-10-22",
       "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us fo…",
+      "points": 0
+    },
+    {
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-22",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "points": 0
     },
     {
@@ -532,16 +692,6 @@
       "points": 0
     },
     {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-13",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "source": "google",
@@ -549,6 +699,16 @@
       "kind": "official",
       "date": "2026-10-13",
       "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier …",
+      "points": 0
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-13",
+      "summary": "",
       "points": 0
     },
     {
@@ -579,6 +739,16 @@
       "kind": "official",
       "date": "2026-09-28",
       "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "points": 0
+    },
+    {
+      "title": "如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界",
+      "url": "https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html",
+      "source": "meituan",
+      "source_name": "美团技术团队",
+      "kind": "cn",
+      "date": "",
+      "summary": "本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。",
       "points": 0
     },
     {
