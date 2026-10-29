@@ -1,9 +1,229 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "items": [
     {
-      "title": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务",
-      "url": "https://www.infoq.cn/article/wIuu0NSaLSaqJJpXVExD?utm_source=rss&utm_medium=article",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "url": "https://news.ycombinator.com/item?id=50284255",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "points": 164
+    },
+    {
+      "title": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
+      "url": "https://www.infoq.cn/article/Lg6RgMudjiWIVQllmz8a?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "AI 用起来了，业务价值谁来打分？",
+      "url": "https://www.infoq.cn/article/LLbRSSwTyvqTpFsaJs3v?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
+      "url": "https://www.infoq.cn/article/g7TTtqzU1qyQXooXFQGN?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
+      "url": "https://www.infoq.cn/article/YmgmEh686wTClmj3PY8o?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "手握芯片、又要吞下开源分发入口，英伟达被盯上了",
+      "url": "https://juejin.cn/post/7701710876098019371",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "美国司法部就英伟达129.3亿美元收购Hugging Face展开反垄断问询，关注点不在芯片算力本身，而在于英伟达是否会将AI模型分发渠道也收归麾下。这笔交易叠加此前对SchedMD、Run:ai的收",
+      "points": 0
+    },
+    {
+      "title": "Agent 不会报错，只会变笨：给 MCP Server 补上契约测试和回放测试",
+      "url": "https://juejin.cn/post/7701710876097478699",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "前几篇把 MCP Server 从 stdio 写到 HTTP，从单 Agent 写到多 Agent。功能一路加，有一个问题一直没碰：这些代码怎么测。 不是没测过。每次改完我都习惯性地起个服务，挂到",
+      "points": 0
+    },
+    {
+      "title": "AI 时代一群人在卷笔记软件，我想先把 Markdown 编辑器的底层做好",
+      "url": "https://juejin.cn/post/7701625236325154826",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "大家都在卷 AI 编辑器，底层却还是那几个老问题：Markdown 来回转换会改写源码、所见即所得要塞两套编辑器、协同一来就丢内容。这篇对照十几款流行笔记软件的技术路线，讲清 Markdown 真正的限制，介绍源码优先的…",
+      "points": 0
+    },
+    {
+      "title": "架构思考与演进：如何彻底破解 RAG 切块大小与语义完整性的工程悖论？",
+      "url": "https://juejin.cn/post/7701625236324958218",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "本文对比了升级大窗口 Embedding 模型 + 强制硬截断，滑动窗口重叠，物理邻居回溯法Window Retrieval / 前后扩展 K 个切片，父子分块四种处理切片和语义完整性矛盾的解决方案优",
+      "points": 0
+    },
+    {
+      "title": "AI剪辑工具降低创作门槛",
+      "url": "https://juejin.cn/post/7701652199176863778",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "# 会打字就能剪视频？国产开源AI剪辑工具，正在把创作门槛打下来 最近有条新闻挺有意思——外媒预测中国到2030年将在AI模型等领域领先。说实话，这种预测听听就好，但有一点是实打实的：国内AI工具的",
+      "points": 0
+    },
+    {
+      "title": "批量设备任务显示 COMPLETED，为什么还有设备失败？",
+      "url": "https://juejin.cn/post/7701637989949079571",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-29",
+      "summary": "批量设备任务显示 COMPLETED，为什么还有设备失败？ 用户对语音 Agent 说：“把会议室三盏灯都关掉。”后台批量任务显示 COMPLETED，Agent 回答“都关好了”，现场却还有一盏亮着",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Carbon",
+      "url": "https://news.ycombinator.com/item?id=50276792",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-28",
+      "summary": "Gemini 4 Carbon",
+      "points": 862
+    },
+    {
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "url": "https://news.ycombinator.com/item?id=50275626",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-28",
+      "summary": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "points": 219
+    },
+    {
+      "title": "The Agent SDK",
+      "url": "https://news.ycombinator.com/item?id=50273731",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-28",
+      "summary": "The Agent SDK",
+      "points": 110
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNo…",
+      "points": 0
+    },
+    {
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+      "points": 0
+    },
+    {
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis,…",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "PyTorch 2.15 Release Blog",
+      "url": "https://pytorch.org/blog/pytorch-2-15-release-blog/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "We are excited to announce the release of PyTorch® 2.15 (release notes)! The PyTorch 2.15 release features the…",
+      "points": 0
+    },
+    {
+      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through th…",
+      "points": 0
+    },
+    {
+      "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post …",
+      "points": 0
+    },
+    {
+      "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes t…",
+      "points": 0
+    },
+    {
+      "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
+      "url": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article",
       "source": "infoq",
       "source_name": "InfoQ 中国",
       "kind": "cn",
@@ -12,8 +232,8 @@
       "points": 0
     },
     {
-      "title": "轻量化异构双臂 × VLA/世界模型：家庭服务具身机器人的落地实践",
-      "url": "https://www.infoq.cn/article/7yOK6Ri9Dt4VfITmA7Vb?utm_source=rss&utm_medium=article",
+      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
       "source": "infoq",
       "source_name": "InfoQ 中国",
       "kind": "cn",
@@ -22,84 +242,34 @@
       "points": 0
     },
     {
-      "title": "GPT-6.1 Terra 发布：比旗舰快 3 倍，价格仅1/10！事实错误率暴降近 70%",
-      "url": "https://www.infoq.cn/article/28VVsANi9FBYRKfUz8vA?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-28",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "给 MCP Server 加调用链日志和大输出落盘：一个装饰器搞定，附 3 个实测踩坑（Python SDK v2）",
-      "url": "https://juejin.cn/post/7701303196131606562",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-10-28",
-      "summary": "最近 MCP 相关的开源项目里，有两类需求反复出现：一是看清 Agent 到底调了哪个工具、传了什么参数、花了多久；二是工具返回太长，把模型的上下文挤爆。比如让 Agent 在日志里搜 ERROR，一",
-      "points": 0
-    },
-    {
-      "title": "2026 深度盘点：我评估了 369 个 Claude/CodeX AI 视频与自动化剪辑开源项目",
-      "url": "https://juejin.cn/post/7701289548996149274",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-10-28",
-      "summary": "在 AI Agent 辅助编程与自动化内容生产极速狂飙的今天，我花时间系统整理了一份包含 369 个开源仓库的超级清单。这份清单全面涵盖了能让 Claude Code、Codex 等编程 Agent",
-      "points": 0
-    },
-    {
-      "title": "我的 10 个 npm 插件，差点被 AI 判了死刑",
-      "url": "https://juejin.cn/post/7701545216016891947",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-10-28",
-      "summary": "AI 十几秒写出我两天的活，我差点放弃维护这 10 个 npm 包。后来想明白：AI 不是插件的敌人，是插件的新用户。",
-      "points": 0
-    },
-    {
-      "title": "长篇写作 Skill 横向盘点：从单文件指令到多智能体流水线",
-      "url": "https://juejin.cn/post/7701285133412417546",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-10-28",
-      "summary": "长篇写作最怕三件事，写到一半忘了前文设定，人物性格悄悄走样，文风越写越飘。围绕这些问题，社区里已经冒出几类思路不同的 Skill 和工作流。这份报告先讲清 Skill 是什么，再逐个拆解代表方案，最后",
-      "points": 0
-    },
-    {
-      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "url": "https://news.ycombinator.com/item?id=50264853",
-      "source": "hn",
-      "source_name": "Hacker News",
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "source": "simon",
+      "source_name": "Simon Willison",
       "kind": "community",
-      "date": "2026-10-27",
-      "summary": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "points": 265
+      "date": "2026-10-28",
+      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the…",
+      "points": 0
     },
     {
-      "title": "Early progress on accelerating drug development with Claude",
-      "url": "https://news.ycombinator.com/item?id=50265609",
-      "source": "hn",
-      "source_name": "Hacker News",
+      "title": "Quoting Terk Terkowitz",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "source": "simon",
+      "source_name": "Simon Willison",
       "kind": "community",
-      "date": "2026-10-27",
-      "summary": "Early progress on accelerating drug development with Claude",
-      "points": 187
+      "date": "2026-10-28",
+      "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share i…",
+      "points": 0
     },
     {
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "url": "https://news.ycombinator.com/item?id=50266701",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-10-27",
-      "summary": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "points": 34
+      "title": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019",
+      "url": "https://www.qbitai.com/2026/10/505928.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-28",
+      "summary": "10月28 日，蚂蚁集团旗下百灵大模型正式开源 Ling-3.1-flash-1019。",
+      "points": 0
     },
     {
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
@@ -172,63 +342,53 @@
       "points": 0
     },
     {
-      "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
-      "url": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-27",
-      "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatabl…",
-      "points": 0
-    },
-    {
-      "title": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
-      "url": "https://www.infoq.cn/article/3o7gwgKJt2SbH8AhdpkU?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-27",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
-      "url": "https://www.qbitai.com/2026/10/505580.html",
+      "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+      "url": "https://www.qbitai.com/2026/10/505865.html",
       "source": "qbitai",
       "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-10-27",
-      "summary": "10 月 23 日，以 “ AI is Profitable ” 为主题的 2026 TGC 科技增长大会于广州召开。",
+      "summary": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。",
       "points": 0
     },
     {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rew…",
+      "title": "印奇把4D雷达也端到端了",
+      "url": "https://www.qbitai.com/2026/10/505852.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-27",
+      "summary": "毫米波雷达，AI算力10TOPS",
       "points": 0
     },
     {
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—…",
+      "title": "乔布斯的皮克斯，狂赞中国物理AI数据终端",
+      "url": "https://www.qbitai.com/2026/10/505830.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-27",
+      "summary": "顶尖智能汽车玩家的终局，不会停在智能汽车",
       "points": 0
     },
     {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps d…",
+      "title": "Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
+      "url": "https://www.qbitai.com/2026/10/505799.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-27",
+      "summary": "无人在环进店实测啃下长尾场景",
+      "points": 0
+    },
+    {
+      "title": "KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
+      "url": "https://www.qbitai.com/2026/10/505773.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-27",
+      "summary": "OCR 3.0时代，来了",
       "points": 0
     },
     {
@@ -242,26 +402,6 @@
       "points": 0
     },
     {
-      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a w…",
-      "points": 0
-    },
-    {
-      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-10-26",
-      "summary": "Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for…",
-      "points": 0
-    },
-    {
       "title": "Our newest AI Quest: Mapping the human brain",
       "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
       "source": "google",
@@ -272,26 +412,6 @@
       "points": 0
     },
     {
-      "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
-      "url": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-26",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "让 AI 从需求一路干到上线，软件开发组织要变了？",
-      "url": "https://www.infoq.cn/article/b32Mw2zaPrxyJ6ChePD5?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-26",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "GPT-6.1 Terra",
       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "source": "simon",
@@ -299,56 +419,6 @@
       "kind": "community",
       "date": "2026-10-26",
       "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release annou…",
-      "points": 0
-    },
-    {
-      "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
-      "url": "https://www.qbitai.com/2026/10/505551.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-26",
-      "summary": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权",
-      "points": 0
-    },
-    {
-      "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
-      "url": "https://www.qbitai.com/2026/10/505539.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-26",
-      "summary": "10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕。",
-      "points": 0
-    },
-    {
-      "title": "OpenAI开始断网训练最强模型：“安全起见”",
-      "url": "https://www.qbitai.com/2026/10/505529.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-26",
-      "summary": "模型开始利用GPU缓存聊天？",
-      "points": 0
-    },
-    {
-      "title": "A社联创演讲：AI奇点已来",
-      "url": "https://www.qbitai.com/2026/10/505521.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-26",
-      "summary": "所谓奇点，或许是AI跃过人类的那个点。",
-      "points": 0
-    },
-    {
-      "title": "NeoLab第一个商业模式：转售GPU",
-      "url": "https://www.qbitai.com/2026/10/505478.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-10-26",
-      "summary": "从冲刺AGI到转售GPU。",
       "points": 0
     },
     {
@@ -442,36 +512,6 @@
       "points": 0
     },
     {
-      "title": "Introducing TorchTPU",
-      "url": "https://pytorch.org/blog/introducing-torchtpu/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-10-20",
-      "summary": "TL;DR TorchTPU is an open source collaboration between Google and Meta that introduces a native and principled…",
-      "points": 0
-    },
-    {
-      "title": "llm-tools-datasette 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-10-18",
-      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would bre…",
-      "points": 0
-    },
-    {
-      "title": "llm-echo 0.5",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-10-18",
-      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo…",
-      "points": 0
-    },
-    {
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
       "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
       "source": "deepmind",
@@ -494,16 +534,6 @@
     {
       "title": "Developing Gemini 4 Argon responsibly and safely",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
       "kind": "official",
