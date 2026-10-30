@@ -12,12 +12,13 @@ LOG_DIR="$HOME/Library/Logs"
 LOG="$LOG_DIR/mister24-auto-daily.log"
 PY=python3
 
-# 代理：优先使用环境代理，否则清空 git 全局坏代理走直连
+# 代理策略：首选直连（清空 git 全局坏代理 + 强制 HTTP/1.1），env 代理仅作兜底
+GOPT=(-c http.version=1.1 -c http.proxy= -c https.proxy=)
 PROXY="${HTTPS_PROXY:-${HTTP_PROXY:-}}"
 if [ -n "$PROXY" ]; then
-  GOPT=(-c http.version=1.1 -c "http.proxy=$PROXY" -c "https.proxy=$PROXY")
+  GOPT_PROXY=(-c http.version=1.1 -c "http.proxy=$PROXY" -c "https.proxy=$PROXY")
 else
-  GOPT=(-c http.version=1.1 -c http.proxy= -c https.proxy=)
+  GOPT_PROXY=()
 fi
 GIT=(git "${GOPT[@]}")
 
@@ -65,6 +66,12 @@ else
   for i in 1 2 3 4 5; do
     if "${GIT[@]}" push origin master >>"$LOG" 2>&1; then
       log "  ✓ 推送成功（$(date +%F) 已记入 Mister24 的 contribution）"
+      ok=1
+      break
+    fi
+    # 直连失败：若有 env 代理，再试一次代理方式兜底
+    if [ ${#GOPT_PROXY[@]} -gt 0 ] && git "${GOPT_PROXY[@]}" push origin master >>"$LOG" 2>&1; then
+      log "  ✓ 推送成功（经 env 代理兜底）"
       ok=1
       break
     fi
