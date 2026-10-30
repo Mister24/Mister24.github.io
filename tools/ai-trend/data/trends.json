@@ -1,65 +1,58 @@
 {
-  "date": "2026-10-21",
-  "headline": "Fable 5.5 曝光「读心」修 Bug ｜ DeepSeek 开源推理框架 DeepInfer ｜ 全球首个机器人大脑 API 开放 ｜ GPT-6 具身真机大考碰壁",
+  "date": "2026-10-30",
+  "headline": "Chainguard 推出面向 AI 编 ｜ Claude Code regularl ｜ LLM Voice ｜ Claude Code burns ~1 ｜ We ran AI agent swar",
   "items": [
     {
-      "track": "AI Coding",
-      "title": "Fable 5.5 被曝突袭在即：会「读心」的 Claude，御三家决战十月",
-      "event": "多方报道确认 Anthropic 即将发布 Fable 5.5：内部测试者称其为「重大飞跃」，能看穿用户没说出口的需求——修一个 Bug 会先识别出导致该 Bug 的一整类问题，自动排查同类隐患后再让用户决定修复范围；面对投资类问题也不再复述常识，而是自建算法预测。同期谷歌 Gemini 4 Carbon 内部开跑、OpenAI Terra 系列预计数周内发布（定价低于 GPT-6.1 Sol），三家把「长任务编程」定为主战场。",
-      "why": "「修一类问题而不是打一个补丁」正是当前编码 Agent 与资深工程师的分水岭：模型开始主动澄清意图、扩大修复半径，意味着人类在编码回路中的角色将进一步退到需求定义与风险决策。三家同期冲刺，十月末的模型层格局可能一周内重排。",
-      "source": "https://aitntnews.com/newDetail.html?newId=30413",
-      "source_name": "AITNT · The Information 等多源交叉确认",
-      "tags": ["Fable 5.5", "Anthropic", "Gemini 4", "长任务编程"]
+      "track": "Agent",
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "event": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "智能体"
+      ]
     },
     {
-      "track": "AI Coding",
-      "title": "DeepSeek 开源推理框架 DeepInfer：CUDA 与昇腾双栈通吃",
-      "event": "DeepSeek 宣布将支撑 V4.1 Flash 高吞吐线上服务的内部推理框架 DeepInfer 全面开源：支持分布式推理、推测解码、SWA Bounded Replay、结构化输出，同时兼容英伟达 CUDA 与华为昇腾两大平台，同步开源与官方 API 完全对齐的 Token 编解码组件 deepseek-recipe。至此 DeepSeek 已把训练算子（TileLang/DeepGEMM-Ascend、FlashMLA）到推理服务的整条链路全部开放。",
-      "why": "这不是模型开源而是基础设施级开源：任何企业都能用与 DeepSeek 官方 API 相同的技术栈自建推理服务。在算力出口管制常态化背景下，「硬件中立」正成为国产生态对抗 CUDA 锁定的战略——想搭私有化推理服务，DeepInfer 是当前性价比最高的起点之一。",
-      "source": "https://juejin.cn/post/7698636164253810739",
-      "source_name": "稀土掘金 · 今日AI大事件（10-20 发布）",
-      "tags": ["DeepSeek", "开源", "推理框架", "昇腾"]
+      "track": "Agent",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "event": "Claude Code regularly sends each background agent’s transcript to its model",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50284255",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
     },
     {
-      "track": "具身智能",
-      "title": "全球首个机器人大脑 API 开放：Dream-1 每小时 3 美元，零样本适配 27 种陌生机器人",
-      "event": "英伟达 DreamZero 原班团队创业成立的 Dream Labs 完成 9000 万美元种子轮，上线 Dream API——全球首个开放机器人大脑 API。核心模型 Dream-1 让用户以自然语言控制机器人，可适配从未见过的硬件实现零样本泛化，定价每小时 3 美元（Flash 档 2 美元），主打双臂 + 平行夹爪构型；已在 27 种陌生机器人上完成测试，第三方评测得分 59%、超过 GPT-6。",
-      "why": "机器人「大脑」第一次以按小时计费的 API 形态开放——硬件厂商无需自研模型即可获得通用操作能力，具身智能正在复制「大模型 API → 应用爆发」的路径；$3/小时的定价也让具身智能的商业测算第一次有了公开锚点。",
-      "source": "https://aitntnews.com/newDetail.html?newId=30409",
-      "source_name": "AITNT · Dream Labs（AI Impact Hub 交叉确认）",
-      "tags": ["机器人大脑", "API", "零样本泛化", "Dream Labs"]
+      "track": "模型",
+      "title": "LLM Voice",
+      "event": "LLM Voice",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50290177",
+      "source_name": "Hacker News",
+      "tags": []
     },
     {
-      "track": "具身智能",
-      "title": "梁文锋再出手：DeepSeek 拟领投具身「大脑」初创 Winverse AI",
-      "event": "据 AI 周报报道，DeepSeek 计划领投机器人初创 Winverse AI 数千万美元种子轮，投后估值约 4 亿美元。公司由腾讯原混元多模态大模型负责人胡瀚于 2026 年创立，主攻具身智能「大脑」与模型加速。此前 DeepSeek 已以约 1.41 亿元参与宇树科技 IPO 战略配售——「模型 → 推理基础设施 → 具身载体」的布局路径清晰成型。同期蓝芯算力完成近 20 亿元 B 轮、伊塔动力超亿元种子轮、法奥机器人近 10 亿元 C+/D 轮，资本沿「大脑-本体-芯片」全链铺开。",
-      "why": "机器人厂商缺的从来不是本体，而是便宜、可靠、能推理的「脑子」——由以模型效率著称的 DeepSeek 来补位，逻辑自洽。当资本主线从「卷模型榜单」转向「卷物理世界落地」，2026 Q4 的具身智能融资潮可能是 2021 年大模型元年的重演。",
-      "source": "https://juejin.cn/post/7698636164253810739",
-      "source_name": "稀土掘金 · AI 周报（网易/腾讯证券交叉印证）",
-      "tags": ["DeepSeek", "Winverse AI", "具身大脑", "融资"]
+      "track": "模型",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "event": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50284255",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
     },
     {
-      "track": "具身智能",
-      "title": "GPT-6-Astra 具身大考：仿真双满分，真机插了 11 次插头全失败",
-      "event": "商汤等机构对 GPT-6-Astra 开展具身智能系统评测：仿真环境中 LIBERO-Long++ 达 100%、LIBERO-Pro 达 99.3%；但在 8 个真实机器人平台上，刚性物体抓取 17/18 成功，插头插入任务 11 次全部失败，插笔筒耗时超 4 小时。报告指出模型能规划纠错、但物理执行验证能力不足，距离可靠部署仍有明显差距。",
-      "why": "「仿真满分 ≠ 真机能用」再次被量化坐实：Sim-to-Real 的鸿沟没有因模型能力跃升而消失。对押注具身智能的团队，这份数据提醒估值叙事之外，物理执行验证（力控、接触式操作）才是真正的护城河。",
-      "source": "https://aitntnews.com/newDetail.html?newId=30407",
-      "source_name": "AITNT · 商汤等联合评测",
-      "tags": ["GPT-6-Astra", "Sim-to-Real", "评测", "真机部署"]
+      "track": "Agent",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "event": "We ran AI agent swarms in Minecraft and Mindustry",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50296486",
+      "source_name": "Hacker News",
+      "tags": []
     }
   ],
-  "insights": [
-    {
-      "title": "编码 Agent 竞争进入「意图层」",
-      "desc": "Fable 5.5 的「读心」（修一类问题而非一个补丁）与 DeepInfer 的全链开源是同一趋势的两面：模型层比拼主动理解意图，基础设施层比拼开放程度——工具人的时代结束了，Agent 开始自己定义问题边界。"
-    },
-    {
-      "title": "具身智能「大脑」成了最热的卡位",
-      "desc": "Dream Labs 把机器人大脑做成 $3/小时的 API，DeepSeek 领投 Winverse 主攻具身大脑——硬件不再是稀缺品，「便宜可靠能推理的脑子」才是；但 GPT-6-Astra 真机 11 连败提醒：物理执行验证仍是没人啃动的硬骨头。"
-    },
-    {
-      "title": "开源从模型走向基础设施",
-      "desc": "DeepSeek 开放推理全链路、谷歌开源 TorchTPU 原生后端、Tenstorrent 融 15 亿美元走开放 RISC-V 路线——「硬件中立 + 全栈开源」正在从理想主义变成正经生意，开发者自建推理服务的门槛降到历史最低。"
-    }
-  ]
+  "insights": []
 }

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-30",
+  "headline": "Chainguard 推出面向 AI 编 ｜ Claude Code regularl ｜ LLM Voice ｜ Claude Code burns ~1 ｜ We ran AI agent swar",
+  "items": [
+    {
+      "track": "Agent",
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "event": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "智能体"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "event": "Claude Code regularly sends each background agent’s transcript to its model",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50284255",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "LLM Voice",
+      "event": "LLM Voice",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50290177",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "event": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50284255",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "event": "We ran AI agent swarms in Minecraft and Mindustry",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50296486",
+      "source_name": "Hacker News",
+      "tags": []
+    }
+  ],
+  "insights": []
+}

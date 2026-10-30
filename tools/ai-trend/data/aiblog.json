@@ -2,6 +2,16 @@
   "date": "2026-10-30",
   "items": [
     {
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "url": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
       "title": "Claude Code regularly sends each background agent’s transcript to its model",
       "url": "https://news.ycombinator.com/item?id=50284255",
       "source": "hn",
@@ -19,7 +29,7 @@
       "kind": "community",
       "date": "2026-10-29",
       "summary": "LLM Voice",
-      "points": 321
+      "points": 338
     },
     {
       "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
@@ -32,16 +42,6 @@
       "points": 164
     },
     {
-      "title": "Zombie stats: Where the numbers AI quotes come from",
-      "url": "https://news.ycombinator.com/item?id=50290283",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-10-29",
-      "summary": "Zombie stats: Where the numbers AI quotes come from",
-      "points": 136
-    },
-    {
       "title": "We ran AI agent swarms in Minecraft and Mindustry",
       "url": "https://news.ycombinator.com/item?id=50296486",
       "source": "hn",
@@ -49,7 +49,17 @@
       "kind": "community",
       "date": "2026-10-29",
       "summary": "We ran AI agent swarms in Minecraft and Mindustry",
-      "points": 107
+      "points": 151
+    },
+    {
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "url": "https://news.ycombinator.com/item?id=50290283",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "Zombie stats: Where the numbers AI quotes come from",
+      "points": 141
     },
     {
       "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
@@ -69,7 +79,7 @@
       "kind": "community",
       "date": "2026-10-29",
       "summary": "Hi HN, we're Ahnaf and Seungmin from Simantic ( https://simantic.com ). We are building th",
-      "points": 47
+      "points": 50
     },
     {
       "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
@@ -79,7 +89,17 @@
       "kind": "community",
       "date": "2026-10-29",
       "summary": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
-      "points": 33
+      "points": 38
+    },
+    {
+      "title": "Show HN: I Turned DOOM into a Transformer",
+      "url": "https://news.ycombinator.com/item?id=50297697",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "Instead of trying to run DOOM on things, I have instead decided to use DOOM (many, many, m",
+      "points": 30
     },
     {
       "title": "An updated Model Spec for more capable and beneficial AI",
@@ -222,16 +242,6 @@
       "points": 0
     },
     {
-      "title": "AI 用起来了，业务价值谁来打分？",
-      "url": "https://www.infoq.cn/article/LLbRSSwTyvqTpFsaJs3v?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-29",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Building a multiplayer game world with autonomous Fable-class models",
       "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
       "source": "simon",
@@ -299,6 +309,16 @@
       "kind": "wechat",
       "date": "2026-10-29",
       "summary": "能连肝数日修Bug，免疫提示词注入",
+      "points": 0
+    },
+    {
+      "title": "AI 用起来了，业务价值谁来打分？",
+      "url": "https://www.infoq.cn/article/LLbRSSwTyvqTpFsaJs3v?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
       "points": 0
     },
     {
@@ -502,16 +522,6 @@
       "points": 0
     },
     {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-28",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "PyTorch 2.15 Release Blog",
       "url": "https://pytorch.org/blog/pytorch-2-15-release-blog/",
       "source": "pytorch",
@@ -549,6 +559,16 @@
       "kind": "wechat",
       "date": "2026-10-28",
       "summary": "让基建作为常驻buff",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "",
       "points": 0
     },
     {
@@ -772,16 +792,6 @@
       "points": 0
     },
     {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-22",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "points": 0
-    },
-    {
       "title": "PyTorch Conference North America 2026: Accelerating Open Intelligence Together",
       "url": "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together/",
       "source": "pytorch",
@@ -799,6 +809,16 @@
       "kind": "official",
       "date": "2026-10-22",
       "summary": "The post Meet the 2026 PyTorch Foundation Ambassadors appeared first on PyTorch .",
+      "points": 0
+    },
+    {
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-22",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "points": 0
     },
     {
@@ -872,16 +892,6 @@
       "points": 0
     },
     {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-13",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "source": "google",
@@ -889,6 +899,16 @@
       "kind": "official",
       "date": "2026-10-13",
       "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier …",
+      "points": 0
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-13",
+      "summary": "",
       "points": 0
     },
     {
