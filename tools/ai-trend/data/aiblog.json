@@ -2,6 +2,16 @@
   "date": "2026-10-30",
   "items": [
     {
+      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "url": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
       "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
       "url": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
       "source": "infoq",
@@ -9,6 +19,66 @@
       "kind": "cn",
       "date": "2026-10-30",
       "summary": "",
+      "points": 0
+    },
+    {
+      "title": "JitOffice：把办公、AI 与审批装进同一个平台",
+      "url": "https://juejin.cn/post/7702021622689562650",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "先说结论：我们把 Word、Excel、PPT、思维导图，再加上 AI 生成和审批流，一起装进了同一个平台, 它就是 JitOffice。",
+      "points": 0
+    },
+    {
+      "title": "当 AI 成为队友：团队协作使用 AI 的实践与思考",
+      "url": "https://juejin.cn/post/7701979838149083172",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "当 AI 成为队友：团队协作使用 AI 的实践与思考 一、从\"我的工具\"到\"我们的队友\" 大约在两年前，AI 在我们团队里的形象是这样的：每个人电脑上开着聊天窗口，有人用它写周报，有人用它查报错，有人",
+      "points": 0
+    },
+    {
+      "title": "数字员工上岗实录：各行业 Agent 部署案例集",
+      "url": "https://juejin.cn/post/7701971738456768546",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "1. 引言：数字员工从概念走向工位 过去两年，\"数字员工\"这个词从发布会 PPT 走进了真实的业务系统。它不再只是一个会聊天的对话框，而是被赋予了岗位、权限、KPI 和工单——能接单、能判断、能执行、",
+      "points": 0
+    },
+    {
+      "title": "AI 热点日报（2026-10-30）：新芯航途发布 700 TOPS 大模型芯片，微软发债 250 亿加码 AI，谷歌财报现现金流红灯",
+      "url": "https://juejin.cn/post/7701995081263644715",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "今日AI行业多线共振：新芯航途发布700 TOPS大模型智驾芯片X7 Ultra；微软拟发行250亿美元债券加码AI；谷歌Q3自由现金流转负、盘后大跌；腾讯发布Buddy One跨应用协同体系。",
+      "points": 0
+    },
+    {
+      "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
+      "url": "https://juejin.cn/post/7701969275205304374",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "Reddit 在 Q3 财报中宣布将转向以登录为主的体验，以保护数据免受 AI 抓取并提升广告变现。10 月搜索流量平均每周减少超 100 万次引荐，Q3 全球日活为 1.303 亿，其中美国日活降至",
+      "points": 0
+    },
+    {
+      "title": "最近 Android 有什么更新：Android Dev Summit 2026 技术解读",
+      "url": "https://juejin.cn/post/7701991107366731785",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "Android Studio 正式开放 Agent，ACP 让 IDE 能力也跟着过去 这个其实之前聊过了，最直接的变化是 Bring Your Own Agent（BYOA）在 Rabbit 2 进",
       "points": 0
     },
     {
@@ -29,7 +99,17 @@
       "kind": "community",
       "date": "2026-10-29",
       "summary": "LLM Voice",
-      "points": 338
+      "points": 357
+    },
+    {
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://news.ycombinator.com/item?id=50296486",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "We ran AI agent swarms in Minecraft and Mindustry",
+      "points": 178
     },
     {
       "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
@@ -42,16 +122,6 @@
       "points": 164
     },
     {
-      "title": "We ran AI agent swarms in Minecraft and Mindustry",
-      "url": "https://news.ycombinator.com/item?id=50296486",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-10-29",
-      "summary": "We ran AI agent swarms in Minecraft and Mindustry",
-      "points": 151
-    },
-    {
       "title": "Zombie stats: Where the numbers AI quotes come from",
       "url": "https://news.ycombinator.com/item?id=50290283",
       "source": "hn",
@@ -59,7 +129,7 @@
       "kind": "community",
       "date": "2026-10-29",
       "summary": "Zombie stats: Where the numbers AI quotes come from",
-      "points": 141
+      "points": 148
     },
     {
       "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
@@ -79,17 +149,7 @@
       "kind": "community",
       "date": "2026-10-29",
       "summary": "Hi HN, we're Ahnaf and Seungmin from Simantic ( https://simantic.com ). We are building th",
-      "points": 50
-    },
-    {
-      "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
-      "url": "https://news.ycombinator.com/item?id=50294486",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-10-29",
-      "summary": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
-      "points": 38
+      "points": 53
     },
     {
       "title": "Show HN: I Turned DOOM into a Transformer",
@@ -99,7 +159,17 @@
       "kind": "community",
       "date": "2026-10-29",
       "summary": "Instead of trying to run DOOM on things, I have instead decided to use DOOM (many, many, m",
-      "points": 30
+      "points": 46
+    },
+    {
+      "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+      "url": "https://news.ycombinator.com/item?id=50294486",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+      "points": 39
     },
     {
       "title": "An updated Model Spec for more capable and beneficial AI",
@@ -232,16 +302,6 @@
       "points": 0
     },
     {
-      "title": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
-      "url": "https://www.infoq.cn/article/Lg6RgMudjiWIVQllmz8a?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-10-29",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Building a multiplayer game world with autonomous Fable-class models",
       "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
       "source": "simon",
@@ -309,6 +369,16 @@
       "kind": "wechat",
       "date": "2026-10-29",
       "summary": "能连肝数日修Bug，免疫提示词注入",
+      "points": 0
+    },
+    {
+      "title": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
+      "url": "https://www.infoq.cn/article/Lg6RgMudjiWIVQllmz8a?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-29",
+      "summary": "",
       "points": 0
     },
     {

@@ -1,7 +1,16 @@
 {
   "date": "2026-10-30",
-  "headline": "Chainguard 推出面向 AI 编 ｜ Claude Code regularl ｜ LLM Voice ｜ Claude Code burns ~1 ｜ We ran AI agent swar",
+  "headline": "腾讯 AI Lab 又一核心骨干去向确认 ｜ Chainguard 推出面向 AI 编 ｜ JitOffice：把办公、AI 与审批 ｜ 当 AI 成为队友：团队协作使用 AI  ｜ 数字员工上岗实录：各行业 Agent 部",
   "items": [
+    {
+      "track": "模型",
+      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "event": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": []
+    },
     {
       "track": "Agent",
       "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
@@ -14,44 +23,33 @@
       ]
     },
     {
-      "track": "Agent",
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "event": "Claude Code regularly sends each background agent’s transcript to its model",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50284255",
-      "source_name": "Hacker News",
-      "tags": [
-        "Claude"
-      ]
-    },
-    {
       "track": "模型",
-      "title": "LLM Voice",
-      "event": "LLM Voice",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50290177",
-      "source_name": "Hacker News",
+      "title": "JitOffice：把办公、AI 与审批装进同一个平台",
+      "event": "先说结论：我们把 Word、Excel、PPT、思维导图，再加上 AI 生成和审批流，一起装进了同一个平台, 它就是 JitOffice。",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7702021622689562650",
+      "source_name": "掘金",
       "tags": []
     },
     {
       "track": "模型",
-      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
-      "event": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50284255",
-      "source_name": "Hacker News",
-      "tags": [
-        "Claude"
-      ]
+      "title": "当 AI 成为队友：团队协作使用 AI 的实践与思考",
+      "event": "当 AI 成为队友：团队协作使用 AI 的实践与思考 一、从\"我的工具\"到\"我们的队友\" 大约在两年前，AI 在我们团队里的形象是这样的：每个人电脑上开着聊天窗口，有人用它写周报，有人用它查报错，有人",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7701979838149083172",
+      "source_name": "掘金",
+      "tags": []
     },
     {
       "track": "Agent",
-      "title": "We ran AI agent swarms in Minecraft and Mindustry",
-      "event": "We ran AI agent swarms in Minecraft and Mindustry",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50296486",
-      "source_name": "Hacker News",
-      "tags": []
+      "title": "数字员工上岗实录：各行业 Agent 部署案例集",
+      "event": "1. 引言：数字员工从概念走向工位 过去两年，\"数字员工\"这个词从发布会 PPT 走进了真实的业务系统。它不再只是一个会聊天的对话框，而是被赋予了岗位、权限、KPI 和工单——能接单、能判断、能执行、",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7701971738456768546",
+      "source_name": "掘金",
+      "tags": [
+        "Agent"
+      ]
     }
   ],
   "insights": []
