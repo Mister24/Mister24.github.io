@@ -16,6 +16,9 @@ python3 tools/ai-trend/fetch_aiblog.py || echo "⚠️  抓取失败，沿用上
 echo "🔥 3/6 抓取博文热点（知乎 / 虎扑）..."
 python3 tools/ai-trend/fetch_hot.py || echo "⚠️  抓取失败，沿用上次数据"
 
+echo "📰 3.5/6 生成 AI 趋势日报（基于当日 aiblog 聚合，自动替代人工编排）..."
+python3 tools/ai-trend/gen_trends.py || echo "⚠️  日报生成失败，沿用上次 trends.json"
+
 echo "🏗  4/6 构建静态站点..."
 python3 tools/ai-trend/build.py
 
