@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-31",
+  "headline": "终于不是 AI 了：Lambda 直接运 ｜ vibe coding 做小游戏·玩法篇 ｜ 1000 美元、12 小时、零人工：开源 ｜ Google 一天蒸发5000亿，Red ｜ AI 时代少有人类阅读，我开始建自己的独",
+  "items": [
+    {
+      "track": "模型",
+      "title": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "event": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/fcdAAd69U452t9b39rLU?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": []
+    },
+    {
+      "track": "AI Coding",
+      "title": "vibe coding 做小游戏·玩法篇：8 句试玩反馈，变成无限关卡、局外成长和援军登场",
+      "event": "一款竖屏塔防小游戏的战役玩法，开工头两天只给了 8 句试玩反馈。Claude Code 把每句话拆成机制和参数，再让游戏自己连打几十关调难度。",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7702467104344145955",
+      "source_name": "掘金",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "1000 美元、12 小时、零人工：开源模型 GLM 5.3 把 Firefox 的「补丁窗口」打成了自动化通道",
+      "event": "Epoch AI 用 Z.ai 开源权重模型 GLM 5.3 复现了「补丁窗口」攻击：模型仅凭已公",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7702407629826965530",
+      "source_name": "掘金",
+      "tags": [
+        "开源"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Google 一天蒸发5000亿，Reddit 靠 AI 训练喂得饱自己却饿死",
+      "event": "Google 和 Reddit 同一天遭遇股市重挫：Alphabet 跌12.6%蒸发约5000亿美元市值，为史上第二大单日缩水；Reddit 广告收入涨54%却因日活用户连降两季度、Q4可能再跌10",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7702434781234724906",
+      "source_name": "掘金",
+      "tags": [
+        "训练"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "AI 时代少有人类阅读，我开始建自己的独立站，但真的是 49 年入国军吗",
+      "event": "新域名没权重、长文阅读量个位数，在人人都不直接访问网站的时代，我为什么还要建自己的站？我不押独立博客重回流量中心，押的是一手经历、真实项目、可验证署名会变稀缺。写下我正在尝试的五件事，以及这个站本身是",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7702592474132807707",
+      "source_name": "掘金",
+      "tags": []
+    }
+  ],
+  "insights": []
+}

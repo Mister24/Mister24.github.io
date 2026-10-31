@@ -1,6 +1,306 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "items": [
+    {
+      "title": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "url": "https://www.infoq.cn/article/fcdAAd69U452t9b39rLU?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-31",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "vibe coding 做小游戏·玩法篇：8 句试玩反馈，变成无限关卡、局外成长和援军登场",
+      "url": "https://juejin.cn/post/7702467104344145955",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-31",
+      "summary": "一款竖屏塔防小游戏的战役玩法，开工头两天只给了 8 句试玩反馈。Claude Code 把每句话拆成机制和参数，再让游戏自己连打几十关调难度。",
+      "points": 0
+    },
+    {
+      "title": "1000 美元、12 小时、零人工：开源模型 GLM 5.3 把 Firefox 的「补丁窗口」打成了自动化通道",
+      "url": "https://juejin.cn/post/7702407629826965530",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-31",
+      "summary": "Epoch AI 用 Z.ai 开源权重模型 GLM 5.3 复现了「补丁窗口」攻击：模型仅凭已公",
+      "points": 0
+    },
+    {
+      "title": "Google 一天蒸发5000亿，Reddit 靠 AI 训练喂得饱自己却饿死",
+      "url": "https://juejin.cn/post/7702434781234724906",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-31",
+      "summary": "Google 和 Reddit 同一天遭遇股市重挫：Alphabet 跌12.6%蒸发约5000亿美元市值，为史上第二大单日缩水；Reddit 广告收入涨54%却因日活用户连降两季度、Q4可能再跌10",
+      "points": 0
+    },
+    {
+      "title": "AI 时代少有人类阅读，我开始建自己的独立站，但真的是 49 年入国军吗",
+      "url": "https://juejin.cn/post/7702592474132807707",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-31",
+      "summary": "新域名没权重、长文阅读量个位数，在人人都不直接访问网站的时代，我为什么还要建自己的站？我不押独立博客重回流量中心，押的是一手经历、真实项目、可验证署名会变稀缺。写下我正在尝试的五件事，以及这个站本身是",
+      "points": 0
+    },
+    {
+      "title": "预训练、SFT、RL 是同一个算法？CMU 把大模型训练流水线拧成了一个「数据旋钮」",
+      "url": "https://juejin.cn/post/7702592474132611099",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-31",
+      "summary": "CMU 等机构新论文把预训练、midtraining、SFT、RL 统一成一个带权似然损失：RL",
+      "points": 0
+    },
+    {
+      "title": "大模型综合能力多维评测：性能、逻辑与落地表现对比",
+      "url": "https://juejin.cn/post/7702592913590583315",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-10-31",
+      "summary": "大模型综合能力多维评测：性能、逻辑与落地表现对比 一、评测背景 随着大模型生态爆发，选型成本不断攀升。仅看榜单分数往往失真——推理速度、逻辑严谨性、以及真实业务落地成本，才是决定模型能否\"可用\"的关键",
+      "points": 0
+    },
+    {
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://news.ycombinator.com/item?id=50300683",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-30",
+      "summary": "https://cursor.com/blog/claude-code-extension-security-notic...",
+      "points": 793
+    },
+    {
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://news.ycombinator.com/item?id=50305693",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-30",
+      "summary": "AI isn't replacing SREs, it's deskilling them",
+      "points": 520
+    },
+    {
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "url": "https://news.ycombinator.com/item?id=50306442",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-30",
+      "summary": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "points": 198
+    },
+    {
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "url": "https://news.ycombinator.com/item?id=50304122",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-30",
+      "summary": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "points": 117
+    },
+    {
+      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+      "url": "https://news.ycombinator.com/item?id=50305218",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-30",
+      "summary": "tl;dr: Agents can play Pictionary. You can connect your own agent, or just watch a game in",
+      "points": 27
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-30",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferenc…",
+      "points": 0
+    },
+    {
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-30",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a …",
+      "points": 0
+    },
+    {
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-30",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, a…",
+      "points": 0
+    },
+    {
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+      "url": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-30",
+      "summary": "This post presents a five-stage operating model for managing Amazon Bedrock cost: attribute every dollar to an…",
+      "points": 0
+    },
+    {
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-30",
+      "summary": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HT…",
+      "points": 0
+    },
+    {
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-30",
+      "summary": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solut…",
+      "points": 0
+    },
+    {
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-10-30",
+      "summary": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a con…",
+      "points": 0
+    },
+    {
+      "title": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享",
+      "url": "https://www.infoq.cn/article/sCKczimP9lSEl0rgJ7VY?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "url": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "EmbeddingGemma 2：Google 把五种模态塞进同一个向量空间",
+      "url": "https://www.infoq.cn/article/O6mtiB7FVd0VSDHJe348?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写",
+      "url": "https://www.infoq.cn/article/ZolBIJdvK5Icdqg6FB0X?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "url": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
+      "url": "https://www.qbitai.com/2026/10/506743.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重",
+      "points": 0
+    },
+    {
+      "title": "RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR",
+      "url": "https://www.qbitai.com/2026/10/506686.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "解析一切",
+      "points": 0
+    },
+    {
+      "title": "Claude新模型曝光：新Fable，新Opus…",
+      "url": "https://www.qbitai.com/2026/10/506674.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+      "url": "https://www.qbitai.com/2026/10/506662.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "让机器人成为彼此的“老师”",
+      "points": 0
+    },
+    {
+      "title": "前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位",
+      "url": "https://www.qbitai.com/2026/10/506609.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "买车送终身AI？智己LS8纯电版25万起！全系线控底盘宁德时代标配",
+      "url": "https://www.qbitai.com/2026/10/506569.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-10-30",
+      "summary": "Momenta世界模型上车",
+      "points": 0
+    },
     {
       "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
       "url": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
@@ -132,6 +432,16 @@
       "points": 148
     },
     {
+      "title": "Building an AI-native engineering org",
+      "url": "https://news.ycombinator.com/item?id=50296730",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "Building an AI-native engineering org",
+      "points": 112
+    },
+    {
       "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
       "url": "https://news.ycombinator.com/item?id=50292727",
       "source": "hn",
@@ -222,6 +532,26 @@
       "points": 0
     },
     {
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by …",
+      "points": 0
+    },
+    {
+      "title": "Quoting Ben Hylak",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-10-29",
+      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about…",
+      "points": 0
+    },
+    {
       "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
       "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/",
       "source": "aws",
@@ -299,26 +629,6 @@
       "kind": "cn",
       "date": "2026-10-29",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Building a multiplayer game world with autonomous Fable-class models",
-      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-10-29",
-      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by …",
-      "points": 0
-    },
-    {
-      "title": "Quoting Ben Hylak",
-      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-10-29",
-      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about…",
       "points": 0
     },
     {
@@ -562,36 +872,6 @@
       "points": 131
     },
     {
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-28",
-      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNo…",
-      "points": 0
-    },
-    {
-      "title": "The future of the firm",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-28",
-      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-      "points": 0
-    },
-    {
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-10-28",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis,…",
-      "points": 0
-    },
-    {
       "title": "PyTorch 2.15 Release Blog",
       "url": "https://pytorch.org/blog/pytorch-2-15-release-blog/",
       "source": "pytorch",
@@ -619,6 +899,36 @@
       "kind": "community",
       "date": "2026-10-28",
       "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share i…",
+      "points": 0
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNo…",
+      "points": 0
+    },
+    {
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+      "points": 0
+    },
+    {
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis,…",
       "points": 0
     },
     {
