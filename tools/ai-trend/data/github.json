@@ -6,7 +6,7 @@
       "url": "https://github.com/vercel-labs/agent-desktop",
       "desc": "Computer use CLI for AI agents",
       "lang": "Rust",
-      "stars": 9685,
+      "stars": 9688,
       "forks": 657,
       "delta": 2275,
       "since": "today"
@@ -26,7 +26,7 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "lang": "Python",
-      "stars": 92858,
+      "stars": 92859,
       "forks": 9778,
       "delta": 706,
       "since": "today"
@@ -36,7 +36,7 @@
       "url": "https://github.com/hyprwm/Hyprland",
       "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
       "lang": "C++",
-      "stars": 39928,
+      "stars": 39929,
       "forks": 2155,
       "delta": 509,
       "since": "today"
@@ -66,7 +66,7 @@
       "url": "https://github.com/pingdotgg/t3code",
       "desc": "",
       "lang": "TypeScript",
-      "stars": 41922,
+      "stars": 41925,
       "forks": 9093,
       "delta": 3229,
       "since": "today"
@@ -96,8 +96,8 @@
       "url": "https://github.com/JustVugg/colibri",
       "desc": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "lang": "C",
-      "stars": 46544,
-      "forks": 5380,
+      "stars": 46545,
+      "forks": 5381,
       "delta": 675,
       "since": "today"
     },
@@ -106,7 +106,7 @@
       "url": "https://github.com/mattpocock/skills",
       "desc": "Skills for Real Engineers. Straight from my .agents directory.",
       "lang": "Shell",
-      "stars": 310227,
+      "stars": 310228,
       "forks": 26095,
       "delta": 858,
       "since": "today"
@@ -126,7 +126,7 @@
       "url": "https://github.com/paperclipai/paperclip",
       "desc": "The open-source app everyone uses to manage agents at work",
       "lang": "TypeScript",
-      "stars": 110394,
+      "stars": 110396,
       "forks": 18276,
       "delta": 412,
       "since": "today"
@@ -158,7 +158,7 @@
       "url": "https://github.com/Nutlope/hallmark",
       "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "lang": "CSS",
-      "stars": 46003,
+      "stars": 46007,
       "forks": 2442,
       "delta": 10517,
       "since": "this week"
@@ -198,7 +198,7 @@
       "url": "https://github.com/obra/superpowers",
       "desc": "An agentic skills framework & software development methodology that works.",
       "lang": "Shell",
-      "stars": 311249,
+      "stars": 311250,
       "forks": 27693,
       "delta": 5956,
       "since": "this week"
@@ -208,7 +208,7 @@
       "url": "https://github.com/pingdotgg/t3code",
       "desc": "",
       "lang": "TypeScript",
-      "stars": 41922,
+      "stars": 41925,
       "forks": 9093,
       "delta": 9770,
       "since": "this week"
@@ -228,7 +228,7 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "lang": "JavaScript",
-      "stars": 57408,
+      "stars": 57409,
       "forks": 3732,
       "delta": 9155,
       "since": "this week"
@@ -268,7 +268,7 @@
       "url": "https://github.com/Leonxlnx/taste-skill",
       "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "lang": "JavaScript",
-      "stars": 108731,
+      "stars": 108734,
       "forks": 7319,
       "delta": 5729,
       "since": "this week"
@@ -310,7 +310,7 @@
       "url": "https://github.com/morluto/rea",
       "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "lang": "TypeScript",
-      "stars": 422936,
+      "stars": 422940,
       "forks": 105465,
       "delta": 422104,
       "since": "this month"
@@ -320,7 +320,7 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "lang": "JavaScript",
-      "stars": 57408,
+      "stars": 57409,
       "forks": 3732,
       "delta": 33474,
       "since": "this month"
@@ -331,7 +331,7 @@
       "desc": "Next generation e2e testing framework for web and mobile apps.",
       "lang": "TypeScript",
       "stars": 12633,
-      "forks": 655,
+      "forks": 654,
       "delta": 11344,
       "since": "this month"
     },
@@ -340,7 +340,7 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "desc": "Write HTML. Render video. Built for agents.",
       "lang": "TypeScript",
-      "stars": 77741,
+      "stars": 77742,
       "forks": 7145,
       "delta": 22290,
       "since": "this month"
@@ -350,7 +350,7 @@
       "url": "https://github.com/Nutlope/hallmark",
       "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "lang": "CSS",
-      "stars": 46003,
+      "stars": 46007,
       "forks": 2442,
       "delta": 16306,
       "since": "this month"
@@ -360,7 +360,7 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "lang": "Python",
-      "stars": 99066,
+      "stars": 99067,
       "forks": 10992,
       "delta": 47605,
       "since": "this month"
@@ -390,7 +390,7 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "desc": "Ghidra is a software reverse engineering (SRE) framework",
       "lang": "Java",
-      "stars": 97188,
+      "stars": 97189,
       "forks": 10993,
       "delta": 17043,
       "since": "this month"
@@ -420,7 +420,7 @@
       "url": "https://github.com/pingdotgg/t3code",
       "desc": "",
       "lang": "TypeScript",
-      "stars": 41922,
+      "stars": 41925,
       "forks": 9093,
       "delta": 15731,
       "since": "this month"
