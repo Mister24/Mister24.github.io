@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-03",
+  "headline": "AI 编程额度怎么用才不浪费？ ｜ AI 岗位类别、要求、技能及学习路线 ｜ GitHub 上最值得装的 8 个 Ag ｜ 智能体“自主决策”的虚假繁荣：当 Cla ｜ QuireKit 编辑器的 AI-Nat",
+  "items": [
+    {
+      "track": "AI Coding",
+      "title": "AI 编程额度怎么用才不浪费？",
+      "event": "> 大家好，我是飞哥，一个Java转AI应用的开发者。 下午三点多，一个线上 bug 改到一半，",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703459728307453988",
+      "source_name": "掘金",
+      "tags": [
+        "编程"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "AI 岗位类别、要求、技能及学习路线",
+      "event": "很多人想转AI调研了下AI相关的人们岗位JD及要学习的技能。当前最火热的是 AI Agent、AI Infra。文中详细介绍了这2个岗位的要求、职责及需要的技能。",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703516970457628707",
+      "source_name": "掘金",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "GitHub 上最值得装的 8 个 Agent Skill 仓库，亲测好用！",
+      "event": "今天给大家整理 8 个 GitHub 上值得装的 Agent Skill 仓库，star 从 5 万到 30 万不等。这几个Skill项目也是我平常经常用的。",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703423062713516082",
+      "source_name": "掘金",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "智能体“自主决策”的虚假繁荣：当 Claude 5.5 与 GPT-6.1 深入生产，为什么顶级架构师都在重回“确定性状态机”？",
+      "event": "自主智能体被吹捧为全自动神器，但在生产核心链路中却频频引发脏写、死循环与级联雪崩。本文穿透概率黑盒的虚假繁荣，拆解两阶段意图提议与双轨仲裁架构，用确定性状态机护航高可用企业系统。",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703563555128115240",
+      "source_name": "掘金",
+      "tags": [
+        "智能体",
+        "GPT",
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "QuireKit 编辑器的 AI-Native 是如何设计的？谈谈我对真正 AI-Native 的理解",
+      "event": "我们可以让模型真正原生操作编辑器的内容与样式。AI-Native 的编辑器不在于 AI 入口长什么样，而在于模型能不能像用户一样通过编辑器自己的命令操作文档，并且不需要为每个功能写提示词，只要一种机制",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703474285394477094",
+      "source_name": "掘金",
+      "tags": []
+    }
+  ],
+  "insights": []
+}
