@@ -1,6 +1,356 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "items": [
+    {
+      "title": "智能体“自适应慢思考”的算力黑洞：当 Claude 5.5 与 GPT-6.1 Sol 陷入推理自旋，为什么高并发架构必须重构“认知预算熔断与快慢推测执行”？",
+      "url": "https://juejin.cn/post/7703904286590009379",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-04",
+      "summary": "大模型慢思考带来的推理自旋正在引爆生产级高并发系统的尾延迟灾难。本文深入剖析智能体无休止反思与队列饥饿根因，拆解自适应认知预算熔断与异构快慢推测执行架构，用确定性工程防线守住企业系统 SLA。",
+      "points": 0
+    },
+    {
+      "title": "想公开警告 AI 风险？先看看你的合同：DeepMind 员工抗议「终身禁言条款」",
+      "url": "https://juejin.cn/post/7703859346181996594",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-04",
+      "summary": "华盛顿邮报 11 月 3 日报道：英国 Google DeepMind 员工正施压管理层，要求解除",
+      "points": 0
+    },
+    {
+      "title": "别再手抠特效帧了：一个能\"看图改图\"的像素特效库 + Claude Code Skill",
+      "url": "https://juejin.cn/post/7703896160378208275",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-04",
+      "summary": "做游戏时，火焰、爆炸、冰霜、闪电这些特效很容易让人犯难：想要看起来有动感，自己画起来却费时间；找现成图片，又不一定能改颜色、调大小，放进游戏里也未必合适。 pixelfx 是一个开源的像素特效库。它把",
+      "points": 0
+    },
+    {
+      "title": "你只是打开了 Postman，Claude Code 和 Codex 却多了个插件",
+      "url": "https://juejin.cn/post/7704072652121604123",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-04",
+      "summary": "多名用户发现打开 Postman 桌面版后，Claude Code、Codex、Cursor 被自动装上 Postman",
+      "points": 0
+    },
+    {
+      "title": "Retrieval as Traversal：Agent 的记忆该按「价值」排地址，而不是按「相似度」",
+      "url": "https://juejin.cn/post/7703818887570849818",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-04",
+      "summary": "长上下文 Agent 每一步都在重复解决高度相似的检索问题，但注意力与 RAG 每",
+      "points": 0
+    },
+    {
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://news.ycombinator.com/item?id=50354960",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-03",
+      "summary": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "points": 985
+    },
+    {
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://news.ycombinator.com/item?id=50351111",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-03",
+      "summary": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "points": 880
+    },
+    {
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://news.ycombinator.com/item?id=50355251",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-03",
+      "summary": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "points": 469
+    },
+    {
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://news.ycombinator.com/item?id=50358582",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-03",
+      "summary": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "points": 179
+    },
+    {
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://news.ycombinator.com/item?id=50358422",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-03",
+      "summary": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "points": 173
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflo…",
+      "points": 0
+    },
+    {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is buil…",
+      "points": 0
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs…",
+      "points": 0
+    },
+    {
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communicatio…",
+      "points": 0
+    },
+    {
+      "title": "KVCache Meetup Korea 2026: Event Recap",
+      "url": "https://pytorch.org/blog/kvcache-meetup-korea-2026-event-recap/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "On the evening of Sep 30, 2026, PyTorchKR and XCENA co-hosted KVCache Meetup Korea. PyTorchKR is a major AI/ML…",
+      "points": 0
+    },
+    {
+      "title": "Bring structured and unstructured data together with Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Ama…",
+      "points": 0
+    },
+    {
+      "title": "ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Learn how to configure Amazon Bedrock AgentCore Gateway for an on-behalf-of (OBO) token exchange with Microsof…",
+      "points": 0
+    },
+    {
+      "title": "How Gen Digital built Norton Revamp’s AI-curated News Engine with Amazon Bedrock AgentCore Web Search",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Gen Digital built Norton Revamp, a generative AI-powered professional reputation management platform, with an …",
+      "points": 0
+    },
+    {
+      "title": "Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands…",
+      "points": 0
+    },
+    {
+      "title": "Building ultra-low-latency voice AI applications on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Learn how Cartesia, an AWS Partner, uses purpose-built State Space Models and AWS infrastructure to deliver su…",
+      "points": 0
+    },
+    {
+      "title": "Introducing India-based inference for Kimi K3 on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and …",
+      "points": 0
+    },
+    {
+      "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-03",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "AI 改变的是数据接口，而不是查询引擎",
+      "url": "https://www.infoq.cn/article/fvNWWYEmke5xJVsHEIIi?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-03",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速",
+      "url": "https://www.infoq.cn/article/z1ZeGD2FDqi6xLvSJjSl?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-03",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
+      "url": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-03",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "AI 复刻 Adobe 系列软件开发者坦言：项目远未准备就绪",
+      "url": "https://www.infoq.cn/article/a2X4KVOXOt6lACRv8IWh?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-03",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "从模型调用到任务交付：MaaS 如何走进 Agent 生产",
+      "url": "https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-03",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-03",
+      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network we…",
+      "points": 0
+    },
+    {
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "url": "https://www.qbitai.com/2026/11/507507.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-03",
+      "summary": "AI接管调度运营，仓库越干越聪明",
+      "points": 0
+    },
+    {
+      "title": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池",
+      "url": "https://www.qbitai.com/2026/11/507473.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-03",
+      "summary": "两位CTO，关起门来吵架",
+      "points": 0
+    },
+    {
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "url": "https://www.qbitai.com/2026/11/507448.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-03",
+      "summary": "AI的下一程是生产力系统之争",
+      "points": 0
+    },
+    {
+      "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
+      "url": "https://www.qbitai.com/2026/11/507419.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-03",
+      "summary": "终于，有了一个可以触摸的起点",
+      "points": 0
+    },
+    {
+      "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
+      "url": "https://www.qbitai.com/2026/11/507410.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-03",
+      "summary": "TeleAI智慧看护助手",
+      "points": 0
+    },
+    {
+      "title": "AI数据平台OceanBase获世界互联网大会杰出贡献奖",
+      "url": "https://www.qbitai.com/2026/11/507405.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-03",
+      "summary": "11月3日上午，2026世界互联网大会在浙江乌镇开幕。",
+      "points": 0
+    },
+    {
+      "title": "Skill 不只是一个 SKILL.md：Agent 如何把研究方法变成可调用的能力",
+      "url": "https://juejin.cn/post/7703840281963839497",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-03",
+      "summary": "以基金跟踪质量与组合重叠研究为线索，说明 Skill 如何从方法目录走到正文读取、受控计算和专家交接。重点区分发现、预加载、授权与实际采用，避免把可复用方法包变成另一套执行系统。",
+      "points": 0
+    },
     {
       "title": "AI 编程额度怎么用才不浪费？",
       "url": "https://juejin.cn/post/7703459728307453988",
@@ -72,6 +422,16 @@
       "points": 1829
     },
     {
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://news.ycombinator.com/item?id=50336918",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-02",
+      "summary": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "points": 363
+    },
+    {
       "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
       "url": "https://news.ycombinator.com/item?id=50342284",
       "source": "hn",
@@ -112,6 +472,46 @@
       "points": 0
     },
     {
+      "title": "Announcing the Special Interest Group (SIG) for Ray on Accelerators",
+      "url": "https://pytorch.org/blog/announcing-the-special-interest-group-sig-for-ray-on-accelerators/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-11-02",
+      "summary": "Today, we are announcing the Special Interest Group (SIG) for Ray on hardware accelerators. When Ray was creat…",
+      "points": 0
+    },
+    {
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-02",
+      "summary": "Here are Google’s latest AI updates from October 2026",
+      "points": 0
+    },
+    {
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-02",
+      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representi…",
+      "points": 0
+    },
+    {
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-02",
+      "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global…",
+      "points": 0
+    },
+    {
       "title": "LifeVal",
       "url": "https://openai.com/index/lifeval",
       "source": "openai",
@@ -139,16 +539,6 @@
       "kind": "official",
       "date": "2026-11-02",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience…",
-      "points": 0
-    },
-    {
-      "title": "Announcing the Special Interest Group (SIG) for Ray on Accelerators",
-      "url": "https://pytorch.org/blog/announcing-the-special-interest-group-sig-for-ray-on-accelerators/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-11-02",
-      "summary": "Today, we are announcing the Special Interest Group (SIG) for Ray on hardware accelerators. When Ray was creat…",
       "points": 0
     },
     {
@@ -189,16 +579,6 @@
       "kind": "official",
       "date": "2026-11-02",
       "summary": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system…",
-      "points": 0
-    },
-    {
-      "title": "The latest AI news we announced in October 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "source": "google",
-      "source_name": "Google Blog",
-      "kind": "official",
-      "date": "2026-11-02",
-      "summary": "Here are Google’s latest AI updates from October 2026",
       "points": 0
     },
     {
@@ -259,26 +639,6 @@
       "kind": "cn",
       "date": "2026-11-02",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "llm 0.37",
-      "url": "https://simonwillison.net/2026/Nov/2/llm/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-02",
-      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representi…",
-      "points": 0
-    },
-    {
-      "title": "The U.S. Census Bureau and “Super Intelligence”",
-      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-02",
-      "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global…",
       "points": 0
     },
     {
@@ -412,16 +772,6 @@
       "points": 0
     },
     {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-28",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "PyTorch 2.15 Release Blog",
       "url": "https://pytorch.org/blog/pytorch-2-15-release-blog/",
       "source": "pytorch",
@@ -429,6 +779,16 @@
       "kind": "official",
       "date": "2026-10-28",
       "summary": "We are excited to announce the release of PyTorch® 2.15 (release notes)! The PyTorch 2.15 release features the…",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "",
       "points": 0
     },
     {
@@ -472,16 +832,6 @@
       "points": 0
     },
     {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-22",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "points": 0
-    },
-    {
       "title": "PyTorch Conference North America 2026: Accelerating Open Intelligence Together",
       "url": "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together/",
       "source": "pytorch",
@@ -502,13 +852,13 @@
       "points": 0
     },
     {
-      "title": "TorchTitan Update: New SOTA Models, Performance at Scale, TitanRL",
-      "url": "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
       "kind": "official",
-      "date": "2026-10-21",
-      "summary": "TorchTitan is a PyTorch-native platform for rapid experimentation and large-scale pre- and post-training of ge…",
+      "date": "2026-10-22",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "points": 0
     },
     {
@@ -519,6 +869,16 @@
       "kind": "official",
       "date": "2026-10-21",
       "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and …",
+      "points": 0
+    },
+    {
+      "title": "TorchTitan Update: New SOTA Models, Performance at Scale, TitanRL",
+      "url": "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-10-21",
+      "summary": "TorchTitan is a PyTorch-native platform for rapid experimentation and large-scale pre- and post-training of ge…",
       "points": 0
     },
     {
@@ -569,6 +929,16 @@
       "kind": "official",
       "date": "2026-10-02",
       "summary": "Here are Google’s latest AI updates from September 2026",
+      "points": 0
+    },
+    {
+      "title": "美团正式发布 LongCat-2.5：面向智能体任务的原生多模态模型",
+      "url": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+      "source": "meituan",
+      "source_name": "美团技术团队",
+      "kind": "cn",
+      "date": "",
+      "summary": "美团发布 LongCat-2.5，一个面向长程智能体任务的原生多模态模型。模型总参数量为 1.6 万亿，每个 token 激活约 480 亿参数，在 LongCat-2.0 的基础上进一步强化原生视觉理解与智能体编程能力…",
       "points": 0
     },
     {

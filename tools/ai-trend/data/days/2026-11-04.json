@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-04",
+  "headline": "智能体“自适应慢思考”的算力黑洞：当 C ｜ 想公开警告 AI 风险？先看看你的合同： ｜ 别再手抠特效帧了：一个能\"看图改图\"的像 ｜ 你只是打开了 Postman，Claud ｜ Retrieval as Travers",
+  "items": [
+    {
+      "track": "Agent",
+      "title": "智能体“自适应慢思考”的算力黑洞：当 Claude 5.5 与 GPT-6.1 Sol 陷入推理自旋，为什么高并发架构必须重构“认知预算熔断与快慢推测执行”？",
+      "event": "大模型慢思考带来的推理自旋正在引爆生产级高并发系统的尾延迟灾难。本文深入剖析智能体无休止反思与队列饥饿根因，拆解自适应认知预算熔断与异构快慢推测执行架构，用确定性工程防线守住企业系统 SLA。",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703904286590009379",
+      "source_name": "掘金",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理",
+        "GPT"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "想公开警告 AI 风险？先看看你的合同：DeepMind 员工抗议「终身禁言条款」",
+      "event": "华盛顿邮报 11 月 3 日报道：英国 Google DeepMind 员工正施压管理层，要求解除",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703859346181996594",
+      "source_name": "掘金",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "别再手抠特效帧了：一个能\"看图改图\"的像素特效库 + Claude Code Skill",
+      "event": "做游戏时，火焰、爆炸、冰霜、闪电这些特效很容易让人犯难：想要看起来有动感，自己画起来却费时间；找现成图片，又不一定能改颜色、调大小，放进游戏里也未必合适。 pixelfx 是一个开源的像素特效库。它把",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703896160378208275",
+      "source_name": "掘金",
+      "tags": [
+        "开源",
+        "Claude"
+      ]
+    },
+    {
+      "track": "AI Coding",
+      "title": "你只是打开了 Postman，Claude Code 和 Codex 却多了个插件",
+      "event": "多名用户发现打开 Postman 桌面版后，Claude Code、Codex、Cursor 被自动装上 Postman",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7704072652121604123",
+      "source_name": "掘金",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "Retrieval as Traversal：Agent 的记忆该按「价值」排地址，而不是按「相似度」",
+      "event": "长上下文 Agent 每一步都在重复解决高度相似的检索问题，但注意力与 RAG 每",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7703818887570849818",
+      "source_name": "掘金",
+      "tags": [
+        "Agent",
+        "RAG",
+        "检索"
+      ]
+    }
+  ],
+  "insights": []
+}
