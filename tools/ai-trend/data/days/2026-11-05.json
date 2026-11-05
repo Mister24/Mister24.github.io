@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-05",
+  "headline": "Elasticsearch：稠密向量字段 ｜ ToolSpace：把 804 个真实工 ｜ AI is forcing us to  ｜ Nvidia RTX Spark enc ｜ Progress on provable",
+  "items": [
+    {
+      "track": "模型",
+      "title": "Elasticsearch：稠密向量字段类型",
+      "event": "dense_vector 字段 类 型用于存储由数值组成的稠密向量。稠密向量字段主要用于 k 近邻搜索（ k-nearest neighbor (kNN) search ）。 dense_vector",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7704237589775794202",
+      "source_name": "掘金",
+      "tags": [
+        "向量"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "ToolSpace：把 804 个真实工具环境打包成 Agent 练级场，35B 小模型暴涨 18 分",
+      "event": "给 Agent 造训练环境，现在的主流做法是先合成数据库和场景、再派生工具和",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7704230915765174323",
+      "source_name": "掘金",
+      "tags": [
+        "Agent",
+        "训练"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "event": "AI is forcing us to pay off 40 years of technical debt",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50364336",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "event": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50362905",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Progress on provable inference for large language models",
+      "event": "Progress on provable inference for large language models",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50368626",
+      "source_name": "Hacker News",
+      "tags": []
+    }
+  ],
+  "insights": []
+}
