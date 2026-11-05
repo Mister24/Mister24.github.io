@@ -2,16 +2,6 @@
   "date": "2026-11-05",
   "items": [
     {
-      "title": "Elasticsearch：稠密向量字段类型",
-      "url": "https://juejin.cn/post/7704237589775794202",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-05",
-      "summary": "dense_vector 字段 类 型用于存储由数值组成的稠密向量。稠密向量字段主要用于 k 近邻搜索（ k-nearest neighbor (kNN) search ）。 dense_vector",
-      "points": 0
-    },
-    {
       "title": "ToolSpace：把 804 个真实工具环境打包成 Agent 练级场，35B 小模型暴涨 18 分",
       "url": "https://juejin.cn/post/7704230915765174323",
       "source": "juejin",
@@ -349,6 +339,16 @@
       "kind": "wechat",
       "date": "2026-11-04",
       "summary": "专家启动、成果交接、主代理输入和最终收益是不同事实。本文用具体观察解释文字匹配的证据边界，以及如何比较多专家的价值。",
+      "points": 0
+    },
+    {
+      "title": "Postman 静默改装你的编码 Agent：一份 SEVERE issue 里的六条证据链",
+      "url": "https://juejin.cn/post/7704280022018998322",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-04",
+      "summary": "2026 年 10 月 25 日，GitHub 仓库 postmanlabs/postman-app-support 收到一个标题带着 SEVERE 前缀的 issue，编号 14370。报告者 in",
       "points": 0
     },
     {

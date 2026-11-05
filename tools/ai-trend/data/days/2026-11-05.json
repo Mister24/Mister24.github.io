@@ -1,18 +1,7 @@
 {
   "date": "2026-11-05",
-  "headline": "Elasticsearch：稠密向量字段 ｜ ToolSpace：把 804 个真实工 ｜ AI is forcing us to  ｜ Nvidia RTX Spark enc ｜ Progress on provable",
+  "headline": "ToolSpace：把 804 个真实工 ｜ AI is forcing us to  ｜ Nvidia RTX Spark enc ｜ Progress on provable ｜ Ask HN: What's your ",
   "items": [
-    {
-      "track": "模型",
-      "title": "Elasticsearch：稠密向量字段类型",
-      "event": "dense_vector 字段 类 型用于存储由数值组成的稠密向量。稠密向量字段主要用于 k 近邻搜索（ k-nearest neighbor (kNN) search ）。 dense_vector",
-      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://juejin.cn/post/7704237589775794202",
-      "source_name": "掘金",
-      "tags": [
-        "向量"
-      ]
-    },
     {
       "track": "Agent",
       "title": "ToolSpace：把 804 个真实工具环境打包成 Agent 练级场，35B 小模型暴涨 18 分",
@@ -49,6 +38,15 @@
       "event": "Progress on provable inference for large language models",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
       "source": "https://news.ycombinator.com/item?id=50368626",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "Agent",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "event": "I'm curious how people on HN are using AI day to day, and came up with a list of questions",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50366117",
       "source_name": "Hacker News",
       "tags": []
     }
