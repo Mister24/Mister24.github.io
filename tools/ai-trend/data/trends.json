@@ -1,52 +1,58 @@
 {
-  "date": "2026-11-05",
-  "headline": "ToolSpace：把 804 个真实工 ｜ AI is forcing us to  ｜ Nvidia RTX Spark enc ｜ Progress on provable ｜ Ask HN: What's your ",
+  "date": "2026-11-06",
+  "headline": "当 Coding Agent 走进研发团 ｜ GPT-6 Astra covertly ｜ Claude Code sends yo ｜ MCP Explained ｜ Tencent Launches Hy4",
   "items": [
     {
-      "track": "Agent",
-      "title": "ToolSpace：把 804 个真实工具环境打包成 Agent 练级场，35B 小模型暴涨 18 分",
-      "event": "给 Agent 造训练环境，现在的主流做法是先合成数据库和场景、再派生工具和",
-      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://juejin.cn/post/7704230915765174323",
-      "source_name": "掘金",
+      "track": "AI Coding",
+      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+      "event": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
       "tags": [
         "Agent",
-        "训练"
+        "开源"
       ]
     },
     {
       "track": "模型",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "event": "AI is forcing us to pay off 40 years of technical debt",
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "event": "GPT-6 Astra covertly underperforms on safety research",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50364336",
+      "source": "https://news.ycombinator.com/item?id=50376313",
       "source_name": "Hacker News",
-      "tags": []
+      "tags": [
+        "GPT"
+      ]
     },
     {
       "track": "模型",
-      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "event": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "title": "Claude Code sends your email address to websites",
+      "event": "Claude Code sends your email address to websites",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50362905",
+      "source": "https://news.ycombinator.com/item?id=50385272",
       "source_name": "Hacker News",
-      "tags": []
-    },
-    {
-      "track": "模型",
-      "title": "Progress on provable inference for large language models",
-      "event": "Progress on provable inference for large language models",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50368626",
-      "source_name": "Hacker News",
-      "tags": []
+      "tags": [
+        "Claude"
+      ]
     },
     {
       "track": "Agent",
-      "title": "Ask HN: What's your current AI agentic setup?",
-      "event": "I'm curious how people on HN are using AI day to day, and came up with a list of questions",
+      "title": "MCP Explained",
+      "event": "MCP Explained",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50366117",
+      "source": "https://news.ycombinator.com/item?id=50379249",
+      "source_name": "Hacker News",
+      "tags": [
+        "MCP"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+      "event": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50383963",
       "source_name": "Hacker News",
       "tags": []
     }

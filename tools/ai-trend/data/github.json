@@ -1,24 +1,14 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "daily": [
     {
       "name": "NVIDIA/auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
       "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "lang": "Python",
-      "stars": 4980,
-      "forks": 396,
-      "delta": 2050,
-      "since": "today"
-    },
-    {
-      "name": "max-sixty/worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "lang": "Rust",
-      "stars": 11029,
-      "forks": 413,
-      "delta": 531,
+      "stars": 7272,
+      "forks": 575,
+      "delta": 2679,
       "since": "today"
     },
     {
@@ -26,69 +16,9 @@
       "url": "https://github.com/mattpocock/skills",
       "desc": "Skills for Real Engineers. Straight from my .agents directory.",
       "lang": "Shell",
-      "stars": 313310,
-      "forks": 26280,
-      "delta": 1379,
-      "since": "today"
-    },
-    {
-      "name": "floci-io/floci",
-      "url": "https://github.com/floci-io/floci",
-      "desc": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-      "lang": "Java",
-      "stars": 29613,
-      "forks": 3274,
-      "delta": 1090,
-      "since": "today"
-    },
-    {
-      "name": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "lang": "TypeScript",
-      "stars": 112851,
-      "forks": 9801,
-      "delta": 1172,
-      "since": "today"
-    },
-    {
-      "name": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "desc": "Computer use CLI for AI agents",
-      "lang": "Rust",
-      "stars": 15086,
-      "forks": 1045,
-      "delta": 2470,
-      "since": "today"
-    },
-    {
-      "name": "github/spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "desc": "💫 Toolkit to help you get started with SDD or any other process!",
-      "lang": "Python",
-      "stars": 147304,
-      "forks": 13214,
-      "delta": 808,
-      "since": "today"
-    },
-    {
-      "name": "The-PR-Agent/pr-agent",
-      "url": "https://github.com/The-PR-Agent/pr-agent",
-      "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
-      "lang": "Python",
-      "stars": 14756,
-      "forks": 2094,
-      "delta": 280,
-      "since": "today"
-    },
-    {
-      "name": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "lang": "Python",
-      "stars": 138960,
-      "forks": 22170,
-      "delta": 617,
+      "stars": 315180,
+      "forks": 26393,
+      "delta": 2071,
       "since": "today"
     },
     {
@@ -96,39 +26,19 @@
       "url": "https://github.com/garrytan/gstack",
       "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "lang": "TypeScript",
-      "stars": 139336,
-      "forks": 20631,
-      "delta": 290,
+      "stars": 139928,
+      "forks": 20693,
+      "delta": 612,
       "since": "today"
     },
     {
-      "name": "FareedKhan-dev/kimi-k3-in-c",
-      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-      "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-      "lang": "C",
-      "stars": 10291,
-      "forks": 1628,
-      "delta": 351,
-      "since": "today"
-    },
-    {
-      "name": "JiaFeiMiao-K-Cat/DiscImageStudio",
-      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-      "desc": "",
-      "lang": "C#",
-      "stars": 6605,
-      "forks": 235,
-      "delta": 1778,
-      "since": "today"
-    },
-    {
-      "name": "MichaelCade/90DaysOfDevOps",
-      "url": "https://github.com/MichaelCade/90DaysOfDevOps",
-      "desc": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.",
-      "lang": "Shell",
-      "stars": 30419,
-      "forks": 6791,
-      "delta": 97,
+      "name": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "desc": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "lang": "Python",
+      "stars": 17509,
+      "forks": 2941,
+      "delta": 240,
       "since": "today"
     },
     {
@@ -136,19 +46,109 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "lang": "Python",
-      "stars": 96535,
-      "forks": 10110,
-      "delta": 2005,
+      "stars": 97938,
+      "forks": 10255,
+      "delta": 1655,
       "since": "today"
     },
     {
-      "name": "Thysrael/Horizon",
-      "url": "https://github.com/Thysrael/Horizon",
-      "desc": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "desc": "Computer use CLI for AI agents",
+      "lang": "Rust",
+      "stars": 16804,
+      "forks": 1185,
+      "delta": 2173,
+      "since": "today"
+    },
+    {
+      "name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "lang": "Rust",
+      "stars": 11502,
+      "forks": 437,
+      "delta": 546,
+      "since": "today"
+    },
+    {
+      "name": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "desc": "Extremely Fast Compression algorithm",
+      "lang": "C",
+      "stars": 12369,
+      "forks": 1633,
+      "delta": 23,
+      "since": "today"
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "desc": "Agent Skills for Google products and technologies",
       "lang": "Python",
-      "stars": 12488,
-      "forks": 1819,
-      "delta": 121,
+      "stars": 22359,
+      "forks": 1891,
+      "delta": 211,
+      "since": "today"
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "desc": "Browser automation CLI for AI agents",
+      "lang": "Rust",
+      "stars": 45864,
+      "forks": 3147,
+      "delta": 150,
+      "since": "today"
+    },
+    {
+      "name": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "desc": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "lang": "Python",
+      "stars": 3041,
+      "forks": 267,
+      "delta": 667,
+      "since": "today"
+    },
+    {
+      "name": "ConardLi/garden-skills",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "desc": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "lang": "JavaScript",
+      "stars": 14114,
+      "forks": 1647,
+      "delta": 175,
+      "since": "today"
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "desc": "Open-Source Frontier Voice AI",
+      "lang": "Python",
+      "stars": 55893,
+      "forks": 6286,
+      "delta": 223,
+      "since": "today"
+    },
+    {
+      "name": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
+      "desc": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "lang": "Java",
+      "stars": 30384,
+      "forks": 3330,
+      "delta": 779,
+      "since": "today"
+    },
+    {
+      "name": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "desc": "",
+      "lang": "C#",
+      "stars": 7252,
+      "forks": 260,
+      "delta": 984,
       "since": "today"
     }
   ],
@@ -158,9 +158,9 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "lang": "TypeScript",
-      "stars": 112851,
-      "forks": 9801,
-      "delta": 8822,
+      "stars": 113528,
+      "forks": 9850,
+      "delta": 9318,
       "since": "this week"
     },
     {
@@ -168,9 +168,9 @@
       "url": "https://github.com/Nutlope/hallmark",
       "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "lang": "CSS",
-      "stars": 47934,
-      "forks": 2531,
-      "delta": 7622,
+      "stars": 48750,
+      "forks": 2583,
+      "delta": 6994,
       "since": "this week"
     },
     {
@@ -178,29 +178,9 @@
       "url": "https://github.com/pingdotgg/t3code",
       "desc": "",
       "lang": "TypeScript",
-      "stars": 46615,
-      "forks": 9458,
-      "delta": 14580,
-      "since": "this week"
-    },
-    {
-      "name": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "lang": "Rust",
-      "stars": 102817,
-      "forks": 6081,
-      "delta": 10921,
-      "since": "this week"
-    },
-    {
-      "name": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "desc": "An agentic skills framework & software development methodology that works.",
-      "lang": "Shell",
-      "stars": 312446,
-      "forks": 27792,
-      "delta": 5565,
+      "stars": 48301,
+      "forks": 9612,
+      "delta": 16235,
       "since": "this week"
     },
     {
@@ -208,9 +188,19 @@
       "url": "https://github.com/anthropics/skills",
       "desc": "Public repository for Agent Skills",
       "lang": "Python",
-      "stars": 187422,
-      "forks": 22114,
-      "delta": 3003,
+      "stars": 187752,
+      "forks": 22152,
+      "delta": 3072,
+      "since": "this week"
+    },
+    {
+      "name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "lang": "Python",
+      "stars": 55439,
+      "forks": 6796,
+      "delta": 6229,
       "since": "this week"
     },
     {
@@ -218,49 +208,39 @@
       "url": "https://github.com/max-sixty/worktrunk",
       "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "lang": "Rust",
-      "stars": 11029,
-      "forks": 413,
-      "delta": 1261,
+      "stars": 11502,
+      "forks": 437,
+      "delta": 1802,
       "since": "this week"
     },
     {
-      "name": "jakubkrehel/skills",
-      "url": "https://github.com/jakubkrehel/skills",
-      "desc": "A collection of agent skills that help you build great interfaces.",
-      "lang": "Markdown",
-      "stars": 10813,
-      "forks": 415,
-      "delta": 1865,
-      "since": "this week"
-    },
-    {
-      "name": "JetBrains/thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "lang": "TypeScript",
-      "stars": 7599,
-      "forks": 463,
-      "delta": 3031,
+      "stars": 13269,
+      "forks": 1845,
+      "delta": 5580,
       "since": "this week"
     },
     {
-      "name": "ghostty-org/ghostty",
-      "url": "https://github.com/ghostty-org/ghostty",
-      "desc": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
-      "lang": "Zig",
-      "stars": 63546,
-      "forks": 3818,
-      "delta": 738,
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "desc": "An agentic skills framework & software development methodology that works.",
+      "lang": "Shell",
+      "stars": 313003,
+      "forks": 27851,
+      "delta": 5131,
       "since": "this week"
     },
     {
-      "name": "multica-ai/andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "lang": "",
-      "stars": 229505,
-      "forks": 22849,
-      "delta": 3808,
+      "name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "lang": "Rust",
+      "stars": 103902,
+      "forks": 6157,
+      "delta": 9303,
       "since": "this week"
     },
     {
@@ -268,19 +248,19 @@
       "url": "https://github.com/hyprwm/Hyprland",
       "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
       "lang": "C++",
-      "stars": 40298,
-      "forks": 2165,
-      "delta": 1325,
+      "stars": 40361,
+      "forks": 2169,
+      "delta": 1371,
       "since": "this week"
     },
     {
-      "name": "AgriciDaniel/claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "lang": "Python",
-      "stars": 26663,
-      "forks": 3467,
-      "delta": 3531,
+      "name": "jakubkrehel/skills",
+      "url": "https://github.com/jakubkrehel/skills",
+      "desc": "A collection of agent skills that help you build great interfaces.",
+      "lang": "Markdown",
+      "stars": 11026,
+      "forks": 425,
+      "delta": 1840,
       "since": "this week"
     },
     {
@@ -288,9 +268,29 @@
       "url": "https://github.com/calesthio/OpenMontage",
       "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "lang": "Python",
-      "stars": 76531,
-      "forks": 10153,
-      "delta": 3743,
+      "stars": 77143,
+      "forks": 10247,
+      "delta": 4132,
+      "since": "this week"
+    },
+    {
+      "name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "lang": "",
+      "stars": 229871,
+      "forks": 22883,
+      "delta": 3713,
+      "since": "this week"
+    },
+    {
+      "name": "ghostty-org/ghostty",
+      "url": "https://github.com/ghostty-org/ghostty",
+      "desc": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "lang": "Zig",
+      "stars": 63644,
+      "forks": 3829,
+      "delta": 726,
       "since": "this week"
     },
     {
@@ -298,9 +298,9 @@
       "url": "https://github.com/Leonxlnx/taste-skill",
       "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "lang": "JavaScript",
-      "stars": 110066,
-      "forks": 7399,
-      "delta": 5935,
+      "stars": 110647,
+      "forks": 7433,
+      "delta": 5426,
       "since": "this week"
     }
   ],
@@ -310,9 +310,9 @@
       "url": "https://github.com/morluto/rea",
       "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "lang": "TypeScript",
-      "stars": 430873,
-      "forks": 107089,
-      "delta": 430285,
+      "stars": 434273,
+      "forks": 107784,
+      "delta": 430792,
       "since": "this month"
     },
     {
@@ -320,9 +320,9 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
       "lang": "C++",
-      "stars": 51183,
-      "forks": 4873,
-      "delta": 47878,
+      "stars": 51467,
+      "forks": 4899,
+      "delta": 47184,
       "since": "this month"
     },
     {
@@ -330,9 +330,9 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "lang": "JavaScript",
-      "stars": 59393,
-      "forks": 3856,
-      "delta": 34859,
+      "stars": 61427,
+      "forks": 3988,
+      "delta": 35956,
       "since": "this month"
     },
     {
@@ -340,9 +340,9 @@
       "url": "https://github.com/Nutlope/hallmark",
       "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "lang": "CSS",
-      "stars": 47935,
-      "forks": 2531,
-      "delta": 18210,
+      "stars": 48750,
+      "forks": 2583,
+      "delta": 19070,
       "since": "this month"
     },
     {
@@ -350,9 +350,9 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "desc": "Write HTML. Render video. Built for agents.",
       "lang": "TypeScript",
-      "stars": 78948,
-      "forks": 7267,
-      "delta": 22621,
+      "stars": 79547,
+      "forks": 7319,
+      "delta": 22694,
       "since": "this month"
     },
     {
@@ -360,9 +360,9 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "lang": "Python",
-      "stars": 100995,
-      "forks": 11181,
-      "delta": 48420,
+      "stars": 101893,
+      "forks": 11298,
+      "delta": 48803,
       "since": "this month"
     },
     {
@@ -370,19 +370,9 @@
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "desc": "Ghidra is a software reverse engineering (SRE) framework",
       "lang": "Java",
-      "stars": 97843,
-      "forks": 11063,
-      "delta": 17528,
-      "since": "this month"
-    },
-    {
-      "name": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "lang": "Python",
-      "stars": 34735,
-      "forks": 3832,
-      "delta": 8764,
+      "stars": 98132,
+      "forks": 11103,
+      "delta": 17641,
       "since": "this month"
     },
     {
@@ -390,9 +380,9 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "lang": "TypeScript",
-      "stars": 112851,
-      "forks": 9801,
-      "delta": 17262,
+      "stars": 113528,
+      "forks": 9850,
+      "delta": 17621,
       "since": "this month"
     },
     {
@@ -400,9 +390,9 @@
       "url": "https://github.com/pingdotgg/t3code",
       "desc": "",
       "lang": "TypeScript",
-      "stars": 46615,
-      "forks": 9458,
-      "delta": 20763,
+      "stars": 48301,
+      "forks": 9612,
+      "delta": 22239,
       "since": "this month"
     },
     {
@@ -410,39 +400,29 @@
       "url": "https://github.com/pbakaus/impeccable",
       "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "lang": "Rust",
-      "stars": 102817,
-      "forks": 6081,
-      "delta": 26803,
+      "stars": 103902,
+      "forks": 6157,
+      "delta": 27205,
       "since": "this month"
     },
     {
-      "name": "earthtojake/text-to-cad",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "desc": "Design physical products with AI",
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "lang": "Python",
-      "stars": 25428,
-      "forks": 2410,
-      "delta": 8831,
+      "stars": 34860,
+      "forks": 3840,
+      "delta": 8823,
       "since": "this month"
     },
     {
-      "name": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "lang": "Python",
-      "stars": 46122,
-      "forks": 4796,
-      "delta": 8948,
-      "since": "this month"
-    },
-    {
-      "name": "tester-army/e2e",
-      "url": "https://github.com/tester-army/e2e",
-      "desc": "Next generation e2e testing framework for web and mobile apps.",
-      "lang": "TypeScript",
-      "stars": 13176,
-      "forks": 686,
-      "delta": 10748,
+      "stars": 55439,
+      "forks": 6796,
+      "delta": 14748,
       "since": "this month"
     }
   ]
