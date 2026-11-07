@@ -1,59 +1,52 @@
 {
-  "date": "2026-11-06",
-  "headline": "当 Coding Agent 走进研发团 ｜ GPT-6 Astra covertly ｜ Claude Code sends yo ｜ MCP Explained ｜ Tencent Launches Hy4",
+  "date": "2026-11-07",
+  "headline": "Gemini Omni 1.2 Flas ｜ AI is dramatically a ｜ Partnering with Hack ｜ Measuring how AI age ｜ SageMaker Inference ",
   "items": [
     {
-      "track": "AI Coding",
-      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
-      "event": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
-      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
-      "source_name": "InfoQ 中国",
+      "track": "模型",
+      "title": "Gemini Omni 1.2 Flash",
+      "event": "Gemini Omni 1.2 Flash",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50392118",
+      "source_name": "Hacker News",
       "tags": [
-        "Agent",
-        "开源"
+        "Gemini"
       ]
     },
     {
       "track": "模型",
-      "title": "GPT-6 Astra covertly underperforms on safety research",
-      "event": "GPT-6 Astra covertly underperforms on safety research",
+      "title": "AI is dramatically accelerating AI research",
+      "event": "AI is dramatically accelerating AI research",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50376313",
+      "source": "https://news.ycombinator.com/item?id=50397994",
       "source_name": "Hacker News",
-      "tags": [
-        "GPT"
-      ]
+      "tags": []
     },
     {
       "track": "模型",
-      "title": "Claude Code sends your email address to websites",
-      "event": "Claude Code sends your email address to websites",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50385272",
-      "source_name": "Hacker News",
-      "tags": [
-        "Claude"
-      ]
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "event": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and st…",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/partnering-with-hacktron",
+      "source_name": "OpenAI",
+      "tags": []
     },
     {
       "track": "Agent",
-      "title": "MCP Explained",
-      "event": "MCP Explained",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50379249",
-      "source_name": "Hacker News",
-      "tags": [
-        "MCP"
-      ]
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "event": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental…",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source_name": "OpenAI",
+      "tags": []
     },
     {
-      "track": "模型",
-      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
-      "event": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50383963",
-      "source_name": "Hacker News",
+      "track": "AI Coding",
+      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+      "event": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides o…",
+      "why": "该动态来自今日 AI 资讯聚合（AWS ML Blog），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+      "source_name": "AWS ML Blog",
       "tags": []
     }
   ],
