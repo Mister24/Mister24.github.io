@@ -1,25 +1,125 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "items": [
     {
-      "title": "Gemini Omni 1.2 Flash",
-      "url": "https://news.ycombinator.com/item?id=50392118",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-11-06",
-      "summary": "Gemini Omni 1.2 Flash",
-      "points": 291
+      "title": "给 Claude Code 挂上代码地图：token 省了 39%，但先看你的瓶颈在哪",
+      "url": "https://juejin.cn/post/7705257674057187355",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "约克大学团队首次把代码表示当作受控变量：在固定的 Claude Code（Haiku 4.5）",
+      "points": 0
     },
     {
-      "title": "AI is dramatically accelerating AI research",
-      "url": "https://news.ycombinator.com/item?id=50397994",
+      "title": "560B 只激活 25B：蚂蚁百灵 Ling-3.2-flash 把原生多模态 API 卷到 2 块钱一百万 token",
+      "url": "https://juejin.cn/post/7705577542874365962",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "蚂蚁百灵发布原生多模态大模型 Ling-3.2-flash：560B 总参数、单步激活约 25B 的",
+      "points": 0
+    },
+    {
+      "title": "生成一个AI转岗经历标题，只需要一个标题，不需要其他的任何文本。",
+      "url": "https://juejin.cn/post/7705314576862691391",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "AI赋能转型：从原有岗位到AI相关岗位实践成长之路 一、转岗第一步：先盘点能力差距，再确定学习顺序 转岗最常见的错误，是可以直接去学大模型微调，却没有整理好原有能力。在动笔之前，我先把新旧岗位的能力矩",
+      "points": 0
+    },
+    {
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://news.ycombinator.com/item?id=50406563",
       "source": "hn",
       "source_name": "Hacker News",
       "kind": "community",
-      "date": "2026-11-06",
-      "summary": "AI is dramatically accelerating AI research",
-      "points": 168
+      "date": "2026-11-07",
+      "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...",
+      "points": 335
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://news.ycombinator.com/item?id=50407882",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-07",
+      "summary": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "points": 117
+    },
+    {
+      "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
+      "url": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-07",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+      "url": "https://www.qbitai.com/2026/11/508264.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "苦单Session久矣，两大Agent玩家不谋而合。",
+      "points": 0
+    },
+    {
+      "title": "AGENTS.MD，危险危险危险！！！",
+      "url": "https://www.qbitai.com/2026/11/508244.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "全新的电脑病毒",
+      "points": 0
+    },
+    {
+      "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+      "url": "https://www.qbitai.com/2026/11/508196.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "RSI不可能无限快",
+      "points": 0
+    },
+    {
+      "title": "Agent 查数据库先问口径再动手：NVIDIA 开源语义层 Auto Ontology，连续两天登顶 GitHub Python 趋势榜",
+      "url": "https://juejin.cn/post/7704993320620621864",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "11 月 5 日和 6 日，GitHub 趋势榜 Python 分类的第一名被同一个新项目连续占住：NVIDIA 开源的 auto-ontology，单日进账约 2000 星。它不是又一个向量数据库，",
+      "points": 0
+    },
+    {
+      "title": "WorkBuddy 自动化工作流实测：从分镜脚本到 MP4 成片的 18 步复盘",
+      "url": "https://juejin.cn/post/7705232032440172570",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "以前做条带货视频，普通 AI 只能给你写写分镜文案，找画图、配音、剪辑还得自己一个个软件倒腾。 腾讯出的 WorkBuddy 终于能直接读写本地文件、自己装环境调工具了。 大家好，我是小虎。 我把需求",
+      "points": 0
+    },
+    {
+      "title": "智能体开发",
+      "url": "https://juejin.cn/post/7705134065616142346",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "一、什么是智能体 在经典智能体框架中，智能体（Agent）一般指能够在环境中感知信息、基于策略做出决策并采取行动，以最大化回报或满足目标约束的系统。 在大模型应用开发中，智能体通常指一种以大语言模型为",
+      "points": 0
     },
     {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
@@ -152,143 +252,33 @@
       "points": 0
     },
     {
-      "title": "从仓储到配送，全程由 AI“指挥”：京东物流“超脑”3.0 的工业级 AI 实践",
-      "url": "https://www.infoq.cn/article/jBdvoUXheWN0oe6NfklO?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-06",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
-      "url": "https://www.qbitai.com/2026/11/508155.html",
+      "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+      "url": "https://www.qbitai.com/2026/11/508184.html",
       "source": "qbitai",
       "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-11-06",
-      "summary": "Q3营收实现数倍增长",
+      "summary": "Dario刚喊减速…",
       "points": 0
     },
     {
-      "title": "一边赛博修仙，一边卖家电！AI短剧开始冲双11业绩了？",
-      "url": "https://www.qbitai.com/2026/11/508118.html",
+      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+      "url": "https://www.qbitai.com/2026/11/508174.html",
       "source": "qbitai",
       "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-11-06",
-      "summary": "挑战商业视频的高难度场景",
+      "summary": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
       "points": 0
     },
     {
-      "title": "从RSI、Agent、Physical AI到整个系统栈，2026 奇点智能技术大会最新日程公布！",
-      "url": "https://www.qbitai.com/2026/11/508143.html",
+      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
+      "url": "https://www.qbitai.com/2026/11/508170.html",
       "source": "qbitai",
       "source_name": "量子位",
       "kind": "wechat",
       "date": "2026-11-06",
-      "summary": "11 月 20—21 日，2026 奇点智能技术大会将在北京万达文华酒店举行。",
-      "points": 0
-    },
-    {
-      "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
-      "url": "https://www.qbitai.com/2026/11/508107.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "一举刷新「AI安全世界杯」CyberGym世界纪录",
-      "points": 0
-    },
-    {
-      "title": "香港金融科技周 x StartmeupHK 2026主论坛：以「金融+」、「AI+」及全球拓展开拓新机遇",
-      "url": "https://www.qbitai.com/2026/11/507988.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "香港金融科技周 x StartmeupHK 2026踏入第11届",
-      "points": 0
-    },
-    {
-      "title": "AI短剧门槛降降降！实测即梦短剧工作室：剧本分镜预演一条龙，伙伴计划长期护航",
-      "url": "https://www.qbitai.com/2026/11/507972.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "Seedance 2.5 单秒低至0.15元",
-      "points": 0
-    },
-    {
-      "title": "程序员的副业 IP 探索之路----小白用AI做了个游戏，发出去第一天居然有300多个人玩！！！",
-      "url": "https://juejin.cn/post/7704893278949179402",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "最近用 Codex 做了个 GTA 风格的 3D 小游戏，代码、图片、音乐这些都是用 AI 做的。做完就传到了一个非常小众的平台 创游世界，想看看有没有人愿意玩。 https://builda.gam",
-      "points": 0
-    },
-    {
-      "title": "12 种高级 UI 交互效果及对应 AI 提示词：从按压回弹到底部抽屉的物理感教学",
-      "url": "https://juejin.cn/post/7704947965462315035",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "高级 UI 交互和普通的差别在物理感：你说「加个动效」，AI 只给普通缩放；说出「按压回弹、液态滑块」才能还原。附 12 条提示词与可跑 demo，你最想先做哪个？",
-      "points": 0
-    },
-    {
-      "title": "一天一个开源项目（第255篇）：Mika —— 装在安卓手机里的 AI 代理，在后台虚拟屏上替你操作 App 和网页",
-      "url": "https://juejin.cn/post/7704935347230408755",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "Mika 是一个 Android 端的开源 AI 助手：你说一句话，它在隐藏的后台屏幕上像人一样看屏幕、点按钮、输入文字，跨 App 和网页完成任务，不占用你的主屏",
-      "points": 0
-    },
-    {
-      "title": "实测 agent-desktop：AI 控制桌面不截图、不占鼠标键盘，连点 55 次计算器 0 失误",
-      "url": "https://juejin.cn/post/7704923158558621750",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "实测 Vercel Labs 的 agent-desktop 1.2.0：通过无障碍树实现 0 截图、不抢鼠标的桌面控制，连按 55 次计算器 0 失误，附完整对比数据。",
-      "points": 0
-    },
-    {
-      "title": "一句话定位图片中目标最准的模型是哪个：2026 视觉定位 SOTA 全面评测与选型指南",
-      "url": "https://juejin.cn/post/7704898135063740454",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "一句话定位图片目标谁最准？开源 ACE-Brain-0.6 在 7 个基准均分 75.41，反超 GPT-6 Astra 的 73.68；但计数、空间关系、点定位仍输。文末附可跑代码。",
-      "points": 0
-    },
-    {
-      "title": "云栖实录 | AgenticSearch 定义 AI 搜索时代的信息检索 - 新范式",
-      "url": "https://juejin.cn/post/7704900353967833115",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-06",
-      "summary": "Agentic Search2.0新版本在云栖正式发布，全面对标国际先进形态，构建中国领先企业搜索智能体的能力合集。既有面向企业内部知识的深度检索与知识治理，也有面向全网实时信息的搜索增强服务能力。",
-      "points": 0
-    },
-    {
-      "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
-      "url": "https://news.ycombinator.com/item?id=50395043",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-11-06",
-      "summary": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+      "summary": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
       "points": 0
     },
     {

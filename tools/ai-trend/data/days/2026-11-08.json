@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "headline": "给 Claude Code 挂上代码地图 ｜ 560B 只激活 25B：蚂蚁百灵 Li ｜ 生成一个AI转岗经历标题，只需要一个标题 ｜ The end of Microsoft ｜ Claude Code's \"Don't",
+  "items": [
+    {
+      "track": "AI Coding",
+      "title": "给 Claude Code 挂上代码地图：token 省了 39%，但先看你的瓶颈在哪",
+      "event": "约克大学团队首次把代码表示当作受控变量：在固定的 Claude Code（Haiku 4.5）",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7705257674057187355",
+      "source_name": "掘金",
+      "tags": [
+        "代码",
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "560B 只激活 25B：蚂蚁百灵 Ling-3.2-flash 把原生多模态 API 卷到 2 块钱一百万 token",
+      "event": "蚂蚁百灵发布原生多模态大模型 Ling-3.2-flash：560B 总参数、单步激活约 25B 的",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7705577542874365962",
+      "source_name": "掘金",
+      "tags": [
+        "大模型",
+        "多模态"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "生成一个AI转岗经历标题，只需要一个标题，不需要其他的任何文本。",
+      "event": "AI赋能转型：从原有岗位到AI相关岗位实践成长之路 一、转岗第一步：先盘点能力差距，再确定学习顺序 转岗最常见的错误，是可以直接去学大模型微调，却没有整理好原有能力。在动笔之前，我先把新旧岗位的能力矩",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7705314576862691391",
+      "source_name": "掘金",
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "event": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50406563",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "event": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50407882",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    }
+  ],
+  "insights": []
+}
