@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "headline": "Agent 越用越多，企业为何仍不够 A ｜ Goodbye Claude, hell ｜ Goldman Sachs is pul ｜ Llama-modchip: 284B  ｜ Agent memory needs i",
+  "items": [
+    {
+      "track": "Agent",
+      "title": "Agent 越用越多，企业为何仍不够 AI Native？",
+      "event": "Agent 越用越多，企业为何仍不够 AI Native？",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Goodbye Claude, hello Pi",
+      "event": "Goodbye Claude, hello Pi",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50410107",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "event": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50415628",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "event": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50411961",
+      "source_name": "Hacker News",
+      "tags": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "event": "Agent memory needs its OpenTelemetry moment",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50411467",
+      "source_name": "Hacker News",
+      "tags": [
+        "Agent"
+      ]
+    }
+  ],
+  "insights": []
+}

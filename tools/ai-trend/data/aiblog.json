@@ -1,6 +1,176 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "items": [
+    {
+      "title": "Agent 越用越多，企业为何仍不够 AI Native？",
+      "url": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-09",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Goodbye Claude, hello Pi",
+      "url": "https://news.ycombinator.com/item?id=50410107",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-08",
+      "summary": "Goodbye Claude, hello Pi",
+      "points": 676
+    },
+    {
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://news.ycombinator.com/item?id=50415628",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-08",
+      "summary": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "points": 545
+    },
+    {
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://news.ycombinator.com/item?id=50411961",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-08",
+      "summary": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "points": 343
+    },
+    {
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "url": "https://news.ycombinator.com/item?id=50411467",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-08",
+      "summary": "Agent memory needs its OpenTelemetry moment",
+      "points": 164
+    },
+    {
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://news.ycombinator.com/item?id=50416363",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-08",
+      "summary": "How I Fight AI Brain Fry",
+      "points": 129
+    },
+    {
+      "title": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
+      "url": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-08",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
+      "url": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-08",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "从约束到进化：Ontology 与 AI 自迭代的实践｜AICon北京",
+      "url": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-08",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "自动路由真能省钱吗？便宜模型出错后，人类修一小时可能更贵",
+      "url": "https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-08",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "资本正在撤离“世界模型”",
+      "url": "https://www.qbitai.com/2026/11/508466.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "没有永远的夏天",
+      "points": 0
+    },
+    {
+      "title": "解密Prompt系列73. 爆改对话框：揭秘 Intelligent UI 的动态界面魔法",
+      "url": "https://juejin.cn/post/7705412224673153059",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "本文从 OpenAI Intelligent UI 出发，拆解 MCP Apps 如何给聊天框“开窗”，实现界面展示与双向交互，并讲透 如何让 AI 现场手写 UI——带你看懂下一代人机交互的底层逻辑",
+      "points": 0
+    },
+    {
+      "title": "Vercel 把浏览器做成命令行：agent-browser 十个月 4.6 万星，给每个元素发一个编号",
+      "url": "https://juejin.cn/post/7705598720079085568",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "凌晨两点，你的 Agent 又卡在同一个按钮上。截图发回模型，坐标算出来偏了十几像素，点下去没反应，再截图，再算，再点。三轮下来 token 烧掉几千，按钮背后的弹窗还是纹丝不动。这不是模型笨，是交互",
+      "points": 0
+    },
+    {
+      "title": "Agent 上下文太长怎么办：四类压缩策略、最近上下文怎么传与记忆保持的分层架构",
+      "url": "https://juejin.cn/post/7705376708413718555",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "Agent 上下文越滚越满，轻则超限、重则模型走神漏看。本文给四类压缩策略：滑动窗口、摘要、卸载、检索，配短期窗口+长期记忆的分层架构和可跑代码。",
+      "points": 0
+    },
+    {
+      "title": "最会审代码的 AI，也只挑得出三分之一",
+      "url": "https://juejin.cn/post/7705434765214400538",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "Nutanix 的新评测集让八个 AI 评审去认 584 个真实 PR 里埋的缺陷，最强的也只认出三分之一。而另一项重放研究发现，一个强评委能给 63% 跑不起来的代码打 93.95 分。",
+      "points": 0
+    },
+    {
+      "title": "你的能力正在被重新定价：AI 时代程序员资产重估指南",
+      "url": "https://juejin.cn/post/7705618278807289910",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "你的能力正在被重新定价：AI 时代程序员资产重估指南 关于 AI 和程序员，市面上有两种声音。 一种说：AI 什么都能写，程序员要完了。 另一种说：AI 只是工具，该写的代码还得人写。 这两种说法都太",
+      "points": 0
+    },
+    {
+      "title": "XXL-AI v1.5.0 发布｜AI应用开发平台",
+      "url": "https://juejin.cn/post/7705621037060423695",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-08",
+      "summary": "XXL-AI 是一个「**云本结合**」的 AI Agent 开发平台，提供两种同源同品牌、能力互补的交付形态，可按团队规模与使用场景独立选用，也可组合使用。",
+      "points": 0
+    },
     {
       "title": "给 Claude Code 挂上代码地图：token 省了 39%，但先看你的瓶颈在哪",
       "url": "https://juejin.cn/post/7705257674057187355",
@@ -32,6 +202,16 @@
       "points": 0
     },
     {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://news.ycombinator.com/item?id=50407882",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-07",
+      "summary": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "points": 578
+    },
+    {
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://news.ycombinator.com/item?id=50406563",
       "source": "hn",
@@ -42,16 +222,6 @@
       "points": 335
     },
     {
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "url": "https://news.ycombinator.com/item?id=50407882",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-11-07",
-      "summary": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "points": 117
-    },
-    {
       "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
       "url": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
       "source": "infoq",
@@ -59,6 +229,36 @@
       "kind": "cn",
       "date": "2026-11-07",
       "summary": "",
+      "points": 0
+    },
+    {
+      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "url": "https://www.qbitai.com/2026/11/508449.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "AI写代码太快，基础设施跟不上了",
+      "points": 0
+    },
+    {
+      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "url": "https://www.qbitai.com/2026/11/508344.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "融资缩水，硅谷投资人也谨慎了",
+      "points": 0
+    },
+    {
+      "title": "为了去AI味，人类开始主动写烂文章了……",
+      "url": "https://www.qbitai.com/2026/11/508330.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-07",
+      "summary": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
       "points": 0
     },
     {
@@ -323,22 +523,22 @@
     },
     {
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-05",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "source": "google",
       "source_name": "Google Blog",
       "kind": "official",
       "date": "2026-11-05",
       "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lowe…",
+      "points": 0
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-05",
+      "summary": "",
       "points": 0
     },
     {
@@ -359,16 +559,6 @@
       "kind": "community",
       "date": "2026-11-04",
       "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of avai…",
-      "points": 0
-    },
-    {
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-03",
-      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compou…",
       "points": 0
     },
     {
@@ -409,6 +599,16 @@
       "kind": "community",
       "date": "2026-11-03",
       "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network we…",
+      "points": 0
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-03",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compou…",
       "points": 0
     },
     {
@@ -462,16 +662,6 @@
       "points": 0
     },
     {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-28",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "PyTorch 2.15 Release Blog",
       "url": "https://pytorch.org/blog/pytorch-2-15-release-blog/",
       "source": "pytorch",
@@ -479,6 +669,16 @@
       "kind": "official",
       "date": "2026-10-28",
       "summary": "We are excited to announce the release of PyTorch® 2.15 (release notes)! The PyTorch 2.15 release features the…",
+      "points": 0
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-28",
+      "summary": "",
       "points": 0
     },
     {
@@ -512,16 +712,6 @@
       "points": 0
     },
     {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-10-22",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "points": 0
-    },
-    {
       "title": "PyTorch Conference North America 2026: Accelerating Open Intelligence Together",
       "url": "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together/",
       "source": "pytorch",
@@ -529,6 +719,16 @@
       "kind": "official",
       "date": "2026-10-22",
       "summary": "PyTorch Conference North America 2026 brought 3,500+ attendees to San Jose on October 20–21 for two days focus…",
+      "points": 0
+    },
+    {
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-10-22",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "points": 0
     },
     {

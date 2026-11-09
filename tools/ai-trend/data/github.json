@@ -1,144 +1,14 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "daily": [
-    {
-      "name": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "desc": "Browser automation CLI for AI agents",
-      "lang": "Rust",
-      "stars": 46816,
-      "forks": 3208,
-      "delta": 190,
-      "since": "today"
-    },
-    {
-      "name": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "lang": "JavaScript",
-      "stars": 65701,
-      "forks": 4264,
-      "delta": 2085,
-      "since": "today"
-    },
-    {
-      "name": "google/skills",
-      "url": "https://github.com/google/skills",
-      "desc": "Agent Skills for Google products and technologies",
-      "lang": "Python",
-      "stars": 23390,
-      "forks": 1953,
-      "delta": 443,
-      "since": "today"
-    },
-    {
-      "name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-      "lang": "Shell",
-      "stars": 317692,
-      "forks": 26579,
-      "delta": 1100,
-      "since": "today"
-    },
-    {
-      "name": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "desc": "Public repository for Agent Skills",
-      "lang": "Python",
-      "stars": 188778,
-      "forks": 22250,
-      "delta": 390,
-      "since": "today"
-    },
-    {
-      "name": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "desc": "An open source design system that's fully customizable and agent ready",
-      "lang": "TypeScript",
-      "stars": 14497,
-      "forks": 1184,
-      "delta": 96,
-      "since": "today"
-    },
-    {
-      "name": "prometheus/prometheus",
-      "url": "https://github.com/prometheus/prometheus",
-      "desc": "The Prometheus monitoring system and time series database.",
-      "lang": "Go",
-      "stars": 67443,
-      "forks": 11002,
-      "delta": 322,
-      "since": "today"
-    },
     {
       "name": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
       "desc": "Hunt down social media accounts by username across social networks",
       "lang": "Python",
-      "stars": 100430,
-      "forks": 11863,
-      "delta": 1766,
-      "since": "today"
-    },
-    {
-      "name": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "lang": "TypeScript",
-      "stars": 16961,
-      "forks": 2401,
-      "delta": 1955,
-      "since": "today"
-    },
-    {
-      "name": "astral-sh/ruff",
-      "url": "https://github.com/astral-sh/ruff",
-      "desc": "An extremely fast Python linter and code formatter, written in Rust.",
-      "lang": "Rust",
-      "stars": 50973,
-      "forks": 2630,
-      "delta": 350,
-      "since": "today"
-    },
-    {
-      "name": "tailwindlabs/tailwindcss",
-      "url": "https://github.com/tailwindlabs/tailwindcss",
-      "desc": "A utility-first CSS framework for rapid UI development.",
-      "lang": "TypeScript",
-      "stars": 98461,
-      "forks": 7107,
-      "delta": 122,
-      "since": "today"
-    },
-    {
-      "name": "mbillow/localthings",
-      "url": "https://github.com/mbillow/localthings",
-      "desc": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
-      "lang": "Python",
-      "stars": 1055,
-      "forks": 112,
-      "delta": 186,
-      "since": "today"
-    },
-    {
-      "name": "zed-industries/zed",
-      "url": "https://github.com/zed-industries/zed",
-      "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "lang": "Rust",
-      "stars": 94268,
-      "forks": 11550,
-      "delta": 1114,
-      "since": "today"
-    },
-    {
-      "name": "ranxianglei/billion-context",
-      "url": "https://github.com/ranxianglei/billion-context",
-      "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
-      "lang": "TypeScript",
-      "stars": 4601,
-      "forks": 369,
-      "delta": 191,
+      "stars": 103415,
+      "forks": 12122,
+      "delta": 2373,
       "since": "today"
     },
     {
@@ -146,21 +16,101 @@
       "url": "https://github.com/dsx-ai-factory/nvke",
       "desc": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "lang": "Go",
-      "stars": 550,
-      "forks": 88,
-      "delta": 123,
+      "stars": 836,
+      "forks": 110,
+      "delta": 345,
+      "since": "today"
+    },
+    {
+      "name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "lang": "TypeScript",
+      "stars": 18219,
+      "forks": 2532,
+      "delta": 1439,
+      "since": "today"
+    },
+    {
+      "name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "lang": "Python",
+      "stars": 19402,
+      "forks": 3281,
+      "delta": 32,
+      "since": "today"
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "desc": "Browser automation CLI for AI agents",
+      "lang": "Rust",
+      "stars": 47562,
+      "forks": 3257,
+      "delta": 815,
+      "since": "today"
+    },
+    {
+      "name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "desc": "An open source design system that's fully customizable and agent ready",
+      "lang": "TypeScript",
+      "stars": 16675,
+      "forks": 1317,
+      "delta": 875,
+      "since": "today"
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "desc": "Public repository for Agent Skills",
+      "lang": "Python",
+      "stars": 189611,
+      "forks": 22347,
+      "delta": 792,
+      "since": "today"
+    },
+    {
+      "name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "lang": "C++",
+      "stars": 16394,
+      "forks": 1952,
+      "delta": 41,
+      "since": "today"
+    },
+    {
+      "name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "lang": "TypeScript",
+      "stars": 5126,
+      "forks": 404,
+      "delta": 460,
       "since": "today"
     }
   ],
   "weekly": [
     {
+      "name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "lang": "Python",
+      "stars": 10368,
+      "forks": 837,
+      "delta": 9327,
+      "since": "this week"
+    },
+    {
       "name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "lang": "TypeScript",
-      "stars": 114470,
-      "forks": 9927,
-      "delta": 7482,
+      "stars": 114892,
+      "forks": 9980,
+      "delta": 6443,
       "since": "this week"
     },
     {
@@ -168,39 +118,9 @@
       "url": "https://github.com/max-sixty/worktrunk",
       "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "lang": "Rust",
-      "stars": 11948,
-      "forks": 463,
-      "delta": 2292,
-      "since": "this week"
-    },
-    {
-      "name": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "lang": "Shell",
-      "stars": 36576,
-      "forks": 4827,
-      "delta": 5719,
-      "since": "this week"
-    },
-    {
-      "name": "Renhuai123/ziwei-doushu",
-      "url": "https://github.com/Renhuai123/ziwei-doushu",
-      "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-      "lang": "TypeScript",
-      "stars": 16722,
-      "forks": 3240,
-      "delta": 4906,
-      "since": "this week"
-    },
-    {
-      "name": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "desc": "",
-      "lang": "TypeScript",
-      "stars": 51260,
-      "forks": 9879,
-      "delta": 17100,
+      "stars": 12116,
+      "forks": 468,
+      "delta": 2313,
       "since": "this week"
     },
     {
@@ -208,19 +128,19 @@
       "url": "https://github.com/anthropics/skills",
       "desc": "Public repository for Agent Skills",
       "lang": "Python",
-      "stars": 188778,
-      "forks": 22250,
-      "delta": 2796,
+      "stars": 189611,
+      "forks": 22347,
+      "delta": 3169,
       "since": "this week"
     },
     {
-      "name": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "lang": "CSS",
-      "stars": 50269,
-      "forks": 2668,
-      "delta": 6624,
+      "name": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "lang": "Shell",
+      "stars": 36998,
+      "forks": 4873,
+      "delta": 5235,
       "since": "this week"
     },
     {
@@ -228,9 +148,39 @@
       "url": "https://github.com/milind-soni/OpenMausBot",
       "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "lang": "TypeScript",
-      "stars": 16961,
-      "forks": 2401,
-      "delta": 7077,
+      "stars": 18219,
+      "forks": 2532,
+      "delta": 7621,
+      "since": "this week"
+    },
+    {
+      "name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "desc": "",
+      "lang": "TypeScript",
+      "stars": 52472,
+      "forks": 10013,
+      "delta": 15379,
+      "since": "this week"
+    },
+    {
+      "name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "lang": "CSS",
+      "stars": 50950,
+      "forks": 2705,
+      "delta": 6356,
+      "since": "this week"
+    },
+    {
+      "name": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "lang": "TypeScript",
+      "stars": 16954,
+      "forks": 3280,
+      "delta": 4191,
       "since": "this week"
     },
     {
@@ -238,29 +188,9 @@
       "url": "https://github.com/D4Vinci/Scrapling",
       "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "lang": "Python",
-      "stars": 99320,
-      "forks": 10397,
-      "delta": 8712,
-      "since": "this week"
-    },
-    {
-      "name": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "lang": "Python",
-      "stars": 78271,
-      "forks": 10424,
-      "delta": 4369,
-      "since": "this week"
-    },
-    {
-      "name": "jakubkrehel/skills",
-      "url": "https://github.com/jakubkrehel/skills",
-      "desc": "A collection of agent skills that help you build great interfaces.",
-      "lang": "Markdown",
-      "stars": 11510,
-      "forks": 446,
-      "delta": 1938,
+      "stars": 99864,
+      "forks": 10439,
+      "delta": 8342,
       "since": "this week"
     },
     {
@@ -268,9 +198,9 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "desc": "Browser automation CLI for AI agents",
       "lang": "Rust",
-      "stars": 46816,
-      "forks": 3208,
-      "delta": 1476,
+      "stars": 47562,
+      "forks": 3257,
+      "delta": 2190,
       "since": "this week"
     },
     {
@@ -278,19 +208,19 @@
       "url": "https://github.com/mattpocock/skills",
       "desc": "Skills for Real Engineers. Straight from my .agents directory.",
       "lang": "Shell",
-      "stars": 317692,
-      "forks": 26579,
-      "delta": 9664,
+      "stars": 318500,
+      "forks": 26655,
+      "delta": 9635,
       "since": "this week"
     },
     {
-      "name": "hyprwm/Hyprland",
-      "url": "https://github.com/hyprwm/Hyprland",
-      "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-      "lang": "C++",
-      "stars": 40495,
-      "forks": 2165,
-      "delta": 1436,
+      "name": "jakubkrehel/skills",
+      "url": "https://github.com/jakubkrehel/skills",
+      "desc": "A collection of agent skills that help you build great interfaces.",
+      "lang": "Markdown",
+      "stars": 11721,
+      "forks": 456,
+      "delta": 1857,
       "since": "this week"
     },
     {
@@ -298,9 +228,19 @@
       "url": "https://github.com/github/spec-kit",
       "desc": "💫 Toolkit to help you get started with SDD or any other process!",
       "lang": "Python",
-      "stars": 148419,
-      "forks": 13335,
-      "delta": 4280,
+      "stars": 148707,
+      "forks": 13356,
+      "delta": 4045,
+      "since": "this week"
+    },
+    {
+      "name": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "lang": "Python",
+      "stars": 15601,
+      "forks": 2150,
+      "delta": 1706,
       "since": "this week"
     }
   ],
@@ -310,9 +250,9 @@
       "url": "https://github.com/morluto/rea",
       "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "lang": "TypeScript",
-      "stars": 440998,
-      "forks": 109117,
-      "delta": 429845,
+      "stars": 443727,
+      "forks": 109608,
+      "delta": 425123,
       "since": "this month"
     },
     {
@@ -320,19 +260,9 @@
       "url": "https://github.com/Nutlope/hallmark",
       "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "lang": "CSS",
-      "stars": 50269,
-      "forks": 2668,
-      "delta": 20523,
-      "since": "this month"
-    },
-    {
-      "name": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "lang": "Rust",
-      "stars": 39550,
-      "forks": 6220,
-      "delta": 35633,
+      "stars": 50950,
+      "forks": 2705,
+      "delta": 21146,
       "since": "this month"
     },
     {
@@ -340,29 +270,19 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "lang": "JavaScript",
-      "stars": 65701,
-      "forks": 4264,
-      "delta": 39571,
+      "stars": 66824,
+      "forks": 4357,
+      "delta": 40289,
       "since": "this month"
     },
     {
-      "name": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "lang": "C++",
-      "stars": 52055,
-      "forks": 4955,
-      "delta": 43690,
-      "since": "this month"
-    },
-    {
-      "name": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "lang": "Python",
-      "stars": 103861,
-      "forks": 11544,
-      "delta": 49671,
+      "name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "lang": "Rust",
+      "stars": 39892,
+      "forks": 6253,
+      "delta": 33780,
       "since": "this month"
     },
     {
@@ -370,9 +290,19 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "desc": "Write HTML. Render video. Built for agents.",
       "lang": "TypeScript",
-      "stars": 80572,
-      "forks": 7430,
-      "delta": 22531,
+      "stars": 81080,
+      "forks": 7485,
+      "delta": 22360,
+      "since": "this month"
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "lang": "Python",
+      "stars": 104971,
+      "forks": 11668,
+      "delta": 50169,
       "since": "this month"
     },
     {
@@ -380,9 +310,9 @@
       "url": "https://github.com/pingdotgg/t3code",
       "desc": "",
       "lang": "TypeScript",
-      "stars": 51260,
-      "forks": 9879,
-      "delta": 24785,
+      "stars": 52472,
+      "forks": 10013,
+      "delta": 25840,
       "since": "this month"
     },
     {
@@ -390,9 +320,19 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "lang": "TypeScript",
-      "stars": 114471,
-      "forks": 9927,
-      "delta": 17493,
+      "stars": 114892,
+      "forks": 9980,
+      "delta": 17296,
+      "since": "this month"
+    },
+    {
+      "name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "lang": "C++",
+      "stars": 52332,
+      "forks": 4975,
+      "delta": 39354,
       "since": "this month"
     },
     {
@@ -400,9 +340,29 @@
       "url": "https://github.com/pbakaus/impeccable",
       "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "lang": "Rust",
-      "stars": 105529,
-      "forks": 6270,
-      "delta": 27680,
+      "stars": 106196,
+      "forks": 6309,
+      "delta": 28008,
+      "since": "this month"
+    },
+    {
+      "name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "lang": "Python",
+      "stars": 56985,
+      "forks": 6947,
+      "delta": 16065,
+      "since": "this month"
+    },
+    {
+      "name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "desc": "Ghidra is a software reverse engineering (SRE) framework",
+      "lang": "Java",
+      "stars": 98777,
+      "forks": 11213,
+      "delta": 17344,
       "since": "this month"
     }
   ]
