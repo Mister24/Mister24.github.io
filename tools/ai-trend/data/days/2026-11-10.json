@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-10",
+  "headline": "Meta FAIR 开源 e-means ｜ 参与学生移动应用大赛有感 -- 肘子的  ｜ Claude Fable 5.2 and ｜ Google Gemini routes ｜ Claude Fable 5.2 Sco",
+  "items": [
+    {
+      "track": "模型",
+      "title": "Meta FAIR 开源 e-means：k-means 十分之一的轮数跑出更低损失，已并入 Faiss",
+      "event": "如果你的检索、推荐或者向量量化流水线里有聚类这一步，它用的更新规则大概率还是 Lloyd 在上世纪五十年代写下的那一个：把每个点分配给最近的中心，再把中心重算为分配点的均值，全量数据过一遍，重复二三十",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7706011633764810752",
+      "source_name": "掘金",
+      "tags": [
+        "开源",
+        "检索",
+        "向量"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "参与学生移动应用大赛有感 -- 肘子的 Swift 周报 #161",
+      "event": "SwiftPM 拟支持多主版本共存、SwiftData 回滚指南、Swift 6 极速解码超大 PSB、剖析 SwiftUI 动画机制、AI 时代坚持原生开发的反思，以及 Siri AI 与开发者博弈",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7706270077880139812",
+      "source_name": "掘金",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "event": "Claude Fable 5.2 and Mythos 5.2",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50429906",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "event": "Google Gemini routes personal Drive files and emails to human annotators",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50429426",
+      "source_name": "Hacker News",
+      "tags": [
+        "Gemini"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "event": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50431144",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    }
+  ],
+  "insights": []
+}
