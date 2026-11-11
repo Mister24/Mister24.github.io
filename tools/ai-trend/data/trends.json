@@ -1,57 +1,55 @@
 {
-  "date": "2026-11-10",
-  "headline": "Meta FAIR 开源 e-means ｜ 参与学生移动应用大赛有感 -- 肘子的  ｜ Claude Fable 5.2 and ｜ Google Gemini routes ｜ Claude Fable 5.2 Sco",
+  "date": "2026-11-11",
+  "headline": "AI_Coding：智能代码创作引擎 ｜ Deep Research：从资源升级到 ｜ AI usage generates a ｜ Show HN: Get your co ｜ Claude Whiteboards, ",
   "items": [
     {
-      "track": "模型",
-      "title": "Meta FAIR 开源 e-means：k-means 十分之一的轮数跑出更低损失，已并入 Faiss",
-      "event": "如果你的检索、推荐或者向量量化流水线里有聚类这一步，它用的更新规则大概率还是 Lloyd 在上世纪五十年代写下的那一个：把每个点分配给最近的中心，再把中心重算为分配点的均值，全量数据过一遍，重复二三十",
-      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://juejin.cn/post/7706011633764810752",
+      "track": "AI Coding",
+      "title": "AI_Coding：智能代码创作引擎",
+      "event": "AI_Coding：智能代码创作引擎 一、从\"补全\"到\"创作\" AI Coding 指的是一种以自然语言为指令、由大模型自动分析代码库并生成完整代码的能力，并且不再是传统的\"IDE 智能补全\"那种逐行",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7706433283035480106",
       "source_name": "掘金",
       "tags": [
-        "开源",
-        "检索",
-        "向量"
+        "大模型",
+        "代码"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "Deep Research：从资源升级到研究交付，我们怎么实现，又测出了什么？",
+      "event": "结合 OpenAI、Anthropic、Google 与开源实践，解释 Deep Research 的资源、并行取证和交付取舍，再用 ETF Agent 的实现与六组配对实验检验这些选择。",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7706433283035463722",
+      "source_name": "掘金",
+      "tags": [
+        "Agent",
+        "开源"
       ]
     },
     {
       "track": "模型",
-      "title": "参与学生移动应用大赛有感 -- 肘子的 Swift 周报 #161",
-      "event": "SwiftPM 拟支持多主版本共存、SwiftData 回滚指南、Swift 6 极速解码超大 PSB、剖析 SwiftUI 动画机制、AI 时代坚持原生开发的反思，以及 Siri AI 与开发者博弈",
-      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://juejin.cn/post/7706270077880139812",
-      "source_name": "掘金",
+      "title": "AI usage generates a fragile codebase",
+      "event": "AI usage generates a fragile codebase",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50438318",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "AI Coding",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "event": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50443812",
+      "source_name": "Hacker News",
       "tags": []
     },
     {
       "track": "模型",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "event": "Claude Fable 5.2 and Mythos 5.2",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "event": "Claude Whiteboards, Claude Sheets, and Claude Data",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50429906",
-      "source_name": "Hacker News",
-      "tags": [
-        "Claude"
-      ]
-    },
-    {
-      "track": "模型",
-      "title": "Google Gemini routes personal Drive files and emails to human annotators",
-      "event": "Google Gemini routes personal Drive files and emails to human annotators",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50429426",
-      "source_name": "Hacker News",
-      "tags": [
-        "Gemini"
-      ]
-    },
-    {
-      "track": "模型",
-      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
-      "event": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50431144",
+      "source": "https://news.ycombinator.com/item?id=50443716",
       "source_name": "Hacker News",
       "tags": [
         "Claude"
