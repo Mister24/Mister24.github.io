@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-12",
+  "headline": "Gilbert + Tobin reth ｜ My AI agents found a ｜ United Airlines bans ｜ Gemini Decisions API ｜ Atuin Threads: All y",
+  "items": [
+    {
+      "track": "模型",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "event": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source_name": "OpenAI",
+      "tags": []
+    },
+    {
+      "track": "Agent",
+      "title": "My AI agents found an unmapped Maya site",
+      "event": "My AI agents found an unmapped Maya site",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50452455",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "Agent",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "event": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50458900",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Gemini Decisions API",
+      "event": "Gemini Decisions API",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50456791",
+      "source_name": "Hacker News",
+      "tags": [
+        "Gemini"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "Atuin Threads: All your agent sessions on every machine",
+      "event": "Atuin Threads: All your agent sessions on every machine",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50453637",
+      "source_name": "Hacker News",
+      "tags": []
+    }
+  ],
+  "insights": []
+}
