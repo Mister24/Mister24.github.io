@@ -1,54 +1,54 @@
 {
-  "date": "2026-11-13",
-  "headline": "Gemini 4 Hydrogen ｜ Gemini 4 Hydrogen an ｜ Chinese frontier AI  ｜ AI is turning Apple' ｜ How Amplitude ships ",
+  "date": "2026-11-14",
+  "headline": "AI unlocks Gödel's n ｜ No AI Slop: A Manife ｜ Claude Meetings ｜ Introducing ChatGPT  ｜ Production MLOps at ",
   "items": [
     {
       "track": "模型",
-      "title": "Gemini 4 Hydrogen",
-      "event": "Gemini 4 Hydrogen",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "event": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50471431",
-      "source_name": "Hacker News",
-      "tags": [
-        "Gemini"
-      ]
-    },
-    {
-      "track": "模型",
-      "title": "Gemini 4 Hydrogen and Orchestrator",
-      "event": "Gemini 4 Hydrogen and Orchestrator",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50472260",
-      "source_name": "Hacker News",
-      "tags": [
-        "Gemini"
-      ]
-    },
-    {
-      "track": "模型",
-      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-      "event": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50474883",
+      "source": "https://news.ycombinator.com/item?id=50486748",
       "source_name": "Hacker News",
       "tags": []
     },
     {
       "track": "模型",
-      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
-      "event": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "title": "No AI Slop: A Manifesto",
+      "event": "No AI Slop: A Manifesto",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50474311",
+      "source": "https://news.ycombinator.com/item?id=50488769",
       "source_name": "Hacker News",
       "tags": []
     },
     {
-      "track": "AI Coding",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "event": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps t…",
-      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://openai.com/business/customer-stories/amplitude",
+      "track": "模型",
+      "title": "Claude Meetings",
+      "event": "Claude Meetings",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50491097",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "Introducing ChatGPT Wallet",
+      "event": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases wit…",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/introducing-chatgpt-wallet",
       "source_name": "OpenAI",
+      "tags": [
+        "GPT"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+      "event": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models …",
+      "why": "该动态来自今日 AI 资讯聚合（AWS ML Blog），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+      "source_name": "AWS ML Blog",
       "tags": []
     }
   ],

@@ -1,45 +1,295 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "items": [
     {
-      "title": "Gemini 4 Hydrogen",
-      "url": "https://news.ycombinator.com/item?id=50471431",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://news.ycombinator.com/item?id=50486748",
       "source": "hn",
       "source_name": "Hacker News",
       "kind": "community",
-      "date": "2026-11-12",
-      "summary": "Gemini 4 Hydrogen",
-      "points": 438
+      "date": "2026-11-13",
+      "summary": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "points": 302
     },
     {
-      "title": "Gemini 4 Hydrogen and Orchestrator",
-      "url": "https://news.ycombinator.com/item?id=50472260",
+      "title": "No AI Slop: A Manifesto",
+      "url": "https://news.ycombinator.com/item?id=50488769",
       "source": "hn",
       "source_name": "Hacker News",
       "kind": "community",
-      "date": "2026-11-12",
-      "summary": "Gemini 4 Hydrogen and Orchestrator",
-      "points": 252
+      "date": "2026-11-13",
+      "summary": "No AI Slop: A Manifesto",
+      "points": 174
     },
     {
-      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-      "url": "https://news.ycombinator.com/item?id=50474883",
+      "title": "Claude Meetings",
+      "url": "https://news.ycombinator.com/item?id=50491097",
       "source": "hn",
       "source_name": "Hacker News",
       "kind": "community",
-      "date": "2026-11-12",
-      "summary": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-      "points": 96
-    },
-    {
-      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
-      "url": "https://news.ycombinator.com/item?id=50474311",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-11-12",
-      "summary": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "date": "2026-11-13",
+      "summary": "Claude Meetings",
       "points": 58
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-13",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases wit…",
+      "points": 0
+    },
+    {
+      "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-13",
+      "summary": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models …",
+      "points": 0
+    },
+    {
+      "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+      "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-13",
+      "summary": "Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this…",
+      "points": 0
+    },
+    {
+      "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+      "url": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-13",
+      "summary": "Amazon Bedrock AgentCore runtime V2 snapshots your initialized environment and restores it for each new sessio…",
+      "points": 0
+    },
+    {
+      "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-13",
+      "summary": "Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and l…",
+      "points": 0
+    },
+    {
+      "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-13",
+      "summary": "Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC…",
+      "points": 0
+    },
+    {
+      "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-13",
+      "summary": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back …",
+      "points": 0
+    },
+    {
+      "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
+      "url": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-13",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "智能互动 Agent 在快手商业场景的落地实践",
+      "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-13",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+      "url": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-13",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "url": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-13",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "GFlow：面向游戏设计的多 Agent 协作与验证实践｜AICon北京",
+      "url": "https://www.infoq.cn/article/dkQAAL0SSdhIq1h61eKx?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-13",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "url": "https://www.infoq.cn/article/joYjCTbwWFSkbACK5lje?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-13",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+      "url": "https://www.qbitai.com/2026/11/509995.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "一个时代结束了",
+      "points": 0
+    },
+    {
+      "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
+      "url": "https://www.qbitai.com/2026/11/509827.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "12.9 北京，来MEET2027现场",
+      "points": 0
+    },
+    {
+      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+      "url": "https://www.qbitai.com/2026/11/509796.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "250名国内顶尖三甲医院医生联合评测",
+      "points": 0
+    },
+    {
+      "title": "比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
+      "url": "https://www.qbitai.com/2026/11/509730.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "比亚迪第1900万辆新能源汽车在西安工厂正式下线",
+      "points": 0
+    },
+    {
+      "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
+      "url": "https://www.qbitai.com/2026/11/509716.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "比亚迪正在把规模优势转化为技术与品牌价值",
+      "points": 0
+    },
+    {
+      "title": "比亚迪与神州租车首批闪充车及闪充站投放仪式顺利举行，战略合作落地兑现，闪充中国再次提速",
+      "url": "https://www.qbitai.com/2026/11/509710.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "2026年11月10日，比亚迪与神州租车首批闪充车及闪充站投放仪式在山东济南隆重举办",
+      "points": 0
+    },
+    {
+      "title": "recruitment-cli：让 AI 接手求职招聘，从架构到一次发送超时",
+      "url": "https://juejin.cn/post/7707544803336863779",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "从求职与招聘的真实工作流认识 recruitment-cli，再沿整体架构深入一次发送超时：拆解账号绑定、计划快照、写前记录与回执确认，说明如何减少重复联系，以及这套设计仍有哪些边界。",
+      "points": 0
+    },
+    {
+      "title": "一天一个开源项目（第259篇）：Modern Web Guidance —— Chrome 团队给 AI 编码 Agent 的「现代 Web 最佳实践」外挂",
+      "url": "https://juejin.cn/post/7707533858106884115",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "Modern Web Guidance 是 Chrome、Edge、Firefox 和 MDN 团队共同维护的一组 Agent Skill，用来纠正 AI 写前端时爱用老写法的毛病",
+      "points": 0
+    },
+    {
+      "title": "打造自己的 Personal Agent，从抄大肥鱼作业开始",
+      "url": "https://juejin.cn/post/7707495140638834742",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "大肥鱼火了。本文不直接安装现成应用，而是以开源的 DSH 为底座，先打通 QQ 交互渠道，并实测资讯、PPT、写代码任务，开启自己搭建 Personal Agent的系列实践。",
+      "points": 0
+    },
+    {
+      "title": "【轻量化复刻大模型 / KIMI K3】Stable LatentMoE 梳理",
+      "url": "https://juejin.cn/post/7707467926228303906",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "【轻量化复刻大模型 / KIMI K3】Stable LatentMoE 梳理 0x00 概要 0x01. 演进脉络与定位 1.1 前身与痛点 1.2 同期方案对比 1.3 一句话定位 0x02. 原",
+      "points": 0
+    },
+    {
+      "title": "Magpie 实战：把 WorkBuddy、Qoder 的订阅模型接进一个本地池子",
+      "url": "https://juejin.cn/post/7707483315461472310",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "电脑上的 AI 工具越装越多，Codex、ZCode、WorkBuddy、Qoder、MiniMax Code……为了领免费的赛博鸡蛋，装着装着就这么多了。做一个项目，经常需要来回切换工具，还要记得当",
+      "points": 0
+    },
+    {
+      "title": "每请求到底多少钱？把 Token 成本算成可观测指标（C01）",
+      "url": "https://juejin.cn/post/7707467926228271138",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-13",
+      "summary": "一、先看问题：三个答不上来的问题 AI 应用上线后，老板/财务问的第一批问题，往往一个都答不上来： \"这个月花了多少钱？\"——只能翻云账单猜，猜完了也不知道花在哪个功能上。 \"每个请求平均多少钱？\"—",
+      "points": 0
+    },
+    {
+      "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
+      "url": "https://news.ycombinator.com/item?id=50489589",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-13",
+      "summary": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
+      "points": 0
     },
     {
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
@@ -132,66 +382,6 @@
       "points": 0
     },
     {
-      "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
-      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can se…",
-      "points": 0
-    },
-    {
-      "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operation…",
-      "points": 0
-    },
-    {
-      "title": "Four Amazon Bedrock inference choices that affect cost",
-      "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four r…",
-      "points": 0
-    },
-    {
-      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
-      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, w…",
-      "points": 0
-    },
-    {
-      "title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to ca…",
-      "points": 0
-    },
-    {
-      "title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind…",
-      "points": 0
-    },
-    {
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "source": "google",
@@ -202,173 +392,13 @@
       "points": 0
     },
     {
-      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-      "url": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
       "date": "2026-11-12",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
-      "url": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-12",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-      "url": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-12",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "从“搜到知识”到“理解约束”：差旅 Agent 的业务语义、偏好图谱与上下文工程实践｜AICon北京",
-      "url": "https://www.infoq.cn/article/V5Fwpg9gOBefx6xADcdd?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-12",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
-      "url": "https://www.qbitai.com/2026/11/509440.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "「CAD拆解」",
-      "points": 0
-    },
-    {
-      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
-      "url": "https://www.qbitai.com/2026/11/509404.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "银河智学首席科学家邓澍军博士发表主题演讲",
-      "points": 0
-    },
-    {
-      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
-      "url": "https://www.qbitai.com/2026/11/509381.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "全世界都在踩刹车，达里奥一个人踩油门",
-      "points": 0
-    },
-    {
-      "title": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
-      "url": "https://www.qbitai.com/2026/11/509355.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "Grok在让人破绷这件事上，从来不会让人失望。",
-      "points": 0
-    },
-    {
-      "title": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
-      "url": "https://www.qbitai.com/2026/11/509349.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "企业 AI 的难题，不只是模型够不够强",
-      "points": 0
-    },
-    {
-      "title": "马斯克已准备好聘请黄仁勋",
-      "url": "https://www.qbitai.com/2026/11/509334.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "老黄出轨认错、再曝婚外恋",
-      "points": 0
-    },
-    {
-      "title": "专家、Subagent、Review、Judge：都是另一个模型，为什么不是同一回事？",
-      "url": "https://juejin.cn/post/7707163799598628907",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "沿同一份基金报告，分清专家配置、Subagent、Review 与 Judge 的输入、产物和决定权，判断什么时候值得增加一次模型调用。",
-      "points": 0
-    },
-    {
-      "title": "Agent 测评的身份难题：一次任务换了模型，历史成绩还能算数吗？",
-      "url": "https://juejin.cn/post/7707178417960026175",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "一次 Agent 任务可能经过多个模型请求、故障切换、子任务和冷恢复。通过实际执行身份与三值可比性，解释历史评测何时能复用、何时需要保留未知。",
-      "points": 0
-    },
-    {
-      "title": "设计模式与生活⑳：楼里的事都找前台，你就再没见过师傅",
-      "url": "https://juejin.cn/post/7707174605013843983",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "周四，到工位第一件事，先打开 AI 的对话框。 需求评审昨天就过了，把描述贴进去，让它先出一版。它回得快，边界情况顺手列了一串。我改了两处，跑通，交给测试。 下午三点多，线上告警群弹出消息。日志拉下来",
-      "points": 0
-    },
-    {
-      "title": "26.1% 的 Agent 技能带漏洞：skills 霸榜 GitHub 当天，NVIDIA 和 OpenAI 同时掏出安检仪",
-      "url": "https://juejin.cn/post/7707178417959895103",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "三万一千一百三十二份 AI Agent 技能摆上扫描台，结果是其中 26.1% 带漏洞、5.2% 有恶意嫌疑。这不是安全厂商的恐吓营销，是 NVIDIA 在 SkillSpector 仓库里公开的研究",
-      "points": 0
-    },
-    {
-      "title": "OctaFuse 2.19.0：重做管理后台界面与交互，模型目录同步更新",
-      "url": "https://juejin.cn/post/7707205288390115338",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "OctaFuse Gateway 2.19.0 的重点是管理后台：统一了视觉风格，重新整理了路由、模型、供应商、日志、用户和 MCP 等页面的筛选、详情与表单，并修复了一批查询与跳转问题。 模型与供应",
-      "points": 0
-    },
-    {
-      "title": "单个 AI 再强，为什么也干不过一支 AI 团队？",
-      "url": "https://juejin.cn/post/7707290791690092563",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-12",
-      "summary": "单个 AI 再强也干不过一支组织起来的队伍。卡住的往往不是智商，而是上下文桌面不够大。组队要能带回单个 AI 拿不到的新信息；只互相讨论或加步数，并不保证更好。",
-      "points": 0
-    },
-    {
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-11",
-      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how …",
+      "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 fami…",
       "points": 0
     },
     {
@@ -412,26 +442,6 @@
       "points": 0
     },
     {
-      "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
-      "url": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-11",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Anthropic 一夜逼疯微软？Claude 杀入办公软件腹地：能自己参会、做表格、生成PPT",
-      "url": "https://www.infoq.cn/article/1PdshF8SLevbGZbbZHoP?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-11",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Gemini Decisions API",
       "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
       "source": "simon",
@@ -469,6 +479,16 @@
       "kind": "official",
       "date": "2026-11-10",
       "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "points": 0
+    },
+    {
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-10",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
       "points": 0
     },
     {
@@ -549,26 +569,6 @@
       "kind": "official",
       "date": "2026-11-09",
       "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
-      "points": 0
-    },
-    {
-      "title": "llm-anthropic 0.31",
-      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-09",
-      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked f…",
-      "points": 0
-    },
-    {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-05",
-      "summary": "",
       "points": 0
     },
     {
