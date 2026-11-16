@@ -1,15 +1,145 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "items": [
     {
-      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "url": "https://news.ycombinator.com/item?id=50497589",
+      "title": "Super Agent 进群：今年11.11，多了个会主动干活的&#34;数字人队长&#34;",
+      "url": "https://www.infoq.cn/article/myl5Mcw3iyCYv3ZJ3hwQ?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-16",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://news.ycombinator.com/item?id=50507303",
       "source": "hn",
       "source_name": "Hacker News",
       "kind": "community",
-      "date": "2026-11-14",
-      "summary": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "points": 146
+      "date": "2026-11-15",
+      "summary": "All AI-generated code should be Open Source",
+      "points": 1053
+    },
+    {
+      "title": "Your Agent Will Pick the Hackable One",
+      "url": "https://news.ycombinator.com/item?id=50510799",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-15",
+      "summary": "Your Agent Will Pick the Hackable One",
+      "points": 70
+    },
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-15",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn t…",
+      "points": 0
+    },
+    {
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-15",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using …",
+      "points": 0
+    },
+    {
+      "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+      "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-15",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+      "url": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-15",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+      "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-15",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "32K 上下文塞满后，AI 最先忘掉什么？120 轮对话实测",
+      "url": "https://juejin.cn/post/7708258923019337766",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-15",
+      "summary": "32K 上下文会在第 80 轮开始丢东西。先掉的是第 1 轮说的客户姓名，第 3 轮的订单号紧随其后。跑到 110 轮，6 条关键事实一条不剩。同一段对话换成 8K 窗口加 10% 摘要，120 …",
+      "points": 0
+    },
+    {
+      "title": "12000 名工程师的高盛，只用四个月就收回了交易员的 AI 编程权限",
+      "url": "https://juejin.cn/post/7707857904876306472",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-15",
+      "summary": "十月的一个交易日早上，高盛一名交易员像往常一样打开终端，准备让 Claude Code 帮他改一段盯盘用的小脚本。这一次，工具没有响应他的账号。没有全员邮件，没有培训通知，权限就是在某个晚上被悄悄关掉",
+      "points": 0
+    },
+    {
+      "title": "AI Models 1.1.0 发布，查大模型价格、对比模型和找 API 地址",
+      "url": "https://juejin.cn/post/7708108117679521833",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-15",
+      "summary": "用 DeepSeek 算清输入和输出的调用成本，再以火山方舟为例，按协议与套餐找对 API 地址，并在时间轴追踪原厂旗舰模型。",
+      "points": 0
+    },
+    {
+      "title": "这个十几个agent 协作项目值得关注",
+      "url": "https://juejin.cn/post/7708182272192626731",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-15",
+      "summary": "01 / Agent Org Chart：现成的团队架构，工程、营销、客服、销售都有 https://github.com/serenakeyitan/agent-org-chart 02 / Gro",
+      "points": 0
+    },
+    {
+      "title": "为什么 agent 的 demo 都很惊艳，上了生产就不靠谱",
+      "url": "https://juejin.cn/post/7707938781526245391",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-15",
+      "summary": "两组数字摆在一起，鸿沟就出来了。LiveBench 2.0 的通用任务榜上，Claude Fable 5.2 能完成 82.9 个任务，ChatGPT-6 Astra 完成 75.6 个；而在 AI",
+      "points": 0
+    },
+    {
+      "title": "AI Agent 工具设计：接了上百个工具，为什么反而更难干活？",
+      "url": "https://juejin.cn/post/7708258923018584102",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-15",
+      "summary": "工具多不等于更好用。决定成败的不是接了多少工具，而是这一轮让 Agent 看见多少。MCP 只解决接入，应用仍须决定先给目录、用到再展开。小样本里按需查找并未提高准确率。",
+      "points": 0
     },
     {
       "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
@@ -29,6 +159,16 @@
       "kind": "cn",
       "date": "2026-11-14",
       "summary": "",
+      "points": 0
+    },
+    {
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-14",
+      "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring…",
       "points": 0
     },
     {
@@ -90,96 +230,6 @@
       "date": "2026-11-14",
       "summary": "官方App功能均可自由组合调用",
       "points": 0
-    },
-    {
-      "title": "《拆解全球最火 AI 开源项目》第一季 · REA",
-      "url": "https://juejin.cn/post/7708017347626434579",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-14",
-      "summary": "REA GitHub 全球 Star 第 4 2026 年增长最快的 AI 开源项目 过去几个月我的排名 Merged PR Top Contributors 37 第 10 （真人 PR Contr",
-      "points": 0
-    },
-    {
-      "title": "用仓颉语言 cj-tauri 框架，五分钟给娃做了个鸿蒙形近字游戏",
-      "url": "https://juejin.cn/post/7707927071724896265",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-14",
-      "summary": "女儿有 ADHD 加阅读障碍，医生建议做辨字训练。我用仓颉语言的 cj-tauri 框架一个周末做了个形近字小游戏：同一套源码出 Windows 桌面和鸿蒙平板两个产物，还顺手修了上游框架的 bug 提了个 PR。",
-      "points": 0
-    },
-    {
-      "title": "开源也扛不住 AI 了？ESLint 宣布立即终止外部贡献者奖励",
-      "url": "https://juejin.cn/post/7707875510298624050",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-14",
-      "summary": "11 月 13 日，ESLint 创始人 Nicholas C. Zakas 在官方博客发了一篇短文",
-      "points": 0
-    },
-    {
-      "title": "孔乙己的茴字有多少种写法？｜AI 对话实时通信的三种实现",
-      "url": "https://juejin.cn/post/7707703201358004250",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-14",
-      "summary": "WebSocket 握手机制（八股） WebSocket 是一种应用层通信协议，用于在浏览器与服务器之间建立持久的、全双工的数据通道。 这里容易和名字里的 Socket 混淆：底层网络传输确实依赖 T",
-      "points": 0
-    },
-    {
-      "title": "我花了一周时间，看AI公司怎么\"管\"AI，结果越看越后背发凉",
-      "url": "https://juejin.cn/post/7707927071724535817",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-14",
-      "summary": "最近有个事儿挺有意思。 一群非营利机构把OpenAI、谷歌、Anthropic、Meta全告了，要求法院直接叫停前沿AI的研发。理由很直白：你们自己高管都公开说超级AI有文明级风险，结果转头继续迭代模",
-      "points": 0
-    },
-    {
-      "title": "AI Agent 子智能体协作实战：怎样用好 Subagent 分工与省 Token｜Oil Book",
-      "url": "https://juejin.cn/post/7707927071724486665",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-14",
-      "summary": "从主从团队分工视角讲透什么是子 Agent、哪些任务适合拆给子 Agent，三层配置与四类角色分工，以及跨厂商 CLI 调用实战。整理自 Oil Book（book.oiloil.org）。",
-      "points": 0
-    },
-    {
-      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
-      "url": "https://news.ycombinator.com/item?id=50486748",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-11-13",
-      "summary": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
-      "points": 302
-    },
-    {
-      "title": "No AI Slop: A Manifesto",
-      "url": "https://news.ycombinator.com/item?id=50488769",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-11-13",
-      "summary": "No AI Slop: A Manifesto",
-      "points": 174
-    },
-    {
-      "title": "Claude Meetings",
-      "url": "https://news.ycombinator.com/item?id=50491097",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
-      "date": "2026-11-13",
-      "summary": "Claude Meetings",
-      "points": 58
     },
     {
       "title": "Introducing ChatGPT Wallet",
@@ -262,194 +312,14 @@
       "points": 0
     },
     {
-      "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-      "url": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "智能互动 Agent 在快手商业场景的落地实践",
-      "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-      "url": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Docker 呼吁通过隔离与治理保障智能体安全",
-      "url": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "GFlow：面向游戏设计的多 Agent 协作与验证实践｜AICon北京",
-      "url": "https://www.infoq.cn/article/dkQAAL0SSdhIq1h61eKx?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
-      "url": "https://www.infoq.cn/article/joYjCTbwWFSkbACK5lje?utm_source=rss&utm_medium=article",
-      "source": "infoq",
-      "source_name": "InfoQ 中国",
-      "kind": "cn",
-      "date": "2026-11-13",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
-      "url": "https://www.qbitai.com/2026/11/509995.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "一个时代结束了",
-      "points": 0
-    },
-    {
-      "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
-      "url": "https://www.qbitai.com/2026/11/509827.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "12.9 北京，来MEET2027现场",
-      "points": 0
-    },
-    {
-      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
-      "url": "https://www.qbitai.com/2026/11/509796.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "250名国内顶尖三甲医院医生联合评测",
-      "points": 0
-    },
-    {
-      "title": "比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
-      "url": "https://www.qbitai.com/2026/11/509730.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "比亚迪第1900万辆新能源汽车在西安工厂正式下线",
-      "points": 0
-    },
-    {
-      "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
-      "url": "https://www.qbitai.com/2026/11/509716.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "比亚迪正在把规模优势转化为技术与品牌价值",
-      "points": 0
-    },
-    {
-      "title": "比亚迪与神州租车首批闪充车及闪充站投放仪式顺利举行，战略合作落地兑现，闪充中国再次提速",
-      "url": "https://www.qbitai.com/2026/11/509710.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "2026年11月10日，比亚迪与神州租车首批闪充车及闪充站投放仪式在山东济南隆重举办",
-      "points": 0
-    },
-    {
-      "title": "recruitment-cli：让 AI 接手求职招聘，从架构到一次发送超时",
-      "url": "https://juejin.cn/post/7707544803336863779",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "从求职与招聘的真实工作流认识 recruitment-cli，再沿整体架构深入一次发送超时：拆解账号绑定、计划快照、写前记录与回执确认，说明如何减少重复联系，以及这套设计仍有哪些边界。",
-      "points": 0
-    },
-    {
-      "title": "一天一个开源项目（第259篇）：Modern Web Guidance —— Chrome 团队给 AI 编码 Agent 的「现代 Web 最佳实践」外挂",
-      "url": "https://juejin.cn/post/7707533858106884115",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "Modern Web Guidance 是 Chrome、Edge、Firefox 和 MDN 团队共同维护的一组 Agent Skill，用来纠正 AI 写前端时爱用老写法的毛病",
-      "points": 0
-    },
-    {
-      "title": "打造自己的 Personal Agent，从抄大肥鱼作业开始",
-      "url": "https://juejin.cn/post/7707495140638834742",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "大肥鱼火了。本文不直接安装现成应用，而是以开源的 DSH 为底座，先打通 QQ 交互渠道，并实测资讯、PPT、写代码任务，开启自己搭建 Personal Agent的系列实践。",
-      "points": 0
-    },
-    {
-      "title": "【轻量化复刻大模型 / KIMI K3】Stable LatentMoE 梳理",
-      "url": "https://juejin.cn/post/7707467926228303906",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "【轻量化复刻大模型 / KIMI K3】Stable LatentMoE 梳理 0x00 概要 0x01. 演进脉络与定位 1.1 前身与痛点 1.2 同期方案对比 1.3 一句话定位 0x02. 原",
-      "points": 0
-    },
-    {
-      "title": "Magpie 实战：把 WorkBuddy、Qoder 的订阅模型接进一个本地池子",
-      "url": "https://juejin.cn/post/7707483315461472310",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "电脑上的 AI 工具越装越多，Codex、ZCode、WorkBuddy、Qoder、MiniMax Code……为了领免费的赛博鸡蛋，装着装着就这么多了。做一个项目，经常需要来回切换工具，还要记得当",
-      "points": 0
-    },
-    {
-      "title": "每请求到底多少钱？把 Token 成本算成可观测指标（C01）",
-      "url": "https://juejin.cn/post/7707467926228271138",
-      "source": "juejin",
-      "source_name": "掘金",
-      "kind": "wechat",
-      "date": "2026-11-13",
-      "summary": "一、先看问题：三个答不上来的问题 AI 应用上线后，老板/财务问的第一批问题，往往一个都答不上来： \"这个月花了多少钱？\"——只能翻云账单猜，猜完了也不知道花在哪个功能上。 \"每个请求平均多少钱？\"—",
-      "points": 0
-    },
-    {
-      "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
-      "url": "https://news.ycombinator.com/item?id=50489589",
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "url": "https://news.ycombinator.com/item?id=50463399",
       "source": "hn",
       "source_name": "Hacker News",
       "kind": "community",
-      "date": "2026-11-13",
-      "summary": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
-      "points": 0
+      "date": "2026-11-12",
+      "summary": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "points": 311
     },
     {
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
@@ -472,23 +342,13 @@
       "points": 0
     },
     {
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "source": "openai",
-      "source_name": "OpenAI",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
       "kind": "official",
       "date": "2026-11-12",
-      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new p…",
-      "points": 0
-    },
-    {
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure r…",
+      "summary": "",
       "points": 0
     },
     {
@@ -542,23 +402,13 @@
       "points": 0
     },
     {
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "points": 0
-    },
-    {
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
       "kind": "official",
-      "date": "2026-11-12",
-      "summary": "",
+      "date": "2026-11-11",
+      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
       "points": 0
     },
     {
@@ -612,24 +462,34 @@
       "points": 0
     },
     {
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
       "kind": "official",
-      "date": "2026-11-11",
-      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "date": "2026-11-10",
+      "summary": "",
       "points": 0
     },
     {
-      "title": "Generative AI uses more energy on non-English text",
-      "url": "https://news.ycombinator.com/item?id=50441444",
-      "source": "hn",
-      "source_name": "Hacker News",
-      "kind": "community",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
       "date": "2026-11-10",
-      "summary": "Generative AI uses more energy on non-English text",
-      "points": 170
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "points": 0
+    },
+    {
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-10",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "points": 0
     },
     {
       "title": "ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser",
@@ -689,46 +549,6 @@
       "kind": "community",
       "date": "2026-11-10",
       "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Hai…",
-      "points": 0
-    },
-    {
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-10",
-      "summary": "Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding…",
-      "points": 0
-    },
-    {
-      "title": "Gemini 4 Carbon is now available",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-10",
-      "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-10",
-      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "points": 0
-    },
-    {
-      "title": "Opening the datasets behind our AI weather models",
-      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-10",
-      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
       "points": 0
     },
     {

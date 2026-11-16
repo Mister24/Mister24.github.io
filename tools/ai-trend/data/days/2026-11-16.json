@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-16",
+  "headline": "Super Agent 进群：今年11. ｜ All AI-generated cod ｜ Your Agent Will Pick ｜ A step toward defini ｜ Our new blog for sci",
+  "items": [
+    {
+      "track": "Agent",
+      "title": "Super Agent 进群：今年11.11，多了个会主动干活的&#34;数字人队长&#34;",
+      "event": "Super Agent 进群：今年11.11，多了个会主动干活的&#34;数字人队长&#34;",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/myl5Mcw3iyCYv3ZJ3hwQ?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "All AI-generated code should be Open Source",
+      "event": "All AI-generated code should be Open Source",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50507303",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "Agent",
+      "title": "Your Agent Will Pick the Hackable One",
+      "event": "Your Agent Will Pick the Hackable One",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50510799",
+      "source_name": "Hacker News",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "event": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn t…",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source_name": "OpenAI",
+      "tags": [
+        "GPT"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Our new blog for science",
+      "event": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using …",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/our-new-blog-for-science",
+      "source_name": "OpenAI",
+      "tags": []
+    }
+  ],
+  "insights": []
+}

@@ -1,56 +1,57 @@
 {
-  "date": "2026-11-15",
-  "headline": "Show HN: DeepSeek V3 ｜ AI 自动写 PR，模型反而最简单：In ｜ 从提效到扩能：AI 驱动小团队的能力突破 ｜ 英伟达上演“奥特曼2.0”，员工集体请愿 ｜ 「史上最严」湿实验预测基准发布！推理拉满",
+  "date": "2026-11-16",
+  "headline": "Super Agent 进群：今年11. ｜ All AI-generated cod ｜ Your Agent Will Pick ｜ A step toward defini ｜ Our new blog for sci",
   "items": [
     {
+      "track": "Agent",
+      "title": "Super Agent 进群：今年11.11，多了个会主动干活的&#34;数字人队长&#34;",
+      "event": "Super Agent 进群：今年11.11，多了个会主动干活的&#34;数字人队长&#34;",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/myl5Mcw3iyCYv3ZJ3hwQ?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
       "track": "模型",
-      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "event": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "title": "All AI-generated code should be Open Source",
+      "event": "All AI-generated code should be Open Source",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50497589",
+      "source": "https://news.ycombinator.com/item?id=50507303",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "Agent",
+      "title": "Your Agent Will Pick the Hackable One",
+      "event": "Your Agent Will Pick the Hackable One",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50510799",
       "source_name": "Hacker News",
       "tags": [
-        "DeepSeek"
+        "Agent"
       ]
     },
     {
       "track": "模型",
-      "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
-      "event": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
-      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article",
-      "source_name": "InfoQ 中国",
-      "tags": []
-    },
-    {
-      "track": "模型",
-      "title": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
-      "event": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
-      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://www.infoq.cn/article/eTz8pt2LoALMvzvxj4aa?utm_source=rss&utm_medium=article",
-      "source_name": "InfoQ 中国",
-      "tags": []
-    },
-    {
-      "track": "模型",
-      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
-      "event": "马斯克也签名了",
-      "why": "该动态来自今日 AI 资讯聚合（量子位），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://www.qbitai.com/2026/11/510297.html",
-      "source_name": "量子位",
-      "tags": []
-    },
-    {
-      "track": "模型",
-      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
-      "event": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
-      "why": "该动态来自今日 AI 资讯聚合（量子位），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://www.qbitai.com/2026/11/510232.html",
-      "source_name": "量子位",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "event": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn t…",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source_name": "OpenAI",
       "tags": [
-        "推理",
-        "算力"
+        "GPT"
       ]
+    },
+    {
+      "track": "模型",
+      "title": "Our new blog for science",
+      "event": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using …",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/our-new-blog-for-science",
+      "source_name": "OpenAI",
+      "tags": []
     }
   ],
   "insights": []
