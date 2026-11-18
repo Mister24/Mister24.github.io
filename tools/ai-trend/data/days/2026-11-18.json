@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-18",
+  "headline": "GitHub 让 AI 接管工作流，单次 ｜ GPT‑6.2 Astra and So ｜ How the Claude Code  ｜ Not Everything Needs ｜ Launch HN: StarSling",
+  "items": [
+    {
+      "track": "Agent",
+      "title": "GitHub 让 AI 接管工作流，单次默认预算 10 美元：是不是太大方了？",
+      "event": "GitHub 让 AI 接管工作流，单次默认预算 10 美元：是不是太大方了？",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/lMs1bM1muspglUjMr1l3?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "GPT‑6.2 Astra and Sol",
+      "event": "GPT‑6.2 Astra and Sol",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50535230",
+      "source_name": "Hacker News",
+      "tags": [
+        "GPT"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "How the Claude Code team thinks about verification",
+      "event": "How the Claude Code team thinks about verification",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50529612",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Not Everything Needs an LLM",
+      "event": "Not Everything Needs an LLM",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50535740",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "Agent",
+      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+      "event": "We’re Yonas and Daniel and we’re building StarSling ( https://starsling.dev ), fast GitHub",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50536468",
+      "source_name": "Hacker News",
+      "tags": []
+    }
+  ],
+  "insights": []
+}

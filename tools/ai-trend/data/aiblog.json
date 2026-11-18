@@ -1,6 +1,366 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "items": [
+    {
+      "title": "GitHub 让 AI 接管工作流，单次默认预算 10 美元：是不是太大方了？",
+      "url": "https://www.infoq.cn/article/lMs1bM1muspglUjMr1l3?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-18",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "GPT‑6.2 Astra and Sol",
+      "url": "https://news.ycombinator.com/item?id=50535230",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-17",
+      "summary": "GPT‑6.2 Astra and Sol",
+      "points": 1038
+    },
+    {
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://news.ycombinator.com/item?id=50529612",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-17",
+      "summary": "How the Claude Code team thinks about verification",
+      "points": 253
+    },
+    {
+      "title": "Not Everything Needs an LLM",
+      "url": "https://news.ycombinator.com/item?id=50535740",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-17",
+      "summary": "Not Everything Needs an LLM",
+      "points": 72
+    },
+    {
+      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+      "url": "https://news.ycombinator.com/item?id=50536468",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-17",
+      "summary": "We’re Yonas and Daniel and we’re building StarSling ( https://starsling.dev ), fast GitHub",
+      "points": 44
+    },
+    {
+      "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+      "url": "https://news.ycombinator.com/item?id=50533270",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-17",
+      "summary": "Hi HN, Sanchit here from RunAnywhere (YC W26). We just open-sourced TrnRT: Trainium RunTim",
+      "points": 41
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at l…",
+      "points": 0
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test…",
+      "points": 0
+    },
+    {
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepar…",
+      "points": 0
+    },
+    {
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer …",
+      "points": 0
+    },
+    {
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skil…",
+      "points": 0
+    },
+    {
+      "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+      "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and …",
+      "points": 0
+    },
+    {
+      "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency…",
+      "points": 0
+    },
+    {
+      "title": "Cut generative AI costs: Code for rules, models for judgment",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide wheth…",
+      "points": 0
+    },
+    {
+      "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each re…",
+      "points": 0
+    },
+    {
+      "title": "Govern and discover records with common metadata in AWS Agent Registry",
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "Custom metadata schemas in AWS Agent Registry let an administrator define typed, validated fields that every a…",
+      "points": 0
+    },
+    {
+      "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "When an AI agent on Amazon Bedrock AgentCore calls Snowflake Cortex AI over MCP, how does it authenticate? Thi…",
+      "points": 0
+    },
+    {
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-17",
+      "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Goog…",
+      "points": 0
+    },
+    {
+      "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+      "url": "https://www.infoq.cn/article/X8xujm6xovp7z2YzWbpM?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-17",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Google Cloud API Gateway 推出面向实时 AI 应用的流式处理",
+      "url": "https://www.infoq.cn/article/X2WRCQI4NorJVEvpgX5B?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-17",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Spring 近期资讯：Boot、Framework、Data、Security、Modulith 和 AI 的首个候选版本",
+      "url": "https://www.infoq.cn/article/uCmKjbkjjkW17olm7smj?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-17",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "从 SDLC 到 ADLC：宝洁的 AI 原生组织实验",
+      "url": "https://www.infoq.cn/article/prRYMYmhOvSY9EaMz8Oc?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-17",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "企业 AI Native 研发流程升级与重塑",
+      "url": "https://www.infoq.cn/article/4z7Bbxy92tjAI7MB5evM?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-17",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-17",
+      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest…",
+      "points": 0
+    },
+    {
+      "title": "并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎",
+      "url": "https://www.qbitai.com/2026/11/510695.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "82亿美元股票，46天闪电交割",
+      "points": 0
+    },
+    {
+      "title": "李沐加盟的Aimotion，是一家什么AI公司？",
+      "url": "https://www.qbitai.com/2026/11/510688.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "瞄准「产业级世界模型」",
+      "points": 0
+    },
+    {
+      "title": "材料科学智能体MatOS正式开源！大幅提高材料研发任务成功率",
+      "url": "https://www.qbitai.com/2026/11/510652.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "筛材料、找配方、开发新模型…拿下多项科研任务",
+      "points": 0
+    },
+    {
+      "title": "真勇啊！00后团队参加具身挑战赛，仅48小时竟敢从零手搓数据，还夺冠了！",
+      "url": "https://www.qbitai.com/2026/11/510610.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "斩获80000元奖金",
+      "points": 0
+    },
+    {
+      "title": "奥特曼共情黄仁勋，“英雄也有缺陷”，但支持他重返英伟达CEO嘛…",
+      "url": "https://www.qbitai.com/2026/11/510592.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "奥特曼首谈黄仁勋离职",
+      "points": 0
+    },
+    {
+      "title": "物理AI的强化学习仿真环境来了，光轮智能推出RoboFinals RL Envs",
+      "url": "https://www.qbitai.com/2026/11/510561.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "中美AI竞赛之外其他国家在干什么：算力5%的欧洲、买卡的沙特与做场景的日韩",
+      "url": "https://juejin.cn/post/7708975511029760051",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "全球AI算力约45GW，美国78%、中国11%、欧盟仅5%。硬拼前沿模型，除中美没人有资格。本文拆四条替代路线：海湾买卡、欧洲立规换时间、日韩焊进工厂、印新做应用，附可复算的份额账单。",
+      "points": 0
+    },
+    {
+      "title": "OctaFuse 2.20.0：MCP 用业务账号直接登录授权，请求日志合并工具调用",
+      "url": "https://juejin.cn/post/7709028971803918387",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "OctaFuse Gateway 2.20.0 的重点是 MCP 授权：Gateway 现在自己就能充当 OAuth 授权服务器。把 Gateway 的 MCP 服务提供给外部用户时，用户在 Chat",
+      "points": 0
+    },
+    {
+      "title": "CLI Anything｜让 AI 操作求职工作台：Flowing CLI 的产品与架构",
+      "url": "https://juejin.cn/post/7709048644158308361",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "从流萤简历的产品场景出发，介绍 Flowing CLI 如何让 AI 读取、生产并回写求职资料，结合真实官网截图说明安装入口，再拆解账号会话、统一平台客户端与业务服务复用的最新架构。",
+      "points": 0
+    },
+    {
+      "title": "给 ComfyUI 做了一个手机助手",
+      "url": "https://juejin.cn/post/7709024949851602987",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "试用小满后觉得不顺手，我重构了咔哒，再把 ComfyUI 接进手机聊天。记录设计、MCP、隧道鉴权和任务恢复的实际踩坑。",
+      "points": 0
+    },
+    {
+      "title": "设计模式与生活·总论：AI 能替你砌墙，替不了你打地基",
+      "url": "https://juejin.cn/post/7708966693008506899",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "今天北京的温度是个位数。没太阳。 出门的时候风从领口往里钻。到公司，AI 助手把一个小接口的实现给了三版，都能跑，注释也齐。选哪版，卡了一会儿。快是真快；可“为什么选这版”，它答得很顺，却替不了我签字",
+      "points": 0
+    },
+    {
+      "title": "新出的 Hy4 flash 好用吗？我用 WorkBuddy 做了个小测试",
+      "url": "https://juejin.cn/post/7708963436193955874",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-17",
+      "summary": "昨天腾讯出了个新模型，叫 Hy4 flash，11 月底前免费。 大家好，我是小虎。 免费的东西我见多了，是骡子是马，得拉出来遛遛，我的判断是先看实际延迟和吞吐能不能打。 按腾讯的说法，这模型主打一个",
+      "points": 0
+    },
     {
       "title": "Broadening access to AI for scientists",
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
@@ -9,6 +369,46 @@
       "kind": "official",
       "date": "2026-11-16",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free acces…",
+      "points": 0
+    },
+    {
+      "title": "Celebrating the 2026 PyTorch Foundation Contributor Award Winners and Nominees",
+      "url": "https://pytorch.org/blog/2026-pytorch-foundation-contributor-awards/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-11-16",
+      "summary": "The PyTorch Foundation is proud to celebrate the winners and nominees of the fourth annual PyTorch Foundation …",
+      "points": 0
+    },
+    {
+      "title": "PyTorch Foundation Ambassador Community Highlights November 2026",
+      "url": "https://pytorch.org/blog/pytorch-ambassador-community-highlights-november-2026/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-11-16",
+      "summary": "PyTorch Foundation Ambassadors bring people together to learn, share technical knowledge and contribute to PyT…",
+      "points": 0
+    },
+    {
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-16",
+      "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Map…",
+      "points": 0
+    },
+    {
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-16",
+      "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew packag…",
       "points": 0
     },
     {
@@ -59,26 +459,6 @@
       "kind": "official",
       "date": "2026-11-16",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Celebrating the 2026 PyTorch Foundation Contributor Award Winners and Nominees",
-      "url": "https://pytorch.org/blog/2026-pytorch-foundation-contributor-awards/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-11-16",
-      "summary": "The PyTorch Foundation is proud to celebrate the winners and nominees of the fourth annual PyTorch Foundation …",
-      "points": 0
-    },
-    {
-      "title": "PyTorch Foundation Ambassador Community Highlights November 2026",
-      "url": "https://pytorch.org/blog/pytorch-ambassador-community-highlights-november-2026/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-11-16",
-      "summary": "PyTorch Foundation Ambassadors bring people together to learn, share technical knowledge and contribute to PyT…",
       "points": 0
     },
     {
@@ -139,16 +519,6 @@
       "kind": "official",
       "date": "2026-11-16",
       "summary": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistan…",
-      "points": 0
-    },
-    {
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "source": "google",
-      "source_name": "Google Blog",
-      "kind": "official",
-      "date": "2026-11-16",
-      "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Map…",
       "points": 0
     },
     {
@@ -672,16 +1042,6 @@
       "points": 311
     },
     {
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Fast by Default: Compile-Time Heuristics for Helion Kernels",
       "url": "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
       "source": "pytorch",
@@ -732,6 +1092,16 @@
       "points": 0
     },
     {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-12",
+      "summary": "",
+      "points": 0
+    },
+    {
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "url": "https://openai.com/business/customer-stories/amplitude",
       "source": "openai",
@@ -749,16 +1119,6 @@
       "kind": "official",
       "date": "2026-11-12",
       "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and Cha…",
-      "points": 0
-    },
-    {
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-11",
-      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
       "points": 0
     },
     {
@@ -792,6 +1152,16 @@
       "points": 0
     },
     {
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-11",
+      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "points": 0
+    },
+    {
       "title": "Gemini Decisions API",
       "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
       "source": "simon",
@@ -809,6 +1179,16 @@
       "kind": "community",
       "date": "2026-11-11",
       "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-r…",
+      "points": 0
+    },
+    {
+      "title": "ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser",
+      "url": "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-11-10",
+      "summary": "TL;DR PyTorch models now run in the web browser on the GPU through ExecuTorch, with no conversion to another f…",
       "points": 0
     },
     {
@@ -839,16 +1219,6 @@
       "kind": "official",
       "date": "2026-11-10",
       "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
-      "points": 0
-    },
-    {
-      "title": "ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser",
-      "url": "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-11-10",
-      "summary": "TL;DR PyTorch models now run in the web browser on the GPU through ExecuTorch, with no conversion to another f…",
       "points": 0
     },
     {
@@ -919,6 +1289,16 @@
       "kind": "official",
       "date": "2026-11-04",
       "summary": "The Call for Proposals for PyTorch Day China 2026 closes November 10 at 23:59 China Standard Time. The event t…",
+      "points": 0
+    },
+    {
+      "title": "《Agent评测白皮书》系列02：商家 AI 助手的评测与优化闭环实践",
+      "url": "https://tech.meituan.com/2026/11/17/Agent-Evaluation-White-Paper-02.html",
+      "source": "meituan",
+      "source_name": "美团技术团队",
+      "kind": "cn",
+      "date": "",
+      "summary": "本文以商家 AI 助手的巡检任务为贯穿案例，介绍如何构建业务 Benchmark，通过评测器校准和错误分析，同时推动评测体系完善与 Agent 能力提升，并借助图灵支撑持续回归与模型选型，为上述方法在具体业务中的落地提供…",
       "points": 0
     },
     {
