@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-19",
+  "headline": "Gemini 4 Neon ｜ AI agents ask better ｜ Energy-Based Reasone ｜ LLM Assisted Reverse ｜ The Silent Consensus",
+  "items": [
+    {
+      "track": "模型",
+      "title": "Gemini 4 Neon",
+      "event": "Gemini 4 Neon",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50552424",
+      "source_name": "Hacker News",
+      "tags": [
+        "Gemini"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "event": "AI agents ask better questions than KPMG accountants in audit trial",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50547777",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Energy-Based Reasoners: 385x more efficient inference",
+      "event": "Energy-Based Reasoners: 385x more efficient inference",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50543989",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "LLM Assisted Reverse Engineering",
+      "event": "LLM Assisted Reverse Engineering",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50553225",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "The Silent Consensus",
+      "event": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how peo…",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/the-silent-consensus",
+      "source_name": "OpenAI",
+      "tags": []
+    }
+  ],
+  "insights": []
+}
