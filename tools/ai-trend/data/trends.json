@@ -1,53 +1,55 @@
 {
-  "date": "2026-11-19",
-  "headline": "Gemini 4 Neon ｜ AI agents ask better ｜ Energy-Based Reasone ｜ LLM Assisted Reverse ｜ The Silent Consensus",
+  "date": "2026-11-20",
+  "headline": "Claude solves two op ｜ Pete warden on local ｜ Should governments s ｜ Court: 4th Amendment ｜ How OpenAI’s Perform",
   "items": [
     {
       "track": "模型",
-      "title": "Gemini 4 Neon",
-      "event": "Gemini 4 Neon",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "event": "Claude solves two open problems in the physics of black holes",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50552424",
+      "source": "https://news.ycombinator.com/item?id=50563148",
       "source_name": "Hacker News",
       "tags": [
-        "Gemini"
+        "Claude"
       ]
     },
     {
-      "track": "Agent",
-      "title": "AI agents ask better questions than KPMG accountants in audit trial",
-      "event": "AI agents ask better questions than KPMG accountants in audit trial",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50547777",
-      "source_name": "Hacker News",
-      "tags": []
-    },
-    {
       "track": "模型",
-      "title": "Energy-Based Reasoners: 385x more efficient inference",
-      "event": "Energy-Based Reasoners: 385x more efficient inference",
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "event": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50543989",
+      "source": "https://news.ycombinator.com/item?id=50561508",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "AI Coding",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "event": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50564366",
       "source_name": "Hacker News",
       "tags": []
     },
     {
       "track": "模型",
-      "title": "LLM Assisted Reverse Engineering",
-      "event": "LLM Assisted Reverse Engineering",
+      "title": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
+      "event": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50553225",
+      "source": "https://news.ycombinator.com/item?id=50567735",
       "source_name": "Hacker News",
       "tags": []
     },
     {
       "track": "模型",
-      "title": "The Silent Consensus",
-      "event": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how peo…",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "event": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes perfo…",
       "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://openai.com/index/the-silent-consensus",
+      "source": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "source_name": "OpenAI",
-      "tags": []
+      "tags": [
+        "GPT"
+      ]
     }
   ],
   "insights": []
