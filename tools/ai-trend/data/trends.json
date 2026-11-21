@@ -1,55 +1,51 @@
 {
-  "date": "2026-11-20",
-  "headline": "Claude solves two op ｜ Pete warden on local ｜ Should governments s ｜ Court: 4th Amendment ｜ How OpenAI’s Perform",
+  "date": "2026-11-21",
+  "headline": "Cut self-hosted LLM  ｜ Frostbite: A new CPU ｜ Google Workers Tell  ｜ Vibecoding an infere ｜ AI may have solved t",
   "items": [
     {
-      "track": "模型",
-      "title": "Claude solves two open problems in the physics of black holes",
-      "event": "Claude solves two open problems in the physics of black holes",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50563148",
-      "source_name": "Hacker News",
-      "tags": [
-        "Claude"
-      ]
+      "track": "Agent",
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "event": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching wit…",
+      "why": "该动态来自今日 AI 资讯聚合（AWS ML Blog），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+      "source_name": "AWS ML Blog",
+      "tags": []
     },
     {
       "track": "模型",
-      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
-      "event": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "event": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50561508",
+      "source": "https://news.ycombinator.com/item?id=50572503",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "event": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50577901",
       "source_name": "Hacker News",
       "tags": []
     },
     {
       "track": "AI Coding",
-      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
-      "event": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "title": "Vibecoding an inference chip",
+      "event": "Vibecoding an inference chip",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50564366",
+      "source": "https://news.ycombinator.com/item?id=50579297",
       "source_name": "Hacker News",
       "tags": []
     },
     {
       "track": "模型",
-      "title": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
-      "event": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
+      "title": "AI may have solved the most important problem in mathematics",
+      "event": "AI may have solved the most important problem in mathematics",
       "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50567735",
+      "source": "https://news.ycombinator.com/item?id=50583445",
       "source_name": "Hacker News",
       "tags": []
-    },
-    {
-      "track": "模型",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "event": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes perfo…",
-      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "source_name": "OpenAI",
-      "tags": [
-        "GPT"
-      ]
     }
   ],
   "insights": []

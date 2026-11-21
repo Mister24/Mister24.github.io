@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-21",
+  "headline": "Cut self-hosted LLM  ｜ Frostbite: A new CPU ｜ Google Workers Tell  ｜ Vibecoding an infere ｜ AI may have solved t",
+  "items": [
+    {
+      "track": "Agent",
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "event": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching wit…",
+      "why": "该动态来自今日 AI 资讯聚合（AWS ML Blog），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+      "source_name": "AWS ML Blog",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "event": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50572503",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "event": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50577901",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "AI Coding",
+      "title": "Vibecoding an inference chip",
+      "event": "Vibecoding an inference chip",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50579297",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "AI may have solved the most important problem in mathematics",
+      "event": "AI may have solved the most important problem in mathematics",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50583445",
+      "source_name": "Hacker News",
+      "tags": []
+    }
+  ],
+  "insights": []
+}

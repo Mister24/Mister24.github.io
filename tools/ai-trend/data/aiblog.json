@@ -1,6 +1,316 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "items": [
+    {
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-21",
+      "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching wit…",
+      "points": 0
+    },
+    {
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://news.ycombinator.com/item?id=50572503",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "points": 614
+    },
+    {
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "url": "https://news.ycombinator.com/item?id=50577901",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "points": 248
+    },
+    {
+      "title": "Vibecoding an inference chip",
+      "url": "https://news.ycombinator.com/item?id=50579297",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "Vibecoding an inference chip",
+      "points": 103
+    },
+    {
+      "title": "AI may have solved the most important problem in mathematics",
+      "url": "https://news.ycombinator.com/item?id=50583445",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "AI may have solved the most important problem in mathematics",
+      "points": 9
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enfo…",
+      "points": 0
+    },
+    {
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, c…",
+      "points": 0
+    },
+    {
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, a…",
+      "points": 0
+    },
+    {
+      "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringin…",
+      "points": 0
+    },
+    {
+      "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference …",
+      "points": 0
+    },
+    {
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professio…",
+      "points": 0
+    },
+    {
+      "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textrac…",
+      "points": 0
+    },
+    {
+      "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "Amazon SageMaker HyperPod now offers enhanced observability to help you diagnose GPU training issues faster. I…",
+      "points": 0
+    },
+    {
+      "title": "AI 来了，团队究竟怎么变？",
+      "url": "https://www.infoq.cn/video/ODJ7iuw7swP8TlU4SiAB?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-20",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
+      "url": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-20",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Agent 上岗，你敢放手吗？",
+      "url": "https://www.infoq.cn/video/qafOtORWUX0eD0WfSlYi?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-20",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
+      "url": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-20",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
+      "url": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-20",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性",
+      "url": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-20",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easil…",
+      "points": 0
+    },
+    {
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers…",
+      "points": 0
+    },
+    {
+      "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来",
+      "url": "https://www.qbitai.com/2026/11/511610.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "国产算力的成熟，把具身竞争维度从「芯片有多强」，拉入了一个比拼训练效率、数据规模、部署成本和场景落地速度的多维战场。",
+      "points": 0
+    },
+    {
+      "title": "新浪新闻·2026探索大会在京举行 虚实交融共探智能时代共生新图景",
+      "url": "https://www.qbitai.com/2026/11/511603.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "11月19日，由微博与新浪新闻联合主办的“新浪新闻·2026探索大会”在北京举办。",
+      "points": 0
+    },
+    {
+      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
+      "url": "https://www.qbitai.com/2026/11/511582.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "已开源Agnes Harness",
+      "points": 0
+    },
+    {
+      "title": "具身机器人进入真机时代，华为云CloudRobo开始组队发力了",
+      "url": "https://www.qbitai.com/2026/11/511426.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "一批卡可以轮流服务多家公司，一次适配也能让更多团队受益。算力不必家家从头买，工程上的坑也不用家家重新踩。",
+      "points": 0
+    },
+    {
+      "title": "百万 Token 砍到 0.5 美元！微软新模型半价、DeepSeek 连夜撤回搜索费，11 月底开发者怎么搭最省钱？",
+      "url": "https://juejin.cn/post/7710159383124951055",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "微软新发百万上下文 MAI Code 2 挂出 0.5 美元半价，叠加 11 月 18 日 DeepSeek 撤回仅收 18 天的自动联网按次费。本文按真实开发量算清细账，附 12 行路由配置。",
+      "points": 0
+    },
+    {
+      "title": "当公司不久后变成冒险者公会，我担心什么",
+      "url": "https://juejin.cn/post/7710126647601053746",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "李彦宏在百度世界 2026 上讲了个新词，智能组织。他打了个比方：AI 是新电能，光给机器换电机没用，厂房也得推倒重盖。那座新厂房，就是它——公司的活拆成一件件任务，不再按岗位切；人和智能体临时组队接",
+      "points": 0
+    },
+    {
+      "title": "AI 写的 Three.js 大屏，为什么越跑越卡？我在 Node 里复现了它的内存曲线",
+      "url": "https://juejin.cn/post/7710094508160008230",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "Node+three 0.187 复现 AI 大屏代码三类病灶：每帧重建不清理 60 秒漏 75MB；节点堆到万级遍历涨到 3ms；dispose 只发事件，释放靠渲染器监听。",
+      "points": 0
+    },
+    {
+      "title": "哇塞~24小时开机的WorkBuddy免费领，速来",
+      "url": "https://juejin.cn/post/7710097773307592719",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "最近中国电信干了件挺大方的事：它家的智能体，注册就白送一台云电脑，4核8G，装的还是正经 Windows。 大家好，我是小虎。 我一听就太喜欢了，平时下班得把笔记本电脑关机塞进包里，跑一半的任务只能停",
+      "points": 0
+    },
+    {
+      "title": "AI 知识库的主流做法是 RAG，RAG怎么做",
+      "url": "https://juejin.cn/post/7710134286456062015",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "AI 知识库一般怎么搭建 AI 知识库的主流做法是 RAG：文档先切块，建立向量和关键词索引后入库；提问时先检索相关片段，再交给大模型回答，并带上来源。模型本身不“记住”你的资料，这些内容也不会写进模",
+      "points": 0
+    },
+    {
+      "title": "换供应商要改一遍代码？把模型接入收进一层网关（C04）",
+      "url": "https://juejin.cn/post/7710134286456029247",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-20",
+      "summary": "网关是供应商无关的第一层：应用只认逻辑模型名，换供应商只改配置。本篇用真实容器验证四项能力——统一模型名、虚拟 Key、fallback、成本追踪，并记下一次因 SQLite 直接起不来的踩坑。",
+      "points": 0
+    },
     {
       "title": "Claude solves two open problems in the physics of black holes",
       "url": "https://news.ycombinator.com/item?id=50563148",
@@ -52,13 +362,13 @@
       "points": 0
     },
     {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "source": "openai",
       "source_name": "OpenAI",
       "kind": "official",
       "date": "2026-11-19",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety co…",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing th…",
       "points": 0
     },
     {
@@ -72,13 +382,53 @@
       "points": 0
     },
     {
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-19",
+      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in t…",
+      "points": 0
+    },
+    {
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-19",
+      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgmen…",
+      "points": 0
+    },
+    {
+      "title": "影视飓风、Manus、影石、OPPO……极客公园创新大会 2027 嘉宾阵容更新！",
+      "url": "https://www.qbitai.com/2026/11/511258.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-19",
+      "summary": "「Revaluation 价值，另有答案」",
+      "points": 0
+    },
+    {
+      "title": "GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
+      "url": "https://www.qbitai.com/2026/11/511180.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-19",
+      "summary": "媒体均分登顶历史第一，细节多到爆炸",
+      "points": 0
+    },
+    {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "source": "openai",
       "source_name": "OpenAI",
       "kind": "official",
       "date": "2026-11-19",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing th…",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety co…",
       "points": 0
     },
     {
@@ -152,26 +502,6 @@
       "points": 0
     },
     {
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "source": "google",
-      "source_name": "Google Blog",
-      "kind": "official",
-      "date": "2026-11-19",
-      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in t…",
-      "points": 0
-    },
-    {
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "source": "google",
-      "source_name": "Google Blog",
-      "kind": "official",
-      "date": "2026-11-19",
-      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgmen…",
-      "points": 0
-    },
-    {
       "title": "模型刚接进业务，CEO又要换新：红帽如何接住企业AI落地难题？",
       "url": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article",
       "source": "infoq",
@@ -229,26 +559,6 @@
       "kind": "cn",
       "date": "2026-11-19",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "影视飓风、Manus、影石、OPPO……极客公园创新大会 2027 嘉宾阵容更新！",
-      "url": "https://www.qbitai.com/2026/11/511258.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-19",
-      "summary": "「Revaluation 价值，另有答案」",
-      "points": 0
-    },
-    {
-      "title": "GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
-      "url": "https://www.qbitai.com/2026/11/511180.html",
-      "source": "qbitai",
-      "source_name": "量子位",
-      "kind": "wechat",
-      "date": "2026-11-19",
-      "summary": "媒体均分登顶历史第一，细节多到爆炸",
       "points": 0
     },
     {
@@ -352,6 +662,26 @@
       "points": 0
     },
     {
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-18",
+      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation …",
+      "points": 0
+    },
+    {
+      "title": "llm-gemini 0.38",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-18",
+      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pric…",
+      "points": 0
+    },
+    {
       "title": "The Silent Consensus",
       "url": "https://openai.com/index/the-silent-consensus",
       "source": "openai",
@@ -379,26 +709,6 @@
       "kind": "official",
       "date": "2026-11-18",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "source": "google",
-      "source_name": "Google Blog",
-      "kind": "official",
-      "date": "2026-11-18",
-      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation …",
-      "points": 0
-    },
-    {
-      "title": "llm-gemini 0.38",
-      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-18",
-      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pric…",
       "points": 0
     },
     {
@@ -492,16 +802,6 @@
       "points": 0
     },
     {
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Fast by Default: Compile-Time Heuristics for Helion Kernels",
       "url": "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
       "source": "pytorch",
@@ -542,6 +842,16 @@
       "points": 0
     },
     {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-12",
+      "summary": "",
+      "points": 0
+    },
+    {
       "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "source": "deepmind",
@@ -549,6 +859,16 @@
       "kind": "official",
       "date": "2026-11-11",
       "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "points": 0
+    },
+    {
+      "title": "ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser",
+      "url": "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-11-10",
+      "summary": "TL;DR PyTorch models now run in the web browser on the GPU through ExecuTorch, with no conversion to another f…",
       "points": 0
     },
     {
@@ -569,16 +889,6 @@
       "kind": "official",
       "date": "2026-11-10",
       "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "points": 0
-    },
-    {
-      "title": "ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser",
-      "url": "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-11-10",
-      "summary": "TL;DR PyTorch models now run in the web browser on the GPU through ExecuTorch, with no conversion to another f…",
       "points": 0
     },
     {
