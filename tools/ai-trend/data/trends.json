@@ -1,7 +1,28 @@
 {
-  "date": "2026-11-21",
-  "headline": "Cut self-hosted LLM  ｜ Frostbite: A new CPU ｜ Google Workers Tell  ｜ Vibecoding an infere ｜ AI may have solved t",
+  "date": "2026-11-22",
+  "headline": "Pandex – Official Eu ｜ New in AWS Quick: Mo ｜ Cut self-hosted LLM  ｜ 智能体 AI 架构：当前挑战与未来机遇 ｜ TaoDesign 的知识工程实践：从设",
   "items": [
+    {
+      "track": "Agent",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "event": "Pandex – Official European Law for AI Agents, over MCP",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50593481",
+      "source_name": "Hacker News",
+      "tags": [
+        "Agent",
+        "MCP"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+      "event": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more …",
+      "why": "该动态来自今日 AI 资讯聚合（AWS ML Blog），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+      "source_name": "AWS ML Blog",
+      "tags": []
+    },
     {
       "track": "Agent",
       "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
@@ -12,40 +33,26 @@
       "tags": []
     },
     {
-      "track": "模型",
-      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "event": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50572503",
-      "source_name": "Hacker News",
-      "tags": []
+      "track": "Agent",
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "event": "智能体 AI 架构：当前挑战与未来机遇",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "智能体"
+      ]
     },
     {
-      "track": "模型",
-      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
-      "event": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50577901",
-      "source_name": "Hacker News",
-      "tags": []
-    },
-    {
-      "track": "AI Coding",
-      "title": "Vibecoding an inference chip",
-      "event": "Vibecoding an inference chip",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50579297",
-      "source_name": "Hacker News",
-      "tags": []
-    },
-    {
-      "track": "模型",
-      "title": "AI may have solved the most important problem in mathematics",
-      "event": "AI may have solved the most important problem in mathematics",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50583445",
-      "source_name": "Hacker News",
-      "tags": []
+      "track": "Agent",
+      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+      "event": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "Agent"
+      ]
     }
   ],
   "insights": []
