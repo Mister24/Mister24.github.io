@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-23",
+  "headline": "Anthropic 创纪录 IPO 未能 ｜ 概率性计算的系统工程：从 Super-a ｜ 一文看懂 Elasticsearch B ｜ 折腾一年，我们正式发布 JitOffic ｜ 七家中国 AI 公司被控「蒸馏」Clau",
+  "items": [
+    {
+      "track": "模型",
+      "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
+      "event": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "概率性计算的系统工程：从 Super-agent 与 Octop 看多 Agent 架构的收敛",
+      "event": "从 Super-agent 与 Octop 团队模式出发，提炼多 Agent 架构的工程本质：把慢速、昂贵、有状态、概率性的模型节点接入确定性系统，拆解双层调度、能力剥离、全双工与脑手分离的必然逻辑。",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7710853195053350947",
+      "source_name": "掘金",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "一文看懂 Elasticsearch BBQ 向量压缩如何降本增效",
+      "event": "作者：来自 悦高软件 上海悦高软件股份有限公司 2026 年 9 月 30 日 摘要 随着 RAG 、语义搜索、多模态检索的兴起，向量数据规模从百万冲向十亿级，内存与成本成为瓶颈。Elasticsea",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7710978034815647770",
+      "source_name": "掘金",
+      "tags": [
+        "多模态",
+        "RAG",
+        "检索",
+        "向量"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "折腾一年，我们正式发布 JitOffice：一款跑在浏览器里的 AI Office",
+      "event": "做 AI 产品这几年，我们一直在观察国内企业真实的文档办公现状，越看越觉得别扭： 很多团队一边用传统 Office 写文档，一边用 AI 聊天工具生成初稿； 写完复制粘贴，再传到在线协作文档； 合同公",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7710636227041935370",
+      "source_name": "掘金",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "七家中国 AI 公司被控「蒸馏」Claude：模型蒸馏的原理、攻防与争议全解（附一手资料截图）",
+      "event": "2026 年，「蒸馏（distillation）」成了中美 AI 博弈中最敏感的一个技术词。 2 月 23 日，Anthropic 发博客点名 DeepSeek、月之暗面（Moonshot）、Mini",
+      "why": "该动态来自今日 AI 资讯聚合（掘金），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://juejin.cn/post/7710853195052990499",
+      "source_name": "掘金",
+      "tags": [
+        "Claude",
+        "DeepSeek"
+      ]
+    }
+  ],
+  "insights": []
+}

@@ -1,6 +1,206 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "items": [
+    {
+      "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
+      "url": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-23",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "概率性计算的系统工程：从 Super-agent 与 Octop 看多 Agent 架构的收敛",
+      "url": "https://juejin.cn/post/7710853195053350947",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "从 Super-agent 与 Octop 团队模式出发，提炼多 Agent 架构的工程本质：把慢速、昂贵、有状态、概率性的模型节点接入确定性系统，拆解双层调度、能力剥离、全双工与脑手分离的必然逻辑。",
+      "points": 0
+    },
+    {
+      "title": "一文看懂 Elasticsearch BBQ 向量压缩如何降本增效",
+      "url": "https://juejin.cn/post/7710978034815647770",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "作者：来自 悦高软件 上海悦高软件股份有限公司 2026 年 9 月 30 日 摘要 随着 RAG 、语义搜索、多模态检索的兴起，向量数据规模从百万冲向十亿级，内存与成本成为瓶颈。Elasticsea",
+      "points": 0
+    },
+    {
+      "title": "折腾一年，我们正式发布 JitOffice：一款跑在浏览器里的 AI Office",
+      "url": "https://juejin.cn/post/7710636227041935370",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "做 AI 产品这几年，我们一直在观察国内企业真实的文档办公现状，越看越觉得别扭： 很多团队一边用传统 Office 写文档，一边用 AI 聊天工具生成初稿； 写完复制粘贴，再传到在线协作文档； 合同公",
+      "points": 0
+    },
+    {
+      "title": "七家中国 AI 公司被控「蒸馏」Claude：模型蒸馏的原理、攻防与争议全解（附一手资料截图）",
+      "url": "https://juejin.cn/post/7710853195052990499",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "2026 年，「蒸馏（distillation）」成了中美 AI 博弈中最敏感的一个技术词。 2 月 23 日，Anthropic 发博客点名 DeepSeek、月之暗面（Moonshot）、Mini",
+      "points": 0
+    },
+    {
+      "title": "Flutter A2UI 1.0 ，原来的 genui 也正式换成了这一套 SDK 了",
+      "url": "https://juejin.cn/post/7710790522994573354",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "Flutter 最近正式发布了 A2UI 1.0 和 a2ui_flutter，这里的 A2UI 就是 Flutter GenUI 里用的，这次比较有意思的是，这次感觉就是把 AI 生成界面的工程问题",
+      "points": 0
+    },
+    {
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://news.ycombinator.com/item?id=50599762",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-22",
+      "summary": "Show HN: I built a game where you are an LLM's subagent",
+      "points": 274
+    },
+    {
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://news.ycombinator.com/item?id=50603845",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-22",
+      "summary": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "points": 251
+    },
+    {
+      "title": "Harvard CS 2881R AI Safety",
+      "url": "https://news.ycombinator.com/item?id=50602153",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-22",
+      "summary": "Harvard CS 2881R AI Safety",
+      "points": 45
+    },
+    {
+      "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "url": "https://news.ycombinator.com/item?id=50605445",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-22",
+      "summary": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "points": 18
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-22",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to…",
+      "points": 0
+    },
+    {
+      "title": "Meta ads is now available in AWS Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-22",
+      "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manag…",
+      "points": 0
+    },
+    {
+      "title": "财务团队的 AI 蓝图",
+      "url": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-22",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "打造 AI 优先的销售与营销运营体系",
+      "url": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-22",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "智能体企业新前沿：驱动高效智能",
+      "url": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-22",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+      "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-22",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改",
+      "url": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-22",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+      "url": "https://www.qbitai.com/2026/11/511904.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-22",
+      "summary": "用葡萄糖发电控制血糖。",
+      "points": 0
+    },
+    {
+      "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+      "url": "https://www.qbitai.com/2026/11/511870.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-22",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "A2UI 1.0 详解：让 AI 生成 Flutter 界面，还不怕它乱写",
+      "url": "https://juejin.cn/post/7710647322556547123",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-22",
+      "summary": "在 App 里接入 AI 助手，最常见的做法还是聊天框：用户问一句，模型回一大段文字。可一旦涉及数据和操作，这种交互就很别扭。比如问「我这个月哪类支出最多」，答案埋在一段话里的第三行",
+      "points": 0
+    },
     {
       "title": "Pandex – Official European Law for AI Agents, over MCP",
       "url": "https://news.ycombinator.com/item?id=50593481",
@@ -29,6 +229,46 @@
       "kind": "official",
       "date": "2026-11-21",
       "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching wit…",
+      "points": 0
+    },
+    {
+      "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+      "url": "https://www.qbitai.com/2026/11/511855.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-21",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "中国计算，走出新的登峰之路",
+      "url": "https://www.qbitai.com/2026/11/511849.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-21",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+      "url": "https://www.qbitai.com/2026/11/511841.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-21",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "url": "https://www.qbitai.com/2026/11/511830.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-21",
+      "summary": "",
       "points": 0
     },
     {
@@ -222,6 +462,36 @@
       "points": 0
     },
     {
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easil…",
+      "points": 0
+    },
+    {
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4…",
+      "points": 0
+    },
+    {
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-20",
+      "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers…",
+      "points": 0
+    },
+    {
       "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
       "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
       "source": "aws",
@@ -259,36 +529,6 @@
       "kind": "cn",
       "date": "2026-11-20",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Quoting Levent Alpöge",
-      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-20",
-      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easil…",
-      "points": 0
-    },
-    {
-      "title": "llm-gemini 0.38.1",
-      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-20",
-      "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4…",
-      "points": 0
-    },
-    {
-      "title": "Token fraud is here and it’s BAD (YouTube)",
-      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-20",
-      "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers…",
       "points": 0
     },
     {
@@ -332,23 +572,13 @@
       "points": 0
     },
     {
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "source": "openai",
       "source_name": "OpenAI",
       "kind": "official",
       "date": "2026-11-19",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing th…",
-      "points": 0
-    },
-    {
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-19",
-      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety co…",
       "points": 0
     },
     {
@@ -372,23 +602,23 @@
       "points": 0
     },
     {
-      "title": "Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source": "openai",
+      "source_name": "OpenAI",
       "kind": "official",
-      "date": "2026-11-18",
-      "summary": "",
+      "date": "2026-11-19",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing th…",
       "points": 0
     },
     {
-      "title": "Genie 4 is now available",
-      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "source": "openai",
+      "source_name": "OpenAI",
       "kind": "official",
-      "date": "2026-11-18",
-      "summary": "",
+      "date": "2026-11-19",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
       "points": 0
     },
     {
@@ -409,6 +639,26 @@
       "kind": "community",
       "date": "2026-11-18",
       "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pric…",
+      "points": 0
+    },
+    {
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-18",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Genie 4 is now available",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-18",
+      "summary": "",
       "points": 0
     },
     {
@@ -472,16 +722,6 @@
       "points": 0
     },
     {
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "kind": "official",
-      "date": "2026-11-12",
-      "summary": "",
-      "points": 0
-    },
-    {
       "title": "Fast by Default: Compile-Time Heuristics for Helion Kernels",
       "url": "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
       "source": "pytorch",
@@ -522,6 +762,16 @@
       "points": 0
     },
     {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "kind": "official",
+      "date": "2026-11-12",
+      "summary": "",
+      "points": 0
+    },
+    {
       "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "source": "deepmind",
@@ -529,6 +779,16 @@
       "kind": "official",
       "date": "2026-11-11",
       "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "points": 0
+    },
+    {
+      "title": "ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser",
+      "url": "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-11-10",
+      "summary": "TL;DR PyTorch models now run in the web browser on the GPU through ExecuTorch, with no conversion to another f…",
       "points": 0
     },
     {
@@ -549,16 +809,6 @@
       "kind": "official",
       "date": "2026-11-10",
       "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "points": 0
-    },
-    {
-      "title": "ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser",
-      "url": "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
-      "source": "pytorch",
-      "source_name": "PyTorch",
-      "kind": "official",
-      "date": "2026-11-10",
-      "summary": "TL;DR PyTorch models now run in the web browser on the GPU through ExecuTorch, with no conversion to another f…",
       "points": 0
     },
     {
