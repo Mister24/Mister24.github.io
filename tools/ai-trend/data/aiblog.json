@@ -1,6 +1,256 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "items": [
+    {
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "url": "https://news.ycombinator.com/item?id=50609685",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-23",
+      "summary": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "points": 1024
+    },
+    {
+      "title": "How should an LLM see a computer?",
+      "url": "https://news.ycombinator.com/item?id=50615520",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-23",
+      "summary": "How should an LLM see a computer?",
+      "points": 39
+    },
+    {
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-23",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems w…",
+      "points": 0
+    },
+    {
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-23",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI…",
+      "points": 0
+    },
+    {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-23",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6…",
+      "points": 0
+    },
+    {
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-23",
+      "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to…",
+      "points": 0
+    },
+    {
+      "title": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
+      "url": "https://www.infoq.cn/video/its3v5OfmRuikL5SeWUu?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-23",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "AI 时代的数据工程：如何打造 AI 原生团队",
+      "url": "https://www.infoq.cn/video/qWRo8T0IdKoI7RBuQwNd?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-23",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "重塑财务职能：引领 AI 时代的转型",
+      "url": "https://www.infoq.cn/video/zDX7VX1ZLsWM2BNMJLc1?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-23",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "当你的下一位客户是 AI Agent：企业营销与销售的 AI 发展前景",
+      "url": "https://www.infoq.cn/video/cw3OFxCPlVBE625COukc?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-23",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "构建主权 AI 技术栈：开放权重、前沿模型与企业控制平面",
+      "url": "https://www.infoq.cn/video/pZRYMTB7olLHTR3BuxaB?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-23",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践",
+      "url": "https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-23",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-23",
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI la…",
+      "points": 0
+    },
+    {
+      "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
+      "url": "https://www.qbitai.com/2026/11/512195.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "零Token成本，断网也能自由Vibe Coding",
+      "points": 0
+    },
+    {
+      "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”",
+      "url": "https://www.qbitai.com/2026/11/512179.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
+      "points": 0
+    },
+    {
+      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "url": "https://www.qbitai.com/2026/11/512017.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "阿福大升级：让模型像医生一样思考",
+      "points": 0
+    },
+    {
+      "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
+      "url": "https://www.qbitai.com/2026/11/512004.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "一个完全由AI组成的科学家社会，是什么样？",
+      "points": 0
+    },
+    {
+      "title": "蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗 AI 能力",
+      "url": "https://www.qbitai.com/2026/11/511998.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "阿福App宣布新一轮升级，解锁越来越多健康服务新本领",
+      "points": 0
+    },
+    {
+      "title": "算力周期更迭，数据复合增长：为何存储经济性对中国规模化 AI 至关重要",
+      "url": "https://www.qbitai.com/2026/11/511989.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "AI 的未来将依赖能够在数据全生命周期中平衡性能、可靠性与经济性的存储架构。",
+      "points": 0
+    },
+    {
+      "title": "27B 的本地模型也能做知识图谱？太强了！😍😍😍",
+      "url": "https://juejin.cn/post/7711298682532069403",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "我们用一台配备 M5 Pro 和 48 GB 统一内存的 MacBook Pro，在本地跑完了《红楼梦》120 回的知识图谱。原文取自古登堡计划第 24264 号电子书，由本地处理脚本调用 Ollam",
+      "points": 0
+    },
+    {
+      "title": "大众的 macOS，还是开发者的 macOS？ -- 肘子的 Swift 周报 #163",
+      "url": "https://juejin.cn/post/7711270361383747624",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "探讨 macOS 27.3 权限与 Agent 悖论，精选 Raycast 键盘语音、SwiftUI 动画底层、tvOS 插帧、ArrangementView 及开源 Darwin。",
+      "points": 0
+    },
+    {
+      "title": "a16z 实测 11307 次 Agent 购物：AI 买东西只看 3 个详情页，要登录直接放弃",
+      "url": "https://juejin.cn/post/7711283330075000866",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "11 月 23 日，a16z 联合 The Prompting Company 发了一份实测报告。他们在 1270 条购物和软件选型提示词上，跑了 11307 次个人智能体完整流程，测试对象包括 Gr",
+      "points": 0
+    },
+    {
+      "title": "AI正在攻破你的密码",
+      "url": "https://juejin.cn/post/7711269619600982054",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "先说结论：一个AI模型，把全世界密码学家攻了好几年没攻下来的题，做出来了。不是慢慢磨，是几秒钟到几分钟。 这事是MiniMax昨晚自己披露的。听着像科幻，但它是真的。下面用大白话讲清楚三件事：它到底干",
+      "points": 0
+    },
+    {
+      "title": "【轻量化复刻大模型 / KIMI K3】强化学习（RL）实现深度解读",
+      "url": "https://juejin.cn/post/7711176736181338127",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "【轻量化复刻大模型 / KIMI K3】强化学习（RL）实现深度解读 0x00 概要 0.1 原始论文 0.2 与本知识点直接相关的论文内容 0.3 论文中 RL 相关的关键段落 0.4 几个关键澄清",
+      "points": 0
+    },
+    {
+      "title": "GLM5.4“买家秀”来咯，这模型得...慢慢来！",
+      "url": "https://juejin.cn/post/7711209531375796224",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-23",
+      "summary": "上周末的 5 亿 tokens 领到了么？ 突然送这么多，原来是有模型要更新咯！ 国模最后的希望，GLM 终于更新了！ 只是，最近国产模型很反常呀，突然都“低调”起来了，都是先不声不响放出模型，基准和",
+      "points": 0
+    },
     {
       "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
       "url": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
@@ -422,16 +672,6 @@
       "points": 0
     },
     {
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-20",
-      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, a…",
-      "points": 0
-    },
-    {
       "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
       "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
       "source": "aws",
@@ -489,6 +729,16 @@
       "kind": "community",
       "date": "2026-11-20",
       "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers…",
+      "points": 0
+    },
+    {
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, a…",
       "points": 0
     },
     {
@@ -562,26 +812,6 @@
       "points": 0
     },
     {
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-19",
-      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes perfo…",
-      "points": 0
-    },
-    {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-19",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety co…",
-      "points": 0
-    },
-    {
       "title": "Introducing Tool Retrieval in the Gemini API",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "source": "google",
@@ -599,6 +829,26 @@
       "kind": "official",
       "date": "2026-11-19",
       "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgmen…",
+      "points": 0
+    },
+    {
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-19",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes perfo…",
+      "points": 0
+    },
+    {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-19",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety co…",
       "points": 0
     },
     {
@@ -620,6 +870,16 @@
       "date": "2026-11-19",
       "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
       "points": 0
+    },
+    {
+      "title": "Show HN: PlaceBench – Testing AI on opening and closing hours (and last trains)",
+      "url": "https://news.ycombinator.com/item?id=50548763",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-18",
+      "summary": "Hi everyone, we love maps and doing some fun side quests exploring this domain. We were al",
+      "points": 7
     },
     {
       "title": "The Gemini app is now available on lower-memory Android devices.",
