@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-25",
+  "headline": "LLM agents work for  ｜ GPT-6 models demonst ｜ Launch HN: Versine ( ｜ GPT-6 models demonst ｜ Searching for distan",
+  "items": [
+    {
+      "track": "Agent",
+      "title": "LLM agents work for their parent companies, not for you",
+      "event": "LLM agents work for their parent companies, not for you",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50627340",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "event": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50634658",
+      "source_name": "Hacker News",
+      "tags": [
+        "GPT"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "event": "Hey HN, we’re Harshith, Param, and Vishnu and we're building Versine ( https://versine.com",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50634426",
+      "source_name": "Hacker News",
+      "tags": [
+        "MCP"
+      ]
+    },
+    {
+      "track": "AI Coding",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "event": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of bin…",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source_name": "OpenAI",
+      "tags": [
+        "GPT"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Searching for distant planets with Astra",
+      "event": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s K…",
+      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source_name": "OpenAI",
+      "tags": []
+    }
+  ],
+  "insights": []
+}

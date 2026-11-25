@@ -1,6 +1,336 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "items": [
+    {
+      "title": "LLM agents work for their parent companies, not for you",
+      "url": "https://news.ycombinator.com/item?id=50627340",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-24",
+      "summary": "LLM agents work for their parent companies, not for you",
+      "points": 880
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://news.ycombinator.com/item?id=50634658",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-24",
+      "summary": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "points": 131
+    },
+    {
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-24",
+      "summary": "Hey HN, we’re Harshith, Param, and Vishnu and we're building Versine ( https://versine.com",
+      "points": 57
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-24",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of bin…",
+      "points": 0
+    },
+    {
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-24",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s K…",
+      "points": 0
+    },
+    {
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-24",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and…",
+      "points": 0
+    },
+    {
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-24",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-24",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GP…",
+      "points": 0
+    },
+    {
+      "title": "ExecuTorch-TensorRT: PyTorch Robot Policies at NVIDIA TensorRT Speed",
+      "url": "https://pytorch.org/blog/executorch-tensorrt-pytorch-robot-policies-at-nvidia-tensorrt-speed/",
+      "source": "pytorch",
+      "source_name": "PyTorch",
+      "kind": "official",
+      "date": "2026-11-24",
+      "summary": "TL;DR With Torch-TensorRT 2.15 and ExecuTorch 1.6 you can compile a PyTorch model with TensorRT, save it as an…",
+      "points": 0
+    },
+    {
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-24",
+      "summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model pr…",
+      "points": 0
+    },
+    {
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-24",
+      "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Va…",
+      "points": 0
+    },
+    {
+      "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
+      "url": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-24",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "当 AI 改变一切，下一步如何构建？",
+      "url": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-24",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
+      "url": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-24",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "数据分析的下一站：智能体分析",
+      "url": "https://www.infoq.cn/video/Q0rXqh3OmSAhcePiDjh2?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-24",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "超越试点：销售管理者的 AI 转型行动指南",
+      "url": "https://www.infoq.cn/video/UU3P37LW5IE6Xg4O0cSN?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-24",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
+      "url": "https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-24",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-24",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there …",
+      "points": 0
+    },
+    {
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-24",
+      "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historic…",
+      "points": 0
+    },
+    {
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-24",
+      "summary": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an if…",
+      "points": 0
+    },
+    {
+      "title": "Google Cloud 出海峰会报名开启",
+      "url": "https://www.qbitai.com/2026/11/512370.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行",
+      "points": 0
+    },
+    {
+      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+      "url": "https://www.qbitai.com/2026/11/512362.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路",
+      "points": 0
+    },
+    {
+      "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+      "url": "https://www.qbitai.com/2026/11/512354.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
+      "url": "https://www.qbitai.com/2026/11/512348.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "11月19日，方程豹钛9上市，售价27.99万元起",
+      "points": 0
+    },
+    {
+      "title": "巴新总理见证，仰望U8交付巴布亚新几内亚市场",
+      "url": "https://www.qbitai.com/2026/11/512343.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "2026年11月18日，中国深圳——APEC会议期间，比亚迪仰望U8正式交付巴布亚新几内亚市场",
+      "points": 0
+    },
+    {
+      "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
+      "url": "https://www.qbitai.com/2026/11/512329.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "12.9 北京，来MEET2027现场",
+      "points": 0
+    },
+    {
+      "title": "黑客只留下一句“拿 Shell”，AI Agent 自己花 11 分钟挖出 0-day 漏洞",
+      "url": "https://juejin.cn/post/7711645731828924456",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "2026 年 9 月 10 日，Amazon 威胁情报团队在公网上扫到一台没有设置任何身份认证的服务器。点进去之后，里面的日志把研究人员看愣了。 这台机器上跑着一个叫 Cairn 的开源 AI 渗透测",
+      "points": 0
+    },
+    {
+      "title": "一把 Key 接多家模型，再查 AI 会不会推荐你的品牌",
+      "url": "https://juejin.cn/post/7711653953066565641",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "我在 ModelFold 和 ModelFold GEO 工作。下面两段都来自 2026-11-24 打开的线上页面：主站 modelfold.ai 和检测站 geo.modelfold.ai。价格和",
+      "points": 0
+    },
+    {
+      "title": "【AI】大模型LoRA微调原理与实验：基于CMRC2018与Qwen3-0.6B训练实测",
+      "url": "https://juejin.cn/post/7711653850579009562",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "那么有没有一种方法可以对大模型进行微调，但是不要求如此高的硬件性能，且不用精确挑选参数呢？有的，这就是LoRA方法。",
+      "points": 0
+    },
+    {
+      "title": "用 AI 开发一套 AIOps 平台：接入工具、编排 Agent，追踪任务和资源",
+      "url": "https://juejin.cn/post/7711658839486726163",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "用 AI 从零开发通用 AIOps 运维平台，从日常需求的讨论和代码验证，写到工具接入、Agent 编排、监控问答、交付血缘与任务审计，并用实际数据核对控制台。",
+      "points": 0
+    },
+    {
+      "title": "Docker 瘦身、手写 MCP、异步并发：被问得最多的 12 个问题，一次答完",
+      "url": "https://juejin.cn/post/7711645731828498472",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "Docker 瘦身、手写 MCP、异步并发：被问得最多的 12 个问题，一次答完 前面三篇（Docker 瘦身、手写 MCP Server、Python 异步并发）发出去之后，评论区和私信攒了三十多",
+      "points": 0
+    },
+    {
+      "title": "RAG 到底是什么",
+      "url": "https://juejin.cn/post/7711718993043750954",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-24",
+      "summary": "你可能遇到过这样的情况：AI 能把一个技术概念讲得头头是道，问它“我们公司这款耳机进水了，还能不能免费维修”，它却答不上来，甚至给出一个听起来很合理的错误答案。 原因并不复杂：它可能根本没见过这款产品",
+      "points": 0
+    },
+    {
+      "title": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "url": "https://news.ycombinator.com/item?id=50631041",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-24",
+      "summary": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "points": 0
+    },
     {
       "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
       "url": "https://news.ycombinator.com/item?id=50609685",
@@ -32,6 +362,26 @@
       "points": 0
     },
     {
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "google",
+      "source_name": "Google Blog",
+      "kind": "official",
+      "date": "2026-11-23",
+      "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to…",
+      "points": 0
+    },
+    {
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-23",
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI la…",
+      "points": 0
+    },
+    {
       "title": "Connected intelligence for in-house legal",
       "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "source": "openai",
@@ -49,16 +399,6 @@
       "kind": "official",
       "date": "2026-11-23",
       "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6…",
-      "points": 0
-    },
-    {
-      "title": "A more tailored Google Search that’s uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "source": "google",
-      "source_name": "Google Blog",
-      "kind": "official",
-      "date": "2026-11-23",
-      "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to…",
       "points": 0
     },
     {
@@ -119,16 +459,6 @@
       "kind": "cn",
       "date": "2026-11-23",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-23",
-      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI la…",
       "points": 0
     },
     {
@@ -352,16 +682,6 @@
       "points": 18
     },
     {
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-22",
-      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to…",
-      "points": 0
-    },
-    {
       "title": "Meta ads is now available in AWS Quick",
       "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
       "source": "aws",
@@ -369,6 +689,16 @@
       "kind": "official",
       "date": "2026-11-22",
       "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manag…",
+      "points": 0
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-22",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to…",
       "points": 0
     },
     {
@@ -652,26 +982,6 @@
       "points": 0
     },
     {
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-20",
-      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enfo…",
-      "points": 0
-    },
-    {
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "kind": "official",
-      "date": "2026-11-20",
-      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, c…",
-      "points": 0
-    },
-    {
       "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
       "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
       "source": "aws",
@@ -692,16 +1002,6 @@
       "points": 0
     },
     {
-      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
-      "source": "aws",
-      "source_name": "AWS ML Blog",
-      "kind": "official",
-      "date": "2026-11-20",
-      "summary": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professio…",
-      "points": 0
-    },
-    {
       "title": "Quoting Levent Alpöge",
       "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
       "source": "simon",
@@ -719,6 +1019,36 @@
       "kind": "community",
       "date": "2026-11-20",
       "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4…",
+      "points": 0
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enfo…",
+      "points": 0
+    },
+    {
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, c…",
+      "points": 0
+    },
+    {
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "aws",
+      "source_name": "AWS ML Blog",
+      "kind": "official",
+      "date": "2026-11-20",
+      "summary": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professio…",
       "points": 0
     },
     {
