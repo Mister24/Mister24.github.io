@@ -1,56 +1,56 @@
 {
-  "date": "2026-11-25",
-  "headline": "LLM agents work for  ｜ GPT-6 models demonst ｜ Launch HN: Versine ( ｜ GPT-6 models demonst ｜ Searching for distan",
+  "date": "2026-11-26",
+  "headline": "Bare Metal Qwen ｜ vLLM Singapore Meetu ｜ AMD 联合中科慧灵完成人形机器人端侧  ｜ 比黑客入侵更难防的，是 AI 正在执行的 ｜ “我比黄仁勋更早看到英伟达的未来”！AI",
   "items": [
     {
-      "track": "Agent",
-      "title": "LLM agents work for their parent companies, not for you",
-      "event": "LLM agents work for their parent companies, not for you",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50627340",
+      "track": "模型",
+      "title": "Bare Metal Qwen",
+      "event": "Bare Metal Qwen",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50648365",
       "source_name": "Hacker News",
+      "tags": [
+        "Qwen"
+      ]
+    },
+    {
+      "track": "Agent",
+      "title": "vLLM Singapore Meetup: Faster Prefill, Agent-Written Kernels and the Road to Vera Rubin",
+      "event": "TL;DR At the Singapore vLLM meetup, engineers from Inferact, NVIDIA, and Alibaba Cloud showcased how the commu…",
+      "why": "该动态来自今日 AI 资讯聚合（PyTorch），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://pytorch.org/blog/vllm-singapore-meetup-faster-prefill-agent-written-kernels-and-the-road-to-vera-rubin/",
+      "source_name": "PyTorch",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "track": "具身智能",
+      "title": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
+      "event": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「具身智能」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/stLpgV1kNHuvr21qRH9x?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
+      "event": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/LwwdlrNGE3tbxPO1wIcT?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
       "tags": []
     },
     {
       "track": "模型",
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "event": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50634658",
-      "source_name": "Hacker News",
-      "tags": [
-        "GPT"
-      ]
-    },
-    {
-      "track": "Agent",
-      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
-      "event": "Hey HN, we’re Harshith, Param, and Vishnu and we're building Versine ( https://versine.com",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50634426",
-      "source_name": "Hacker News",
-      "tags": [
-        "MCP"
-      ]
-    },
-    {
-      "track": "AI Coding",
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "event": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of bin…",
-      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "source_name": "OpenAI",
-      "tags": [
-        "GPT"
-      ]
-    },
-    {
-      "track": "模型",
-      "title": "Searching for distant planets with Astra",
-      "event": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s K…",
-      "why": "该动态来自今日 AI 资讯聚合（OpenAI），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "source_name": "OpenAI",
+      "title": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
+      "event": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/6i2DoIJiaTcKyR0UyurQ?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
       "tags": []
     }
   ],
