@@ -1,57 +1,59 @@
 {
-  "date": "2026-11-26",
-  "headline": "Bare Metal Qwen ｜ vLLM Singapore Meetu ｜ AMD 联合中科慧灵完成人形机器人端侧  ｜ 比黑客入侵更难防的，是 AI 正在执行的 ｜ “我比黄仁勋更早看到英伟达的未来”！AI",
+  "date": "2026-11-27",
+  "headline": "Google Will Make AI  ｜ AI made self-hosting ｜ Top-cited AI scienti ｜ Explore the PyTorch  ｜ 破发不算最疼，Claude Code核心",
   "items": [
     {
-      "track": "模型",
-      "title": "Bare Metal Qwen",
-      "event": "Bare Metal Qwen",
-      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://news.ycombinator.com/item?id=50648365",
+      "track": "Agent",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "event": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50653477",
       "source_name": "Hacker News",
       "tags": [
-        "Qwen"
+        "Agent",
+        "MCP"
       ]
     },
     {
-      "track": "Agent",
-      "title": "vLLM Singapore Meetup: Faster Prefill, Agent-Written Kernels and the Road to Vera Rubin",
-      "event": "TL;DR At the Singapore vLLM meetup, engineers from Inferact, NVIDIA, and Alibaba Cloud showcased how the commu…",
-      "why": "该动态来自今日 AI 资讯聚合（PyTorch），是「Agent」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://pytorch.org/blog/vllm-singapore-meetup-faster-prefill-agent-written-kernels-and-the-road-to-vera-rubin/",
+      "track": "模型",
+      "title": "AI made self-hosting fun again",
+      "event": "AI made self-hosting fun again",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50660180",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Top-cited AI scientists at four US companies compared",
+      "event": "Top-cited AI scientists at four US companies compared",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50658910",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "Explore the PyTorch Day China 2026 Schedule",
+      "event": "The next wave of AI innovation is happening now. Join the developers, researchers, engineers, and industry lea…",
+      "why": "该动态来自今日 AI 资讯聚合（PyTorch），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://pytorch.org/blog/explore-the-pytorch-day-china-2026-schedule/",
       "source_name": "PyTorch",
       "tags": [
-        "Agent"
+        "PyTorch"
       ]
     },
     {
-      "track": "具身智能",
-      "title": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
-      "event": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
-      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「具身智能」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://www.infoq.cn/article/stLpgV1kNHuvr21qRH9x?utm_source=rss&utm_medium=article",
+      "track": "AI Coding",
+      "title": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
+      "event": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6?utm_source=rss&utm_medium=article",
       "source_name": "InfoQ 中国",
       "tags": [
-        "机器人"
+        "编程",
+        "Claude"
       ]
-    },
-    {
-      "track": "模型",
-      "title": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
-      "event": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
-      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://www.infoq.cn/article/LwwdlrNGE3tbxPO1wIcT?utm_source=rss&utm_medium=article",
-      "source_name": "InfoQ 中国",
-      "tags": []
-    },
-    {
-      "track": "模型",
-      "title": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
-      "event": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
-      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
-      "source": "https://www.infoq.cn/article/6i2DoIJiaTcKyR0UyurQ?utm_source=rss&utm_medium=article",
-      "source_name": "InfoQ 中国",
-      "tags": []
     }
   ],
   "insights": []
