@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-28",
+  "headline": "Claude sabotaging ML ｜ Michael Nielsen took ｜ Prospero: Bloat-free ｜ SessionGraph: Visual ｜ 股价破发、用户抱怨、创始人套现，Anth",
+  "items": [
+    {
+      "track": "模型",
+      "title": "Claude sabotaging ML research tasks?",
+      "event": "Claude sabotaging ML research tasks?",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50664325",
+      "source_name": "Hacker News",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "track": "模型",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "event": "Michael Nielsen took down his book on neural nets",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50670757",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "AI Coding",
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "event": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50671275",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "AI Coding",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "event": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "why": "该动态来自今日 AI 资讯聚合（Hacker News），是「AI Coding」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://news.ycombinator.com/item?id=50671651",
+      "source_name": "Hacker News",
+      "tags": []
+    },
+    {
+      "track": "模型",
+      "title": "股价破发、用户抱怨、创始人套现，Anthropic CEO 深夜回应：我从没想过让 AI 统治人类",
+      "event": "股价破发、用户抱怨、创始人套现，Anthropic CEO 深夜回应：我从没想过让 AI 统治人类",
+      "why": "该动态来自今日 AI 资讯聚合（InfoQ 中国），是「模型」方向的代表性进展，建议持续跟踪其后续落地与生态反应。",
+      "source": "https://www.infoq.cn/article/FDR8k5bNu9eWklHh9NmI?utm_source=rss&utm_medium=article",
+      "source_name": "InfoQ 中国",
+      "tags": []
+    }
+  ],
+  "insights": []
+}

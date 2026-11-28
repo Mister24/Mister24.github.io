@@ -1,6 +1,236 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "items": [
+    {
+      "title": "Claude sabotaging ML research tasks?",
+      "url": "https://news.ycombinator.com/item?id=50664325",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-27",
+      "summary": "Claude sabotaging ML research tasks?",
+      "points": 557
+    },
+    {
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://news.ycombinator.com/item?id=50670757",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-27",
+      "summary": "Michael Nielsen took down his book on neural nets",
+      "points": 346
+    },
+    {
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "url": "https://news.ycombinator.com/item?id=50671275",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-27",
+      "summary": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "points": 24
+    },
+    {
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "url": "https://news.ycombinator.com/item?id=50671651",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-27",
+      "summary": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "points": 14
+    },
+    {
+      "title": "股价破发、用户抱怨、创始人套现，Anthropic CEO 深夜回应：我从没想过让 AI 统治人类",
+      "url": "https://www.infoq.cn/article/FDR8k5bNu9eWklHh9NmI?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-27",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "“观测未来大会”前瞻 | AI 时代，可观测性将迎来怎样的进化？",
+      "url": "https://www.infoq.cn/article/deKZOTSuqBy0T3VYMpTE?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-27",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "瞄准“走偏”与“健忘”两道难题：蚂蚁灵波发布两大模型，补齐机器人空间导航能力",
+      "url": "https://www.infoq.cn/article/zRubhYcrBMTrOvzjlPQN?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-27",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "给 AI 编码智能体装上知识库，反而更费 Token？JioHotstar 测完六种方案，文件搜索依然能打",
+      "url": "https://www.infoq.cn/article/Ql4GGMIEqA3bI2W2lh7h?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-27",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "DoorDash利用AI智能体将生鲜杂货复购延迟从16秒降至2秒",
+      "url": "https://www.infoq.cn/article/2uDBVKjk3kJXRb6CqQfu?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-27",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "淘天集团 AI 研发负责人吕承飞（吕行）已确认出席 AICon北京，分享淘宝 AI 原生研发系统实战",
+      "url": "https://www.infoq.cn/article/Y6xTPR1bRWqmNNakCtXm?utm_source=rss&utm_medium=article",
+      "source": "infoq",
+      "source_name": "InfoQ 中国",
+      "kind": "cn",
+      "date": "2026-11-27",
+      "summary": "",
+      "points": 0
+    },
+    {
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-27",
+      "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , data…",
+      "points": 0
+    },
+    {
+      "title": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了",
+      "url": "https://www.qbitai.com/2026/11/513352.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。",
+      "points": 0
+    },
+    {
+      "title": "全国首批首家！商汤大装置获Token工厂智算能力最高评级",
+      "url": "https://www.qbitai.com/2026/11/513346.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证",
+      "points": 0
+    },
+    {
+      "title": "韦东奕再获大奖！攻克近140年数学难题，获两位院士共同提名",
+      "url": "https://www.qbitai.com/2026/11/513320.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "淡泊名利，实至名归🎉",
+      "points": 0
+    },
+    {
+      "title": "DeepSeek APP突然更新账单，网友：要收费了？",
+      "url": "https://www.qbitai.com/2026/11/513305.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "网页App双端亮出聊天账单",
+      "points": 0
+    },
+    {
+      "title": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
+      "url": "https://www.qbitai.com/2026/11/513227.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "地图能随时修，记忆能跨任务用",
+      "points": 0
+    },
+    {
+      "title": "钛动科技 × 腾讯云达成战略合作，用AI打开企业全球增长新空间",
+      "url": "https://www.qbitai.com/2026/11/513194.html",
+      "source": "qbitai",
+      "source_name": "量子位",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "企业需要有用的 AI",
+      "points": 0
+    },
+    {
+      "title": "GitHub 热榜上手｜anthropics/skills：18.9万星的 Claude 技能库",
+      "url": "https://juejin.cn/post/7712954021476171814",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "Anthropic 官方的 Claude Agent Skills 仓库：用文件夹式的技能包教会 Claude 按品牌规范写文档、按固定流程分析数据，总 star 已达 18.9 万。",
+      "points": 0
+    },
+    {
+      "title": "Claude Ship 上线：AI 写完代码之后，PR 审查与审批如何拆权协作",
+      "url": "https://juejin.cn/post/7712769384188051506",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "写过代码的人都熟悉这个节奏。你刚把一个 PR 提上去，切去干下一件事，没过多久审查意见回来了。你只好停下手里的活，重新翻回旧代码改一轮，再等 CI 和审查重新跑一遍，最后还得去群里催人点批准。 以前每",
+      "points": 0
+    },
+    {
+      "title": "总结近期关于Agent的思考和成果",
+      "url": "https://juejin.cn/post/7712884341617016886",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "OM 4-5个月前 我接触了mastra 对其设计非常喜爱 尤其是里面提到的OM机制——在未压缩消息到达阈值后 由小模型进行摘要 替换被压缩的消息；在被压缩的块到达阈值后 再次摘要；模型可以通过rec",
+      "points": 0
+    },
+    {
+      "title": "T3 Code 用量、口碑与同类产品：开源 Agent 控制台的头部之争",
+      "url": "https://juejin.cn/post/7712807993284640803",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "一、先给结论 T3 Code 只在「多 Agent 控制台」这一细分里坐头把交椅。它不训练模型，也不自带 Agent，用户要先装好 Claude Code、Codex、Cursor 等工具，T3 Co",
+      "points": 0
+    },
+    {
+      "title": "使用 GPT6.2+UE5 做3D游戏的第一天！",
+      "url": "https://juejin.cn/post/7712843603815088169",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "有人说网页游戏始终只是个 demo，真要搞个像样的还是得上 UE。 上就上，谁怕谁！ 我很早就想玩一玩了（其实 Claude 的观点是，很多游戏，完全没必要上 UE） Unreal Engine（虚幻",
+      "points": 0
+    },
+    {
+      "title": "手里捏着纸，谁来暂停视频？我把折纸老师塞进了 AI 眼镜",
+      "url": "https://juejin.cn/post/7712769384163983369",
+      "source": "juejin",
+      "source_name": "掘金",
+      "kind": "wechat",
+      "date": "2026-11-27",
+      "summary": "上次做完自我介绍陪练“说清楚”，我又给 Rokid AI 眼镜做了一个智能体，名字就叫《折纸》，现在已经上线了。 我挺喜欢做亲子相关的 智能体 。拿张纸，家长和孩子一起折个飞机、小鱼，折完还能拿着玩，",
+      "points": 0
+    },
     {
       "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
       "url": "https://news.ycombinator.com/item?id=50653477",
@@ -39,6 +269,26 @@
       "kind": "official",
       "date": "2026-11-26",
       "summary": "The next wave of AI innovation is happening now. Join the developers, researchers, engineers, and industry lea…",
+      "points": 0
+    },
+    {
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-26",
+      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, a…",
+      "points": 0
+    },
+    {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "source": "simon",
+      "source_name": "Simon Willison",
+      "kind": "community",
+      "date": "2026-11-26",
+      "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I…",
       "points": 0
     },
     {
@@ -99,26 +349,6 @@
       "kind": "cn",
       "date": "2026-11-26",
       "summary": "",
-      "points": 0
-    },
-    {
-      "title": "Quoting Jack Despain Zhou",
-      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-26",
-      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, a…",
-      "points": 0
-    },
-    {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-      "source": "simon",
-      "source_name": "Simon Willison",
-      "kind": "community",
-      "date": "2026-11-26",
-      "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I…",
       "points": 0
     },
     {
@@ -240,6 +470,16 @@
       "date": "2026-11-26",
       "summary": "#X-Lab 2026 年度大会#开始招募啦！AI 时代，做出一个产品只是开始，如何找到用户、探索商业化机会、让更多人看见你的作品？先来参与掘金线上活动，优先抢占报名资格~",
       "points": 0
+    },
+    {
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://news.ycombinator.com/item?id=50643158",
+      "source": "hn",
+      "source_name": "Hacker News",
+      "kind": "community",
+      "date": "2026-11-25",
+      "summary": "GPT 6.2 Astra Solves a Historical Mystery",
+      "points": 253
     },
     {
       "title": "Bare Metal Qwen",
